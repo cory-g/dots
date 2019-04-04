@@ -1,0 +1,7 @@
+[Added Associations]
+image/jpeg=mirage.desktop;feh.desktop;
+image/png=mirage.desktop;feh.desktop;
+
+[Default Applications]
+image/jpeg=mirage.desktop
+image/png=mirage.desktop

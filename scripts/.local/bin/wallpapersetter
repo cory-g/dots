@@ -1,0 +1,8 @@
+if [ -f $HOME/.config/wall.png ]; then
+    feh --bg-fill $HOME/.config/wall.png
+fi
+
+if [ -f $HOME/.config/wall.jpg ]; then
+    feh --bg-fill $HOME/.config/wall.jpg
+fi  
+

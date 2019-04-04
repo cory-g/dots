@@ -1,0 +1,146 @@
+# Variables
+set $super Mod4
+set $alt Mod1
+
+# Start up
+exec --no-startup-id compton
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec_always --no-startup-id $HOME/.local/bin/wallpapersetter 
+
+exec --no-startup-id "compton -C --config ~/.dotfiles/compton/.config/compton/compton.conf --respect-prop-shadow"
+
+# Appearance
+font pango:DejaVu Sans Mono 8
+
+for_window [class="^.*"] border pixel 2
+gaps inner 10
+# gaps outer 5
+
+# Behavior
+floating_modifier $super
+focus_follows_mouse no
+# %%hotkey: Switch to last active workspace %%
+bindsym $super+Tab workspace back_and_forth
+# %%hotkey: Open rofi window switcher %%
+bindsym $alt+Tab exec --no-startup-id "rofi -show window -show-icons"
+
+# Utilities
+# %%hotkey: Lock computer %%
+bindsym $super+l exec --no-startup-id "$HOME/.local/bin/doscreenlock"
+# %%hotkey: Close active window %%
+bindsym $super+q kill
+# %%hotkey: Open rofi program launcher %%
+bindsym $super+space exec --no-startup-id "rofi -show run"
+# %%hotkey: Open hotkey menu %%
+bindsym $super+$alt+h exec --no-startup-id "dmenu_hotkeys --menu rofi --app i3"
+# %%hotkey: Toggle between vertical and horizontal splitting %%
+bindsym $super+t split toggle
+# %%hotkey: Toggle fullscreen %%
+bindsym $super+F11 fullscreen toggle
+# %%hotkey: Toggle floating for active window %%
+bindsym $super+Shift+space floating toggle
+
+# Applications
+# %%hotkey: Open a terminal %%
+bindsym $super+Return exec urxvt
+# %%hotkey: Open Google Chrome %%
+bindsym $super+b exec --no-startup-id google-chrome-stable
+# %%hotkey: Open Thunar File Manager %%
+bindsym $super+f exec --no-startup-id "thunar"
+# %%hotkey: Open Thunar File Manager as root
+bindsym $super+Shift+f exec --no-startup-id "sudo thunar"
+
+# Focus
+# %%hotkey: Move focus left %%
+bindsym $super+Left focus left
+# %%hotkey: Move focus down %%
+bindsym $super+Down focus down
+# %%hotkey: Move focus up %%
+bindsym $super+Up focus up
+# %%hotkey: Move focus right %%
+bindsym $super+Right focus right
+
+# %%hotkey: Move focused window left %%
+bindsym $super+Shift+Left move left
+# %%hotkey: Move focused window down %%
+bindsym $super+Shift+Down move down
+# %%hotkey: Move focused window up %%
+bindsym $super+Shift+Up move up
+# %%hotkey: Move focused window right %%
+bindsym $super+Shift+Right move right
+
+# change container layout (stacked, tabbed, toggle split)
+bindsym $super+s layout stacking
+bindsym $super+w layout tabbed
+bindsym $super+e layout toggle split
+
+# focus the parent container
+bindsym $super+a focus parent
+
+# Define names for default workspaces for which we configure key bindings later on.
+# We use variables to avoid repeating the names in multiple places.
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+set $ws6 "6"
+set $ws7 "7"
+set $ws8 "8"
+
+# switch to workspace
+# %%hotkey: Switch to workspace 1 %%
+bindsym $super+1 workspace $ws1
+# %%hotkey: Switch to workspace 2 %%
+bindsym $super+2 workspace $ws2
+# %%hotkey: Switch to workspace 3 %%
+bindsym $super+3 workspace $ws3
+# %%hotkey: Switch to workspace 4 %%
+bindsym $super+4 workspace $ws4
+# %%hotkey: Switch to workspace 5 %%
+bindsym $super+5 workspace $ws5
+# %%hotkey: Switch to workspace 6 %%
+bindsym $super+6 workspace $ws6
+# %%hotkey: Switch to workspace 7 %%
+bindsym $super+7 workspace $ws7
+# %%hotkey: Switch to workspace 8 %%
+bindsym $super+8 workspace $ws8
+
+# move focused container to workspace
+# %%hotkey: Move active window to workspace 1 %%
+bindsym $super+Shift+1 move container to workspace $ws1
+# %%hotkey: Move active window to workspace 2 %%
+bindsym $super+Shift+2 move container to workspace $ws2
+# %%hotkey: Move active window to workspace 3 %%
+bindsym $super+Shift+3 move container to workspace $ws3
+# %%hotkey: Move active window to workspace 4 %%
+bindsym $super+Shift+4 move container to workspace $ws4
+# %%hotkey: Move active window to workspace 5 %%
+bindsym $super+Shift+5 move container to workspace $ws5
+# %%hotkey: Move active window to workspace 6 %%
+bindsym $super+Shift+6 move container to workspace $ws6
+# %%hotkey: Move active window to workspace 7 %%
+bindsym $super+Shift+7 move container to workspace $ws7
+# %%hotkey: Move active window to workspace 8 %%
+bindsym $super+Shift+8 move container to workspace $ws8
+
+# %%hotkey: Reload i3's configuration file %%
+bindsym $super+Shift+c reload
+# %%hotkey: Restart i3 in place %%
+bindsym $super+Shift+r restart
+# %%hotkey: Exit i3 %%
+bindsym $super+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+
+# Extra Keys
+# %%hotkey: Increase screen brightness %%
+bindsym XF86MonBrightnessUp exec --no-startup-id "light -A 5"
+# %%hotkey: Decrease screen brightness %%
+bindsym XF86MonBrightnessDown exec --no-startup-id "light -U 5"
+
+# Media volume controls
+# %%hotkey: Mute audio %%
+bindsym XF86AudioMute exec amixer sset 'Master' toggle
+# %%hotkey: Decrease master volume %%
+bindsym XF86AudioLowerVolume exec amixer sset 'Master' 5%-
+# %%hotkey: Increase master volume %%
+bindsym XF86AudioRaiseVolume exec amixer sset 'Master' 5%+

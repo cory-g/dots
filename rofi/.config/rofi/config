@@ -1,0 +1,8 @@
+rofi.combi-modi:       window,drun,ssh
+rofi.theme:            solarized
+rofi.font:             Hermit 10
+rofi.modi:             combi
+rofi.width:            33
+rofi.lines:            8
+rofi.padding:          200
+rofi.hide-scrollbar:   true

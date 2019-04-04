@@ -1,0 +1,55 @@
+#!/bin/sh
+#
+# wallawalla - 0.0.1 - August 14, 2018 @ 10:14 am
+# created: August 14, 2018 @ 10:14 am by Cory G
+# license: gpl-2.0
+#
+#                        ██  ██                                 ██  ██
+#                       ░██ ░██                                ░██ ░██
+#  ███     ██  ██████   ░██ ░██  ██████   ███     ██  ██████   ░██ ░██  ██████
+# ░░██  █ ░██ ░░░░░░██  ░██ ░██ ░░░░░░██ ░░██  █ ░██ ░░░░░░██  ░██ ░██ ░░░░░░██
+#  ░██ ███░██  ███████  ░██ ░██  ███████  ░██ ███░██  ███████  ░██ ░██  ███████
+#  ░████░████ ██░░░░██  ░██ ░██ ██░░░░██  ░████░████ ██░░░░██  ░██ ░██ ██░░░░██
+#  ███░ ░░░██░░████████ ███ ███░░████████ ███░ ░░░██░░████████ ███ ███░░████████
+# ░░░    ░░░  ░░░░░░░░ ░░░ ░░░  ░░░░░░░░ ░░░    ░░░  ░░░░░░░░ ░░░ ░░░  ░░░░░░░░
+#
+# *******************************
+# A script I've stupidly left with the default description and vaguely named wallawalla
+# ------------------------------------------
+#
+# contact
+# -------
+# << cory.gantenbein@protonmail.com >> || << http://coryg.io >>
+
+# text colors
+TXT_GRN='\033[0;32m'
+TXT_BLUE='\033[0;34m'
+NC='\033[0m'
+
+THE_IMAGE=$1
+
+THE_WALLPAPER=$HOME/.config/wall.png
+WALLS_PATH=$HOME/pix/walls/
+
+COLOR_1="$(xgetres *color0)"
+COLOR_2="$(xgetres *color13)"
+COLOR_3="$(xgetres *color4)"
+COLOR_4="$(xgetres *color3)"
+
+FILE_PATH="${1%%.*}"
+FILE_NAME=$(basename -- "$1")
+JUST_FILE="${FILE_NAME%%.*}"
+
+FILE_EXT="${1##*.}"
+
+WP_FILE_PATH="${WALLS_PATH}/${JUST_FILE}-wall.${FILE_EXT}"
+
+# WP_PATH="${FILE_PATH}-wall.${FILE_EXT}"
+
+
+echo -e "${TXT_BLUE}GENERATING WALLPAPER${NC}"
+popart -r 1 -c 1 -g 0 -i bilinear -c1 "${COLOR_1} ${COLOR_2} ${COLOR_3} ${COLOR_4}" $THE_IMAGE $WP_FILE_PATH
+echo -e "${TXT_GRN}Wallpaper saved to ${WP_FILE_PATH}${NC}"
+
+
+# feh --bg-fill $THE_WALLPAPER
