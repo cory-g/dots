@@ -65,3 +65,7 @@ function parse_git_dirty {
 }
 
 export PS1="[\[\e[32m\]\u\[\e[m\]@\[\e[34m\]\h\[\e[m\]] \[\e[35m\]\W\[\e[m\] \`parse_git_branch\`\\$ "
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

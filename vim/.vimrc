@@ -1,6 +1,20 @@
 syntax enable
 set number
 set encoding=utf-8
+set tabstop=2
+set softtabstop=2
+set expandtab
+set showcmd
+set wildmenu
+set showmatch
+set incsearch
+set hlsearch
+set foldenable
+set foldlevelstart=10
+set foldnestmax=10
+set foldmethod=indent
+
+let mapleader=","
 
 set nocompatible              " be iMproved, required
 filetype off                  " required
@@ -17,8 +31,14 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'scrooloose/nerdtree'
 Plugin 'airblade/vim-gitgutter'
-Plugin 'vim-airline/vim-airline'
 Plugin 'mattn/emmet-vim'
+Plugin 'easymotion/vim-easymotion'
+Plugin 'ap/vim-css-color'
+Plugin 'itchyny/lightline.vim'
+Plugin 'editorconfig/editorconfig-vim'
+Plugin 'cakebaker/scss-syntax.vim'
+Plugin 'dNitro/vim-pug-complete'
+Plugin 'digitaltoad/vim-pug'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
