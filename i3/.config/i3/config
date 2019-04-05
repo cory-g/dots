@@ -136,6 +136,10 @@ bindsym $super+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit short
 bindsym XF86MonBrightnessUp exec --no-startup-id "light -A 5"
 # %%hotkey: Decrease screen brightness %%
 bindsym XF86MonBrightnessDown exec --no-startup-id "light -U 5"
+# %%hotkey: Take a screenshot
+bindsym $super+$alt+p exec --no-startup-id $HOME/.local/bin/scrotz
+# %%hotkey: Take the screenshot for the dotfile repo and put it in the proper folder
+bindsym $super+$alt+Shift+p exec --no-startup-id $HOME/.local/bin/dotscrot
 
 # Media volume controls
 # %%hotkey: Mute audio %%

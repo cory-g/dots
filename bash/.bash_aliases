@@ -12,3 +12,5 @@ alias i3config='vim $HOME/.config/i3/config'
 alias pbconfig='vim $HOME/.config/polybar/config'
 alias vmrc='vim $HOME/.vimrc'
 alias xfresh='xrdb $HOME/.Xresources'
+alias jekk='bundle exec jekyll serve'
+alias scrot="scrot -e 'mv $f ~/pix/scrot/'"

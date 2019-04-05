@@ -1,0 +1,106 @@
+#!/bin/sh
+#
+# mkscript - 0.0.2 - April 05, 2019 @  1:10 pm
+# created: April 30, 2018 @  8:24 pm by Cory G
+# license: gpl-2.0
+#
+#              ██                            ██           ██
+#             ░██                           ░░  ██████   ░██
+#  ██████████ ░██  ██  ██████  █████  ██████ ██░██░░░██ ██████░
+# ░░██░░██░░██░██ ██  ██░░░░  ██░░░██░░██░░█░██░██  ░██░░░██░
+#  ░██ ░██ ░██░████  ░░█████ ░██  ░░  ░██ ░ ░██░██████   ░██
+#  ░██ ░██ ░██░██░██  ░░░░░██░██   ██ ░██   ░██░██░░░    ░██
+#  ███ ░██ ░██░██░░██ ██████ ░░█████ ░███   ░██░██       ░░██
+# ░░░  ░░  ░░ ░░  ░░ ░░░░░░   ░░░░░  ░░░    ░░ ░░         ░░
+#
+# *******************************
+# Super awesome script to generate other scripts. Includes commented script info,
+# proper file permissions, and then asks if you want to open the file to edit.
+# ------------------------------------------
+#
+# contact
+# -------
+# << cory.gantenbein@protonmail.com >> || << http://coryg.io >>
+
+# configuration
+AUTHOR_NAME="Cory G"
+AUTHOR_EMAIL="cory.gantenbein@protonmail.com"
+AUTHOR_WEBSITE="https://coryg.me"
+START_VERSION="0.0.1"
+
+USE_LICENSE="gpl-2.0"
+
+THE_DATE=`date '+%B %e, %Y @ %l:%M %P'`
+
+SCRIPT_NAME=$(dialog --inputbox "First, please enter a name for the new script." 10 60 3>&1 1>&2 2>&3 3>&1)
+SCRIPT_DESCR=$(dialog --inputbox "Next, enter a description for the new script. Press <RETURN> for default description" 10 60 3>&1 1>&2 2>&3 3>&1)
+
+
+SCRIPT_FOLDER="$HOME/.local/bin"
+SCRIPT_FILE="$SCRIPT_FOLDER/$SCRIPT_NAME"
+
+
+
+
+if [[ -f $SCRIPT_FILE ]]; then
+  read -p "File exists. Do you want to open the file for editing (y/N)? " answer
+  case ${answer:0:1} in
+      y|Y )
+          subl $SCRIPT_FILE
+      ;;
+      * )
+          echo "Script located at $SCRIPT_FILE"
+      ;;
+  esac
+else
+
+  if [[ $SCRIPT_DESCR == "" ]]; then
+    SCRIPT_DESC="A script I've stupidly left with the default description and vaguely named $SCRIPT_NAME"
+  else
+    SCRIPT_DESC="$SCRIPT_DESCR"
+  fi
+
+ABOUT_SCRIPT="#!/bin/sh
+#
+# $SCRIPT_NAME - $START_VERSION - $THE_DATE
+# created: $THE_DATE by $AUTHOR_NAME
+# license: $USE_LICENSE
+#"
+
+
+
+
+
+MORE_ABOUT_SCRIPT="#
+# *******************************
+# $SCRIPT_DESC
+# ------------------------------------------
+#
+# contact
+# -------
+# << $AUTHOR_EMAIL >> || << $AUTHOR_WEBSITE >>
+
+"
+
+  echo "$ABOUT_SCRIPT" >> $SCRIPT_FILE
+
+  # lolban script title
+  touch /home/cory/tmp/lolban.txt
+  toilet -f 3d.flf "$SCRIPT_NAME" >> /home/cory/tmp/lolban.txt
+  sed -i -e 's/^/# /' /home/cory/tmp/lolban.txt
+  cat /home/cory/tmp/lolban.txt >> $SCRIPT_FILE
+  rm /home/cory/tmp/lolban.txt
+
+  echo "$MORE_ABOUT_SCRIPT" >> $SCRIPT_FILE
+
+  # set new file permissions
+  chmod +x $SCRIPT_FILE
+
+  # open file for editing?
+  dialog --title "Message"  --yesno "Open $SCRIPT_NAME in Sublime Text for editing?" 10 60 3>&1 1>&2 2>&3 3>&1
+  if [[ $? == 1 ]]; then
+    echo "Script created at $SCRIPT_FILE"
+  else
+    subl $SCRIPT_FILE
+  fi
+fi

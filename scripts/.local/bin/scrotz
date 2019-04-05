@@ -1,0 +1,26 @@
+#!/bin/sh
+#
+# scrotz - 0.0.1 - April  5, 2019 @  1:11 pm
+# created: April  5, 2019 @  1:11 pm by Cory G
+# license: gpl-2.0
+#
+#                                    ██         
+#                                   ░██         
+#   ██████  █████  ██████  ██████  ██████ ██████
+#  ██░░░░  ██░░░██░░██░░█ ██░░░░██░░░██░ ░░░░██ 
+# ░░█████ ░██  ░░  ░██ ░ ░██   ░██  ░██     ██  
+#  ░░░░░██░██   ██ ░██   ░██   ░██  ░██    ██   
+#  ██████ ░░█████ ░███   ░░██████   ░░██  ██████
+# ░░░░░░   ░░░░░  ░░░     ░░░░░░     ░░  ░░░░░░ 
+#
+# *******************************
+# Take a screenshot and put it in a specified folder
+# ------------------------------------------
+#
+# contact
+# -------
+# << cory.gantenbein@protonmail.com >> || << https://coryg.me >>
+
+scrot -e 'mv $f ~/pix/scrot'
+
+# scrot '%Y-%m-%d_$wx$h_scrot.png' -e 'mv $f ~/pix/scrot/'
