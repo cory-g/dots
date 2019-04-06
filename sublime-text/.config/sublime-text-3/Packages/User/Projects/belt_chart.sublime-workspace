@@ -1,0 +1,6496 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "---\nroll: 7163\nslab: F-64\nmfg: 3PLY\npiw: 330\ntype:1/4\" X 1\"\nwidth:60\"\nlength: 28'\nprtnm: CB-078-600-2584\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7163-F-64.md",
+			"file_size": 110,
+			"file_write_time": 131799625764780046,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7171\nslab: F-25\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:36\"\nlength: 14'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7171-F-25.md",
+			"file_size": 110,
+			"file_write_time": 131799625764899918,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7233\nslab: F-25\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:12\"\nlength: 200'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7233-F-25.md",
+			"file_size": 111,
+			"file_write_time": 131799625765614176,
+			"settings":
+			{
+				"buffer_size": 110,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7261\nslab: F-80\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:12\"\nlength: 200'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7261-F-80.md",
+			"file_size": 111,
+			"file_write_time": 131799625765975913,
+			"settings":
+			{
+				"buffer_size": 110,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7316\nslab: G-23\nmfg: 4PLY\npiw: 440\ntype:1/4\" X 1\"\nwidth:42\"\nlength: 39'\nprtnm: CB-080-420-2584\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7316-G-23.md",
+			"file_size": 110,
+			"file_write_time": 131799625767065340,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7317\nslab: G-24\nmfg: 4PLY\npiw: 440\ntype:1/4\" X 1\"\nwidth:48\"\nlength: 53'\nprtnm: CB-080-480-2584\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7317-G-24.md",
+			"file_size": 110,
+			"file_write_time": 131799625767185010,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7467\nslab: G-58\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:22\"\nlength: 18'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7467-G-58.md",
+			"file_size": 110,
+			"file_write_time": 131799625768505500,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7487\nslab: MONROE\nmfg: 4PLY\npiw: 440\ntype:1/16\" X 1/16\" - (6pcs @ 10\" x 26')\"\nwidth:10\"\nlength: 26'\nprtnm: CBFMT-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7487-MONROE.md",
+			"file_size": 135,
+			"file_write_time": 131799625768994476,
+			"settings":
+			{
+				"buffer_size": 132,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7498\nslab: H-17\nmfg: 1PLY\npiw: 440\ntype:1/4\" X 1/8\"\nwidth:60\"\nlength: 33'\nprtnm: CB-080Z-600-2584\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7498-H-17.md",
+			"file_size": 113,
+			"file_write_time": 131799625769104186,
+			"settings":
+			{
+				"buffer_size": 112,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7501\nslab: MONROE\nmfg: 3PLY\npiw: 330\ntype:1/8\" X 1/16\"\nwidth:8\"\nlength: 37'\nprtnm: CBFMT-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7501-MONROE.md",
+			"file_size": 109,
+			"file_write_time": 131799625769233838,
+			"settings":
+			{
+				"buffer_size": 108,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7512\nslab: G-58\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:23\"\nlength: 97'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7512-G-58.md",
+			"file_size": 110,
+			"file_write_time": 131799625769353235,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7527\nslab: H-29\nmfg: 3PLY\npiw: 330\ntype:1/4\" X 1\"\nwidth:36\"\nlength: 179'\nprtnm: CB-078-360-2584\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7527-H-29.md",
+			"file_size": 111,
+			"file_write_time": 131799625769612816,
+			"settings":
+			{
+				"buffer_size": 110,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7572\nslab: F-25\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:8\"\nlength: 24'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7572-F-25.md",
+			"file_size": 109,
+			"file_write_time": 131799625770240870,
+			"settings":
+			{
+				"buffer_size": 108,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7574\nslab: MONROE\nmfg: 1PLY\npiw: 440\ntype:1/4\" X 1/8\"\nwidth:10\"\nlength: 15'\nprtnm: CBFMT-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7574-MONROE.md",
+			"file_size": 109,
+			"file_write_time": 131799625770370786,
+			"settings":
+			{
+				"buffer_size": 108,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7610\nslab: MONROE\nmfg: 4PLY\npiw: 440\ntype:1/4\" X 1/16\"\nwidth:11\"\nlength: 23'\nprtnm: CBFMT-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7610-MONROE.md",
+			"file_size": 110,
+			"file_write_time": 131799625770964632,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7611\nslab: MONROE\nmfg: 6PLY\npiw: 600\ntype:1/4\" X 1/16\"\nwidth:16\"\nlength: 19'\nprtnm: CBFMT-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7611-MONROE.md",
+			"file_size": 110,
+			"file_write_time": 131799625771084318,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7625\nslab: H-24\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:12\"\nlength: 37'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7625-H-24.md",
+			"file_size": 110,
+			"file_write_time": 131799625771204108,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7631\nslab: H-35\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:24\"\nlength: 100'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7631-H-35.md",
+			"file_size": 111,
+			"file_write_time": 131799625771313701,
+			"settings":
+			{
+				"buffer_size": 110,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7703\nslab: H-58\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:60\"\nlength: 10'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7703-H-58.md",
+			"file_size": 110,
+			"file_write_time": 131799625772403449,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7732\nslab: H-35\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:18\"\nlength: 55'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7732-H-35.md",
+			"file_size": 110,
+			"file_write_time": 131799625773003821,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7734\nslab: H-34\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:18\"\nlength: 60'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7734-H-34.md",
+			"file_size": 110,
+			"file_write_time": 131799625773403020,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7735\nslab: H-34\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:28\"\nlength: 25'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7735-H-34.md",
+			"file_size": 110,
+			"file_write_time": 131799625773512733,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7739\nslab: H-14\nmfg: 1PLY\npiw: 440\ntype:1/4\" X 1/8\"\nwidth:22\"\nlength: 19'\nprtnm: CBFMT-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7739-H-14.md",
+			"file_size": 107,
+			"file_write_time": 131799625773752087,
+			"settings":
+			{
+				"buffer_size": 106,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7750\nslab: K-5\nmfg: 3PLY\npiw: 330\ntype:1/4\" X 1\"\nwidth:48\"\nlength: 54'\nprtnm: CB-078-480-2584\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7750-K-5.md",
+			"file_size": 109,
+			"file_write_time": 131799625774224116,
+			"settings":
+			{
+				"buffer_size": 108,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7752\nslab: H-28\nmfg: 3PLY\npiw: 270\ntype:1/8\" X 1/32\"\nwidth:8\"\nlength: 27'\nprtnm: CBFMT-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7752-H-28.md",
+			"file_size": 107,
+			"file_write_time": 131799625774343916,
+			"settings":
+			{
+				"buffer_size": 106,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7754\nslab: K-7\nmfg: 1PLY\npiw: 440\ntype:1/4\" X 1/8\"\nwidth:60\"\nlength: 4.6'\nprtnm: CB-080Z-600-2584\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7754-K-7.md",
+			"file_size": 113,
+			"file_write_time": 131799625774463599,
+			"settings":
+			{
+				"buffer_size": 112,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7755\nslab: MONROE\nmfg: 1PLY\npiw: 440\ntype:1/4\" X 1/8\"\nwidth:60\"\nlength: 14'\nprtnm: CBFMT-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7755-MONROE.md",
+			"file_size": 109,
+			"file_write_time": 131799625774583275,
+			"settings":
+			{
+				"buffer_size": 108,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7756\nslab: MONROE\nmfg: 1PLY\npiw: 440\ntype:1/4\" X 1/8\"\nwidth:12\"\nlength: 14'\nprtnm: CBFMT-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7756-MONROE.md",
+			"file_size": 109,
+			"file_write_time": 131799625774702955,
+			"settings":
+			{
+				"buffer_size": 108,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7757\nslab: MONROE\nmfg: 1PLY\npiw: 440\ntype:1/4\" X 1/8\"\nwidth:17\"\nlength: 12'\nprtnm: CBFMT-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7757-MONROE.md",
+			"file_size": 109,
+			"file_write_time": 131799625774812662,
+			"settings":
+			{
+				"buffer_size": 108,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7762\nslab: H-34\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:18\"\nlength: 10'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7762-H-34.md",
+			"file_size": 110,
+			"file_write_time": 131799625775061994,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7788\nslab: MONROE\nmfg: 3PLY\npiw: 330\ntype:1/16\" X 1/16\"\nwidth:24\"\nlength: 25'\nprtnm: CBFMT-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7788-MONROE.md",
+			"file_size": 112,
+			"file_write_time": 131799625775382350,
+			"settings":
+			{
+				"buffer_size": 110,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7796\nslab: K-14\nmfg: 3PLY\npiw: 330\ntype:1/4\" X 1\"\nwidth:42\"\nlength: 15'\nprtnm: CB-078-420-2584\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7796-K-14.md",
+			"file_size": 110,
+			"file_write_time": 131799625775501741,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7800\nslab: K-18\nmfg: 1PLY\npiw: 440\ntype:1/4\" X 1/8\"\nwidth:48\"\nlength: 244'\nprtnm: CB-080Z-480-2584\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7800-K-18.md",
+			"file_size": 114,
+			"file_write_time": 131799625775651615,
+			"settings":
+			{
+				"buffer_size": 113,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7815\nslab: K-20\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:24\"\nlength: 103'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7815-K-20.md",
+			"file_size": 111,
+			"file_write_time": 131799625775761322,
+			"settings":
+			{
+				"buffer_size": 110,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7828\nslab: MONROE\nmfg: 4PLY\npiw: 440\ntype:1/4\" X 1/16\"\nwidth:48\"\nlength: 71'\nprtnm: CBFMT-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7828-MONROE.md",
+			"file_size": 110,
+			"file_write_time": 131799625776210450,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7829\nslab: MONROE\nmfg: 5PLY\npiw: 500\ntype:5/8\" THICK\"\nwidth:72\"\nlength: 135'\nprtnm: CBFMTTB-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7829-MONROE.md",
+			"file_size": 112,
+			"file_write_time": 131799625776330123,
+			"settings":
+			{
+				"buffer_size": 111,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7838\nslab: H-58\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:24\"\nlength: 11'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7838-H-58.md",
+			"file_size": 110,
+			"file_write_time": 131799625776749018,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7848\nslab: K-37\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:60\"\nlength: 21'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7848-K-37.md",
+			"file_size": 110,
+			"file_write_time": 131799625777098112,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7870\nslab: MONROE\nmfg: 3PLY\npiw: 330\ntype:1/16\" X 1/16\"\nwidth:15\"\nlength: 93'\nprtnm: CBFMT-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7870-MONROE.md",
+			"file_size": 111,
+			"file_write_time": 131799625777780151,
+			"settings":
+			{
+				"buffer_size": 110,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7872\nslab: H-58\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:12\"\nlength: 150'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7872-H-58.md",
+			"file_size": 111,
+			"file_write_time": 131799625777899791,
+			"settings":
+			{
+				"buffer_size": 110,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7927\nslab: K-37\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:18\"\nlength: 60'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7927-K-37.md",
+			"file_size": 110,
+			"file_write_time": 131799625779490321,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7959\nslab: K-39\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:24\"\nlength: 52'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7959-K-39.md",
+			"file_size": 110,
+			"file_write_time": 131799625780389364,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7960\nslab: K-37\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:18\"\nlength: 27'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7960-K-37.md",
+			"file_size": 110,
+			"file_write_time": 131799625780509047,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7961\nslab: K-37\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:24\"\nlength: 100'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7961-K-37.md",
+			"file_size": 111,
+			"file_write_time": 131799625780699346,
+			"settings":
+			{
+				"buffer_size": 110,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7968\nslab: J-7\nmfg: 3PLY\npiw: 330\ntype:1/4\" X 1\"\nwidth:60\"\nlength: 224'\nprtnm: CB-078-600-2584\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7968-J-7.md",
+			"file_size": 110,
+			"file_write_time": 131799625780829274,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7969\nslab: J-8\nmfg: 3PLY\npiw: 330\ntype:1/4\" X 1\"\nwidth:32\"\nlength: 60'\nprtnm: CB-078-480-2584\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7969-J-8.md",
+			"file_size": 109,
+			"file_write_time": 131799625780948954,
+			"settings":
+			{
+				"buffer_size": 108,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7975\nslab: K-37\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:18\"\nlength: 58'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7975-K-37.md",
+			"file_size": 110,
+			"file_write_time": 131799625781289075,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7993\nslab: K-68\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:34\"\nlength: 27'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7993-K-68.md",
+			"file_size": 110,
+			"file_write_time": 131799625781627958,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7994\nslab: MONROE\nmfg: 4PLY\npiw: 440\ntype:1/4\" X 1/16\"\nwidth:48\"\nlength: 47'\nprtnm: CBFMT-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7994-MONROE.md",
+			"file_size": 110,
+			"file_write_time": 131799625781737668,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7995\nslab: MONROE\nmfg: 4PLY\npiw: 440\ntype:1/4\" X 1/16\"\nwidth:48\"\nlength: 49'\nprtnm: CBFMT-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7995-MONROE.md",
+			"file_size": 110,
+			"file_write_time": 131799625781847372,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8012\nslab: DNI\nmfg: DNI\npiw: 150\ntype:1/32\" X BARE\"\nwidth:16\"\nlength: 46'\nprtnm: CB-070CXB-FMT-2324\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8012-DNI.md",
+			"file_size": 115,
+			"file_write_time": 131799625782415849,
+			"settings":
+			{
+				"buffer_size": 114,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8026\nslab: K-68\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:30\"\nlength: 52'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8026-K-68.md",
+			"file_size": 110,
+			"file_write_time": 131799625783075110,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8027\nslab: K-68\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:24\"\nlength: 100'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8027-K-68.md",
+			"file_size": 111,
+			"file_write_time": 131799625783194793,
+			"settings":
+			{
+				"buffer_size": 110,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8034\nslab: K-37\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:18\"\nlength: 60'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8034-K-37.md",
+			"file_size": 110,
+			"file_write_time": 131799625783414225,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8052\nslab: H-58\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:30\"\nlength: 100'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8052-H-58.md",
+			"file_size": 111,
+			"file_write_time": 131799625784714192,
+			"settings":
+			{
+				"buffer_size": 110,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8054\nslab: MONROE\nmfg: 3PLY\npiw: 600\ntype:3/8\" X 1/8\"\nwidth:30\"\nlength: 5'\nprtnm: CBFMT-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8054-MONROE.md",
+			"file_size": 109,
+			"file_write_time": 131799625784823626,
+			"settings":
+			{
+				"buffer_size": 107,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8056\nslab: H-58\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:60\"\nlength: 38'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8056-H-58.md",
+			"file_size": 110,
+			"file_write_time": 131799625785173032,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8059\nslab: MONROE\nmfg: 4PLY\npiw: 440\ntype:1/4\" X 1/16\"\nwidth:10\"\nlength: 46'\nprtnm: CBFMT-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8059-MONROE.md",
+			"file_size": 110,
+			"file_write_time": 131799625785432615,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8065\nslab: J-16\nmfg: DAMAGED\npiw: 330\ntype:1/4\" X 1\"\nwidth:60\"\nlength: 39'\nprtnm: CB-078-600-2584\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8065-J-16.md",
+			"file_size": 113,
+			"file_write_time": 131799625785892729,
+			"settings":
+			{
+				"buffer_size": 112,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8066\nslab: E-6\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:20\"\nlength: 26'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8066-E-6.md",
+			"file_size": 109,
+			"file_write_time": 131799625786002439,
+			"settings":
+			{
+				"buffer_size": 108,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8073\nslab: MONROE\nmfg: CLEATED\npiw: 220\ntype:2PLY 1-1/2\" ON 12\" CENTERS\"\nwidth:24\"\nlength: 40'\nprtnm: CBFMT-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8073-MONROE.md",
+			"file_size": 129,
+			"file_write_time": 131799625786461966,
+			"settings":
+			{
+				"buffer_size": 127,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8076\nslab: MONROE\nmfg: 1PLY\npiw: 440\ntype:1/8\" X 1/8\"\nwidth:12\"\nlength: 48'\nprtnm: CBFMT-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8076-MONROE.md",
+			"file_size": 109,
+			"file_write_time": 131799625786651393,
+			"settings":
+			{
+				"buffer_size": 108,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8078\nslab: MONROE\nmfg: 3PLY\npiw: 330\ntype:1/8\" X 1/32\"\nwidth:12\"\nlength: 14'\nprtnm: CBFMT-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8078-MONROE.md",
+			"file_size": 110,
+			"file_write_time": 131799625786890740,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8079\nslab: H-35\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:18\"\nlength: 54'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8079-H-35.md",
+			"file_size": 110,
+			"file_write_time": 131799625787000399,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8080\nslab: G-56\nmfg: 3PLY\npiw: 330\ntype:1/4\" X 1\"\nwidth:30\"\nlength: 28'\nprtnm: CB-078-300-2584\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8080-G-56.md",
+			"file_size": 110,
+			"file_write_time": 131799625787119805,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8081\nslab: MONROE\nmfg: 3PLY\npiw: 270\ntype:1/8\" X 1/32\"\nwidth:8\"\nlength: 32'\nprtnm: CBFMT-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8081-MONROE.md",
+			"file_size": 109,
+			"file_write_time": 131799625787229804,
+			"settings":
+			{
+				"buffer_size": 108,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8084\nslab: MONROE\nmfg: 4PLY\npiw: 440\ntype:3/4\" THICK\"\nwidth:12\"\nlength: 12'\nprtnm: CBFMTTB-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8084-MONROE.md",
+			"file_size": 111,
+			"file_write_time": 131799625787468926,
+			"settings":
+			{
+				"buffer_size": 110,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8087\nslab: MONROE\nmfg: 3PLY\npiw: 330\ntype:1\" THICK\"\nwidth:21\"\nlength: 7.5'\nprtnm: CBFMTTB-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8087-MONROE.md",
+			"file_size": 110,
+			"file_write_time": 131799625787598911,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8095\nslab: J-45\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:48\"\nlength: 59'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8095-J-45.md",
+			"file_size": 110,
+			"file_write_time": 131799625787957950,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8098\nslab: MONROE\nmfg: 4PLY\npiw: 440\ntype:1/16\" X 1/16\"\nwidth:21\"\nlength: 16'\nprtnm: CBFMT-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8098-MONROE.md",
+			"file_size": 111,
+			"file_write_time": 131799625788326961,
+			"settings":
+			{
+				"buffer_size": 110,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8100\nslab: MONROE\nmfg: 3PLY\npiw: 330\ntype:1/4\" X 1/16\"\nwidth:21\"\nlength: 12'\nprtnm: CBFMT-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8100-MONROE.md",
+			"file_size": 110,
+			"file_write_time": 131799625788576500,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8101\nslab: K-37\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:12\"\nlength: 47'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8101-K-37.md",
+			"file_size": 110,
+			"file_write_time": 131799625788705939,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8103\nslab: H-35\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:18\"\nlength: 55'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8103-H-35.md",
+			"file_size": 110,
+			"file_write_time": 131799625788945629,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8110\nslab: F-25\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:13\"\nlength: 14'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8110-F-25.md",
+			"file_size": 110,
+			"file_write_time": 131799625790002764,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8112\nslab: E-7\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:24\"\nlength: 12'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8112-E-7.md",
+			"file_size": 109,
+			"file_write_time": 131799625790231910,
+			"settings":
+			{
+				"buffer_size": 108,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8115\nslab: E-7\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:14\"\nlength: 50'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8115-E-7.md",
+			"file_size": 109,
+			"file_write_time": 131799625790680933,
+			"settings":
+			{
+				"buffer_size": 108,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8124\nslab: K-37\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:9\"\nlength: 100'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8124-K-37.md",
+			"file_size": 110,
+			"file_write_time": 131799625791344361,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8142\nslab: J-53\nmfg: 1PLY\npiw: 440\ntype:1/4\" X 1/8\"\nwidth:42\"\nlength: 695'\nprtnm: CB-080Z-420-2584\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8142-J-53.md",
+			"file_size": 114,
+			"file_write_time": 131799625792950803,
+			"settings":
+			{
+				"buffer_size": 113,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8147\nslab: J-55\nmfg: 3PLY\npiw: 330\ntype:7/16\" TH  1/4\" X 1/16\"\nwidth:29\"\nlength: 862'\nprtnm: CBFMT-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8147-J-55.md",
+			"file_size": 120,
+			"file_write_time": 131799625793329679,
+			"settings":
+			{
+				"buffer_size": 118,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8148\nslab: J-56\nmfg: 3PLY\npiw: 330\ntype:7/16\" TH  1/4\" X 1/16\"\nwidth:24\"\nlength: 160'\nprtnm: CBFMT-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8148-J-56.md",
+			"file_size": 120,
+			"file_write_time": 131799625793449353,
+			"settings":
+			{
+				"buffer_size": 118,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8149\nslab: J-57\nmfg: 3PLY\npiw: 330\ntype:7/16\" TH  1/4\" X 1/16\"\nwidth:15\"\nlength: 269'\nprtnm: CBFMT-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8149-J-57.md",
+			"file_size": 120,
+			"file_write_time": 131799625793570895,
+			"settings":
+			{
+				"buffer_size": 118,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8150\nslab: MONROE\nmfg: 3PLY\npiw: 330\ntype:1/8\" X 1/32\"\nwidth:15\"\nlength: 69'\nprtnm: CBFMT-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8150-MONROE.md",
+			"file_size": 110,
+			"file_write_time": 131799625793690551,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8164\nslab: J-59\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:60\"\nlength:\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8164-J-59.md",
+			"file_size": 106,
+			"file_write_time": 131799625794300574,
+			"settings":
+			{
+				"buffer_size": 105,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8165\nslab: J-60\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:60\"\nlength: 35'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8165-J-60.md",
+			"file_size": 110,
+			"file_write_time": 131799625794420400,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8166\nslab: J-57\nmfg: 3PLY\npiw: 330\ntype:7/16\" THICK\"\nwidth:21\"\nlength: 300'\nprtnm: CBFMT-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8166-J-57.md",
+			"file_size": 109,
+			"file_write_time": 131799625794540059,
+			"settings":
+			{
+				"buffer_size": 108,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8194\nslab: L-1\nmfg: 1PLY\npiw: 440\ntype:1/4\" X 1/8\"\nwidth:42\"\nlength: 61'\nprtnm: CB-080Z-420-2584\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8194-L-1.md",
+			"file_size": 112,
+			"file_write_time": 131799625795257857,
+			"settings":
+			{
+				"buffer_size": 111,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8198\nslab: J-59\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:24\"\nlength: 100'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8198-J-59.md",
+			"file_size": 111,
+			"file_write_time": 131799625795377897,
+			"settings":
+			{
+				"buffer_size": 110,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8206\nslab: MONROE\nmfg: 4PLY\npiw: 440\ntype:3/4\" THICK\"\nwidth:34\"\nlength: 15'\nprtnm: CBFMTTB-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8206-MONROE.md",
+			"file_size": 111,
+			"file_write_time": 131799625796036058,
+			"settings":
+			{
+				"buffer_size": 110,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8207\nslab: J-59\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:24\"\nlength: 71'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8207-J-59.md",
+			"file_size": 110,
+			"file_write_time": 131799625796155452,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8209\nslab: K-5\nmfg: 3PLY\npiw: 330\ntype:1/4\" X 1\"\nwidth:12\"\nlength: 45'\nprtnm: CBFMT-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8209-K-5.md",
+			"file_size": 104,
+			"file_write_time": 131799625796395172,
+			"settings":
+			{
+				"buffer_size": 103,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8213\nslab: K-52\nmfg: 3PLY\npiw: 330\ntype:1/4\" TOP\"\nwidth:6\"\nlength: 300'\nprtnm: CBFMT-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8213-K-52.md",
+			"file_size": 105,
+			"file_write_time": 131799625796953610,
+			"settings":
+			{
+				"buffer_size": 104,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8220\nslab: J-60\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:24\"\nlength: 100'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8220-J-60.md",
+			"file_size": 111,
+			"file_write_time": 131799625797566569,
+			"settings":
+			{
+				"buffer_size": 110,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8225\nslab: L-6\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:60\"\nlength: 758'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8225-L-6.md",
+			"file_size": 110,
+			"file_write_time": 131799625797945282,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8227\nslab: L-8\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:24\"\nlength: 348'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8227-L-8.md",
+			"file_size": 110,
+			"file_write_time": 131799625798074934,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8239\nslab: J-56\nmfg: 3PLY\npiw: 330\ntype:7/16\" THICK 1/4\" X 1/16\"\nwidth:24\"\nlength: 40'\nprtnm: CBFMT-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8239-J-56.md",
+			"file_size": 121,
+			"file_write_time": 131799625799102933,
+			"settings":
+			{
+				"buffer_size": 119,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8249\nslab: J-53\nmfg: 1PLY\npiw: 440\ntype:1/4\" X 1/8\"\nwidth:42\"\nlength: 77'\nprtnm: CB-080Z-420-2584\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8249-J-53.md",
+			"file_size": 113,
+			"file_write_time": 131799625800041734,
+			"settings":
+			{
+				"buffer_size": 112,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8250\nslab: MONROE\nmfg: 3PLY\npiw: 330\ntype:1/4\" X 1 DIRTY\"\nwidth:24\"\nlength: 70'\nprtnm: CBFMT-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8250-MONROE.md",
+			"file_size": 113,
+			"file_write_time": 131799625800480539,
+			"settings":
+			{
+				"buffer_size": 112,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8257\nslab: 18-022\nmfg: 3PLY\npiw: 330\ntype:1/8\" X 1/16\"\nwidth:60\"\nlength: 708'\nprtnm: CBFMT-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8257-18-022.md",
+			"file_size": 111,
+			"file_write_time": 131799625801368200,
+			"settings":
+			{
+				"buffer_size": 110,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8259\nslab: J-2\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:18\"\nlength: 113'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8259-J-2.md",
+			"file_size": 110,
+			"file_write_time": 131799625801627502,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8289\nslab: L-6\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:24\"\nlength: 100'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8289-L-6.md",
+			"file_size": 110,
+			"file_write_time": 131799625802953958,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8307\nslab: L-55\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:30\"\nlength: 1000'\nprtnm: CB-077-300-2584\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8307-L-55.md",
+			"file_size": 115,
+			"file_write_time": 131799625803762982,
+			"settings":
+			{
+				"buffer_size": 114,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8309\nslab: L-57\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:30\"\nlength: 410'\nprtnm: CB-077-300-2584\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8309-L-57.md",
+			"file_size": 114,
+			"file_write_time": 131799625803875510,
+			"settings":
+			{
+				"buffer_size": 113,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8311\nslab: L-59\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:30\"\nlength: 1000'\nprtnm: CB-077-300-2584\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8311-L-59.md",
+			"file_size": 115,
+			"file_write_time": 131799625803995187,
+			"settings":
+			{
+				"buffer_size": 114,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 94-0005\nslab: MONROE\nmfg: 4PLY\npiw: 440\ntype:1\" THICK\"\nwidth:72\"\nlength: 68'\nprtnm: CBFMTTB-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/94-0005-MONROE.md",
+			"file_size": 112,
+			"file_write_time": 131799625804104912,
+			"settings":
+			{
+				"buffer_size": 111,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 94-0009\nslab: MONROE\nmfg: 4PLY\npiw: 440\ntype:3/4\" THICK\"\nwidth:60\"\nlength: 286'\nprtnm: CBFMTTB-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/94-0009-MONROE.md",
+			"file_size": 115,
+			"file_write_time": 131799625804214616,
+			"settings":
+			{
+				"buffer_size": 114,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 94-924\nslab: MONROE\nmfg: 4PLY\npiw: 440\ntype:1/16\" X 1/16\" 7/16\" THICK\"\nwidth:9\"\nlength: 153'\nprtnm: CBFMT-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/94-924-MONROE.md",
+			"file_size": 128,
+			"file_write_time": 131799625804453984,
+			"settings":
+			{
+				"buffer_size": 125,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 96-0032\nslab: MONROE\nmfg: 1PLY\npiw: 440\ntype:1/4\" X 1/8\"\nwidth:45\"\nlength: 309'\nprtnm: CBFMT-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/96-0032-MONROE.md",
+			"file_size": 113,
+			"file_write_time": 131799625804563658,
+			"settings":
+			{
+				"buffer_size": 112,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 96-0062\nslab: MONROE\nmfg: 2PLY\npiw: 0\ntype:1/2\" THICK 1/4\" TOP\"\nwidth:41\"\nlength: 937'\nprtnm: CBFMT-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/96-0062-MONROE.md",
+			"file_size": 121,
+			"file_write_time": 131799625804673374,
+			"settings":
+			{
+				"buffer_size": 119,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7499\nslab: H-18\nmfg: 3PLY\npiw: 600\ntype:3/8\" X 1/8\"\nwidth:42\"\nlength: 376'\nprtnm: CB-084-420-2584\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/consigned/7499-H-18.md",
+			"file_size": 113,
+			"file_write_time": 131799625748956336,
+			"settings":
+			{
+				"buffer_size": 112,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7846\nslab: K-35\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:24\"\nlength: 1023'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/consigned/7846-K-35.md",
+			"file_size": 112,
+			"file_write_time": 131799625749340258,
+			"settings":
+			{
+				"buffer_size": 111,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7847\nslab: K-36\nmfg: 2PLY\npiw: 220\ntype:1/8\" X 1/16\"\nwidth:48\"\nlength: 1026'\nprtnm: CB-073-480-2584\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/consigned/7847-K-36.md",
+			"file_size": 115,
+			"file_write_time": 131799625749469910,
+			"settings":
+			{
+				"buffer_size": 114,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7923\nslab: K-72\nmfg: 1PLY\npiw: 440\ntype:1/4\" X 1/8\"\nwidth:48\"\nlength: 745'\nprtnm: CB-080Z-480-2584\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/consigned/7923-K-72.md",
+			"file_size": 115,
+			"file_write_time": 131799625749719245,
+			"settings":
+			{
+				"buffer_size": 113,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8226\nslab: L-7\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:36\"\nlength: 628'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/consigned/8226-L-7.md",
+			"file_size": 110,
+			"file_write_time": 131799625749973489,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8297\nslab: L-45\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:72\"\nlength: 1000'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/consigned/8297-L-45.md",
+			"file_size": 112,
+			"file_write_time": 131799625752084496,
+			"settings":
+			{
+				"buffer_size": 111,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8298\nslab: L-46\nmfg: 2PLY\npiw: 220\ntype:1/8\" x 1/16\"\nwidth:30\"\nlength: 207'\nprtnm: CB-074-300-2584\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/consigned/8298-L-46.md",
+			"file_size": 114,
+			"file_write_time": 131799625752204236,
+			"settings":
+			{
+				"buffer_size": 113,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 8299\nslab: L-47\nmfg: 2PLY\npiw: 220\ntype:1/8\" x 1/16\"\nwidth:30\"\nlength: 127'\nprtnm: CB-074-300-2584\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/consigned/8299-L-47.md",
+			"file_size": 114,
+			"file_write_time": 131799625752314156,
+			"settings":
+			{
+				"buffer_size": 113,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: ORANGE\nslab: 16756OG\nmfg: ICL\npiw:1/4\"\ntype:48\" X 50' ORANGEGUM\"\nwidth:48\"\nlength: 50'\nprtnm: ORANGE.25X48X50\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/other/ORANGE-16756OG.md",
+			"file_size": 125,
+			"file_write_time": 131799625753503605,
+			"settings":
+			{
+				"buffer_size": 124,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: ORANGE\nslab: B3688-A\nmfg: ICL\npiw:3/8\"\ntype:48\" X 50' ORANGEGUM\"\nwidth:48\"\nlength: 50'\nprtnm: ORANGE.375X48X50\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/other/ORANGE-B3688-A.md",
+			"file_size": 126,
+			"file_write_time": 131799625753842696,
+			"settings":
+			{
+				"buffer_size": 125,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: ORANGE\nslab: B3688-B\nmfg: ICL\npiw:3/8\"\ntype:48\" X 50' ORANGEGUM\"\nwidth:48\"\nlength: 50'\nprtnm: ORANGE.375X48X50\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/other/ORANGE-B3688-B.md",
+			"file_size": 126,
+			"file_write_time": 131799625753962375,
+			"settings":
+			{
+				"buffer_size": 125,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: ORANGE\nslab: C2019-3\nmfg: ICL\npiw:1/2\"\ntype:48\" X 50' ORANGEGUM\"\nwidth:48\"\nlength: 33'\nprtnm: ORANGE.5X48X50\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/other/ORANGE-C2019-3.md",
+			"file_size": 124,
+			"file_write_time": 131799625754081953,
+			"settings":
+			{
+				"buffer_size": 123,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: ORANGE\nslab: OG14787C\nmfg: ICL\npiw:1/4\"\ntype:48\" X 50' ORANGEGUM\"\nwidth:48\"\nlength: 33'\nprtnm: ORANGE.25X48X50\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/other/ORANGE-OG14787C.md",
+			"file_size": 126,
+			"file_write_time": 131799625754201632,
+			"settings":
+			{
+				"buffer_size": 125,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: ORANGE\nslab: OG14787D\nmfg: ICL\npiw:1\"\ntype:42\" X 50' ORANGEGUM\"\nwidth:42\"\nlength: 50'\nprtnm: ORANGE1X42X50\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/other/ORANGE-OG14787D.md",
+			"file_size": 122,
+			"file_write_time": 131799625754321919,
+			"settings":
+			{
+				"buffer_size": 121,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: ORANGE\nslab: OG2628A\nmfg: ICL\npiw:1/2\"\ntype:48\" X 33' ORANGEGUM\"\nwidth:48\"\nlength: 33'\nprtnm: ORANGE.5X48X33\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/other/ORANGE-OG2628A.md",
+			"file_size": 124,
+			"file_write_time": 131799625754441595,
+			"settings":
+			{
+				"buffer_size": 123,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: ORANGE\nslab: OG2628B\nmfg: ICL\npiw:1/2\"\ntype:48\" X 33' ORANGEGUM\"\nwidth:48\"\nlength: 33'\nprtnm: ORANGE.5X48X33\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/other/ORANGE-OG2628B.md",
+			"file_size": 124,
+			"file_write_time": 131799625754562931,
+			"settings":
+			{
+				"buffer_size": 123,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: ORANGE\nslab: OG2628C\nmfg: ICL\npiw:1/2\"\ntype:48\" X 33' ORANGEGUM\"\nwidth:48\"\nlength: 33'\nprtnm: ORANGE.5X48X33\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/other/ORANGE-OG2628C.md",
+			"file_size": 124,
+			"file_write_time": 131799625754684134,
+			"settings":
+			{
+				"buffer_size": 123,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: ORANGE\nslab: OG2628D\nmfg: ICL\npiw:1/2\"\ntype:48\" X 33' ORANGEGUM\"\nwidth:48\"\nlength: 50'\nprtnm: ORANGE.5X48X33\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/other/ORANGE-OG2628D.md",
+			"file_size": 124,
+			"file_write_time": 131799625754803816,
+			"settings":
+			{
+				"buffer_size": 123,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: TANGUM\nslab: 312645A\nmfg: ICL\npiw:1\"\ntype:48\" X 50' TANGUM\"\nwidth:48\"\nlength: 50'\nprtnm: SR135-100-480-000\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/other/TANGUM-312645A.md",
+			"file_size": 122,
+			"file_write_time": 131799625754923499,
+			"settings":
+			{
+				"buffer_size": 121,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: TANGUM\nslab: 312645B\nmfg: ICL\npiw:1\"\ntype:48\" X 50' TANGUM\"\nwidth:48\"\nlength: 50'\nprtnm: SR135-100-480-000\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/other/TANGUM-312645B.md",
+			"file_size": 122,
+			"file_write_time": 131799625755042902,
+			"settings":
+			{
+				"buffer_size": 121,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: TANGUM\nslab: 8896195-A\nmfg: OAKQ8896195\npiw:1/2\"\ntype:48\" X 50' TANGUM\"\nwidth:48\"\nlength: 50'\nprtnm: SR135-050-480-000\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/other/TANGUM-8896195-A.md",
+			"file_size": 134,
+			"file_write_time": 131799625755162623,
+			"settings":
+			{
+				"buffer_size": 133,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: TANGUM\nslab: 8896195-B\nmfg: OAKQ8896195\npiw:1/2\"\ntype:48\" X 50' TANGUM\"\nwidth:48\"\nlength: 50'\nprtnm: SR135-050-480-000\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/other/TANGUM-8896195-B.md",
+			"file_size": 134,
+			"file_write_time": 131799625755282465,
+			"settings":
+			{
+				"buffer_size": 133,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: TANGUM\nslab: TG14787H\nmfg: ICL\npiw:1/4\"\ntype:48\" X 50' TANGUM\"\nwidth:48\"\nlength: 50'\nprtnm: SR135-025-480-000\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/other/TANGUM-TG14787H.md",
+			"file_size": 125,
+			"file_write_time": 131799625755392241,
+			"settings":
+			{
+				"buffer_size": 124,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 5963\nslab: Z-1\nmfg: 1PLY\npiw: 440\ntype:1/4\" X 1/8\"\nwidth:42\"\nlength: 5'\nprtnm: CBFMT-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/5963-Z-1.md",
+			"file_size": 105,
+			"file_write_time": 131799625755880941,
+			"settings":
+			{
+				"buffer_size": 104,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 6440\nslab: B-42\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:30\"\nlength: 8'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6440-B-42.md",
+			"file_size": 109,
+			"file_write_time": 131799625757802452,
+			"settings":
+			{
+				"buffer_size": 108,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 6455\nslab: B-42\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:13\"\nlength: 14'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6455-B-42.md",
+			"file_size": 110,
+			"file_write_time": 131799625757922131,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 6576\nslab: C-53\nmfg: 4PLY\npiw: 440\ntype:1/4\" X 1\"\nwidth:36\"\nlength: 74'\nprtnm: CB-080-360-2584\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6576-C-53.md",
+			"file_size": 110,
+			"file_write_time": 131799625758520532,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 6606\nslab: D-5\nmfg: 4PLY\npiw: 440\ntype:1/4\" X 3/32\"\nwidth:72\"\nlength: 3'\nprtnm: CBFMT-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6606-D-5.md",
+			"file_size": 106,
+			"file_write_time": 131799625758761126,
+			"settings":
+			{
+				"buffer_size": 105,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 6610\nslab: E-7\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:34\"\nlength: 7'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6610-E-7.md",
+			"file_size": 108,
+			"file_write_time": 131799625758890781,
+			"settings":
+			{
+				"buffer_size": 107,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 6696\nslab: D-43\nmfg: 1PLY\npiw: 440\ntype:1/4\" X 1/8\"\nwidth:72\"\nlength: 4'\nprtnm: CBFMT-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6696-D-43.md",
+			"file_size": 107,
+			"file_write_time": 131799625759768431,
+			"settings":
+			{
+				"buffer_size": 105,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 6767\nslab: E-2\nmfg: 1PLY\npiw: 440\ntype:1/4\" X 1/8\"\nwidth:72\"\nlength: 4'\nprtnm: CBFMT-BELT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6767-E-2.md",
+			"file_size": 105,
+			"file_write_time": 131799625760446613,
+			"settings":
+			{
+				"buffer_size": 104,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 6781\nslab: E-5\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:12\"\nlength: 11'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6781-E-5.md",
+			"file_size": 109,
+			"file_write_time": 131799625760656051,
+			"settings":
+			{
+				"buffer_size": 108,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 6789\nslab: E-5\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:30\"\nlength: 8'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6789-E-5.md",
+			"file_size": 108,
+			"file_write_time": 131799625760765758,
+			"settings":
+			{
+				"buffer_size": 107,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 6814\nslab: E-7\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:36\"\nlength: 21'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6814-E-7.md",
+			"file_size": 109,
+			"file_write_time": 131799625761114830,
+			"settings":
+			{
+				"buffer_size": 108,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 6816\nslab: E-6\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:30\"\nlength: 19'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6816-E-6.md",
+			"file_size": 109,
+			"file_write_time": 131799625761414031,
+			"settings":
+			{
+				"buffer_size": 108,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 6851\nslab: E-7\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:48\"\nlength: 11'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6851-E-7.md",
+			"file_size": 109,
+			"file_write_time": 131799625761523732,
+			"settings":
+			{
+				"buffer_size": 108,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 6893\nslab: E-5\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:6\"\nlength: 75'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6893-E-5.md",
+			"file_size": 108,
+			"file_write_time": 131799625762201913,
+			"settings":
+			{
+				"buffer_size": 107,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 6999\nslab: DNI\nmfg: DNI\npiw: 150\ntype:1/32\" X BARE\"\nwidth:30\"\nlength: 80'\nprtnm: CB-070CXB-FMT-2324\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6999-DNI.md",
+			"file_size": 115,
+			"file_write_time": 131799625763119733,
+			"settings":
+			{
+				"buffer_size": 114,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7000\nslab: DNI\nmfg: DNI\npiw: 150\ntype:1/32\" X BARE\"\nwidth:30\"\nlength: 112'\nprtnm: CB-070CXB-FMT-2324\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7000-DNI.md",
+			"file_size": 116,
+			"file_write_time": 131799625763239415,
+			"settings":
+			{
+				"buffer_size": 115,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7070\nslab: E-6\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:18\"\nlength: 41'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7070-E-6.md",
+			"file_size": 109,
+			"file_write_time": 131799625763821375,
+			"settings":
+			{
+				"buffer_size": 108,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7115\nslab: F-25\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:36\"\nlength: 11'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7115-F-25.md",
+			"file_size": 110,
+			"file_write_time": 131799625764180497,
+			"settings":
+			{
+				"buffer_size": 109,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "---\nroll: 7141\nslab: F-25\nmfg: 2PLY\npiw: 220\ntype:1/8\" X BARE\"\nwidth:36\"\nlength: 9'\nprtnm: CB-053I-SQFT\n---\n",
+			"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7141-F-25.md",
+			"file_size": 109,
+			"file_write_time": 131799625764660553,
+			"settings":
+			{
+				"buffer_size": 108,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"beaut",
+				"Javascript Beautify"
+			],
+			[
+				"date",
+				"Format Date"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"toggle",
+				"View: Toggle Menu"
+			],
+			[
+				"da ui",
+				"DA UI: Select Skin"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart"
+	],
+	"file_history":
+	[
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7709-H-63.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6250-A-13.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8270-L-14.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8158-J-49.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8055-F-56.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7838-H-58.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7472-H-1.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6777-D-30.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/consigned/8303-L-51.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/94-6722B-MONROE.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8247-L-22.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8204-L-3.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8124-K-37.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8079-H-35.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8021-J-28.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7891-Special.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7756-MONROE.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7594-H-31.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7300-F-30.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6977-MONROE.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6593-C-60.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/other/ORANGE-OG2628D.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/consigned/8273-L-29.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8292-L-23.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8257-18-022.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8238-L-13.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8213-K-52.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8181-J-64.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8141-J-52.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8111-E-31.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8095-J-45.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8066-E-6.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8040-J-35.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7995-MONROE.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7940-K-62.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7869-MONROE.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7815-K-20.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7739-H-14.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7653-H-43.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7527-H-29.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7354-G-42.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7249-MONROE.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7070-E-6.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6851-E-7.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6692-D-30.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6438-C-2.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/5873-X-41.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/other/ORANGE-B3688-A.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/consigned/8286-L-41.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/consigned/7923-K-72.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8309-L-57.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8288-H-23.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8262-MONROE.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8253-MONROE.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8243-J-4.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8234-L-15.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8218-J-25.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8209-K-5.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8198-J-59.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8165-J-60.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8148-J-56.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8136-F-86.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8115-E-7.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8107-MONROE.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8099-H-3.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8084-MONROE.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8073-MONROE.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8061-K-43.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8049-K-45.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8033-H-56.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8009-MONROE.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7977-J-14.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7959-K-39.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7926-H-64.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7882-K-49.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7850-G-50.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7828-MONROE.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7778-F-89.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7750-K-5.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7732-H-35.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7687-F-66.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7611-MONROE.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7566-MONROE.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7498-H-17.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7398-G-62.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7317-G-24.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7267-F-72.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7188-F-75.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7117-F-44.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7014-F-2.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6893-E-5.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6803-D-70.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6756-C-60.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6627-C-39.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6519-G-50.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6347-N-13.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6076-Z-9.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/other/TANGUM-8896195-B.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/other/ORANGE-OG14787D.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/consigned/8307-L-55.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/consigned/8298-L-46.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/consigned/8280-L-35.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/consigned/8232-L-13.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/consigned/7674-H-51.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/96-0032-MONROE.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/94-0005-MONROE.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8294-J-15.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8290-L-11.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8283-L-38.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8264-L-16.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8259-J-2.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8255-18-013.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8250-MONROE.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8245-L-20.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8240-L-18.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8236-L-16.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8228-L-9.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8222-J-18.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8216-L-2.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8211-K-59.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8207-J-59.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8202-K-59.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8188-J-28.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8167-J-52.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8161-K-34.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8150-MONROE.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8146-J-26.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8139-J-50.md"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 128.0,
+		"where_history":
+		[
+			"C:\\Users\\cgantenbein.SIR\\Desktop\\belt_chart"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\"\"",
+			" \"",
+			"\"\"\""
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\"",
+			"",
+			"\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 107,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7163-F-64.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489044.31,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7171-F-25.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.01,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 107,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7233-F-25.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 110,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.01,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 106,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7261-F-80.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 110,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.02,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 105,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7316-G-23.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.02,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 104,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7317-G-24.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.02,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 103,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7467-G-58.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.02,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 102,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7487-MONROE.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 132,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.02,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 101,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7498-H-17.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 112,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.02,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 100,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7501-MONROE.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 108,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.02,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 99,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7512-G-58.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.02,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 98,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7527-H-29.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 110,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.02,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 97,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7572-F-25.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 108,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.02,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 96,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7574-MONROE.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 108,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.02,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 95,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7610-MONROE.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.02,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 94,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7611-MONROE.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.02,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 93,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7625-H-24.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.02,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 92,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7631-H-35.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 110,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.02,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 91,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7703-H-58.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.02,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 90,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7732-H-35.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.02,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 89,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7734-H-34.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.02,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 88,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7735-H-34.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.02,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 87,
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7739-H-14.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 106,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.03,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 86,
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7750-K-5.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 108,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.03,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 85,
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7752-H-28.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 106,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.03,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 84,
+					"type": "text"
+				},
+				{
+					"buffer": 25,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7754-K-7.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 112,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.03,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 83,
+					"type": "text"
+				},
+				{
+					"buffer": 26,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7755-MONROE.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 108,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.03,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 82,
+					"type": "text"
+				},
+				{
+					"buffer": 27,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7756-MONROE.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 108,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.03,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 81,
+					"type": "text"
+				},
+				{
+					"buffer": 28,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7757-MONROE.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 108,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.03,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 80,
+					"type": "text"
+				},
+				{
+					"buffer": 29,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7762-H-34.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.03,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 79,
+					"type": "text"
+				},
+				{
+					"buffer": 30,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7788-MONROE.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 110,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.03,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 78,
+					"type": "text"
+				},
+				{
+					"buffer": 31,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7796-K-14.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.03,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 77,
+					"type": "text"
+				},
+				{
+					"buffer": 32,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7800-K-18.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 113,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.03,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 76,
+					"type": "text"
+				},
+				{
+					"buffer": 33,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7815-K-20.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 110,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.03,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 75,
+					"type": "text"
+				},
+				{
+					"buffer": 34,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7828-MONROE.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.03,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 74,
+					"type": "text"
+				},
+				{
+					"buffer": 35,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7829-MONROE.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 111,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.03,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 73,
+					"type": "text"
+				},
+				{
+					"buffer": 36,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7838-H-58.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.03,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 72,
+					"type": "text"
+				},
+				{
+					"buffer": 37,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7848-K-37.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.03,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 71,
+					"type": "text"
+				},
+				{
+					"buffer": 38,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7870-MONROE.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 110,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.03,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 70,
+					"type": "text"
+				},
+				{
+					"buffer": 39,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7872-H-58.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 110,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.03,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 69,
+					"type": "text"
+				},
+				{
+					"buffer": 40,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7927-K-37.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.03,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 68,
+					"type": "text"
+				},
+				{
+					"buffer": 41,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7959-K-39.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.03,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 67,
+					"type": "text"
+				},
+				{
+					"buffer": 42,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7960-K-37.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.03,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 66,
+					"type": "text"
+				},
+				{
+					"buffer": 43,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7961-K-37.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 110,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.04,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 65,
+					"type": "text"
+				},
+				{
+					"buffer": 44,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7968-J-7.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.04,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 64,
+					"type": "text"
+				},
+				{
+					"buffer": 45,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7969-J-8.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 108,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489044.49,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 63,
+					"type": "text"
+				},
+				{
+					"buffer": 46,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7975-K-37.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.04,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 62,
+					"type": "text"
+				},
+				{
+					"buffer": 47,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7993-K-68.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.04,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 61,
+					"type": "text"
+				},
+				{
+					"buffer": 48,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7994-MONROE.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.04,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 60,
+					"type": "text"
+				},
+				{
+					"buffer": 49,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7995-MONROE.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.04,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 59,
+					"type": "text"
+				},
+				{
+					"buffer": 50,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8012-DNI.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 114,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.04,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 58,
+					"type": "text"
+				},
+				{
+					"buffer": 51,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8026-K-68.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.04,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 57,
+					"type": "text"
+				},
+				{
+					"buffer": 52,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8027-K-68.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 110,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.04,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 56,
+					"type": "text"
+				},
+				{
+					"buffer": 53,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8034-K-37.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.04,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 55,
+					"type": "text"
+				},
+				{
+					"buffer": 54,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8052-H-58.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 110,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.04,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 54,
+					"type": "text"
+				},
+				{
+					"buffer": 55,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8054-MONROE.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 107,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.04,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 53,
+					"type": "text"
+				},
+				{
+					"buffer": 56,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8056-H-58.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.04,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 52,
+					"type": "text"
+				},
+				{
+					"buffer": 57,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8059-MONROE.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.04,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 51,
+					"type": "text"
+				},
+				{
+					"buffer": 58,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8065-J-16.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 112,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.04,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 50,
+					"type": "text"
+				},
+				{
+					"buffer": 59,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8066-E-6.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 108,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.04,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 49,
+					"type": "text"
+				},
+				{
+					"buffer": 60,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8073-MONROE.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 127,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.04,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 48,
+					"type": "text"
+				},
+				{
+					"buffer": 61,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8076-MONROE.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 108,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.04,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 47,
+					"type": "text"
+				},
+				{
+					"buffer": 62,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8078-MONROE.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.04,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 46,
+					"type": "text"
+				},
+				{
+					"buffer": 63,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8079-H-35.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.04,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 45,
+					"type": "text"
+				},
+				{
+					"buffer": 64,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8080-G-56.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.04,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 44,
+					"type": "text"
+				},
+				{
+					"buffer": 65,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8081-MONROE.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 108,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.04,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 43,
+					"type": "text"
+				},
+				{
+					"buffer": 66,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8084-MONROE.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 110,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.04,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 42,
+					"type": "text"
+				},
+				{
+					"buffer": 67,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8087-MONROE.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.05,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 41,
+					"type": "text"
+				},
+				{
+					"buffer": 68,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8095-J-45.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.05,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 40,
+					"type": "text"
+				},
+				{
+					"buffer": 69,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8098-MONROE.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 110,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.05,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 39,
+					"type": "text"
+				},
+				{
+					"buffer": 70,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8100-MONROE.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.05,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 38,
+					"type": "text"
+				},
+				{
+					"buffer": 71,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8101-K-37.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.05,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 37,
+					"type": "text"
+				},
+				{
+					"buffer": 72,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8103-H-35.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489044.67,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 36,
+					"type": "text"
+				},
+				{
+					"buffer": 73,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8110-F-25.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.05,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 35,
+					"type": "text"
+				},
+				{
+					"buffer": 74,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8112-E-7.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 108,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.05,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 34,
+					"type": "text"
+				},
+				{
+					"buffer": 75,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8115-E-7.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 108,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.05,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 33,
+					"type": "text"
+				},
+				{
+					"buffer": 76,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8124-K-37.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.05,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 32,
+					"type": "text"
+				},
+				{
+					"buffer": 77,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8142-J-53.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 113,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.05,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 31,
+					"type": "text"
+				},
+				{
+					"buffer": 78,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8147-J-55.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 118,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.05,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 30,
+					"type": "text"
+				},
+				{
+					"buffer": 79,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8148-J-56.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 118,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.05,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 29,
+					"type": "text"
+				},
+				{
+					"buffer": 80,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8149-J-57.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 118,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.05,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 28,
+					"type": "text"
+				},
+				{
+					"buffer": 81,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8150-MONROE.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.05,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 27,
+					"type": "text"
+				},
+				{
+					"buffer": 82,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8164-J-59.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 105,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.05,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 26,
+					"type": "text"
+				},
+				{
+					"buffer": 83,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8165-J-60.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.05,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 25,
+					"type": "text"
+				},
+				{
+					"buffer": 84,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8166-J-57.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 108,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.05,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 24,
+					"type": "text"
+				},
+				{
+					"buffer": 85,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8194-L-1.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 111,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.05,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 23,
+					"type": "text"
+				},
+				{
+					"buffer": 86,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8198-J-59.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 110,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.05,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 22,
+					"type": "text"
+				},
+				{
+					"buffer": 87,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8206-MONROE.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 110,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.05,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 21,
+					"type": "text"
+				},
+				{
+					"buffer": 88,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8207-J-59.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.05,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
+					"type": "text"
+				},
+				{
+					"buffer": 89,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8209-K-5.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 103,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.05,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 90,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8213-K-52.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 104,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.06,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 91,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8220-J-60.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 110,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.06,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 92,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8225-L-6.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								53,
+								52
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"git_gutter_is_enabled": false,
+							"markdonw_live_preview_last_run": 1535489044.86,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 93,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8227-L-8.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.06,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 94,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8239-J-56.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 119,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.06,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 95,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8249-J-53.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 112,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.06,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 96,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8250-MONROE.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 112,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.06,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 97,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8257-18-022.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 110,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.06,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 98,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8259-J-2.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.06,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 99,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8289-L-6.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.06,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 100,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8307-L-55.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 114,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.06,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 101,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8309-L-57.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 113,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.06,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 102,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8311-L-59.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 114,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.06,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 103,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/94-0005-MONROE.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 111,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.06,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 104,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/94-0009-MONROE.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 114,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.06,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 105,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/94-924-MONROE.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 125,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.06,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 106,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/96-0032-MONROE.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 112,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.06,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 107,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/96-0062-MONROE.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 119,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"git_gutter_is_enabled": false,
+							"markdonw_live_preview_last_run": 1535489045.06,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 108,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/consigned/7499-H-18.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 112,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489044.99,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 149,
+					"type": "text"
+				},
+				{
+					"buffer": 109,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/consigned/7846-K-35.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 111,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.0,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 148,
+					"type": "text"
+				},
+				{
+					"buffer": 110,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/consigned/7847-K-36.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 114,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489044.99,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 147,
+					"type": "text"
+				},
+				{
+					"buffer": 111,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/consigned/7923-K-72.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 113,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.0,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 146,
+					"type": "text"
+				},
+				{
+					"buffer": 112,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/consigned/8226-L-7.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.0,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 145,
+					"type": "text"
+				},
+				{
+					"buffer": 113,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/consigned/8297-L-45.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 111,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.0,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 144,
+					"type": "text"
+				},
+				{
+					"buffer": 114,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/consigned/8298-L-46.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 113,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.0,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 143,
+					"type": "text"
+				},
+				{
+					"buffer": 115,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/consigned/8299-L-47.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 113,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.0,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 142,
+					"type": "text"
+				},
+				{
+					"buffer": 116,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/other/ORANGE-16756OG.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 124,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.0,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 141,
+					"type": "text"
+				},
+				{
+					"buffer": 117,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/other/ORANGE-B3688-A.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 125,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.0,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 140,
+					"type": "text"
+				},
+				{
+					"buffer": 118,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/other/ORANGE-B3688-B.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 125,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.0,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 139,
+					"type": "text"
+				},
+				{
+					"buffer": 119,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/other/ORANGE-C2019-3.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 123,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.0,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 138,
+					"type": "text"
+				},
+				{
+					"buffer": 120,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/other/ORANGE-OG14787C.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 125,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.0,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 137,
+					"type": "text"
+				},
+				{
+					"buffer": 121,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/other/ORANGE-OG14787D.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 121,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.0,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 136,
+					"type": "text"
+				},
+				{
+					"buffer": 122,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/other/ORANGE-OG2628A.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 123,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.0,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 135,
+					"type": "text"
+				},
+				{
+					"buffer": 123,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/other/ORANGE-OG2628B.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 123,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.0,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 134,
+					"type": "text"
+				},
+				{
+					"buffer": 124,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/other/ORANGE-OG2628C.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 123,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.0,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 133,
+					"type": "text"
+				},
+				{
+					"buffer": 125,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/other/ORANGE-OG2628D.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 123,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.0,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 132,
+					"type": "text"
+				},
+				{
+					"buffer": 126,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/other/TANGUM-312645A.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 121,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.0,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 131,
+					"type": "text"
+				},
+				{
+					"buffer": 127,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/other/TANGUM-312645B.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 121,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.0,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 130,
+					"type": "text"
+				},
+				{
+					"buffer": 128,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/other/TANGUM-8896195-A.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 133,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.0,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 129,
+					"type": "text"
+				},
+				{
+					"buffer": 129,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/other/TANGUM-8896195-B.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 133,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.0,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 128,
+					"type": "text"
+				},
+				{
+					"buffer": 130,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/other/TANGUM-TG14787H.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 124,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.0,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 127,
+					"type": "text"
+				},
+				{
+					"buffer": 131,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/5963-Z-1.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 104,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.01,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 126,
+					"type": "text"
+				},
+				{
+					"buffer": 132,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6440-B-42.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 108,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.01,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 125,
+					"type": "text"
+				},
+				{
+					"buffer": 133,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6455-B-42.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.01,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 124,
+					"type": "text"
+				},
+				{
+					"buffer": 134,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6576-C-53.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.01,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 123,
+					"type": "text"
+				},
+				{
+					"buffer": 135,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6606-D-5.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 105,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.01,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 122,
+					"type": "text"
+				},
+				{
+					"buffer": 136,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6610-E-7.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 107,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.01,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 121,
+					"type": "text"
+				},
+				{
+					"buffer": 137,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6696-D-43.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 105,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.01,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 120,
+					"type": "text"
+				},
+				{
+					"buffer": 138,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6767-E-2.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 104,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.01,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 119,
+					"type": "text"
+				},
+				{
+					"buffer": 139,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6781-E-5.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 108,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.01,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 118,
+					"type": "text"
+				},
+				{
+					"buffer": 140,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6789-E-5.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 107,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.01,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 117,
+					"type": "text"
+				},
+				{
+					"buffer": 141,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6814-E-7.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 108,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.01,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 116,
+					"type": "text"
+				},
+				{
+					"buffer": 142,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6816-E-6.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 108,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.01,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 115,
+					"type": "text"
+				},
+				{
+					"buffer": 143,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6851-E-7.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 108,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.01,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 114,
+					"type": "text"
+				},
+				{
+					"buffer": 144,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6893-E-5.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 107,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.01,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 113,
+					"type": "text"
+				},
+				{
+					"buffer": 145,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6999-DNI.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 114,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.01,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 112,
+					"type": "text"
+				},
+				{
+					"buffer": 146,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7000-DNI.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 115,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.01,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 111,
+					"type": "text"
+				},
+				{
+					"buffer": 147,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7070-E-6.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 108,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.01,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 110,
+					"type": "text"
+				},
+				{
+					"buffer": 148,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7115-F-25.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 109,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.01,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 109,
+					"type": "text"
+				},
+				{
+					"buffer": 149,
+					"file": "/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7141-F-25.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 108,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535489045.01,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 108,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 54.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "belt_chart.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 258.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

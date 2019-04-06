@@ -1,0 +1,931 @@
+{
+	"folder_history":
+	[
+		"/home/cory/src/rusty-sublime",
+		"/home/rustyschakelford/.config/sublime-text-3/Packages",
+		"/home/rustyschakelford/.config/sublime-text-3/Installed Packages"
+	],
+	"last_version": 3176,
+	"last_window_id": 21,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 517.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"theA",
+						"theAppIsDark"
+					],
+					[
+						"default",
+						"defaultInputs"
+					],
+					[
+						"CrimpSp",
+						"CrimpSpecData"
+					],
+					[
+						"cbLen",
+						"cbLengthData"
+					],
+					[
+						"sha",
+						"shankMeas"
+					],
+					[
+						"the",
+						"theAppIsMetric"
+					],
+					[
+						"app",
+						"theAppIsMetric"
+					],
+					[
+						"do",
+						"doCalculation"
+					],
+					[
+						"curren",
+						"currentInput"
+					],
+					[
+						"sirp",
+						"SirpStepsNavButtons"
+					],
+					[
+						"Snow",
+						"SnowplowBladeWeight"
+					],
+					[
+						"lengthIn",
+						"lengthInches"
+					],
+					[
+						"si",
+						"sizeVal"
+					],
+					[
+						"length",
+						"lengthFeet"
+					],
+					[
+						"resu",
+						"resultDec"
+					],
+					[
+						"this",
+						"thisStep"
+					],
+					[
+						"backgroun",
+						"background-color"
+					],
+					[
+						"inli",
+						"inline-block"
+					],
+					[
+						"font-s",
+						"font-size"
+					],
+					[
+						"backgrou",
+						"background-color"
+					],
+					[
+						"THE",
+						"THE_IMAGE"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"sync",
+						"Sync Settings: Upload"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"in",
+						"Package Control: Install Package"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"repos",
+						"Package Control: Add Repository"
+					],
+					[
+						"packa",
+						"Package Control: Advanced Install Package"
+					],
+					[
+						"add ",
+						"Package Control: Add Repository"
+					],
+					[
+						"Package Control: re",
+						"Package Control: Remove Package"
+					],
+					[
+						"inden",
+						"Indentation: Reindent Lines"
+					],
+					[
+						"rein",
+						"Indentation: Reindent Lines"
+					],
+					[
+						"indent",
+						"Indentation: Reindent Lines"
+					],
+					[
+						"lo",
+						"Snippet: Lorem ipsum"
+					],
+					[
+						"lorem",
+						"Snippet: Lorem ipsum"
+					],
+					[
+						"proje",
+						"Project Manager: Add New Project"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 456.0,
+				"history":
+				[
+					"import urllib,urllib.request,os,zipfile; pf='Package Decontrol.sublime-package'; pp=sublime.packages_path(); fp=os.path.join(pp,pf); urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); open(fp,'wb').write(urllib.request.urlopen('http://bit.ly/s3-package-decontrol').read()); zipfile.ZipFile(fp).extractall(os.path.join(pp, 'Package Decontrol'))",
+					"import urllib2,os,zipfile; pf='Package Decontrol.sublime-package'; pp=sublime.packages_path(); fp=os.path.join(pp,pf); urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(fp,'wb').write(urllib2.urlopen('http://bit.ly/package-decontrol').read()); zipfile.ZipFile(fp).extractall(os.path.join(pp, 'Package Decontrol'))",
+					"import urllib,urllib.request,os,zipfile; pf='Package Decontrol.sublime-package'; pp=sublime.packages_path(); fp=os.path.join(pp,pf); urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); open(fp,'wb').write(urllib.request.urlopen('http://bit.ly/s3-package-decontrol').read()); zipfile.ZipFile(fp).extractall(os.path.join(pp, 'Package Decontrol'))"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/cory/src/rusty-sublime/subl/Local/License.sublime_license",
+				"/home/rustyschakelford/.config/sublime.sublime-project",
+				"/home/rustyschakelford/.config/.sublime.sublime-project",
+				"/home/rustyschakelford/.config/sublime-text-3/Packages/User/ApplySyntax.ext-list",
+				"/home/cory/www/smith/calc/src/ui/styles/components/_v-nav-drawer.sass",
+				"/home/cory/www/smith/calc/src/ui/styles/components/_v-input.sass",
+				"/home/cory/www/smith/calc/src/ui/styles/components/_v-global.sass",
+				"/home/cory/www/smith/calc/src/mixins/globalCalc/data.js",
+				"/home/cory/www/smith/calc/src/ui/styles/components/_v-btn.sass",
+				"/home/cory/www/smith/calc/src/ui/styles/_shame.sass",
+				"/home/cory/www/smith/calc/src/views/layouts/_stepper-step-main.pug",
+				"/home/cory/www/smith/calc/src/data/cbLength.json",
+				"/home/cory/www/smith/calc/src/data/colorProps.json",
+				"/home/cory/www/smith/calc/src/main.js",
+				"/home/cory/www/smith/calc/src/ui/themes/light.js",
+				"/home/cory/www/smith/calc/node_modules/vuetify/es5/util/colorUtils.js",
+				"/home/cory/www/smith/calc/node_modules/vuetify/es5/mixins/colorable.js",
+				"/home/cory/www/smith/calc/node_modules/vuetify/es5/util/colors.js",
+				"/home/cory/www/smith/calc/src/ui/themes/index.js",
+				"/home/cory/www/smith/calc/src/mixins/globalCalc/watch.js",
+				"/home/cory/www/smith/calc/src/data/localStorageValues.js",
+				"/home/cory/www/smith/calc/node_modules/vuetify/es5/util/color/transformSRGB.js",
+				"/home/cory/www/smith/calc/src/mixins/globalCalc/methods.js",
+				"/home/cory/www/smith/calc/src/views/app/dialog/settings/_appear-groupNav.pug",
+				"/home/cory/www/smith/calc/src/views/app/dialog/_settingsDialog.pug",
+				"/home/cory/www/smith/calc/src/views/app/dialog/settings/_appear-darkMode.pug",
+				"/home/cory/www/smith/calc/src/views/app/dialog/settings/_pref-changeUnits.pug",
+				"/home/cory/www/smith/calc/src/views/app/_01-drawerOverflowMenu.pug",
+				"/home/cory/www/smith/calc/src/views/app/dialog/settings/_pref-commaSep.pug",
+				"/home/cory/www/smith/calc/src/components/RollLength/script.js",
+				"/home/cory/www/smith/calc/src/components/App/styles.sass",
+				"/home/cory/www/smith/calc/src/components/App/script/methods.js",
+				"/home/cory/www/smith/calc/src/components/Home/script.js",
+				"/home/cory/www/smith/calc/src/components/App/script/index.js",
+				"/home/cory/www/smith/calc/src/mixins/globalCalc/index.js",
+				"/home/cory/www/smith/calc/src/components/App/script/created.js",
+				"/home/cory/www/smith/calc/src/components/App/script/data.js",
+				"/home/cory/www/smith/calc/src/App.vue",
+				"/home/cory/www/smith/calc/src/components/App/script.js",
+				"/home/cory/www/smith/calc/src/components/App/script/computed.js",
+				"/home/cory/www/smith/calc/src/data/MainNavItems.js",
+				"/home/cory/www/smith/calc/src/components/App/script/watch.js",
+				"/home/cory/www/smith/calc/src/mixins/globalCalc/created.js",
+				"/home/cory/www/smith/calc/src/mixins/globalCalc/mounted.js",
+				"/home/cory/www/smith/calc/src/views/app/_02-drawerItems.pug",
+				"/home/cory/www/smith/calc/src/data/words.js",
+				"/home/cory/www/smith/calc/src/components/SnowplowBladeWeight/template/shipment/shipmentBottomSheet/_savedShipments.pug",
+				"/home/cory/www/smith/calc/src/components/SnowplowBladeWeight/script.js",
+				"/home/cory/www/smith/calc/src/components/SnowplowBladeWeight/template/shipment/shipmentBottomSheet/_currentShipment.pug",
+				"/home/cory/www/smith/calc/src/components/SnowplowBladeWeight/template/steps/_step4.pug",
+				"/home/cory/www/smith/calc/src/data/units.js",
+				"/home/cory/www/smith/calc/src/components/ConveyorLength/template/steps/_step3.pug",
+				"/home/cory/www/smith/calc/src/components/ConveyorBeltWeight/template/steps/_step4.pug",
+				"/home/cory/www/smith/calc/src/components/SquareFootage/script.js",
+				"/home/cory/www/smith/calc/src/components/RollLength/template/steps/_step4.pug",
+				"/home/cory/www/smith/calc/src/components/SquareFootage/template/steps/_step3.pug",
+				"/home/cory/www/smith/calc/src/components/SquareFootage/template/steps/_step2.pug",
+				"/home/cory/www/smith/calc/src/components/SquareFootage/template/steps/_step1.pug",
+				"/home/cory/www/smith/calc/src/mixins/snowplowCalc/shipment.js",
+				"/home/cory/www/smith/calc/src/components/SnowplowBladeWeight/template/steps/_step3.pug",
+				"/home/cory/www/smith/calc/src/components/SnowplowBladeWeight/template/steps/_step2.pug",
+				"/home/cory/www/smith/calc/src/components/SnowplowBladeWeight/template/steps/_step1.pug",
+				"/home/cory/www/smith/calc/src/components/CrimpSpec/script.js",
+				"/home/cory/www/smith/calc/src/components/CrimpSpec/template/steps/_step2.pug",
+				"/home/cory/www/smith/calc/src/components/CrimpSpec/template/steps/_step5.pug",
+				"/home/cory/www/smith/calc/src/components/ConveyorLength/script.js",
+				"/home/cory/www/smith/calc/src/components/CrimpSpec/template/steps/_step4.pug",
+				"/home/cory/www/smith/calc/src/components/CrimpSpec/template/steps/_step3.pug",
+				"/home/cory/www/smith/calc/src/components/CrimpSpec/template/steps/_step1.pug",
+				"/home/cory/www/smith/calc/src/components/RollLength/template/steps/_step2.pug",
+				"/home/cory/www/smith/calc/src/components/ConveyorLength/template/steps/_step2.pug",
+				"/home/cory/www/smith/calc/src/components/ConveyorLength/template/steps/_step1.pug",
+				"/home/cory/www/smith/calc/src/components/ConveyorBeltWeight/script.js",
+				"/home/cory/www/smith/calc/src/components/ConveyorBeltWeight/template/steps/_step3.pug",
+				"/home/cory/www/smith/calc/src/components/ConveyorBeltWeight/template/steps/_step2.pug",
+				"/home/cory/www/smith/calc/src/components/ConveyorBeltWeight/template/steps/_step1.pug",
+				"/home/cory/www/smith/calc/src/components/RollLength/template/steps/_step3.pug",
+				"/home/cory/www/smith/calc/src/components/RollLength/template/_result.pug",
+				"/home/cory/www/smith/calc/src/components/RollLength/template/steps/_step1.pug",
+				"/home/cory/www/smith/calc/src/mixins/globalCalc/computed.js",
+				"/home/cory/www/smith/calc/src/ui/styles/abstracts/_variables.sass",
+				"/home/cory/www/smith/calc/src/ui/styles/components/_v-list.sass",
+				"/home/cory/www/smith/calc/src/components/ConveyorBeltWeight/template/dialog/_addCustomBeltDialog.pug",
+				"/home/cory/www/smith/calc/src/components/ConveyorBeltWeight/template/index.pug",
+				"/home/cory/www/smith/calc/src/ui/themes/dark.js",
+				"/home/cory/www/smith/calc/src/components/Home/template/index.pug",
+				"/home/cory/www/smith/calc/src/ui/themes.js",
+				"/home/cory/www/smith/calc/src/components/RollLength/template/index.pug",
+				"/home/cory/www/smith/calc/src/ui/theme.js",
+				"/home/cory/www/smith/calc/src/views/app/_navDrawer.pug",
+				"/home/cory/www/smith/calc/src/ui/componentColors.js",
+				"/home/cory/www/smith/calc/src/views/app/_00-drawerToolbar.pug",
+				"/home/cory/www/smith/calc/src/components/SquareFootage/template/steps/_step0.pug",
+				"/home/cory/www/smith/calc/src/components/SnowplowBladeWeight/template/steps/_step0.pug",
+				"/home/cory/www/smith/calc/src/components/RollLength/template/steps/_step0.pug",
+				"/home/cory/www/smith/calc/src/components/CrimpSpec/template/steps/_step0.pug",
+				"/home/cory/www/smith/calc/src/components/ConveyorLength/template/steps/_step0.pug",
+				"/home/cory/www/smith/calc/src/components/ConveyorBeltWeight/template/steps/_step0.pug",
+				"/home/cory/www/smith/calc/src/views/layouts/_calc-main.pug",
+				"/home/cory/www/smith/calc/src/components/Auth/template/_card.pug",
+				"/home/cory/www/smith/calc/src/views/layouts/_calc-main-stepper.pug",
+				"/home/cory/www/smith/calc/src/components/Auth/template/_02-actions.pug",
+				"/home/cory/www/smith/calc/src/components/Auth/template/_01-form.pug",
+				"/home/cory/www/smith/calc/src/components/Auth/template/index.pug",
+				"/home/cory/www/smith/calc/src/ui/styles/components/sirp/_sirp-divider.sass",
+				"/home/cory/www/smith/calc/src/data/firebase.json",
+				"/home/cory/www/smith/calc/src/views/mixins/_index.pug",
+				"/home/cory/www/smith/calc/src/store/shared.js",
+				"/home/cory/www/smith/calc/src/data/NavDrawerItems.js",
+				"/home/cory/www/smith/calc/src/data/cbScratch.json",
+				"/home/cory/www/smith/calc/src/store/user.js",
+				"/home/cory/www/smith/calc/src/store/index.js",
+				"/home/cory/www/smith/calc/src/router/index.js",
+				"/home/cory/www/smith/calc/src/views/app/dialog/settings/_pref-decimalRounding.pug",
+				"/home/cory/www/smith/calc/src/views/app/dialog/settings/_pref-resetAll.pug",
+				"/home/cory/.config/sublime-text-3/Packages/Sync Settings/SyncSettings.sublime-settings",
+				"/home/cory/.config/sublime-text-3/Packages/User/SyncSettings.sublime-settings",
+				"/home/cory/www/smith/calc/index.html",
+				"/home/cory/www/smith/calc/src/components/App/template/index.pug",
+				"/home/cory/www/smith/calc/src/views/app/_toolbar.pug",
+				"/home/cory/www/smith/calc/src/views/layouts/_stepper-content.pug",
+				"/home/cory/www/smith/calc/src/views/app/_02-navDrawerItems.pug",
+				"/home/cory/www/smith/calc/src/ui/icons.json",
+				"/home/cory/www/smith/calc/src/ui/icons.js",
+				"/home/cory/www/smith/calc/src/data/NavDrawerItems.json",
+				"/home/cory/www/smith/calc/src/data/MainNavItems.json",
+				"/home/cory/www/smith/calc/src/components/PrecleanerPosition/template/steps/_step1.pug",
+				"/home/cory/www/smith/calc/src/components/PrecleanerPosition/template/steps/_step0.pug"
+			],
+			"find":
+			{
+				"height": 48.75
+			},
+			"find_in_files":
+			{
+				"height": 133.75,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 48.75
+			},
+			"input":
+			{
+				"height": 86.25
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 112.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 91.25
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"index util",
+						"src/util/index.js"
+					],
+					[
+						"main",
+						"src/main.js"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 363.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1335.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"theA",
+						"theAppIsDark"
+					],
+					[
+						"default",
+						"defaultInputs"
+					],
+					[
+						"CrimpSp",
+						"CrimpSpecData"
+					],
+					[
+						"cbLen",
+						"cbLengthData"
+					],
+					[
+						"sha",
+						"shankMeas"
+					],
+					[
+						"the",
+						"theAppIsMetric"
+					],
+					[
+						"app",
+						"theAppIsMetric"
+					],
+					[
+						"do",
+						"doCalculation"
+					],
+					[
+						"curren",
+						"currentInput"
+					],
+					[
+						"sirp",
+						"SirpStepsNavButtons"
+					],
+					[
+						"Snow",
+						"SnowplowBladeWeight"
+					],
+					[
+						"lengthIn",
+						"lengthInches"
+					],
+					[
+						"si",
+						"sizeVal"
+					],
+					[
+						"length",
+						"lengthFeet"
+					],
+					[
+						"resu",
+						"resultDec"
+					],
+					[
+						"this",
+						"thisStep"
+					],
+					[
+						"backgroun",
+						"background-color"
+					],
+					[
+						"inli",
+						"inline-block"
+					],
+					[
+						"font-s",
+						"font-size"
+					],
+					[
+						"backgrou",
+						"background-color"
+					],
+					[
+						"THE",
+						"THE_IMAGE"
+					]
+				]
+			},
+			"buffers":
+			[
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"sync",
+						"Sync Settings: Upload"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"in",
+						"Package Control: Install Package"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"repos",
+						"Package Control: Add Repository"
+					],
+					[
+						"packa",
+						"Package Control: Advanced Install Package"
+					],
+					[
+						"add ",
+						"Package Control: Add Repository"
+					],
+					[
+						"Package Control: re",
+						"Package Control: Remove Package"
+					],
+					[
+						"inden",
+						"Indentation: Reindent Lines"
+					],
+					[
+						"rein",
+						"Indentation: Reindent Lines"
+					],
+					[
+						"indent",
+						"Indentation: Reindent Lines"
+					],
+					[
+						"lo",
+						"Snippet: Lorem ipsum"
+					],
+					[
+						"lorem",
+						"Snippet: Lorem ipsum"
+					],
+					[
+						"proje",
+						"Project Manager: Add New Project"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 456.0,
+				"history":
+				[
+					"import urllib,urllib.request,os,zipfile; pf='Package Decontrol.sublime-package'; pp=sublime.packages_path(); fp=os.path.join(pp,pf); urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); open(fp,'wb').write(urllib.request.urlopen('http://bit.ly/s3-package-decontrol').read()); zipfile.ZipFile(fp).extractall(os.path.join(pp, 'Package Decontrol'))",
+					"import urllib2,os,zipfile; pf='Package Decontrol.sublime-package'; pp=sublime.packages_path(); fp=os.path.join(pp,pf); urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(fp,'wb').write(urllib2.urlopen('http://bit.ly/package-decontrol').read()); zipfile.ZipFile(fp).extractall(os.path.join(pp, 'Package Decontrol'))",
+					"import urllib,urllib.request,os,zipfile; pf='Package Decontrol.sublime-package'; pp=sublime.packages_path(); fp=os.path.join(pp,pf); urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); open(fp,'wb').write(urllib.request.urlopen('http://bit.ly/s3-package-decontrol').read()); zipfile.ZipFile(fp).extractall(os.path.join(pp, 'Package Decontrol'))"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/cory/src/rusty-sublime/subl/Packages/Default/Preferences.sublime-settings",
+				"/home/cory/src/rusty-sublime/subl/Packages/User/Preferences.sublime-settings",
+				"/home/cory/src/rusty-sublime/subl/Local/License.sublime_license",
+				"/home/rustyschakelford/.config/sublime.sublime-project",
+				"/home/rustyschakelford/.config/.sublime.sublime-project",
+				"/home/rustyschakelford/.config/sublime-text-3/Packages/User/ApplySyntax.ext-list",
+				"/home/cory/www/smith/calc/src/ui/styles/components/_v-nav-drawer.sass",
+				"/home/cory/www/smith/calc/src/ui/styles/components/_v-input.sass",
+				"/home/cory/www/smith/calc/src/ui/styles/components/_v-global.sass",
+				"/home/cory/www/smith/calc/src/mixins/globalCalc/data.js",
+				"/home/cory/www/smith/calc/src/ui/styles/components/_v-btn.sass",
+				"/home/cory/www/smith/calc/src/ui/styles/_shame.sass",
+				"/home/cory/www/smith/calc/src/views/layouts/_stepper-step-main.pug",
+				"/home/cory/www/smith/calc/src/data/cbLength.json",
+				"/home/cory/www/smith/calc/src/data/colorProps.json",
+				"/home/cory/www/smith/calc/src/main.js",
+				"/home/cory/www/smith/calc/src/ui/themes/light.js",
+				"/home/cory/www/smith/calc/node_modules/vuetify/es5/util/colorUtils.js",
+				"/home/cory/www/smith/calc/node_modules/vuetify/es5/mixins/colorable.js",
+				"/home/cory/www/smith/calc/node_modules/vuetify/es5/util/colors.js",
+				"/home/cory/www/smith/calc/src/ui/themes/index.js",
+				"/home/cory/www/smith/calc/src/mixins/globalCalc/watch.js",
+				"/home/cory/www/smith/calc/src/data/localStorageValues.js",
+				"/home/cory/www/smith/calc/node_modules/vuetify/es5/util/color/transformSRGB.js",
+				"/home/cory/www/smith/calc/src/mixins/globalCalc/methods.js",
+				"/home/cory/www/smith/calc/src/views/app/dialog/settings/_appear-groupNav.pug",
+				"/home/cory/www/smith/calc/src/views/app/dialog/_settingsDialog.pug",
+				"/home/cory/www/smith/calc/src/views/app/dialog/settings/_appear-darkMode.pug",
+				"/home/cory/www/smith/calc/src/views/app/dialog/settings/_pref-changeUnits.pug",
+				"/home/cory/www/smith/calc/src/views/app/_01-drawerOverflowMenu.pug",
+				"/home/cory/www/smith/calc/src/views/app/dialog/settings/_pref-commaSep.pug",
+				"/home/cory/www/smith/calc/src/components/RollLength/script.js",
+				"/home/cory/www/smith/calc/src/components/App/styles.sass",
+				"/home/cory/www/smith/calc/src/components/App/script/methods.js",
+				"/home/cory/www/smith/calc/src/components/Home/script.js",
+				"/home/cory/www/smith/calc/src/components/App/script/index.js",
+				"/home/cory/www/smith/calc/src/mixins/globalCalc/index.js",
+				"/home/cory/www/smith/calc/src/components/App/script/created.js",
+				"/home/cory/www/smith/calc/src/components/App/script/data.js",
+				"/home/cory/www/smith/calc/src/App.vue",
+				"/home/cory/www/smith/calc/src/components/App/script.js",
+				"/home/cory/www/smith/calc/src/components/App/script/computed.js",
+				"/home/cory/www/smith/calc/src/data/MainNavItems.js",
+				"/home/cory/www/smith/calc/src/components/App/script/watch.js",
+				"/home/cory/www/smith/calc/src/mixins/globalCalc/created.js",
+				"/home/cory/www/smith/calc/src/mixins/globalCalc/mounted.js",
+				"/home/cory/www/smith/calc/src/views/app/_02-drawerItems.pug",
+				"/home/cory/www/smith/calc/src/data/words.js",
+				"/home/cory/www/smith/calc/src/components/SnowplowBladeWeight/template/shipment/shipmentBottomSheet/_savedShipments.pug",
+				"/home/cory/www/smith/calc/src/components/SnowplowBladeWeight/script.js",
+				"/home/cory/www/smith/calc/src/components/SnowplowBladeWeight/template/shipment/shipmentBottomSheet/_currentShipment.pug",
+				"/home/cory/www/smith/calc/src/components/SnowplowBladeWeight/template/steps/_step4.pug",
+				"/home/cory/www/smith/calc/src/data/units.js",
+				"/home/cory/www/smith/calc/src/components/ConveyorLength/template/steps/_step3.pug",
+				"/home/cory/www/smith/calc/src/components/ConveyorBeltWeight/template/steps/_step4.pug",
+				"/home/cory/www/smith/calc/src/components/SquareFootage/script.js",
+				"/home/cory/www/smith/calc/src/components/RollLength/template/steps/_step4.pug",
+				"/home/cory/www/smith/calc/src/components/SquareFootage/template/steps/_step3.pug",
+				"/home/cory/www/smith/calc/src/components/SquareFootage/template/steps/_step2.pug",
+				"/home/cory/www/smith/calc/src/components/SquareFootage/template/steps/_step1.pug",
+				"/home/cory/www/smith/calc/src/mixins/snowplowCalc/shipment.js",
+				"/home/cory/www/smith/calc/src/components/SnowplowBladeWeight/template/steps/_step3.pug",
+				"/home/cory/www/smith/calc/src/components/SnowplowBladeWeight/template/steps/_step2.pug",
+				"/home/cory/www/smith/calc/src/components/SnowplowBladeWeight/template/steps/_step1.pug",
+				"/home/cory/www/smith/calc/src/components/CrimpSpec/script.js",
+				"/home/cory/www/smith/calc/src/components/CrimpSpec/template/steps/_step2.pug",
+				"/home/cory/www/smith/calc/src/components/CrimpSpec/template/steps/_step5.pug",
+				"/home/cory/www/smith/calc/src/components/ConveyorLength/script.js",
+				"/home/cory/www/smith/calc/src/components/CrimpSpec/template/steps/_step4.pug",
+				"/home/cory/www/smith/calc/src/components/CrimpSpec/template/steps/_step3.pug",
+				"/home/cory/www/smith/calc/src/components/CrimpSpec/template/steps/_step1.pug",
+				"/home/cory/www/smith/calc/src/components/RollLength/template/steps/_step2.pug",
+				"/home/cory/www/smith/calc/src/components/ConveyorLength/template/steps/_step2.pug",
+				"/home/cory/www/smith/calc/src/components/ConveyorLength/template/steps/_step1.pug",
+				"/home/cory/www/smith/calc/src/components/ConveyorBeltWeight/script.js",
+				"/home/cory/www/smith/calc/src/components/ConveyorBeltWeight/template/steps/_step3.pug",
+				"/home/cory/www/smith/calc/src/components/ConveyorBeltWeight/template/steps/_step2.pug",
+				"/home/cory/www/smith/calc/src/components/ConveyorBeltWeight/template/steps/_step1.pug",
+				"/home/cory/www/smith/calc/src/components/RollLength/template/steps/_step3.pug",
+				"/home/cory/www/smith/calc/src/components/RollLength/template/_result.pug",
+				"/home/cory/www/smith/calc/src/components/RollLength/template/steps/_step1.pug",
+				"/home/cory/www/smith/calc/src/mixins/globalCalc/computed.js",
+				"/home/cory/www/smith/calc/src/ui/styles/abstracts/_variables.sass",
+				"/home/cory/www/smith/calc/src/ui/styles/components/_v-list.sass",
+				"/home/cory/www/smith/calc/src/components/ConveyorBeltWeight/template/dialog/_addCustomBeltDialog.pug",
+				"/home/cory/www/smith/calc/src/components/ConveyorBeltWeight/template/index.pug",
+				"/home/cory/www/smith/calc/src/ui/themes/dark.js",
+				"/home/cory/www/smith/calc/src/components/Home/template/index.pug",
+				"/home/cory/www/smith/calc/src/ui/themes.js",
+				"/home/cory/www/smith/calc/src/components/RollLength/template/index.pug",
+				"/home/cory/www/smith/calc/src/ui/theme.js",
+				"/home/cory/www/smith/calc/src/views/app/_navDrawer.pug",
+				"/home/cory/www/smith/calc/src/ui/componentColors.js",
+				"/home/cory/www/smith/calc/src/views/app/_00-drawerToolbar.pug",
+				"/home/cory/www/smith/calc/src/components/SquareFootage/template/steps/_step0.pug",
+				"/home/cory/www/smith/calc/src/components/SnowplowBladeWeight/template/steps/_step0.pug",
+				"/home/cory/www/smith/calc/src/components/RollLength/template/steps/_step0.pug",
+				"/home/cory/www/smith/calc/src/components/CrimpSpec/template/steps/_step0.pug",
+				"/home/cory/www/smith/calc/src/components/ConveyorLength/template/steps/_step0.pug",
+				"/home/cory/www/smith/calc/src/components/ConveyorBeltWeight/template/steps/_step0.pug",
+				"/home/cory/www/smith/calc/src/views/layouts/_calc-main.pug",
+				"/home/cory/www/smith/calc/src/components/Auth/template/_card.pug",
+				"/home/cory/www/smith/calc/src/views/layouts/_calc-main-stepper.pug",
+				"/home/cory/www/smith/calc/src/components/Auth/template/_02-actions.pug",
+				"/home/cory/www/smith/calc/src/components/Auth/template/_01-form.pug",
+				"/home/cory/www/smith/calc/src/components/Auth/template/index.pug",
+				"/home/cory/www/smith/calc/src/ui/styles/components/sirp/_sirp-divider.sass",
+				"/home/cory/www/smith/calc/src/data/firebase.json",
+				"/home/cory/www/smith/calc/src/views/mixins/_index.pug",
+				"/home/cory/www/smith/calc/src/store/shared.js",
+				"/home/cory/www/smith/calc/src/data/NavDrawerItems.js",
+				"/home/cory/www/smith/calc/src/data/cbScratch.json",
+				"/home/cory/www/smith/calc/src/store/user.js",
+				"/home/cory/www/smith/calc/src/store/index.js",
+				"/home/cory/www/smith/calc/src/router/index.js",
+				"/home/cory/www/smith/calc/src/views/app/dialog/settings/_pref-decimalRounding.pug",
+				"/home/cory/www/smith/calc/src/views/app/dialog/settings/_pref-resetAll.pug",
+				"/home/cory/.config/sublime-text-3/Packages/Sync Settings/SyncSettings.sublime-settings",
+				"/home/cory/.config/sublime-text-3/Packages/User/SyncSettings.sublime-settings",
+				"/home/cory/www/smith/calc/index.html",
+				"/home/cory/www/smith/calc/src/components/App/template/index.pug",
+				"/home/cory/www/smith/calc/src/views/app/_toolbar.pug",
+				"/home/cory/www/smith/calc/src/views/layouts/_stepper-content.pug",
+				"/home/cory/www/smith/calc/src/views/app/_02-navDrawerItems.pug",
+				"/home/cory/www/smith/calc/src/ui/icons.json",
+				"/home/cory/www/smith/calc/src/ui/icons.js",
+				"/home/cory/www/smith/calc/src/data/NavDrawerItems.json",
+				"/home/cory/www/smith/calc/src/data/MainNavItems.json"
+			],
+			"find":
+			{
+				"height": 48.75
+			},
+			"find_in_files":
+			{
+				"height": 133.75,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"sheets":
+					[
+					]
+				},
+				{
+					"sheets":
+					[
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 48.75
+			},
+			"input":
+			{
+				"height": 86.25
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					],
+					[
+						1,
+						0,
+						2,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					0.5,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 112.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,583,0,1918,517,1920,1080",
+			"project": "",
+			"replace":
+			{
+				"height": 91.25
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"index util",
+						"src/util/index.js"
+					],
+					[
+						"main",
+						"src/main.js"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 1,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 363.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 21,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+			"/home/rustyschakelford/.config/sublime-text-3/Packages/User/Projects/smith-calc.sublime-workspace",
+			"/home/rustyschakelford/.config/sublime.sublime-workspace",
+			"/home/rustyschakelford/.config/.sublime.sublime-workspace"
+		]
+	}
+}

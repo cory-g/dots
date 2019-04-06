@@ -1,0 +1,758 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"THE",
+				"THE_IMAGE"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/cory/www/cory_g.gitlab.io/site/.vuepress/theme/Layout.vue",
+			"settings":
+			{
+				"buffer_size": 3997,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/cory/www/cory_g.gitlab.io/package.json",
+			"settings":
+			{
+				"buffer_size": 730,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/cory/www/cory_g.gitlab.io/node_modules/vue-mdc-adapter/dist/styles.scss",
+			"settings":
+			{
+				"buffer_size": 786,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/cory/www/cory_g.gitlab.io/node_modules/vue-mdc-adapter/dist/button/styles.scss",
+			"settings":
+			{
+				"buffer_size": 113,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/cory/www/cory_g.gitlab.io/node_modules/material-components-web/material-components-web.scss",
+			"settings":
+			{
+				"buffer_size": 2722,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/cory/www/cory_g.gitlab.io/site/.vuepress/components/BlogIndex.vue",
+			"settings":
+			{
+				"buffer_size": 3221,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"lo",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"lorem",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"proje",
+				"Project Manager: Add New Project"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/cory/www/cory_g.gitlab.io",
+		"/home/cory/www/cory_g.gitlab.io/node_modules",
+		"/home/cory/www/cory_g.gitlab.io/node_modules/material",
+		"/home/cory/www/cory_g.gitlab.io/node_modules/material/dist",
+		"/home/cory/www/cory_g.gitlab.io/node_modules/material/src",
+		"/home/cory/www/cory_g.gitlab.io/node_modules/material/src/skin",
+		"/home/cory/www/cory_g.gitlab.io/node_modules/material/src/skin/material",
+		"/home/cory/www/cory_g.gitlab.io/node_modules/material/src/skin/material/component",
+		"/home/cory/www/cory_g.gitlab.io/node_modules/vue-mdc-adapter",
+		"/home/cory/www/cory_g.gitlab.io/node_modules/vue-mdc-adapter/dist",
+		"/home/cory/www/cory_g.gitlab.io/node_modules/vue-mdc-adapter/dist/button",
+		"/home/cory/www/cory_g.gitlab.io/site"
+	],
+	"file_history":
+	[
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/theme/scss/theme.scss",
+		"/home/cory/.config/sublime-text-3/Packages/User/Projects/coryg_io.sublime-project",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/components/m-button.vue",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/components/m-button-group.vue",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/theme/Page.vue",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/components/BlogIndex.vue",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/theme/NavLinks.vue",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/theme/NavLink.vue",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/templates/_externalLink.pug",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/theme/Layout.vue",
+		"/home/cory/www/cory_g.gitlab.io/site/about.md",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/config.js",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/theme/styles/buttons.less",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/theme/layouts/Post.vue",
+		"/home/cory/www/cory_g.gitlab.io/package.json",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/theme/Header.vue",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/theme/DropdownLink.vue",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/theme/components/Share.vue",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/theme/components/SearchBox.vue",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/theme/layouts/Home.vue",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/theme/util.js",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/theme/components/NavLinks.vue",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/theme/styles/buttons.styl",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/theme/styles/theme.styl",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/theme/styles/config.styl",
+		"/home/cory/www/cory_g.gitlab.io/site/CV.md",
+		"/home/cory/www/cory_g.gitlab.io/site/index.md",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/theme/Home.vue",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/theme/styles/custom-blocks.styl",
+		"/home/cory/www/cory_g.gitlab.io/site/articles/2018-06-06-number-six/index.md",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/theme/styles/nprogress.styl",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/theme/SidebarLink.vue",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/theme/SWUpdatePopup.vue",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/theme/SearchBox.vue",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/theme/AlgoliaSearchBox.vue",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/theme/styles/wrapper.styl",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/theme/styles/arrow.styl",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/theme/styles/toc.styl",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/theme/styles/mobile.styl",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/theme/NotFound.vue",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/theme/styles/code.styl",
+		"/home/cory/dwn/download_201809122137.csv",
+		"/home/cory/dwn/colors.xml",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/theme/Article.vue",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/theme/DropdownTransition.vue",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/components/OutboundLink.vue",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/components/CgBtn.vue",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/components/ArticlePager.vue",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/components/ArticleHeader.vue",
+		"/home/cory/dwn/cv.md",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/theme/styles/ncurses.styl",
+		"/home/cory/www/cory_g.gitlab.io/site/articles/2018-06-03-number-three/index.md",
+		"/home/cory/www/cory_g.gitlab.io/site/articles/2018-06-02-number-two/index.md",
+		"/home/cory/www/cory_g.gitlab.io/site/articles/2018-06-01-number-one/index.md",
+		"/home/cory/www/cory_g.gitlab.io/site/articles/2018-05-31-wallie/index.md",
+		"/home/cory/www/cory_g.gitlab.io/site/articles/2018-06-04-number-four/index.md",
+		"/home/cory/www/cory_g.gitlab.io/site/articles/2018-06-05-number-five/index.md",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/components/BlogIndex.vue.pug",
+		"/home/cory/www/cory_g.gitlab.io/node_modules/vuepress/lib/app/app.js",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/theme/styles/mobile.scss",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/theme/styles/config.scss",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/theme/styles/arrow.scss",
+		"/home/cory/www/cory_g.gitlab.io/README.md",
+		"/home/cory/www/cory_g.gitlab.io/node_modules/vuepress/lib/app/components/OutboundLink.vue",
+		"/home/cory/www/cory_g.gitlab.io/node_modules/vuepress/lib/index.js",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/theme/SidebarGroup.vue",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/theme/SidebarButton.vue",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/theme/Sidebar.vue",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/theme/Navbar.vue",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/components/FaIcon.vue",
+		"/home/cory/www/cory_g.gitlab.io/site/.vuepress/override.styl",
+		"/home/cory/www/cory_g.gitlab.io/.gitlab-ci.yml",
+		"/home/cory/www/cory_g.gitlab.io/CHANGELOG.md",
+		"/home/cory/www/cory_g.gitlab.io/articles.md",
+		"/home/cory/www/cory_g.gitlab.io/index.md",
+		"/home/cory/www/cory_g.gitlab.io/.vuepress/override.styl",
+		"/home/cory/www/cory_g.gitlab.io/articles/index.md",
+		"/home/cory/www/cory_g.gitlab.io/.vuepress/config.js",
+		"/home/cory/www/cory_g.gitlab.io/.vuepress/components/BlogIndex.vue",
+		"/home/cory/www/vuepress-pages/.gitlab-ci.yml",
+		"/home/cory/www/vuepress-pages/docs/.vuepress/config.js",
+		"/home/cory/www/vuepress-pages/docs/index.md",
+		"/home/cory/www/cory_g.gitlab.io/LICENSE",
+		"/home/cory/www/vuepress-pages/docs/articles/2018-08-08-some-title/index.md",
+		"/home/cory/www/vuepress-pages/docs/.vuepress/components/BlogIndex.vue",
+		"/home/cory/bin/cgmepost",
+		"/home/cory/www/vuepress-pages/package.json",
+		"/home/cory/www/vuepress-pages/LICENSE",
+		"/home/cory/www/vuepress-pages/README.md",
+		"/home/cory/www/vuepress-pages/docs/articles/2018-08-29-another-title/index.md",
+		"/home/cory/www/vuepress-pages/docs/articles/2018-05-31-wallie/index.md",
+		"/home/cory/www/vuepress-pages/docs/README.md",
+		"/home/cory/www/vuepress-pages/docs/articles/index.md",
+		"/home/cory/www/vuepress-pages/docs/articles/wallie.md",
+		"/home/cory/www/vuepress-pages/docs/articles/some-title.md",
+		"/home/cory/www/cory_g.gitlab.io/src/_plugins/post_index_generator.rb",
+		"/home/cory/www/cory_g.gitlab.io/src/404.html",
+		"/home/cory/www/cory_g.gitlab.io/src/_layouts/page.html",
+		"/home/cory/www/cory_g.gitlab.io/src/_layouts/post.html",
+		"/home/cory/www/cory_g/app/index.pug",
+		"/home/cory/www/vuepress-pages/docs/about.md",
+		"/home/cory/www/vuepress-pages/docs/articles/2018-08-08-some-title.md",
+		"/home/cory/www/cory_g/templates/articles/2018-08-28-some-article-title.pug",
+		"/home/cory/www/cory_g/gulpfile.js",
+		"/home/cory/www/cory_g/index.pug",
+		"/home/cory/www/cory_g/2018-08-28-some-article-title.pug",
+		"/home/cory/www/cory_g/templates/includes/_post-header.pug",
+		"/home/cory/www/cory_g/templates/layouts/default.pug",
+		"/home/cory/www/cory_g/styles/main.scss",
+		"/home/cory/www/cory_g.gitlab.io/src/_posts/2018-08-31-welcome-to-wallie.md",
+		"/home/cory/www/cory_g.gitlab.io/src/index.html",
+		"/home/cory/www/cory_g.gitlab.io/src/_includes/footer.html",
+		"/home/cory/www/cory_g.gitlab.io/src/assets/scss/main.scss",
+		"/home/cory/www/cory_g/templates/templates.txt",
+		"/home/cory/www/cory_g.gitlab.io/src/_data/theme.yml",
+		"/home/cory/www/cory_g.gitlab.io/src/_data/site.yml",
+		"/home/cory/www/cory_g.gitlab.io/src/_layouts/default.html",
+		"/home/cory/www/cory_g.gitlab.io/src/_posts/2016-05-19-welcome-to-jekyll.md",
+		"/home/cory/www/cory_g.gitlab.io/src/_posts/2018-08-08-welcome-to-lenore.md",
+		"/home/cory/www/cory_g.gitlab.io/src/_includes/header.html",
+		"/home/cory/www/cory_g/_includes/footer.pug",
+		"/home/cory/www/J5/_config.yml",
+		"/home/cory/www/cory_g/_config.yml",
+		"/home/cory/www/cory_g/_layouts/default.pug",
+		"/home/cory/www/cory_g/index.md",
+		"/home/cory/www/cory_g/_includes/header.pug",
+		"/home/cory/www/cory_g/assets/css/tachyons.min.css",
+		"/home/cory/www/J5/README.MD"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 132.0,
+		"where_history":
+		[
+			"/home/cory/www/cory_g.gitlab.io/site/",
+			"/home/cory/www/cory_g.gitlab.io/",
+			"/home/cory/www/cory_g.gitlab.io/src/assets/scss/vendor"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"key",
+			"@{btn-name}",
+			"btn-name",
+			"@btn-name",
+			"$accentColor",
+			";",
+			":",
+			"}",
+			"{",
+			"~\"@{@{theme}-disabled-bgcolor}\"",
+			"~\"@{btn-@{theme}-bgcolor}\"",
+			"~\"@{color-@{theme}-light}\"",
+			"#default-dialog-color",
+			"@",
+			":",
+			"{",
+			"}",
+			";",
+			"action",
+			";",
+			":",
+			"perPage",
+			"\"",
+			" =",
+			"OutboundLink",
+			"noopener",
+			"call",
+			"\"",
+			"'",
+			"\"",
+			"'",
+			"\"",
+			"'",
+			"\"",
+			"'",
+			"\"",
+			"'",
+			"\"",
+			"'",
+			"\"",
+			"class",
+			"\"",
+			"'",
+			"\"",
+			"'",
+			"0, 0, 0,",
+			"#fff",
+			"\"",
+			"'",
+			"\"",
+			"'",
+			"\"",
+			"'",
+			"\"",
+			"'",
+			"docs",
+			" | size",
+			"f6 lh-copy {{ blackOrWhite }}-50 mv0 {{ theme.fontFam.head }}",
+			"helvetica",
+			"athelas ",
+			"link {{ blackOrWhite }} hover-{{ theme.accent }}",
+			"gold",
+			"georgia",
+			"black",
+			"\n//  Abstracts\n// ––––––––––––––––––––––––––––––––––––––––––––––––––\n// @import \"abstracts/variables\",\n//         \"abstracts/functions\";\n\n\n//  Utilities\n// ––––––––––––––––––––––––––––––––––––––––––––––––––\n// $visual-helper: false;\n// @import \"utilities/visual-helper\";\n\n// @import \"utilities/media-queries\";\n\n\n\n//  Main Layout\n// ––––––––––––––––––––––––––––––––––––––––––––––––––\n\n// $base03:        #002b36;\n// $base02:        #073642;\n// $base01:        #586e75;\n// $base00:        #657b83;\n// $base0:         #839496;\n// $base1:         #93a1a1;\n// $base2:         #eee8d5;\n// $base3:         #fdf6e3;\n// $yellow:        #b58900;\n// $orange:        #cb4b16;\n// $red:           #dc322f;\n// $magenta:       #d33682;\n// $violet:        #6c71c4;\n// $blue:          #268bd2;\n// $cyan:          #2aa198;\n// $green:         #859900;\n\n\n// $colors: (\n//   base03: #002b36,\n//   base02: #073642,\n//   base01: #586e75,\n//   base00: #657b83,\n//   base0: #839496,\n//   base1: #93a1a1,\n//   base2: #eee8d5,\n//   base3: #fdf6e3,\n//   yellow: #b58900,\n//   orange: #cb4b16,\n//   red:  #dc322f,\n//   magenta: #d33682,\n//   violet: #6c71c4,\n//   blue: #268bd2,\n//   cyan: #2aa198,\n//   green: #859900\n// );\n\n// @each $c, $color in $colors {\n//   .#{$c} { color: $color; }\n//   .bg-#{$c} { background-color: $color; }\n//   .b--#{$c} { border-color: $color; }\n\n//   .dark-#{$c} { color: darken($color, 20%); }\n//   .bg-dark-#{$c} { background-color: darken($color, 20%); }\n//   .b--dark-#{$c} { border-color: darken($color, 20%); }\n\n//   .light-#{$c} { color: lighten($color, 20%); }\n//   .bg-light-#{$c} { background-color: lighten($color, 20%); }\n//   .b--light-#{$c} { border-color: lighten($color, 20%); }\n// }\n\n\n// .base03 { color: $base03; }\n// .base02 { color: $base02; }\n// .base01 { color: $base01; }\n// .base00 { color: $base00; }\n// .base0 { color: $base0; }\n// .base1 { color: $base1; }\n// .base2 { color: $base2; }\n// .base3 { color: $base3; }\n// .yellow { color: $yellow; }\n// .orange { color: $orange; }\n// .red { color: $red; }\n// .magenta { color: $magenta; }\n// .violet { color: $violet; }\n// .blue { color: $blue; }\n// .cyan { color: $cyan; }\n// .green { color: $green; }\n\n// .bg-base03 { background-color: $base03; }\n// .bg-base02 { background-color: $base02; }\n// .bg-base01 { background-color: $base01; }\n// .bg-base00 { background-color: $base00; }\n// .bg-base0 { background-color: $base0; }\n// .bg-base1 { background-color: $base1; }\n// .bg-base2 { background-color: $base2; }\n// .bg-base3 { background-color: $base3; }\n// .bg-yellow { background-color: $yellow; }\n// .bg-orange { background-color: $orange; }\n// .bg-red { background-color: $red; }\n// .bg-magenta { background-color: $magenta; }\n// .bg-violet { background-color: $violet; }\n// .bg-blue { background-color: $blue; }\n// .bg-cyan { background-color: $cyan; }\n// .bg-green { background-color: $green; }\n\n// .b--base03 { border-color: $base03; }\n// .b--base02 { border-color: $base02; }\n// .b--base01 { border-color: $base01; }\n// .b--base00 { border-color: $base00; }\n// .b--base0 { border-color: $base0; }\n// .b--base1 { border-color: $base1; }\n// .b--base2 { border-color: $base2; }\n// .b--base3 { border-color: $base3; }\n// .b--yellow { border-color: $yellow; }\n// .b--orange { border-color: $orange; }\n// .b--red { border-color: $red; }\n// .b--magenta { border-color: $magenta; }\n// .b--violet { border-color: $violet; }\n// .b--blue { border-color: $blue; }\n// .b--cyan { border-color: $cyan; }\n// .b--green { border-color: $green; }\n\n// .tc { text-align: center; }\n// .tr { text-align: right; }\n// .tl { text-align: left; }\n// .tj { text-align: justify; }\n\n// $space-type: (m: margin, p: padding);\n// $space-directions: (t: top, r: right, b: bottom, l: left);\n// $space-step: 0.125rem;\n// $space-axis: (w: (right, left), h: (top, bottom));\n\n\n// @each $abbr, $prop in $space-type {\n//   @for $s from 0 through 16 {\n//     @each $d, $dir in $space-directions {\n\n//       .#{$abbr}#{$d}#{$s} {\n//         #{$prop}-#{$dir}: ($space-step * $s);\n//       }\n//     }\n\n//     @each $a, $names in $space-axis {\n\n//       .#{$abbr}#{$a}#{$s} {\n\n//         @each $dire in $names {\n//           #{$prop}-#{$dire}: ($space-step * $s);\n//         }\n//       }\n//     }\n//   }\n// }\n",
+			"dark-blue",
+			"purple",
+			"red",
+			"255,255,255",
+			"0,0,0",
+			");",
+			"var(--",
+			");",
+			"var(--",
+			"var(--black);",
+			"var(",
+			"debug",
+			"';",
+			"'./_",
+			"//*.*",
+			"includePaths",
+			"screen",
+			"screen.scss",
+			"1rem",
+			"0.5s ease",
+			"15px",
+			"255, 255, 255",
+			"#3c3442",
+			"#f2f2f2",
+			"#fff",
+			"#4039ff",
+			"will-",
+			"\"",
+			"plugin",
+			"style"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"m-button",
+			"$primaryMain",
+			"",
+			"$primary-disabled-bgcolor",
+			"$btn-primary-bgcolor",
+			"$color-primary-light",
+			"$",
+			"",
+			" =",
+			"",
+			"'",
+			":",
+			"'",
+			"`",
+			"'",
+			"`",
+			"'",
+			"`",
+			"'",
+			"`",
+			"'",
+			"`",
+			"'",
+			"`",
+			"'",
+			"`",
+			"$black,",
+			"$white",
+			"'",
+			"`",
+			"'",
+			"`",
+			"'",
+			"`",
+			".size",
+			"{{ theme.postMetaClasses }}",
+			"",
+			"{{ theme.mainLinkClasses }}",
+			"{{ theme.primary }}",
+			"{{ theme.fontFam }}",
+			"{{ blackOrWhite }}",
+			"blue",
+			"purple",
+			"$white",
+			"$black",
+			";",
+			"$",
+			";",
+			"$",
+			"\";",
+			"\"",
+			"",
+			"main.css",
+			"main.scss",
+			"$main-spacer",
+			"$trans-time-ease",
+			"1rem",
+			"$base3",
+			"$base01",
+			"$base2",
+			"$base3",
+			"$violet",
+			"'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/cory/www/cory_g.gitlab.io/site/.vuepress/theme/Layout.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3997,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1041,
+								1041
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1536836626.95,
+							"syntax": "Packages/Vue Syntax Highlight/Vue Component.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 210.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/cory/www/cory_g.gitlab.io/package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 730,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1536837285.99,
+							"syntax": "Packages/zzz A File Icon zzz/aliases/JSON (NPM).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/cory/www/cory_g.gitlab.io/node_modules/vue-mdc-adapter/dist/styles.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 786,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Boxy Solarized Dark.tmTheme",
+							"markdonw_live_preview_last_run": 1536837330.78,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/cory/www/cory_g.gitlab.io/node_modules/vue-mdc-adapter/dist/button/styles.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 113,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Boxy Solarized Dark.tmTheme",
+							"markdonw_live_preview_last_run": 1536837339.24,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/cory/www/cory_g.gitlab.io/node_modules/material-components-web/material-components-web.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2722,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1190,
+								1190
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Boxy Solarized Dark.tmTheme",
+							"markdonw_live_preview_last_run": 1536837369.61,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/cory/www/cory_g.gitlab.io/site/.vuepress/components/BlogIndex.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3221,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								682,
+								682
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1536836695.05,
+							"syntax": "Packages/Vue Syntax Highlight/Vue Component.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 55.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "coryg_io.sublime-project",
+	"replace":
+	{
+		"height": 94.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 318.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

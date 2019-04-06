@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[
+<template lang="pug">
+
+</template>
+
+<script>
+export default {
+  name: '${1:component name}',
+  data () {
+    return
+  }
+}
+</script>
+
+<style lang="scss">
+</style>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>templatepug</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

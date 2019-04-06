@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+https://www.gravatar.com/avatar/${1:email hash}?s=${2:size (200)}?r=${3:rating (pg)}&d=identicon
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>gravatar</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

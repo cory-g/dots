@@ -1,0 +1,378 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"THE",
+				"THE_IMAGE"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/cory/www/smith-knowledge-base/_posts/_defaults.md",
+			"settings":
+			{
+				"buffer_size": 61,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"proje",
+				"Project Manager: Add New Project"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/home/cory/www/cory_g.gitlab.io/src/assets/scss/vendor/tachyons/_type-scale.scss",
+		"/home/cory/www/cory_g.gitlab.io/src/assets/scss/vendor/tachyons/_tachyons.scss",
+		"/home/cory/www/cory_g.gitlab.io/src/assets/scss/vendor/tachyons/_background-position.scss",
+		"/home/cory/www/cory_g.gitlab.io/src/assets/scss/vendor/tachyons/_aspect-ratios.scss",
+		"/home/cory/www/cory_g.gitlab.io/src/assets/scss/vendor/tachyons/_module-template.scss",
+		"/home/cory/www/cory_g.gitlab.io/src/assets/scss/vendor/tachyons/_debug.scss",
+		"/home/cory/www/cory_g.gitlab.io/src/assets/scss/vendor/tachyons/_normalize.scss",
+		"/home/cory/www/cory_g.gitlab.io/src/_layouts/default.html",
+		"/home/cory/www/cory_g.gitlab.io/node_modules/tachyons/src/tachyons.css",
+		"/home/cory/www/cory_g.gitlab.io/node_modules/tachyons/src/_links.css",
+		"/home/cory/www/cory_g.gitlab.io/gulpfile.js",
+		"/home/cory/www/cory_g.gitlab.io/src/_includes/head.html",
+		"/home/cory/www/cory_g.gitlab.io/src/_includes/header.html",
+		"/home/cory/www/cory_g.gitlab.io/src/assets/scss/utilities/_visual-helper.scss",
+		"/home/cory/www/cory_g.gitlab.io/src/assets/scss/main.scss",
+		"/home/cory/www/cory_g.gitlab.io/src/assets/scss/utilities/_media-queries.scss",
+		"/home/cory/www/cory_g.gitlab.io/src/assets/scss/abstracts/_variables.scss",
+		"/home/cory/www/cory_g.gitlab.io/src/assets/scss/abstracts/_functions.scss",
+		"/home/cory/www/cory_g.gitlab.io/src/assets/scss/_media-queries.scss",
+		"/home/cory/www/cory_g.gitlab.io/.npmrc",
+		"/home/cory/www/cory_g.gitlab.io/node_modules/@fortawesome/fontawesome-pro/scss/solid.scss",
+		"/home/cory/www/cory_g.gitlab.io/node_modules/@fortawesome/fontawesome-pro/scss/_variables.scss",
+		"/home/cory/.config/sublime-text-3/Packages/User/Projects/coryg_io.sublime-project",
+		"/home/cory/www/cory_g.gitlab.io/node_modules/@fortawesome/fontawesome-pro/scss/fontawesome.scss",
+		"/home/cory/www/cory_g.gitlab.io/_config.yml",
+		"/home/cory/www/cory_g.gitlab.io/README.md",
+		"/home/cory/www/cory_g.gitlab.io/src/assets/scss/base/_base.scss",
+		"/home/cory/www/cory_g.gitlab.io/src/assets/scss/abstracts/_mixins.scss",
+		"/home/cory/www/cory_g.gitlab.io/src/assets/scss/variables/_variables.scss",
+		"/home/cory/www/cory_g.gitlab.io/src/assets/scss/screen.scss",
+		"/home/cory/www/cory_g.gitlab.io/src/assets/scss/base/_footer.scss",
+		"/home/cory/www/cory_g.gitlab.io/src/_data/footer-links.yml",
+		"/home/cory/www/cory_g.gitlab.io/node_modules/@fortawesome/fontawesome-free/css/all.css",
+		"/home/cory/www/cory_g.gitlab.io/node_modules/@fortawesome/fontawesome-free/scss/_variables.scss",
+		"/home/cory/www/cory_g.gitlab.io/node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss",
+		"/home/cory/www/cory_g.gitlab.io/src/assets/scss/vendor/_pushbar.scss",
+		"/home/cory/www/cory_g.gitlab.io/src/assets/scss/variables/_colors.scss",
+		"/home/cory/dwn/pushbar.js-master/index.html",
+		"/home/cory/www/cory_g.gitlab.io/src/_includes/menu.html",
+		"/home/cory/dwn/pushbar.js-master/demo.css",
+		"/home/cory/www/cory_g.gitlab.io/_config.staging.yml",
+		"/home/cory/www/cory_g.gitlab.io/LICENSE",
+		"/home/cory/www/cory_g.gitlab.io/src/.gitignore",
+		"/home/cory/www/cory_g.gitlab.io/.gitlab-ci.yml",
+		"/home/cory/www/cory_g.gitlab.io/src/_posts/2018-05-19-okay.markdown",
+		"/home/cory/www/cory_g.gitlab.io/_layouts/default.html",
+		"/home/cory/www/cory_g.gitlab.io/.gitattributes",
+		"/home/cory/www/cory_g.gitlab.io/_layouts/blog.html",
+		"/home/cory/www/cory_g.gitlab.io/_src/template/default.html",
+		"/home/cory/www/cory_g.gitlab.io/_src/index.scss",
+		"/home/cory/www/cory_g.gitlab.io/_layouts/home.html",
+		"/home/cory/www/cory_g.gitlab.io/src/_pages/robots.txt",
+		"/home/cory/www/cory_g.gitlab.io/src/_pages/sitemap.xml",
+		"/home/cory/www/cory_g.gitlab.io/src/_pages/index.html",
+		"/home/cory/www/cory_g.gitlab.io/_scss/_default.scss",
+		"/home/cory/.config/sublime-text-3/Packages/User/ZenTabs.sublime-settings",
+		"/home/cory/.config/sublime-text-3/Packages/Zen Tabs/Default.sublime-keymap",
+		"/home/cory/.config/sublime-text-3/Packages/iOpener/Default (Linux).sublime-keymap",
+		"/home/cory/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/cory/www/cory_g.gitlab.io/index.md",
+		"/home/cory/www/cory_g.gitlab.io/_images/icon.png",
+		"/home/cory/www/cory_g.gitlab.io/_images/large-logo.png",
+		"/home/cory/www/cory_g.gitlab.io/notes.txt",
+		"/home/cory/www/cory_g.gitlab.io/Gemfile",
+		"/home/cory/www/cory_g.gitlab.io/humans.txt",
+		"/home/cory/www/cory_g.gitlab.io/src/_posts/.keep",
+		"/home/cory/www/cory_g.gitlab.io/_sass/_base.scss",
+		"/home/cory/dwn/belt_chart.tex",
+		"/home/cory/www/cory_g.gitlab.io/_includes/head.html",
+		"/home/cory/www/cory_g.gitlab.io/index.html",
+		"/home/cory/www/cory_g.gitlab.io/css/main.scss",
+		"/home/cory/www/cory_g.gitlab.io/_sass/consyll.scss",
+		"/home/cory/www/cory_g.gitlab.io/_layouts/post.html",
+		"/home/cory/www/cory_g.gitlab.io/_layouts/page.html",
+		"/home/cory/www/cory_g.gitlab.io/about.md",
+		"/home/cory/www/cory_g.gitlab.io/_posts/2016-03-24-welcome-to-jekyll.markdown",
+		"/home/cory/dwn/consyll-master/README.md",
+		"/home/cory/www/cory_g.gitlab.io/src/styles/index.scss",
+		"/home/cory/www/cory_g.gitlab.io/node_modules/milligram/src/_Base.sass",
+		"/home/cory/www/cory_g.gitlab.io/node_modules/milligram/src/_Blockquote.sass",
+		"/home/cory/www/cory_g.gitlab.io/node_modules/milligram/src/_Button.sass",
+		"/home/cory/www/cory_g.gitlab.io/node_modules/milligram/src/_Utility.sass",
+		"/home/cory/www/cory_g.gitlab.io/node_modules/bourbon/core/bourbon/settings/_settings.scss",
+		"/home/cory/www/cory_g.gitlab.io/src/App.vue",
+		"/home/cory/www/cory_g.gitlab.io/node_modules/bourbon-bitters/app/assets/stylesheets/_variables.scss",
+		"/home/cory/www/cory_g.gitlab.io/src/main.js",
+		"/home/cory/www/cory_g.gitlab.io/src/router/index.js",
+		"/home/cory/www/cory_g.gitlab.io/src/styles/_pushbar.scss",
+		"/home/cory/www/cory_g.gitlab.io/src/styles/demo.css",
+		"/home/cory/www/cory_g.gitlab.io/src/assets/js/pushbar.js",
+		"/home/cory/www/cory_g.gitlab.io/src/components/Home.vue",
+		"/home/cory/www/cory_g.gitlab.io/build/webpack.dev.conf.js",
+		"/home/cory/www/cory_g.gitlab.io/config/dev.env.js",
+		"/home/cory/www/cory_g.gitlab.io/config/index.js",
+		"/home/cory/www/Jekyll-webpack-boilerplate/config/webpack.dev.js",
+		"/home/cory/www/Jekyll-webpack-boilerplate/config/webpack.common.js",
+		"/home/cory/www/cory_g.gitlab.io/build/webpack.prod.conf.js",
+		"/home/cory/www/cory_g.gitlab.io/build/webpack.base.conf.js",
+		"/home/cory/www/cory_g.gitlab.io/build/build.js",
+		"/home/cory/www/cory_g.gitlab.io/build/vue-loader.conf.js",
+		"/home/cory/www/cory_g.gitlab.io/package.json",
+		"/home/cory/.config/sublime-text-3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/home/cory/www/cory_g.gitlab.io/src/assets/logo.png",
+		"/home/cory/www/.vue/webpack/template/package.json",
+		"/home/cory/www/.vue/webpack/template/build/webpack.dev.conf.js",
+		"/home/cory/.yarnrc",
+		"/home/cory/www/.vue/webpack/template/build/webpack.prod.conf.js",
+		"/home/cory/www/.vue/webpack/template/build/webpack.base.conf.js",
+		"/home/cory/www/.vue/webpack/template/src/App.vue",
+		"/home/cory/www/.vue/webpack/template/config/dev.env.js",
+		"/home/cory/www/.vue/webpack/template/.sass-lint.yml",
+		"/home/cory/www/.vue/webpack/template/src/components/Home.vue",
+		"/home/cory/www/.vue/webpack/template/src/router/index.js",
+		"/home/cory/www/.vue/webpack/template/config/index.js",
+		"/home/cory/www/.vue/webpack/template/config/prod.env.js",
+		"/home/cory/www/.vue/webpack/template/config/test.env.js",
+		"/home/cory/www/.vue/webpack/scenarios/index.js",
+		"/home/cory/www/.vue/webpack/.circleci/config.yml",
+		"/home/cory/www/.vue/webpack/utils/index.js",
+		"/home/cory/www/cory_g.gitlab.io/.editorconfig",
+		"/home/cory/www/cory_g.gitlab.io/manifest.json",
+		"/home/cory/www/cory_g.gitlab.io/assets/css/main.scss",
+		"/home/cory/www/cory_g.gitlab.io/_data/external-stylesheets.yml",
+		"/home/cory/www/cory_g.gitlab.io/_includes/global_gfonts.html",
+		"/home/cory/www/cory_g.gitlab.io/_includes/global_head.html",
+		"/home/cory/www/cory_g.gitlab.io/_sass/_milligram.scss",
+		"/home/cory/www/cory_g.gitlab.io/_sass/_normalize.scss",
+		"/home/cory/www/cory_g.gitlab.io/node_modules/normalize.css/normalize.css"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/cory/www/smith-knowledge-base/_posts/_defaults.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 61,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								61,
+								61
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1535052103.5,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 55.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "smith-knowledge-base.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 264.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

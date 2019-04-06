@@ -1,0 +1,362 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pre",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"incre",
+				"Increment Selection"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"date",
+				"Format Date"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"beaut",
+				"Javascript Beautify"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"toggle",
+				"View: Toggle Menu"
+			],
+			[
+				"da ui",
+				"DA UI: Select Skin"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/cgantenbein.SIR/Documents/autohotkey",
+		"/C/Users/cgantenbein.SIR/Documents/autohotkey/trulinx-scripts",
+		"/C/Users/cgantenbein.SIR/Documents/autohotkey/TypingAid-2.22.0.0"
+	],
+	"file_history":
+	[
+		"/C/Users/cgantenbein.SIR/Desktop/smith-ind.com-fixes.css",
+		"/C/Users/cgantenbein.SIR/Documents/autohotkey/trulinx-scripts/quote_to_so_and_email.ahk",
+		"/C/Users/cgantenbein.SIR/Documents/autohotkey/trulinx-scripts/brg_pad/brg_pad_main.ahk",
+		"/C/Users/cgantenbein.SIR/Documents/autohotkey/trulinx-scripts/trulinx_scripts.ahk",
+		"/C/Users/cgantenbein.SIR/Documents/autohotkey/hotstrings.ahk",
+		"/C/ProgramData/Certify/certes/assets/pfx/a0e0fdfc-4de1-4710-afaa-1cc8bd979959.pfx",
+		"/C/Users/cgantenbein.SIR/Desktop/okay.cer",
+		"/C/Users/cgantenbein.SIR/Documents/autohotkey/cory-key-bindings.ahk",
+		"/C/Users/cgantenbein.SIR/Desktop/ok.gvswatch",
+		"//sir-sbs/Company$/Cory/!!!autohotkey/smith-utils.ahk",
+		"/C/Users/cgantenbein.SIR/Documents/autohotkey/smith_kotheys.ahk",
+		"/C/Users/cgantenbein.SIR/Documents/autohotkey/trulinx-scripts/trulinx_quick_launcher.ahk",
+		"/C/Users/cgantenbein.SIR/Desktop/ich.csv",
+		"/C/Users/cgantenbein.SIR/Documents/autohotkey/trulinx-scripts/brg_pad_main.ahk",
+		"/C/Users/cgantenbein.SIR/Documents/autohotkey/trulinx-scripts/brg_pad/gui/brg_pad_gui.ahk",
+		"//sir-sbs/Company$/Cory/!!!autohotkey/smith_kotheys.ahk",
+		"/C/Users/cgantenbein.SIR/Desktop/smith-ind.com.md",
+		"/C/Users/cgantenbein.SIR/Desktop/smith.css",
+		"/C/Users/cgantenbein.SIR/Documents/autohotkey/desktopSwitch.ahk",
+		"/C/Users/cgantenbein.SIR/Documents/autohotkey/trulinx-scripts/brg_pad/README.md",
+		"/C/Users/cgantenbein.SIR/Documents/autohotkey/trulinx-scripts/brg_pad_gui.ahk",
+		"/C/Users/cgantenbein.SIR/Documents/autohotkey/ahkFyra.ahk",
+		"/C/Users/cgantenbein.SIR/Documents/Rainmeter/Skins/Polybar-master/Themes/Arch/Weather.inc",
+		"/C/Users/cgantenbein.SIR/Documents/autohotkey/keymap.ahk",
+		"/C/Users/cgantenbein.SIR/Documents/Rainmeter/Skins/Polybar-master/Themes/Arch/Tray.inc",
+		"/C/Users/cgantenbein.SIR/Documents/Rainmeter/Skins/Polybar-master/Themes/Arch/WorkspaceManager.inc",
+		"/C/Users/cgantenbein.SIR/Documents/Rainmeter/Skins/Polybar-master/Themes/Arch/Date.inc",
+		"/C/Users/cgantenbein.SIR/Documents/Rainmeter/Skins/Polybar-master/Themes/Arch/Desktop.inc",
+		"/C/Users/cgantenbein.SIR/Documents/Rainmeter/Skins/Polybar-master/Themes/Arch/Discord.inc",
+		"/C/Users/cgantenbein.SIR/Documents/Rainmeter/Skins/Polybar-master/Themes/Arch/Mail.inc",
+		"/C/Users/cgantenbein.SIR/Documents/Rainmeter/Skins/Polybar-master/Themes/Arch/Music.inc",
+		"/C/Users/cgantenbein.SIR/Documents/Rainmeter/Skins/Polybar-master/Themes/Arch/StartMenu.inc",
+		"/C/Users/cgantenbein.SIR/Documents/Rainmeter/Skins/Polybar-master/Themes/Arch/Time.inc",
+		"/C/Users/cgantenbein.SIR/Documents/Rainmeter/Skins/Polybar-master/Themes/Arch/Volume.inc",
+		"/C/Users/cgantenbein.SIR/Documents/Rainmeter/Skins/Polybar-master/Themes/Arch/Config/Config.inc",
+		"/C/Users/cgantenbein.SIR/Documents/Rainmeter/Skins/Polybar-master/Themes/Arch/NetSpeed.inc",
+		"/C/Users/cgantenbein.SIR/Documents/Rainmeter/Skins/Polybar-master/Setting/Style.ini",
+		"/C/Users/cgantenbein.SIR/Documents/Rainmeter/Skins/Polybar-master/Polybar.ini",
+		"/C/Users/cgantenbein.SIR/Documents/Rainmeter/Skins/Polybar-master/Themes/Arch/Taskbar.inc",
+		"/C/Users/cgantenbein.SIR/Documents/Rainmeter/Skins/Polybar-master/Setting/EditModule.ini",
+		"/C/Users/cgantenbein.SIR/Documents/Rainmeter/Skins/Polybar-master/Setting/TaskbarSetting.ini",
+		"/C/Users/cgantenbein.SIR/Documents/Rainmeter/Skins/Polybar-master/Essential Component/Taskbar Magic/Readme.txt",
+		"/C/Users/cgantenbein.SIR/Documents/Rainmeter/Skins/Polybar-master/@Resources/meterFile.inc",
+		"/C/Users/cgantenbein.SIR/Documents/Rainmeter/Skins/Polybar-master/@Resources/MainBarVariables.inc",
+		"/C/Users/cgantenbein.SIR/AppData/Roaming/Sublime Text 3/Packages/User/timestamp.py",
+		"/C/Users/cgantenbein.SIR/AppData/Roaming/Sublime Text 3/Packages/User/Projects/filing_cabinet_test.sublime-project",
+		"//sir-sbs/Company$/Cory/FilingCabinet_test/Purchase_Orders/Barnes_International/PB00081877/meta.json",
+		"/C/Users/cgantenbein.SIR/AppData/Roaming/Sublime Text 3/Packages/User/Timestamp/timestamp.py",
+		"/C/Users/cgantenbein.SIR/AppData/Roaming/Sublime Text 3/Packages/Date Formatter/Date Formatter.sublime-settings",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7709-H-63.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6250-A-13.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8270-L-14.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8158-J-49.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8055-F-56.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7838-H-58.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7472-H-1.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6777-D-30.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/consigned/8303-L-51.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/94-6722B-MONROE.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8247-L-22.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8204-L-3.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8124-K-37.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8079-H-35.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8021-J-28.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7891-Special.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7756-MONROE.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7594-H-31.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7300-F-30.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6977-MONROE.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6593-C-60.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/other/ORANGE-OG2628D.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/consigned/8273-L-29.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8292-L-23.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8257-18-022.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8238-L-13.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8213-K-52.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8181-J-64.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8141-J-52.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8111-E-31.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8095-J-45.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8066-E-6.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8040-J-35.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7995-MONROE.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7940-K-62.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7869-MONROE.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7815-K-20.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7739-H-14.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7653-H-43.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7527-H-29.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7354-G-42.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7249-MONROE.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7070-E-6.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6851-E-7.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6692-D-30.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/6438-C-2.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/5873-X-41.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/other/ORANGE-B3688-A.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/consigned/8286-L-41.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/consigned/7923-K-72.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8309-L-57.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8288-H-23.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8262-MONROE.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8253-MONROE.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8243-J-4.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8234-L-15.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8218-J-25.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8209-K-5.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8198-J-59.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8165-J-60.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8148-J-56.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8136-F-86.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8115-E-7.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8107-MONROE.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8099-H-3.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8084-MONROE.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8073-MONROE.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8061-K-43.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8049-K-45.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8033-H-56.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/8009-MONROE.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7977-J-14.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7959-K-39.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7926-H-64.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7882-K-49.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7850-G-50.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7828-MONROE.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7778-F-89.md",
+		"/C/Users/cgantenbein.SIR/Desktop/belt_chart/stock/7750-K-5.md"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 128.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"5004",
+			"display",
+			"D14",
+			"A1",
+			"Nipple  w/EP Seals / Steel",
+			",\"\"",
+			",\"",
+			","
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"D13",
+			"D14",
+			"\",",
+			"\",\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 54.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "autohotkey-stuff.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 259.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

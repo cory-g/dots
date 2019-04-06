@@ -1,0 +1,22 @@
+{
+	"folders":
+	[
+		{
+			"folder_exclude_patterns":
+			[
+			],
+			"path": "/home/cory/www/cory_g.gitlab.io"
+		},
+		{
+			"folder_exclude_patterns":
+			[
+				"_site"
+			],
+			"path": "/home/cory/www/cory_g"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/home/cory/www/cory_g.gitlab.io/node_modules/vuepress"
+		}
+	]
+}

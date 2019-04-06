@@ -1,0 +1,498 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"do",
+				"doCalculation"
+			],
+			[
+				"curren",
+				"currentInput"
+			],
+			[
+				"sirp",
+				"SirpStepsNavButtons"
+			],
+			[
+				"Snow",
+				"SnowplowBladeWeight"
+			],
+			[
+				"lengthIn",
+				"lengthInches"
+			],
+			[
+				"si",
+				"sizeVal"
+			],
+			[
+				"length",
+				"lengthFeet"
+			],
+			[
+				"resu",
+				"resultDec"
+			],
+			[
+				"this",
+				"thisStep"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"THE",
+				"THE_IMAGE"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/cory/www/the-honda/src/main.js",
+			"settings":
+			{
+				"buffer_size": 735,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/cory/www/the-honda/src/App.vue",
+			"settings":
+			{
+				"buffer_size": 2897,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"lo",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"lorem",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"proje",
+				"Project Manager: Add New Project"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/cory/www/the-honda",
+		"/home/cory/www/the-honda/src"
+	],
+	"file_history":
+	[
+		"/home/cory/www/smith/calc/src/util/index.js",
+		"/home/cory/www/smith/calc/src/components/ConveyorBeltWeight.vue",
+		"/home/cory/www/smith/calc/src/views/CrimpSpec/_step3.pug",
+		"/home/cory/www/smith/calc/src/util/makeAverage.js",
+		"/home/cory/www/smith/calc/src/util/findCrimpSpec.js",
+		"/home/cory/www/smith/calc/src/views/CrimpSpec/_step5.pug",
+		"/home/cory/www/smith/calc/src/App.vue",
+		"/home/cory/www/smith/calc/src/views/CrimpSpec/_step4.pug",
+		"/home/cory/www/smith/calc/src/views/CrimpSpec/_step2.pug",
+		"/home/cory/www/smith/calc/src/components/CrimpSpec.vue",
+		"/home/cory/www/smith/calc/src/main.js",
+		"/home/cory/www/smith/calc/src/views/Global/_settingsBottomSheet.pug",
+		"/home/cory/www/smith/calc/src/views/Global/_navDrawer.pug",
+		"/home/cory/www/smith/calc/src/views/Global/_toolbar.pug",
+		"/home/cory/www/smith/calc/src/views/SnowplowBladeWeight/shipment/_shipmentBottomSheet.pug",
+		"/home/cory/www/smith/calc/src/components/SnowplowBladeWeight.vue",
+		"/home/cory/www/smith/calc/src/router/index.js",
+		"/home/cory/www/smith/calc/src/components/ConveyorLength.vue",
+		"/home/cory/www/smith/calc/src/views/ConveyorLength/_step1.pug",
+		"/home/cory/www/smith/calc/src/views/ConveyorLength/_step2.pug",
+		"/home/cory/www/smith/calc/src/views/ConveyorLength/_step3.pug",
+		"/home/cory/www/smith/calc/src/views/CrimpSpec/_step0.pug",
+		"/home/cory/www/smith/calc/src/data/cbLength.json",
+		"/home/cory/www/smith/calc/src/views/CrimpSpec/_step1.pug",
+		"/home/cory/www/smith/calc/src/views/SnowplowBladeWeight/shipment/shipmentBottomSheet/_savedShipments.pug",
+		"/home/cory/www/smith/calc/src/data/CrimpSpec.json",
+		"/home/cory/www/smith/calc/src/views/ConveyorBeltWeight/_step4.pug",
+		"/home/cory/www/smith/calc/src/views/SnowplowBladeWeight/shipment/_shipmentToolbar.pug",
+		"/home/cory/www/smith/calc/src/views/SnowplowBladeWeight/steps/_step4.pug",
+		"/home/cory/www/smith/calc/src/views/ConveyorBeltWeight/_step3.pug",
+		"/home/cory/www/smith/calc/src/views/ConveyorBeltWeight/_step2.pug",
+		"/home/cory/www/smith/calc/src/views/ConveyorBeltWeight/_step1.pug",
+		"/home/cory/www/smith/calc/src/views/ConveyorBeltWeight/_step0.pug",
+		"/home/cory/www/smith/calc/src/views/SnowplowBladeWeight/steps/_step2.pug",
+		"/home/cory/www/smith/calc/src/views/ConveyorLength/_step0.pug",
+		"/home/cory/www/smith/calc/src/components/RollLength.vue",
+		"/home/cory/www/smith/calc/src/components/Settings.vue",
+		"/home/cory/www/smith/calc/src/views/Global/_snackbar.pug",
+		"/home/cory/www/smith/calc/src/data/ConveyorBeltWeight.json",
+		"/home/cory/tmp/my-dog.json",
+		"/home/cory/www/smith/calc/config/prod.env.js",
+		"/home/cory/www/smith/calc/build/build.js",
+		"/home/cory/www/smith/calc/build/webpack.base.conf.js",
+		"/home/cory/www/smith/calc/config/index.js",
+		"/home/cory/www/smith/calc/config/dev.env.js",
+		"/home/cory/www/smith/calc/package.json",
+		"/run/media/cory/6FC6-FEDC/poo.txt",
+		"/home/cory/www/smith/calc/src/views/ConveyorBeltWeight/_BACKUP_step1.pug",
+		"/home/cory/www/smith/calc/src/views/SnowplowBladeWeight/shipment/shipmentBottomSheet/_currentShipment.pug",
+		"/home/cory/www/smith/calc/static/manifest.json",
+		"/home/cory/www/smith/calc/src/components/Home.vue",
+		"/home/cory/www/smith/calc/src/data/MainNavItems.json",
+		"/home/cory/www/smith/calc/src/views/SnowplowBladeWeight/steps/_step3.pug",
+		"/home/cory/www/smith/calc/src/components/SquareFootage.vue",
+		"/home/cory/www/smith/calc/config.xml",
+		"/home/cory/www/smith/calc/index.html",
+		"/home/cory/www/smith/calc/www/manifest.json",
+		"/home/cory/www/smith/calc/src/views/SnowplowBladeWeight/shipment/_shipmentControlFAB.pug",
+		"/home/cory/dwn/shipment-20180913-142150.xls",
+		"/home/cory/dwn/shipment-20180913-142150.csv",
+		"/home/cory/dwn/shipment-20180906-161655.csv",
+		"/home/cory/dwn/shipment-20180910-140521.csv",
+		"/home/cory/www/smith/calc/src/views/SnowplowBladeWeight/_numberInput.pug",
+		"/home/cory/www/smith/calc/src/views/SnowplowBladeWeight/shipment/_shipmentInfoBottomSheet.pug",
+		"/home/cory/dwn/download - excelJSON.csv",
+		"/home/cory/www/smith/calc/src/data/cbScratch.json",
+		"/home/cory/www/smith/calc/src/views/SnowplowBladeWeight/shipment/_shipmentAddNotesDialog.pug",
+		"/home/cory/www/smith/calc/src/data/Snowplow.json",
+		"/home/cory/www/smith/calc/src/views/SnowplowBladeWeight/steps/_step1.pug",
+		"/home/cory/www/smith/calc/src/components/Global/SirpStepsNavButtons.vue",
+		"/home/cory/bin/changelog",
+		"/home/cory/www/smith/calc/src/util/disableNextForAvg.js",
+		"/home/cory/www/smith/calc/.BACKUP.index.html",
+		"/home/cory/www/smith/calc/www/index.html",
+		"/home/cory/www/smith/calc/src/views/Global/_bottomNav.pug",
+		"/home/cory/www/smith/calc/src/components/BottomNav.vue",
+		"/home/cory/www/smith/calc/src/util/disableAdd.js",
+		"/home/cory/www/smith/calc/src/util/helpers.js",
+		"/home/cory/www/smith/calc/src/util/filters/discount.js",
+		"/home/cory/www/smith/calc/src/util/filters/makeUpper.js",
+		"/home/cory/www/smith/calc/src/util/filters/index.js",
+		"/home/cory/www/smith/calc/src/util/util/index.js",
+		"/home/cory/www/smith/calc/src/util/my-vue-plugin.js",
+		"/home/cory/www/smith/calc/src/views/SnowplowBladeWeight/shipment/_confirmClearDeleteDialog.pug",
+		"/home/cory/www/smith/calc/src/views/SnowplowBladeWeight/_confirmDialog.pug",
+		"/home/cory/www/smith/calc/src/views/SnowplowBladeWeight/_shipmentBottomSheet.pug",
+		"/home/cory/www/smith/calc/src/views/SnowplowBladeWeight/_shipmentInfoBottomSheet.pug",
+		"/home/cory/www/smith/calc/src/components/CrimpSpec/_step2.pug",
+		"/home/cory/www/smith/calc/src/components/CrimpSpec/_step1.pug",
+		"/home/cory/www/smith/calc/src/components/SnowplowBladeWeight/_shipmentDialog.pug",
+		"/home/cory/www/smith/calc/src/components/CrimpSpec/_snackbar.pug",
+		"/home/cory/www/smith/calc/src/components/Global/_snackbar.pug",
+		"/home/cory/www/smith/calc/src/components/Hello.vue",
+		"/home/cory/www/smith/calc/.gitignore",
+		"/home/cory/www/smith/calc/src/components/SnowplowBladeWeight/_shipmentMemoDialog.pug",
+		"/home/cory/www/smith/calc/src/components/SnowplowBladeWeight/_fab.pug",
+		"/home/cory/www/smith/calc/src/App/_02-toolbar.pug",
+		"/home/cory/www/smith/calc/src/App/_01-navDrawer.pug",
+		"/home/cory/www/smith/calc/static/img/icon.png",
+		"/home/cory/bin/cordova-icons",
+		"/home/cory/www/smith/calc/static/img/icons/android-chrome-192x192.png",
+		"/home/cory/www/smith/calc/platforms/android/app/src/main/java/me/coryg/smithcalc/MainActivity.java",
+		"/home/cory/www/smith/calc/res/icon/bada/icon-128.png",
+		"/home/cory/www/smith/calc/res/icon/android/icon-96-xhdpi.png",
+		"/home/cory/www/smith/calc/res/icon/android/icon-48-mdpi.png",
+		"/home/cory/www/smith/calc/res/icon/android/icon-36-ldpi.png",
+		"/home/cory/www/smith/calc/res/screen/android/screen-hdpi-portrait.png",
+		"/home/cory/www/smith/calc/res/screen/bada/screen-portrait.png",
+		"/home/cory/www/smith/calc/res/screen/android/screen-ldpi-landscape.png",
+		"/home/cory/www/smith/calc/res/screen/android/screen-ldpi-portrait.png",
+		"/home/cory/www/smith/calc/res/screen/android/screen-mdpi-landscape.png",
+		"/home/cory/tmp/colors.tmp.txt",
+		"/home/cory/www/smith/calc/res/screen/android/screen-mdpi-portrait.png",
+		"/home/cory/www/smith/calc/res/screen/android/screen-xhdpi-landscape.png",
+		"/home/cory/www/smith/calc/res/screen/android/screen-xhdpi-portrait.png",
+		"/home/cory/www/smith/calc/res/screen/android/screen-hdpi-landscape.png",
+		"/home/cory/tmp/colors2.tmp.txt",
+		"/home/cory/www/smith/calc/res/icon/windows-phone/icon-173-tile.png",
+		"/home/cory/www/smith/calc/res/icon/windows-phone/icon-48.png",
+		"/home/cory/www/smith/calc/res/icon/windows-phone/icon-62-tile.png",
+		"/home/cory/www/smith/calc/res/icon/tizen/icon-128.png",
+		"/home/cory/www/smith/calc/res/README.md",
+		"/home/cory/www/smith/calc/res/screen/webos/screen-64.png",
+		"/home/cory/www/smith/calc/res/screen/windows-phone/screen-portrait.jpg",
+		"/home/cory/www/smith/calc/res/screen/ios/screen-ipad-landscape-2x.png",
+		"/home/cory/www/smith/calc/hooks/README.md",
+		"/home/cory/www/smith/calc/.gitlab-ci.yml",
+		"/home/cory/www/smith/calc/www/service-worker.js"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 132.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/cory/www/the-honda/src/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 735,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								294,
+								294
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"markdonw_live_preview_last_run": 1538481874.38,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/cory/www/the-honda/src/App.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2897,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1412,
+								1412
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"markdonw_live_preview_last_run": 1538483221.87,
+							"syntax": "Packages/Vue Syntax Highlight/Vue Component.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 480.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 55.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "the-honda.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"index util",
+				"src/util/index.js"
+			],
+			[
+				"main",
+				"src/main.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 288.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

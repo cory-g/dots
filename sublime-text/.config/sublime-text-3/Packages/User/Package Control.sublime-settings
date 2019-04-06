@@ -1,0 +1,50 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"AdvancedNewFile",
+		"ApplySyntax",
+		"AutoFoldCode",
+		"AutoHotkey",
+		"Boxy Theme",
+		"Chain of Command",
+		"Color Convert",
+		"DA UI",
+		"Dracula Color Scheme",
+		"EditorConfig",
+		"Emmet",
+		"Extract Sublime Package",
+		"FileIcons",
+		"Gutter Color",
+		"Hex to HSL Color Converter",
+		"iOpener",
+		"LESS",
+		"LoremIpsum",
+		"Markdown Extended",
+		"MarkdownLivePreview",
+		"Package Control",
+		"Path Tools",
+		"PlainNotes",
+		"ProjectManager",
+		"Pug",
+		"Ruby Slim",
+		"Sass",
+		"SCSS",
+		"SideBarEnhancements",
+		"SimpleSyntax",
+		"SnippetMaker",
+		"Stylus",
+		"Vue Syntax Highlight",
+		"WakaTime",
+		"Zen Tabs"
+	],
+	"repositories":
+	[
+		"https://github.com/jfromaniello/Sublime-Package-Decontrol",
+		"https://github.com/anderson916/sublime-html2jade\nhttps://github.com/anderson916/sublime-html2jade\nhttps://github.com/anderson916/sublime-html2jade\nhttps://github.com/anderson916/sublime-html2jade\nhttps://github.com/anderson916/sublime-html2jade\nhttps://github.com/anderson916/sublime-html2jade\nhttps://github.com/anderson916/sublime-html2pug"
+	]
+}

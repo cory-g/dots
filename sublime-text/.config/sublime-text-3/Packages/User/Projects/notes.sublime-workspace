@@ -1,0 +1,289 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"THE",
+				"THE_IMAGE"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"proje",
+				"Project Manager: Add New Project"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/cory/dux/not"
+	],
+	"file_history":
+	[
+		"/home/cory/dox/not/todo.note",
+		"/home/cory/bin/thunar/fmb/README.md",
+		"/home/cory/bin/misc/brws/README.md",
+		"/home/cory/.xinitrc",
+		"/home/cory/.Xresources.d/colors/solarized-dark.color",
+		"/home/cory/.Xresources.d/rxvt-unicode",
+		"/home/cory/.Xresources",
+		"/home/cory/.config/sublime-text-3/Packages/Color Highlighter/ColorHighlighter.sublime-settings",
+		"/home/cory/.config/sublime-text-3/Packages/User/ColorHighlighter.sublime-settings",
+		"/home/cory/.config/bash/path",
+		"/home/cory/tmp/path2.txt",
+		"/home/cory/tmp/path3.txt",
+		"/home/cory/.bashrc",
+		"/home/cory/.config/i3/config.cat",
+		"/home/cory/bin/cati3config",
+		"/home/cory/tmp/path.txt",
+		"/home/cory/.config/i3/config",
+		"/home/cory/.config/i3/sections/06-utilities",
+		"/home/cory/bin/i3exit",
+		"/home/cory/.config/i3/sections/07-workspaces",
+		"/home/cory/.config/i3/config.default",
+		"/home/cory/.config/i3/sections/05-apps",
+		"/home/cory/.config/sublime-text-3/Projects/Dots.sublime-project",
+		"/home/cory/.config/fontconfig/fonts.conf",
+		"/home/cory/.config/vlc/vlcrc",
+		"/home/cory/.config/qt5ct/qt5ct.conf",
+		"/home/cory/.config/fontconfig/conf.d/78-Reject.conf",
+		"/home/cory/.config/urxvtconfig/config",
+		"/home/cory/.bash_logout",
+		"/home/cory/.fonts.conf",
+		"/home/cory/.urxvt/urxvtd-arch",
+		"/home/cory/.pki/nssdb/pkcs11.txt",
+		"/home/cory/.gtkrc-2.0",
+		"/home/cory/.viminfo",
+		"/home/cory/.Xauthority",
+		"/home/cory/.yarnrc",
+		"/home/cory/I3_CONFIG_FILE",
+		"/home/cory/.config/dconf/user",
+		"/home/cory/.config/i3/sections/08-media",
+		"/home/cory/.config/i3/sections/04-visual",
+		"/home/cory/.config/i3/sections/03-gaps",
+		"/home/cory/.config/i3/sections/02-variables",
+		"/home/cory/.config/i3/sections/01-init",
+		"/home/cory/.config/i3/sections/00-title",
+		"/home/cory/.config/polybar/config",
+		"/usr/share/doc/polybar/config",
+		"/home/cory/bin/polybar/pbtitle/README.md",
+		"/home/cory/bin/polybar-launch",
+		"/home/cory/dwn/fixedsys-master/FSEX.ttx",
+		"/home/cory/bin/wallawalla",
+		"/home/cory/.config/colors/solarized-dark.color",
+		"/home/cory/.config/sublime-text-3/Packages/PlainNotes/Notes.sublime-settings",
+		"/home/cory/.cache/pacaur/mons/PKGBUILD",
+		"/home/cory/.config/sublime-text-3/Packages/User/Notes.sublime-settings",
+		"/home/cory/dwn/budrich-scripts/polybar/pbtitle/pbtitle",
+		"/home/cory/.config/i3blocks/config",
+		"/run/media/cory/fdb16003-be1a-4e41-a638-1b3d68f04ba1/cory/box/Dropbox/dot/polybar/top-bar-config",
+		"/run/media/cory/fdb16003-be1a-4e41-a638-1b3d68f04ba1/cory/box/Dropbox/dot/polybar/polybar-config",
+		"/run/media/cory/fdb16003-be1a-4e41-a638-1b3d68f04ba1/cory/box/Dropbox/bin/polybar-launch",
+		"/home/cory/.config/captain/captainrc",
+		"/home/cory/.config/i3/sections/variables",
+		"/home/cory/.config/captain/captain.d/title",
+		"/home/cory/.config/captain/captain.d/clock",
+		"/home/cory/.config/i3/status.conf",
+		"/home/cory/.config/i3/blocks.conf",
+		"/home/cory/.config/i3.bkup/config",
+		"/home/cory/tmp/workspace-1.json",
+		"/home/cory/tmp/fonts.txt",
+		"/home/cory/.config/compton.conf",
+		"/run/media/cory/fdb16003-be1a-4e41-a638-1b3d68f04ba1/cory/box/Dropbox/dot/i3/i3config",
+		"/home/cory/.config/dunst/dunstrc",
+		"/run/media/cory/fdb16003-be1a-4e41-a638-1b3d68f04ba1/cory/box/Dropbox/dot/rofi/config",
+		"/home/cory/.config/rofi/config",
+		"/home/cory/.config/bash/export",
+		"/home/cory/.config/i3/i3env",
+		"/home/cory/.config/xfce4/xfconf/xfce-perchannel-xml/thunar.xml",
+		"/home/cory/.config/Thunar/accels.scm",
+		"/home/cory/.config/Thunar/renamerrc",
+		"/home/cory/.config/Thunar/uca.xml",
+		"/home/cory/.config/bash_it/bash_it.sh",
+		"/home/cory/mda/!playlist/Harry Potter.m3u",
+		"/run/media/cory/7431a0ba-133a-463c-83e5-8246779c89e7/grub/themes/starfield/theme.txt",
+		"/etc/i3/config",
+		"/home/cory/.config/sublime-text-3/Packages/User/WakaTime.sublime-settings",
+		"/run/media/cory/fdb16003-be1a-4e41-a638-1b3d68f04ba1/cory/box/Dropbox/dot/subl/DA Theme.sublime-settings",
+		"/run/media/cory/fdb16003-be1a-4e41-a638-1b3d68f04ba1/cory/box/Dropbox/dot/subl/Default (Linux).sublime-keymap",
+		"/run/media/cory/fdb16003-be1a-4e41-a638-1b3d68f04ba1/cory/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/cory/.config/bash/alias",
+		"/run/media/cory/fdb16003-be1a-4e41-a638-1b3d68f04ba1/cory/.config/i3/config.0",
+		"/run/media/cory/fdb16003-be1a-4e41-a638-1b3d68f04ba1/cory/.config/i3/config",
+		"/run/media/cory/fdb16003-be1a-4e41-a638-1b3d68f04ba1/cory/.urxvt/urxvtd-arch",
+		"/home/cory/.bash_profile",
+		"/home/cory/dwn/polybar-launch"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 55.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "notes.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 178.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
