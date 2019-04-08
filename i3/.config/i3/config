@@ -7,7 +7,7 @@ exec --no-startup-id compton
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec_always --no-startup-id $HOME/.local/bin/wallpapersetter 
 
-exec --no-startup-id "compton -C --config ~/.dotfiles/compton/.config/compton/compton.conf --respect-prop-shadow"
+exec --no-startup-id "compton -C --config $HOME/.config/compton/compton.conf --respect-prop-shadow"
 
 # Appearance
 font pango:DejaVu Sans Mono 8
@@ -29,12 +29,17 @@ bindsym $alt+Tab exec --no-startup-id "rofi -show window -show-icons"
 bindsym $super+l exec --no-startup-id "$HOME/.local/bin/doscreenlock"
 # %%hotkey: Close active window %%
 bindsym $super+q kill
+
+# Rofi-based
 # %%hotkey: Open rofi program launcher %%
 bindsym $super+space exec --no-startup-id "rofi -show run"
 # %%hotkey: Open hotkey menu %%
 bindsym $super+$alt+h exec --no-startup-id "dmenu_hotkeys --menu rofi --app i3"
 # %%hotkey: Open rofi web search
 bindsym $super+Shift+s exec --no-startup-id "$HOME/.config/rofi/scripts/web-search.sh"
+# %%hotkey: Open emoji picker
+bindsym $super+period exec --no-startup-id "$HOME/.config/rofi/scripts/rofi-emoji.sh"
+
 # %%hotkey: Toggle between vertical and horizontal splitting %%
 bindsym $super+t split toggle
 # %%hotkey: Toggle fullscreen %%
