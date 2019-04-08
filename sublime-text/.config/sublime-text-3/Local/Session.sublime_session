@@ -7,11 +7,11 @@
 		"/home/rustyschakelford/.config/sublime-text-3/Installed Packages"
 	],
 	"last_version": 3200,
-	"last_window_id": 23,
+	"last_window_id": 24,
 	"log_indexing": false,
 	"settings":
 	{
-		"new_window_height": 0.0,
+		"new_window_height": 1028.0,
 		"new_window_settings":
 		{
 			"auto_complete":
@@ -210,6 +210,16 @@
 			},
 			"file_history":
 			[
+				"/home/cory/www/cory-g.github.io/_layouts/post.html",
+				"/home/cory/www/cory-g.github.io/_layouts/home.html",
+				"/home/cory/www/cory-g.github.io/_includes/about_block.html",
+				"/home/cory/www/cory-g.github.io/_data/text.yml",
+				"/home/cory/www/cory-g.github.io/_posts/2019-04-05-dots.md",
+				"/home/cory/www/cory-g.github.io/_layouts/archive.html",
+				"/home/cory/www/cory-g.github.io/contact.md",
+				"/home/cory/www/cory-g.github.io/about.md",
+				"/home/cory/www/cory-g.github.io/_layouts/default.html",
+				"/home/cory/www/cory-g.github.io/_posts/2019-04-05-init.md",
 				"/home/cory/www/cory-g.github.io/assets/main.scss",
 				"/home/cory/www/cory-g.github.io/_sass/styles.scss",
 				"/home/cory/src/rusty-sublime/subl/Packages/Default/Preferences.sublime-settings",
@@ -327,17 +337,7 @@
 				"/home/cory/www/smith/calc/src/store/user.js",
 				"/home/cory/www/smith/calc/src/store/index.js",
 				"/home/cory/www/smith/calc/src/router/index.js",
-				"/home/cory/www/smith/calc/src/views/app/dialog/settings/_pref-decimalRounding.pug",
-				"/home/cory/www/smith/calc/src/views/app/dialog/settings/_pref-resetAll.pug",
-				"/home/cory/.config/sublime-text-3/Packages/Sync Settings/SyncSettings.sublime-settings",
-				"/home/cory/.config/sublime-text-3/Packages/User/SyncSettings.sublime-settings",
-				"/home/cory/www/smith/calc/index.html",
-				"/home/cory/www/smith/calc/src/components/App/template/index.pug",
-				"/home/cory/www/smith/calc/src/views/app/_toolbar.pug",
-				"/home/cory/www/smith/calc/src/views/layouts/_stepper-content.pug",
-				"/home/cory/www/smith/calc/src/views/app/_02-navDrawerItems.pug",
-				"/home/cory/www/smith/calc/src/ui/icons.json",
-				"/home/cory/www/smith/calc/src/ui/icons.js"
+				"/home/cory/www/smith/calc/src/views/app/dialog/settings/_pref-decimalRounding.pug"
 			],
 			"find":
 			{
@@ -437,7 +437,7 @@
 			{
 			}
 		},
-		"new_window_width": 0.0
+		"new_window_width": 1896.0
 	},
 	"windows":
 	[
@@ -535,45 +535,19 @@
 			"buffers":
 			[
 				{
-					"file": "/home/cory/www/cory-g.github.io/_layouts/post.html",
+					"file": "/home/cory/.dotfiles/README.md",
 					"settings":
 					{
-						"buffer_size": 306,
+						"buffer_size": 776,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/home/cory/www/cory-g.github.io/_layouts/home.html",
+					"file": "/home/cory/.bash_aliases",
 					"settings":
 					{
-						"buffer_size": 605,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/cory/www/cory-g.github.io/_includes/about_block.html",
-					"settings":
-					{
-						"buffer_size": 111,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/cory/www/cory-g.github.io/_data/text.yml",
-					"settings":
-					{
-						"buffer_size": 76,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/cory/www/cory-g.github.io/_posts/2019-04-05-dots.md",
-					"settings":
-					{
-						"buffer_size": 1432,
+						"buffer_size": 517,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -684,23 +658,18 @@
 				"side_bar_visible": false,
 				"status_bar_visible": false
 			},
-			"expanded_folders":
-			[
-				"/home/cory/www/cory-g.github.io",
-				"/home/cory/www/cory-g.github.io/_data",
-				"/home/cory/www/cory-g.github.io/_layouts",
-				"/home/cory/www/cory-g.github.io/_posts",
-				"/home/cory/www/cory-g.github.io/_sass"
-			],
 			"file_history":
 			[
+				"/home/cory/www/cory-g.github.io/_layouts/post.html",
+				"/home/cory/www/cory-g.github.io/_layouts/home.html",
+				"/home/cory/www/cory-g.github.io/_includes/about_block.html",
+				"/home/cory/www/cory-g.github.io/_data/text.yml",
+				"/home/cory/www/cory-g.github.io/_posts/2019-04-05-dots.md",
 				"/home/cory/www/cory-g.github.io/_layouts/archive.html",
 				"/home/cory/www/cory-g.github.io/contact.md",
 				"/home/cory/www/cory-g.github.io/about.md",
 				"/home/cory/www/cory-g.github.io/_layouts/default.html",
 				"/home/cory/www/cory-g.github.io/_posts/2019-04-05-init.md",
-				"/home/cory/www/cory-g.github.io/_layouts/home.html",
-				"/home/cory/www/cory-g.github.io/_data/text.yml",
 				"/home/cory/www/cory-g.github.io/assets/main.scss",
 				"/home/cory/www/cory-g.github.io/_sass/styles.scss",
 				"/home/cory/src/rusty-sublime/subl/Packages/Default/Preferences.sublime-settings",
@@ -818,10 +787,7 @@
 				"/home/cory/www/smith/calc/src/store/user.js",
 				"/home/cory/www/smith/calc/src/store/index.js",
 				"/home/cory/www/smith/calc/src/router/index.js",
-				"/home/cory/www/smith/calc/src/views/app/dialog/settings/_pref-decimalRounding.pug",
-				"/home/cory/www/smith/calc/src/views/app/dialog/settings/_pref-resetAll.pug",
-				"/home/cory/.config/sublime-text-3/Packages/Sync Settings/SyncSettings.sublime-settings",
-				"/home/cory/.config/sublime-text-3/Packages/User/SyncSettings.sublime-settings"
+				"/home/cory/www/smith/calc/src/views/app/dialog/settings/_pref-decimalRounding.pug"
 			],
 			"find":
 			{
@@ -853,45 +819,34 @@
 				"whole_word": false,
 				"wrap": true
 			},
-			"folders":
-			[
-				{
-					"path": "/home/cory/www/cory-g.github.io"
-				}
-			],
 			"groups":
 			[
 				{
-					"selected": 4,
+					"selected": 1,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/home/cory/www/cory-g.github.io/_layouts/post.html",
+							"file": "/home/cory/.dotfiles/README.md",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 306,
+								"buffer_size": 776,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										306,
-										306
+										92,
+										92
 									]
 								],
 								"settings":
 								{
 									"apply_syntax_touched": true,
-									"editorconfig": true,
-									"ensure_newline_at_eof_on_save": true,
-									"markdonw_live_preview_last_run": 1554648445.77,
-									"syntax": "Packages/HTML/HTML.sublime-syntax",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true,
-									"trim_trailing_white_space_on_save": true
+									"markdonw_live_preview_last_run": 1554727979.95,
+									"syntax": "Packages/Markdown Extended/Syntaxes/Markdown Extended.sublime-syntax"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -902,136 +857,26 @@
 						},
 						{
 							"buffer": 1,
-							"file": "/home/cory/www/cory-g.github.io/_layouts/home.html",
+							"file": "/home/cory/.bash_aliases",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 605,
+								"buffer_size": 517,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										264,
-										264
+										492,
+										492
 									]
 								],
 								"settings":
 								{
 									"apply_syntax_touched": true,
-									"editorconfig": true,
-									"ensure_newline_at_eof_on_save": true,
-									"markdonw_live_preview_last_run": 1554653542.59,
-									"syntax": "Packages/HTML/HTML.sublime-syntax",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true,
-									"trim_trailing_white_space_on_save": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 2,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/home/cory/www/cory-g.github.io/_includes/about_block.html",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 111,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										41,
-										41
-									]
-								],
-								"settings":
-								{
-									"apply_syntax_touched": true,
-									"editorconfig": true,
-									"ensure_newline_at_eof_on_save": true,
-									"markdonw_live_preview_last_run": 1554568866.61,
-									"syntax": "Packages/HTML/HTML.sublime-syntax",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true,
-									"trim_trailing_white_space_on_save": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 4,
-							"type": "text"
-						},
-						{
-							"buffer": 3,
-							"file": "/home/cory/www/cory-g.github.io/_data/text.yml",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 76,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										75,
-										75
-									]
-								],
-								"settings":
-								{
-									"apply_syntax_touched": true,
-									"editorconfig": true,
-									"ensure_newline_at_eof_on_save": true,
-									"markdonw_live_preview_last_run": 1554653364.6,
-									"syntax": "Packages/YAML/YAML.sublime-syntax",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true,
-									"trim_trailing_white_space_on_save": true
-								},
-								"translation.x": 82.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 3,
-							"type": "text"
-						},
-						{
-							"buffer": 4,
-							"file": "/home/cory/www/cory-g.github.io/_posts/2019-04-05-dots.md",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 1432,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1116,
-										1116
-									]
-								],
-								"settings":
-								{
-									"apply_syntax_touched": true,
-									"editorconfig": true,
-									"ensure_newline_at_eof_on_save": true,
-									"markdonw_live_preview_last_run": 1554653474.34,
-									"syntax": "Packages/Markdown Extended/Syntaxes/Markdown Extended.sublime-syntax",
-									"tab_size": 2,
-									"translate_tabs_to_spaces": true,
-									"trim_trailing_white_space_on_save": false
+									"markdonw_live_preview_last_run": 1554728072.7,
+									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -1083,7 +928,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,10,38,1352,754,1366,768",
+			"position": "0,0,0,0,0,10,38,631,1066,1920,1080",
 			"project": "",
 			"replace":
 			{

@@ -2,6 +2,11 @@
 
 ![Screenshot](scrot.png)
 
+### Primary features
+- i3-gaps
+- polybar
+- URxvt
+
 #### Notes
 
 - `~/.local/bin` needs to be added to `$PATH`

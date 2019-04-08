@@ -14,3 +14,4 @@ alias vmrc='vim $HOME/.vimrc'
 alias xfresh='xrdb $HOME/.Xresources'
 alias jekk='bundle exec jekyll serve'
 alias scrot="scrot -e 'mv $f ~/pix/scrot/'"
+alias whattime='tty-clock -c -C 3 -t -D'
