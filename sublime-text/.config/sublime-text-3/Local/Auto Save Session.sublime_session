@@ -547,10 +547,10 @@
 			"buffers":
 			[
 				{
-					"file": "/home/cory/.dotfiles/X/.Xresources",
+					"file": "/home/cory/.dotfiles/.gitignore",
 					"settings":
 					{
-						"buffer_size": 85,
+						"buffer_size": 157,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -568,11 +568,11 @@
 				"selected_items":
 				[
 					[
-						"in",
+						"install",
 						"Package Control: Install Package"
 					],
 					[
-						"install",
+						"in",
 						"Package Control: Install Package"
 					],
 					[
@@ -664,11 +664,22 @@
 			"expanded_folders":
 			[
 				"/home/cory/.dotfiles",
-				"/home/cory/.dotfiles/X",
-				"/home/cory/.dotfiles/X/.Xresources.d"
+				"/home/cory/.dotfiles/sublime-text",
+				"/home/cory/.dotfiles/sublime-text/.config",
+				"/home/cory/.dotfiles/sublime-text/.config/sublime-text-3"
 			],
 			"file_history":
 			[
+				"/home/cory/.dotfiles/fish/.config/fish/functions/fish_prompt.fish",
+				"/home/cory/.config/fish/fish_variables",
+				"/home/cory/.dotfiles/bash/.bash_profile",
+				"/home/cory/.dotfiles/X/.xinitrc",
+				"/home/cory/.dotfiles/bash/.bash_aliases",
+				"/home/cory/.dotfiles/fish/.config/fish/functions/c.fish",
+				"/home/cory/.dotfiles/bash/.bashrc",
+				"/home/cory/.dotfiles/.gitignore",
+				"/home/cory/.dotfiles/bash/.bashrc.d/ps1",
+				"/home/cory/.dotfiles/X/.Xresources",
 				"/home/cory/.dotfiles/X/.Xresources.d/colors/solarized",
 				"/home/cory/.dotfiles/X/.Xresources.d/rxvt-unicode",
 				"/home/cory/prj/subl/smith-calc.sublime-project",
@@ -786,17 +797,7 @@
 				"/home/cory/www/smith/calc/src/views/app/dialog/settings/_pref-changeUnits.pug",
 				"/home/cory/www/smith/calc/src/views/app/_01-drawerOverflowMenu.pug",
 				"/home/cory/www/smith/calc/src/views/app/dialog/settings/_pref-commaSep.pug",
-				"/home/cory/www/smith/calc/src/components/RollLength/script.js",
-				"/home/cory/www/smith/calc/src/components/App/styles.sass",
-				"/home/cory/www/smith/calc/src/components/App/script/methods.js",
-				"/home/cory/www/smith/calc/src/components/Home/script.js",
-				"/home/cory/www/smith/calc/src/components/App/script/index.js",
-				"/home/cory/www/smith/calc/src/mixins/globalCalc/index.js",
-				"/home/cory/www/smith/calc/src/components/App/script/created.js",
-				"/home/cory/www/smith/calc/src/components/App/script/data.js",
-				"/home/cory/www/smith/calc/src/App.vue",
-				"/home/cory/www/smith/calc/src/components/App/script.js",
-				"/home/cory/www/smith/calc/src/components/App/script/computed.js"
+				"/home/cory/www/smith/calc/src/components/RollLength/script.js"
 			],
 			"find":
 			{
@@ -836,26 +837,26 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/home/cory/.dotfiles/X/.Xresources",
+							"file": "/home/cory/.dotfiles/.gitignore",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 85,
+								"buffer_size": 157,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										53,
-										53
+										75,
+										75
 									]
 								],
 								"settings":
 								{
 									"apply_syntax_touched": true,
-									"markdonw_live_preview_last_run": 1554818572.86,
-									"syntax": "Packages/Text/Plain text.tmLanguage"
+									"markdonw_live_preview_last_run": 1554823074.03,
+									"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -907,7 +908,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,937,38,1906,712,1920,1080",
+			"position": "0,0,0,0,0,10,38,951,1066,1920,1080",
 			"project": "dotfiles.sublime-project",
 			"replace":
 			{
@@ -970,8 +971,8 @@
 	{
 		"recent_workspaces":
 		[
-			"/home/cory/prj/subl/smith-calc.sublime-workspace",
 			"/home/cory/prj/subl/dotfiles.sublime-workspace",
+			"/home/cory/prj/subl/smith-calc.sublime-workspace",
 			"/home/cory/prj/subl/wallie-web.sublime-workspace",
 			"/home/cory/prj/subl/coryg.me.sublime-workspace",
 			"/home/rustyschakelford/.config/sublime-text-3/Packages/User/Projects/smith-calc.sublime-workspace",
