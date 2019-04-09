@@ -542,7 +542,7 @@
 					"file": "/home/cory/.local/bin/dotz",
 					"settings":
 					{
-						"buffer_size": 1277,
+						"buffer_size": 1402,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -856,15 +856,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 1277,
+								"buffer_size": 1402,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										748,
-										748
+										890,
+										890
 									]
 								],
 								"settings":

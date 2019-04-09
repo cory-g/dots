@@ -39,12 +39,16 @@ $GIT --git-dir=$HOME/.dotfiles/.git --work-tree=$HOME/.dotfiles add .
 
 # status again
 echo ""
-echo ""
 $TOILET -f Chunky "status" | lolcat
 $GIT --git-dir=$HOME/.dotfiles/.git --work-tree=$HOME/.dotfiles status
 
 # commit
+echo ""
+$TOILET -f Chunky "commit" | lolcat
+echo "Committing with message '${COMMIT_MSG}'"
 $GIT --git-dir=$HOME/.dotfiles/.git --work-tree=$HOME/.dotfiles commit -m "${COMMIT_MSG}"
 
 # push
+echo ""
+$TOILET -f Chunky "push" | lolcat
 $GIT --git-dir=$HOME/.dotfiles/.git --work-tree=$HOME/.dotfiles push
