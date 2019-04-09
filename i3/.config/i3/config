@@ -1,36 +1,45 @@
-# Variables
+# syntax:ssHash
+
+# >> Variables
 set $super Mod4
 set $alt Mod1
 
-# Start up
+# >> Start up
 exec --no-startup-id compton
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-exec_always --no-startup-id $HOME/.local/bin/wallpapersetter 
+exec_always --no-startup-id $HOME/.local/bin/wallpapersetter
 
 exec --no-startup-id "compton -C --config $HOME/.config/compton/compton.conf --respect-prop-shadow"
 
-# Appearance
+# >> Appearance
 font pango:DejaVu Sans Mono 8
 
 for_window [class="^.*"] border pixel 2
 gaps inner 10
 # gaps outer 5
 
-# Behavior
+# >> Behavior
 floating_modifier $super
 focus_follows_mouse no
+
 # %%hotkey: Switch to last active workspace %%
 bindsym $super+Tab workspace back_and_forth
 # %%hotkey: Open rofi window switcher %%
 bindsym $alt+Tab exec --no-startup-id "rofi -show window -show-icons"
 
-# Utilities
+# >> Utilities
 # %%hotkey: Lock computer %%
 bindsym $super+l exec --no-startup-id "$HOME/.local/bin/doscreenlock"
 # %%hotkey: Close active window %%
 bindsym $super+q kill
+# %%hotkey: Toggle between vertical and horizontal splitting %%
+bindsym $super+t split toggle
+# %%hotkey: Toggle fullscreen %%
+bindsym $super+F11 fullscreen toggle
+# %%hotkey: Toggle floating for active window %%
+bindsym $super+Shift+space floating toggle
 
-# Rofi-based
+# >> Rofi-based
 # %%hotkey: Open rofi program launcher %%
 bindsym $super+space exec --no-startup-id "rofi -show run"
 # %%hotkey: Open hotkey menu %%
@@ -40,14 +49,8 @@ bindsym $super+Shift+s exec --no-startup-id "$HOME/.config/rofi/scripts/web-sear
 # %%hotkey: Open emoji picker
 bindsym $super+period exec --no-startup-id "$HOME/.config/rofi/scripts/rofi-emoji.sh"
 
-# %%hotkey: Toggle between vertical and horizontal splitting %%
-bindsym $super+t split toggle
-# %%hotkey: Toggle fullscreen %%
-bindsym $super+F11 fullscreen toggle
-# %%hotkey: Toggle floating for active window %%
-bindsym $super+Shift+space floating toggle
 
-# Applications
+# >> Applications
 # %%hotkey: Open a terminal %%
 bindsym $super+Return exec urxvt
 # %%hotkey: Open Google Chrome %%
@@ -57,7 +60,7 @@ bindsym $super+f exec --no-startup-id "thunar"
 # %%hotkey: Open Thunar File Manager as root
 bindsym $super+Shift+f exec --no-startup-id "sudo thunar"
 
-# Focus
+# >> Focus
 # %%hotkey: Move focus left %%
 bindsym $super+Left focus left
 # %%hotkey: Move focus down %%
@@ -67,6 +70,7 @@ bindsym $super+Up focus up
 # %%hotkey: Move focus right %%
 bindsym $super+Right focus right
 
+# >> Window movement
 # %%hotkey: Move focused window left %%
 bindsym $super+Shift+Left move left
 # %%hotkey: Move focused window down %%
@@ -75,14 +79,6 @@ bindsym $super+Shift+Down move down
 bindsym $super+Shift+Up move up
 # %%hotkey: Move focused window right %%
 bindsym $super+Shift+Right move right
-
-# change container layout (stacked, tabbed, toggle split)
-bindsym $super+s layout stacking
-bindsym $super+w layout tabbed
-bindsym $super+e layout toggle split
-
-# focus the parent container
-bindsym $super+a focus parent
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
@@ -95,7 +91,7 @@ set $ws6 "6"
 set $ws7 "7"
 set $ws8 "8"
 
-# switch to workspace
+# >> Switch to workspace
 # %%hotkey: Switch to workspace 1 %%
 bindsym $super+1 workspace $ws1
 # %%hotkey: Switch to workspace 2 %%
@@ -113,7 +109,7 @@ bindsym $super+7 workspace $ws7
 # %%hotkey: Switch to workspace 8 %%
 bindsym $super+8 workspace $ws8
 
-# move focused container to workspace
+# >> Move focused container to workspace
 # %%hotkey: Move active window to workspace 1 %%
 bindsym $super+Shift+1 move container to workspace $ws1
 # %%hotkey: Move active window to workspace 2 %%
@@ -131,6 +127,7 @@ bindsym $super+Shift+7 move container to workspace $ws7
 # %%hotkey: Move active window to workspace 8 %%
 bindsym $super+Shift+8 move container to workspace $ws8
 
+# >> i3 Meta
 # %%hotkey: Reload i3's configuration file %%
 bindsym $super+Shift+c reload
 # %%hotkey: Restart i3 in place %%
@@ -138,7 +135,7 @@ bindsym $super+Shift+r restart
 # %%hotkey: Exit i3 %%
 bindsym $super+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
-# Extra Keys
+# >> Extra Keys
 # %%hotkey: Increase screen brightness %%
 bindsym XF86MonBrightnessUp exec --no-startup-id "light -A 5"
 # %%hotkey: Decrease screen brightness %%
@@ -148,7 +145,7 @@ bindsym $super+$alt+p exec --no-startup-id $HOME/.local/bin/scrotz
 # %%hotkey: Take the screenshot for the dotfile repo and put it in the proper folder
 bindsym $super+$alt+Shift+p exec --no-startup-id $HOME/.local/bin/dotscrot
 
-# Media volume controls
+# >> Media volume controls
 # %%hotkey: Mute audio %%
 bindsym XF86AudioMute exec amixer sset 'Master' toggle
 # %%hotkey: Decrease master volume %%

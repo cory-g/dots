@@ -1,0 +1,24 @@
+#!/bin/sh
+#
+# dotz - 0.0.1 - April  9, 2019 @ 12:20 pm
+# created: April  9, 2019 @ 12:20 pm by Cory G
+# license: gpl-2.0
+#
+#       ██            ██
+#      ░██           ░██
+#      ░██  ██████  ██████ ██████
+#   ██████ ██░░░░██░░░██░ ░░░░██
+#  ██░░░██░██   ░██  ░██     ██
+# ░██  ░██░██   ░██  ░██    ██
+# ░░██████░░██████   ░░██  ██████
+#  ░░░░░░  ░░░░░░     ░░  ░░░░░░
+#
+# *******************************
+# Script to automatically commit and push changes in my dotfiles repo
+# ------------------------------------------
+#
+# contact
+# -------
+# << cory.gantenbein@protonmail.com >> || << https://coryg.me >>
+
+git --git-dir=$HOME/.dotfiles/.git --work-tree=$HOME/.dotfiles status
