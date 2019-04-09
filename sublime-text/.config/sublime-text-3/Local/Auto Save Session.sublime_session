@@ -547,10 +547,18 @@
 			"buffers":
 			[
 				{
-					"file": "/home/cory/.dotfiles/.gitignore",
+					"file": "/home/cory/.dotfiles/bash/.bash_aliases",
 					"settings":
 					{
-						"buffer_size": 157,
+						"buffer_size": 517,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/cory/.dotfiles/fish/.config/fish/config.fish",
+					"settings":
+					{
+						"buffer_size": 44,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -664,12 +672,19 @@
 			"expanded_folders":
 			[
 				"/home/cory/.dotfiles",
+				"/home/cory/.dotfiles/bash",
+				"/home/cory/.dotfiles/fish",
+				"/home/cory/.dotfiles/fish/.config",
+				"/home/cory/.dotfiles/fish/.config/fish",
+				"/home/cory/.dotfiles/fish/.config/fish/functions",
 				"/home/cory/.dotfiles/sublime-text",
-				"/home/cory/.dotfiles/sublime-text/.config",
-				"/home/cory/.dotfiles/sublime-text/.config/sublime-text-3"
+				"/home/cory/.dotfiles/sublime-text/.config"
 			],
 			"file_history":
 			[
+				"/home/cory/.dotfiles/fish/.config/fish/functions/scrot.fish",
+				"/home/cory/.dotfiles/fish/.config/fish/fish_variables",
+				"/home/cory/.dotfiles/.gitignore",
 				"/home/cory/.dotfiles/fish/.config/fish/functions/fish_prompt.fish",
 				"/home/cory/.config/fish/fish_variables",
 				"/home/cory/.dotfiles/bash/.bash_profile",
@@ -677,7 +692,6 @@
 				"/home/cory/.dotfiles/bash/.bash_aliases",
 				"/home/cory/.dotfiles/fish/.config/fish/functions/c.fish",
 				"/home/cory/.dotfiles/bash/.bashrc",
-				"/home/cory/.dotfiles/.gitignore",
 				"/home/cory/.dotfiles/bash/.bashrc.d/ps1",
 				"/home/cory/.dotfiles/X/.Xresources",
 				"/home/cory/.dotfiles/X/.Xresources.d/colors/solarized",
@@ -795,9 +809,7 @@
 				"/home/cory/www/smith/calc/src/views/app/dialog/_settingsDialog.pug",
 				"/home/cory/www/smith/calc/src/views/app/dialog/settings/_appear-darkMode.pug",
 				"/home/cory/www/smith/calc/src/views/app/dialog/settings/_pref-changeUnits.pug",
-				"/home/cory/www/smith/calc/src/views/app/_01-drawerOverflowMenu.pug",
-				"/home/cory/www/smith/calc/src/views/app/dialog/settings/_pref-commaSep.pug",
-				"/home/cory/www/smith/calc/src/components/RollLength/script.js"
+				"/home/cory/www/smith/calc/src/views/app/_01-drawerOverflowMenu.pug"
 			],
 			"find":
 			{
@@ -832,31 +844,61 @@
 			"groups":
 			[
 				{
-					"selected": 0,
+					"selected": 1,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/home/cory/.dotfiles/.gitignore",
+							"file": "/home/cory/.dotfiles/bash/.bash_aliases",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 157,
+								"buffer_size": 517,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										75,
-										75
+										432,
+										475
 									]
 								],
 								"settings":
 								{
 									"apply_syntax_touched": true,
-									"markdonw_live_preview_last_run": 1554823074.03,
-									"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
+									"markdonw_live_preview_last_run": 1554824560.4,
+									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/cory/.dotfiles/fish/.config/fish/config.fish",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 44,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										44,
+										44
+									]
+								],
+								"settings":
+								{
+									"apply_syntax_touched": true,
+									"markdonw_live_preview_last_run": 1554824621.66,
+									"syntax": "Packages/fish/fish.tmLanguage"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -908,7 +950,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,10,38,951,1066,1920,1080",
+			"position": "0,0,0,0,0,10,38,631,1066,1920,1080",
 			"project": "dotfiles.sublime-project",
 			"replace":
 			{
