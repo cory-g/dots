@@ -539,7 +539,34 @@
 					"file": "/home/cory/www/wallie-web/_layouts/default.html",
 					"settings":
 					{
-						"buffer_size": 15050,
+						"buffer_size": 633,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/cory/www/wallie-web/_includes/mainNav.html",
+					"settings":
+					{
+						"buffer_size": 1138,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/cory/www/wallie-web/_data/nav.yml",
+					"settings":
+					{
+						"buffer_size": 202,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/cory/www/wallie-web/_includes/footer.html",
+					"settings":
+					{
+						"buffer_size": 1287,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -548,25 +575,16 @@
 					"file": "/home/cory/www/wallie-web/_data/global.yml",
 					"settings":
 					{
-						"buffer_size": 199,
+						"buffer_size": 294,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/home/cory/www/wallie-web/_data/social.yml",
+					"file": "/home/cory/www/wallie-web/_includes/head.html",
 					"settings":
 					{
-						"buffer_size": 75,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/cory/www/wallie-web/_includes/header.html",
-					"settings":
-					{
-						"buffer_size": 371,
+						"buffer_size": 509,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -680,18 +698,41 @@
 			"expanded_folders":
 			[
 				"/home/cory/www/wallie-web",
-				"/home/cory/www/wallie-web/assets",
-				"/home/cory/www/wallie-web/assets/img"
+				"/home/cory/www/wallie-web/_data",
+				"/home/cory/www/wallie-web/_includes",
+				"/home/cory/www/wallie-web/extra"
 			],
 			"file_history":
 			[
-				"/home/cory/www/wallie-web/_includes/footer.html",
+				"/home/cory/www/wallie-web/_includes/portfolioLoop.html",
+				"/home/cory/.local/bin/wallawalla",
+				"/home/cory/www/wallie-web/_posts/2019-04-07-project-1.md",
+				"/home/cory/www/wallie-web/extra/make-thumbz.sh",
+				"/home/cory/www/wallie-web/_posts/2019-04-02-project-6.md",
+				"/home/cory/www/wallie-web/_posts/2019-04-05-project-3.md",
+				"/home/cory/www/wallie-web/_posts/2019-04-04-project-4.md",
+				"/home/cory/www/wallie-web/_posts/2019-04-03-project-5.md",
+				"/home/cory/www/wallie-web/_posts/2019-04-06-project-2.md",
+				"/home/cory/www/wallie-web/_includes/about1.md",
+				"/home/cory/www/wallie-web/_includes/modalsLoop.html",
 				"/home/cory/www/wallie-web/_posts/2019-04-07-project-name.md",
-				"/home/cory/www/wallie-web/index.html",
-				"/home/cory/www/wallie-web/_data/global.yml",
+				"/home/cory/www/wallie-web/_layouts/default.html",
+				"/home/cory/www/wallie-web/_includes/mainNav.html",
+				"/home/cory/www/wallie-web/insta_info.txt",
 				"/home/cory/www/wallie-web/_data/bodyScripts.yml",
-				"/home/cory/www/wallie-web/_includes/head.html",
 				"/home/cory/www/wallie-web/assets/css/main.scss",
+				"/home/cory/www/wallie-web/_data/global.yml",
+				"/home/cory/www/wallie-web/_includes/contact.html",
+				"/home/cory/www/wallie-web/_includes/about.html",
+				"/home/cory/www/wallie-web/_sass/_variables.scss",
+				"/home/cory/www/wallie-web/_includes/about2.md",
+				"/home/cory/www/wallie-web/about.md",
+				"/home/cory/www/wallie-web/_includes/header.html",
+				"/home/cory/www/wallie-web/_data/social.yml",
+				"/home/cory/www/wallie-web/assets/img/wallie_thumbnail.jpeg",
+				"/home/cory/www/wallie-web/_includes/footer.html",
+				"/home/cory/www/wallie-web/index.html",
+				"/home/cory/www/wallie-web/_includes/head.html",
 				"/home/cory/www/wallie-web/_includes/scrollButton.html",
 				"/home/cory/www/wallie-web/_data/headStyles.yml",
 				"/home/cory/www/wallie-web/_data/internalStyles.yml",
@@ -790,29 +831,7 @@
 				"/home/cory/www/smith/calc/src/components/SnowplowBladeWeight/template/steps/_step3.pug",
 				"/home/cory/www/smith/calc/src/components/SnowplowBladeWeight/template/steps/_step2.pug",
 				"/home/cory/www/smith/calc/src/components/SnowplowBladeWeight/template/steps/_step1.pug",
-				"/home/cory/www/smith/calc/src/components/CrimpSpec/script.js",
-				"/home/cory/www/smith/calc/src/components/CrimpSpec/template/steps/_step2.pug",
-				"/home/cory/www/smith/calc/src/components/CrimpSpec/template/steps/_step5.pug",
-				"/home/cory/www/smith/calc/src/components/ConveyorLength/script.js",
-				"/home/cory/www/smith/calc/src/components/CrimpSpec/template/steps/_step4.pug",
-				"/home/cory/www/smith/calc/src/components/CrimpSpec/template/steps/_step3.pug",
-				"/home/cory/www/smith/calc/src/components/CrimpSpec/template/steps/_step1.pug",
-				"/home/cory/www/smith/calc/src/components/RollLength/template/steps/_step2.pug",
-				"/home/cory/www/smith/calc/src/components/ConveyorLength/template/steps/_step2.pug",
-				"/home/cory/www/smith/calc/src/components/ConveyorLength/template/steps/_step1.pug",
-				"/home/cory/www/smith/calc/src/components/ConveyorBeltWeight/script.js",
-				"/home/cory/www/smith/calc/src/components/ConveyorBeltWeight/template/steps/_step3.pug",
-				"/home/cory/www/smith/calc/src/components/ConveyorBeltWeight/template/steps/_step2.pug",
-				"/home/cory/www/smith/calc/src/components/ConveyorBeltWeight/template/steps/_step1.pug",
-				"/home/cory/www/smith/calc/src/components/RollLength/template/steps/_step3.pug",
-				"/home/cory/www/smith/calc/src/components/RollLength/template/_result.pug",
-				"/home/cory/www/smith/calc/src/components/RollLength/template/steps/_step1.pug",
-				"/home/cory/www/smith/calc/src/mixins/globalCalc/computed.js",
-				"/home/cory/www/smith/calc/src/ui/styles/abstracts/_variables.sass",
-				"/home/cory/www/smith/calc/src/ui/styles/components/_v-list.sass",
-				"/home/cory/www/smith/calc/src/components/ConveyorBeltWeight/template/dialog/_addCustomBeltDialog.pug",
-				"/home/cory/www/smith/calc/src/components/ConveyorBeltWeight/template/index.pug",
-				"/home/cory/www/smith/calc/src/ui/themes/dark.js"
+				"/home/cory/www/smith/calc/src/components/CrimpSpec/script.js"
 			],
 			"find":
 			{
@@ -847,7 +866,7 @@
 			"groups":
 			[
 				{
-					"selected": 4,
+					"selected": 5,
 					"sheets":
 					[
 						{
@@ -856,252 +875,61 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 15050,
+								"buffer_size": 633,
 								"regions":
 								{
-									"gutter_color_10685":
+								},
+								"selection":
+								[
+									[
+										281,
+										281
+									]
+								],
+								"settings":
+								{
+									"apply_syntax_touched": true,
+									"markdonw_live_preview_last_run": 1554751742.89,
+									"syntax": "Packages/HTML/HTML.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/cory/www/wallie-web/_includes/mainNav.html",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1138,
+								"regions":
+								{
+									"gutter_color_333":
 									{
 										"flags": 144,
 										"icon": "Cache/GutterColor/white.png",
 										"regions":
 										[
 											[
-												10685,
-												10734
+												370,
+												626
 											]
 										],
 										"scope": "gutter_color"
 									},
-									"gutter_color_11769":
+									"gutter_color_370":
 									{
 										"flags": 144,
 										"icon": "Cache/GutterColor/white.png",
 										"regions":
 										[
 											[
-												11769,
-												11818
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_12851":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/white.png",
-										"regions":
-										[
-											[
-												12851,
-												12900
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_13933":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/white.png",
-										"regions":
-										[
-											[
-												13933,
-												13982
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1785":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/white.png",
-										"regions":
-										[
-											[
-												1785,
-												1880
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_2286":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/white.png",
-										"regions":
-										[
-											[
-												2286,
-												2381
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_2786":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/white.png",
-										"regions":
-										[
-											[
-												2786,
-												2881
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_3288":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/white.png",
-										"regions":
-										[
-											[
-												3288,
-												3383
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_332":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/white.png",
-										"regions":
-										[
-											[
-												332,
-												590
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_3788":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/white.png",
-										"regions":
-										[
-											[
-												3788,
-												3883
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_4288":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/white.png",
-										"regions":
-										[
-											[
-												4288,
-												4383
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_4651":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/white.png",
-										"regions":
-										[
-											[
-												4651,
-												4708
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_4737":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/white.png",
-										"regions":
-										[
-											[
-												4737,
-												4803
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_6456":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/red.png",
-										"regions":
-										[
-											[
-												6456,
-												6620
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_6885":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/red.png",
-										"regions":
-										[
-											[
-												6885,
-												7069
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_7333":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/red.png",
-										"regions":
-										[
-											[
-												7333,
-												7513
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_7772":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/red.png",
-										"regions":
-										[
-											[
-												7772,
-												7953
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_8520":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/white.png",
-										"regions":
-										[
-											[
-												8520,
-												8569
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_9603":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/white.png",
-										"regions":
-										[
-											[
-												9603,
-												9652
+												370,
+												626
 											]
 										],
 										"scope": "gutter_color"
@@ -1110,83 +938,44 @@
 								"selection":
 								[
 									[
-										8458,
-										8458
+										1110,
+										1110
 									]
 								],
 								"settings":
 								{
 									"apply_syntax_touched": true,
-									"markdonw_live_preview_last_run": 1554739752.17,
-									"open_with_edit": true,
+									"markdonw_live_preview_last_run": 1554751835.87,
 									"syntax": "Packages/HTML/HTML.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 2970.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 2,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/cory/www/wallie-web/_data/global.yml",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 199,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										85,
-										85
-									],
-									[
-										97,
-										97
-									],
-									[
-										108,
-										108
-									]
-								],
-								"settings":
-								{
-									"apply_syntax_touched": true,
-									"markdonw_live_preview_last_run": 1554740320.98,
-									"syntax": "Packages/YAML/YAML.sublime-syntax"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 3,
+							"stack_index": 5,
 							"type": "text"
 						},
 						{
 							"buffer": 2,
-							"file": "/home/cory/www/wallie-web/_data/social.yml",
+							"file": "/home/cory/www/wallie-web/_data/nav.yml",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 75,
+								"buffer_size": 202,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										74,
-										74
+										201,
+										201
 									]
 								],
 								"settings":
 								{
 									"apply_syntax_touched": true,
-									"markdonw_live_preview_last_run": 1554740035.45,
+									"markdonw_live_preview_last_run": 1554751846.17,
 									"open_with_edit": true,
 									"syntax": "Packages/YAML/YAML.sublime-syntax"
 								},
@@ -1199,22 +988,35 @@
 						},
 						{
 							"buffer": 3,
-							"file": "/home/cory/www/wallie-web/_includes/header.html",
+							"file": "/home/cory/www/wallie-web/_includes/footer.html",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 371,
+								"buffer_size": 1287,
 								"regions":
 								{
-									"gutter_color_0":
+									"gutter_color_1131":
 									{
 										"flags": 144,
 										"icon": "Cache/GutterColor/white.png",
 										"regions":
 										[
 											[
-												0,
-												59
+												1143,
+												1194
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_1143":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/white.png",
+										"regions":
+										[
+											[
+												1143,
+												1194
 											]
 										],
 										"scope": "gutter_color"
@@ -1223,29 +1025,82 @@
 								"selection":
 								[
 									[
-										139,
-										139
+										34,
+										34
 									]
 								],
 								"settings":
 								{
 									"apply_syntax_touched": true,
-									"markdonw_live_preview_last_run": 1554739692.95,
-									"open_with_edit": true,
+									"markdonw_live_preview_last_run": 1554755855.45,
 									"syntax": "Packages/HTML/HTML.sublime-syntax"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 1,
+							"stack_index": 3,
 							"type": "text"
 						},
 						{
-							"file": "/home/cory/www/wallie-web/assets/img/wallie_thumbnail.jpeg",
+							"buffer": 4,
+							"file": "/home/cory/www/wallie-web/_data/global.yml",
 							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 294,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										9,
+										9
+									]
+								],
+								"settings":
+								{
+									"apply_syntax_touched": true,
+									"markdonw_live_preview_last_run": 1554755948.93,
+									"syntax": "Packages/YAML/YAML.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "/home/cory/www/wallie-web/_includes/head.html",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 509,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										509,
+										509
+									]
+								],
+								"settings":
+								{
+									"apply_syntax_touched": true,
+									"markdonw_live_preview_last_run": 1554755996.17,
+									"syntax": "Packages/HTML/HTML.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
 							"stack_index": 0,
-							"type": "image"
+							"type": "text"
 						}
 					]
 				}
@@ -1290,7 +1145,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,10,38,1027,844,1920,1080",
+			"position": "0,0,0,0,0,10,38,1906,844,1920,1080",
 			"project": "wallie-web.sublime-project",
 			"replace":
 			{
@@ -1340,7 +1195,7 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 164.0,
+			"side_bar_width": 202.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
