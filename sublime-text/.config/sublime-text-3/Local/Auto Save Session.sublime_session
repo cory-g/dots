@@ -539,10 +539,10 @@
 			"buffers":
 			[
 				{
-					"file": "/home/cory/.dotfiles/.gitignore",
+					"file": "/home/cory/.dotfiles/i3/.config/i3/config",
 					"settings":
 					{
-						"buffer_size": 235,
+						"buffer_size": 5447,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -656,13 +656,13 @@
 			"expanded_folders":
 			[
 				"/home/cory/.dotfiles",
-				"/home/cory/.dotfiles/sublime-text",
-				"/home/cory/.dotfiles/sublime-text/.config",
-				"/home/cory/.dotfiles/sublime-text/.config/sublime-text-3",
-				"/home/cory/.dotfiles/sublime-text/.config/sublime-text-3/Local"
+				"/home/cory/.dotfiles/i3",
+				"/home/cory/.dotfiles/i3/.config",
+				"/home/cory/.dotfiles/i3/.config/i3"
 			],
 			"file_history":
 			[
+				"/home/cory/.dotfiles/.gitignore",
 				"/home/cory/.local/bin/lolban",
 				"/home/cory/.dotfiles/scripts/.local/bin/mkscript",
 				"/home/cory/.local/bin/dotz",
@@ -676,7 +676,6 @@
 				"/home/cory/.dotfiles/fish/.config/fish/functions/scrot.fish",
 				"/home/cory/.dotfiles/fish/.config/fish/config.fish",
 				"/home/cory/.dotfiles/fish/.config/fish/fish_variables",
-				"/home/cory/.dotfiles/.gitignore",
 				"/home/cory/.dotfiles/fish/.config/fish/functions/fish_prompt.fish",
 				"/home/cory/.config/fish/fish_variables",
 				"/home/cory/.dotfiles/bash/.bash_profile",
@@ -830,29 +829,29 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/home/cory/.dotfiles/.gitignore",
+							"file": "/home/cory/.dotfiles/i3/.config/i3/config",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 235,
+								"buffer_size": 5447,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										212,
-										212
+										459,
+										459
 									]
 								],
 								"settings":
 								{
 									"apply_syntax_touched": true,
-									"markdonw_live_preview_last_run": 1554843664.5,
-									"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
+									"markdonw_live_preview_last_run": 1554843775.79,
+									"syntax": "Packages/SimpleSyntax/ssHash.sublime-syntax"
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 45.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,

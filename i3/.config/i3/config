@@ -44,9 +44,9 @@ bindsym $super+Shift+space floating toggle
 bindsym $super+space exec --no-startup-id "rofi -show run"
 # %%hotkey: Open hotkey menu %%
 bindsym $super+$alt+h exec --no-startup-id "dmenu_hotkeys --menu rofi --app i3"
-# %%hotkey: Open rofi web search
+# %%hotkey: Open rofi web search %%
 bindsym $super+Shift+s exec --no-startup-id "$HOME/.config/rofi/scripts/web-search.sh"
-# %%hotkey: Open emoji picker
+# %%hotkey: Open emoji picker %%
 bindsym $super+period exec --no-startup-id "$HOME/.config/rofi/scripts/rofi-emoji.sh"
 
 
@@ -57,7 +57,7 @@ bindsym $super+Return exec urxvt
 bindsym $super+b exec --no-startup-id google-chrome-stable
 # %%hotkey: Open Thunar File Manager %%
 bindsym $super+f exec --no-startup-id "thunar"
-# %%hotkey: Open Thunar File Manager as root
+# %%hotkey: Open Thunar File Manager as root %%
 bindsym $super+Shift+f exec --no-startup-id "sudo thunar"
 
 # >> Focus
@@ -140,9 +140,11 @@ bindsym $super+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit short
 bindsym XF86MonBrightnessUp exec --no-startup-id "light -A 5"
 # %%hotkey: Decrease screen brightness %%
 bindsym XF86MonBrightnessDown exec --no-startup-id "light -U 5"
-# %%hotkey: Take a screenshot
+
+# >> Screenshots
+# %%hotkey: Take a screenshot %%
 bindsym $super+$alt+p exec --no-startup-id $HOME/.local/bin/scrotz
-# %%hotkey: Take the screenshot for the dotfile repo and put it in the proper folder
+# %%hotkey: Take the screenshot for my dotfile repo and put it in the proper folder %%
 bindsym $super+$alt+Shift+p exec --no-startup-id $HOME/.local/bin/dotscrot
 
 # >> Media volume controls
