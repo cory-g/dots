@@ -539,28 +539,10 @@
 			"buffers":
 			[
 				{
-					"file": "/home/cory/.local/bin/dotz",
+					"file": "/home/cory/.dotfiles/.gitignore",
 					"settings":
 					{
-						"buffer_size": 1402,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/cory/.dotfiles/scripts/.local/bin/mkscript",
-					"settings":
-					{
-						"buffer_size": 2899,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/cory/.local/bin/lolban",
-					"settings":
-					{
-						"buffer_size": 692,
+						"buffer_size": 235,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -674,17 +656,16 @@
 			"expanded_folders":
 			[
 				"/home/cory/.dotfiles",
-				"/home/cory/.dotfiles/bash",
-				"/home/cory/.dotfiles/fish",
-				"/home/cory/.dotfiles/fish/.config",
-				"/home/cory/.dotfiles/fish/.config/fish",
-				"/home/cory/.dotfiles/fish/.config/fish/functions",
-				"/home/cory/.dotfiles/scripts",
-				"/home/cory/.dotfiles/scripts/.local",
-				"/home/cory/.dotfiles/scripts/.local/bin"
+				"/home/cory/.dotfiles/sublime-text",
+				"/home/cory/.dotfiles/sublime-text/.config",
+				"/home/cory/.dotfiles/sublime-text/.config/sublime-text-3",
+				"/home/cory/.dotfiles/sublime-text/.config/sublime-text-3/Local"
 			],
 			"file_history":
 			[
+				"/home/cory/.local/bin/lolban",
+				"/home/cory/.dotfiles/scripts/.local/bin/mkscript",
+				"/home/cory/.local/bin/dotz",
 				"/home/cory/.dotfiles/bash/.bash_functions",
 				"/home/cory/.dotfiles/fish/.config/fish/functions/dot.fish",
 				"/home/cory/.local/bin/dotzupdate",
@@ -809,10 +790,7 @@
 				"/home/cory/www/smith/calc/src/ui/themes/light.js",
 				"/home/cory/www/smith/calc/node_modules/vuetify/es5/util/colorUtils.js",
 				"/home/cory/www/smith/calc/node_modules/vuetify/es5/mixins/colorable.js",
-				"/home/cory/www/smith/calc/node_modules/vuetify/es5/util/colors.js",
-				"/home/cory/www/smith/calc/src/ui/themes/index.js",
-				"/home/cory/www/smith/calc/src/mixins/globalCalc/watch.js",
-				"/home/cory/www/smith/calc/src/data/localStorageValues.js"
+				"/home/cory/www/smith/calc/node_modules/vuetify/es5/util/colors.js"
 			],
 			"find":
 			{
@@ -852,92 +830,32 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/home/cory/.local/bin/dotz",
+							"file": "/home/cory/.dotfiles/.gitignore",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 1402,
+								"buffer_size": 235,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										890,
-										890
+										212,
+										212
 									]
 								],
 								"settings":
 								{
 									"apply_syntax_touched": true,
-									"markdonw_live_preview_last_run": 1554830482.65,
-									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
+									"markdonw_live_preview_last_run": 1554843664.5,
+									"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
 								},
 								"translation.x": 0.0,
-								"translation.y": 225.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/cory/.dotfiles/scripts/.local/bin/mkscript",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 2899,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										1112,
-										1112
-									]
-								],
-								"settings":
-								{
-									"apply_syntax_touched": true,
-									"markdonw_live_preview_last_run": 1554842919.12,
-									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/home/cory/.local/bin/lolban",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 692,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										675,
-										675
-									]
-								],
-								"settings":
-								{
-									"apply_syntax_touched": true,
-									"markdonw_live_preview_last_run": 1554833543.95,
-									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 2,
 							"type": "text"
 						}
 					]
