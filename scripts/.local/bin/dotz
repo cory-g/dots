@@ -21,4 +21,30 @@
 # -------
 # << cory.gantenbein@protonmail.com >> || << https://coryg.me >>
 
-git --git-dir=$HOME/.dotfiles/.git --work-tree=$HOME/.dotfiles status
+GIT=$(which git)
+TOILET=$(which toilet)
+
+THE_DATE=`date '+%B %e, %Y @ %l:%M %P'`
+COMMIT_MSG="Automated commit on ${THE_DATE}"
+
+# echo $COMMIT_MSG
+
+# status
+$TOILET -f Chunky "status" | lolcat
+echo ""
+$GIT --git-dir=$HOME/.dotfiles/.git --work-tree=$HOME/.dotfiles status
+
+# add all
+$GIT --git-dir=$HOME/.dotfiles/.git --work-tree=$HOME/.dotfiles add .
+
+# status again
+echo ""
+echo ""
+$TOILET -f Chunky "status" | lolcat
+$GIT --git-dir=$HOME/.dotfiles/.git --work-tree=$HOME/.dotfiles status
+
+# commit
+$GIT --git-dir=$HOME/.dotfiles/.git --work-tree=$HOME/.dotfiles commit -m "${COMMIT_MSG}"
+
+# push
+$GIT --git-dir=$HOME/.dotfiles/.git --work-tree=$HOME/.dotfiles push

@@ -542,7 +542,25 @@
 					"file": "/home/cory/.local/bin/dotz",
 					"settings":
 					{
-						"buffer_size": 679,
+						"buffer_size": 1277,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/cory/.dotfiles/scripts/.local/bin/mkscript",
+					"settings":
+					{
+						"buffer_size": 2899,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/cory/.local/bin/lolban",
+					"settings":
+					{
+						"buffer_size": 692,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -656,19 +674,19 @@
 			"expanded_folders":
 			[
 				"/home/cory/.dotfiles",
+				"/home/cory/.dotfiles/bash",
 				"/home/cory/.dotfiles/fish",
 				"/home/cory/.dotfiles/fish/.config",
 				"/home/cory/.dotfiles/fish/.config/fish",
 				"/home/cory/.dotfiles/fish/.config/fish/functions",
-				"/home/cory/.dotfiles/i3",
-				"/home/cory/.dotfiles/i3/.config",
-				"/home/cory/.dotfiles/i3/.config/i3",
-				"/home/cory/.dotfiles/polybar",
-				"/home/cory/.dotfiles/polybar/.config",
-				"/home/cory/.dotfiles/polybar/.config/polybar"
+				"/home/cory/.dotfiles/scripts",
+				"/home/cory/.dotfiles/scripts/.local",
+				"/home/cory/.dotfiles/scripts/.local/bin"
 			],
 			"file_history":
 			[
+				"/home/cory/.dotfiles/bash/.bash_functions",
+				"/home/cory/.dotfiles/fish/.config/fish/functions/dot.fish",
 				"/home/cory/.local/bin/dotzupdate",
 				"/home/cory/.dotfiles/i3/.config/i3/config",
 				"/home/cory/.dotfiles/fish/.config/fish/functions/mkdir.fish",
@@ -794,9 +812,7 @@
 				"/home/cory/www/smith/calc/node_modules/vuetify/es5/util/colors.js",
 				"/home/cory/www/smith/calc/src/ui/themes/index.js",
 				"/home/cory/www/smith/calc/src/mixins/globalCalc/watch.js",
-				"/home/cory/www/smith/calc/src/data/localStorageValues.js",
-				"/home/cory/www/smith/calc/node_modules/vuetify/es5/util/color/transformSRGB.js",
-				"/home/cory/www/smith/calc/src/mixins/globalCalc/methods.js"
+				"/home/cory/www/smith/calc/src/data/localStorageValues.js"
 			],
 			"find":
 			{
@@ -840,15 +856,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 679,
+								"buffer_size": 1277,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										608,
-										608
+										748,
+										748
 									]
 								],
 								"settings":
@@ -858,10 +874,70 @@
 									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 225.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/cory/.dotfiles/scripts/.local/bin/mkscript",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2899,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1112,
+										1112
+									]
+								],
+								"settings":
+								{
+									"apply_syntax_touched": true,
+									"markdonw_live_preview_last_run": 1554842919.12,
+									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/cory/.local/bin/lolban",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 692,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										675,
+										675
+									]
+								],
+								"settings":
+								{
+									"apply_syntax_touched": true,
+									"markdonw_live_preview_last_run": 1554833543.95,
+									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
 							"type": "text"
 						}
 					]
@@ -957,7 +1033,7 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 195.0,
+			"side_bar_width": 153.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
