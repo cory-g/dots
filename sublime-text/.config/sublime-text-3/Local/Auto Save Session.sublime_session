@@ -655,13 +655,11 @@
 			},
 			"expanded_folders":
 			[
-				"/home/cory/.dotfiles",
-				"/home/cory/.dotfiles/i3",
-				"/home/cory/.dotfiles/i3/.config",
-				"/home/cory/.dotfiles/i3/.config/i3"
+				"/home/cory/.dotfiles"
 			],
 			"file_history":
 			[
+				"/home/cory/.local/bin/mute-mic",
 				"/home/cory/.dotfiles/.gitignore",
 				"/home/cory/.local/bin/lolban",
 				"/home/cory/.dotfiles/scripts/.local/bin/mkscript",
@@ -788,8 +786,7 @@
 				"/home/cory/www/smith/calc/src/main.js",
 				"/home/cory/www/smith/calc/src/ui/themes/light.js",
 				"/home/cory/www/smith/calc/node_modules/vuetify/es5/util/colorUtils.js",
-				"/home/cory/www/smith/calc/node_modules/vuetify/es5/mixins/colorable.js",
-				"/home/cory/www/smith/calc/node_modules/vuetify/es5/util/colors.js"
+				"/home/cory/www/smith/calc/node_modules/vuetify/es5/mixins/colorable.js"
 			],
 			"find":
 			{
@@ -840,8 +837,8 @@
 								"selection":
 								[
 									[
-										459,
-										459
+										4863,
+										4863
 									]
 								],
 								"settings":
@@ -851,7 +848,7 @@
 									"syntax": "Packages/SimpleSyntax/ssHash.sublime-syntax"
 								},
 								"translation.x": 0.0,
-								"translation.y": 45.0,
+								"translation.y": 1672.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,

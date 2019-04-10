@@ -11,11 +11,11 @@
 		"/home/rustyschakelford/.config/sublime-text-3/Installed Packages"
 	],
 	"last_version": 3200,
-	"last_window_id": 28,
+	"last_window_id": 29,
 	"log_indexing": false,
 	"settings":
 	{
-		"new_window_height": 760.0,
+		"new_window_height": 1028.0,
 		"new_window_settings":
 		{
 			"auto_complete":
@@ -119,11 +119,11 @@
 				"selected_items":
 				[
 					[
-						"in",
+						"install",
 						"Package Control: Install Package"
 					],
 					[
-						"install",
+						"in",
 						"Package Control: Install Package"
 					],
 					[
@@ -214,476 +214,17 @@
 			},
 			"file_history":
 			[
-				"/home/cory/prj/subl/smith-calc.sublime-project",
-				"/home/cory/www/smith-calc/src/views/app/_navDrawer.pug",
-				"/home/cory/www/smith-calc/src/views/app/_00-drawerToolbar.pug",
-				"/home/cory/www/smith-calc/src/views/app/_01-drawerOverflowMenu.pug",
-				"/home/cory/www/smith-calc.wiki/Terms-of-Service.md",
-				"/home/cory/www/smith-calc.wiki/_Sidebar.md",
-				"/home/cory/www/smith-calc.wiki/Home.md",
-				"/home/cory/www/smith-calc/src/views/app/_toolbar.pug",
-				"/home/cory/www/smith-calc/src/views/app/dialog/_settingsDialog.pug",
-				"/home/cory/www/smith-calc/build/service-worker-prod.js",
-				"/home/cory/www/smith-calc/src/data/NavDrawerItems.js",
-				"/home/cory/www/smith-calc/src/data/NavDrawerItems.json",
-				"/home/cory/www/smith-calc/src/views/app/dialog/_bottom-sheet-dialog.pug",
-				"/home/cory/www/smith-calc/src/data/MainNavItems.js",
-				"/home/cory/www/smith-calc/build/utils.js",
-				"/home/cory/www/smith-calc/static/manifest.json",
-				"/home/cory/www/smith-calc/docs/manifest.json",
-				"/home/cory/www/smith-calc/build/build.js",
-				"/home/cory/www/smith-calc/config/index.js",
-				"/home/cory/www/smith-calc/.vsignore",
-				"/home/cory/www/smith-calc/package.json",
-				"/home/cory/www/wallie-web/_includes/portfolioLoop.html",
-				"/home/cory/.local/bin/wallawalla",
-				"/home/cory/www/wallie-web/_posts/2019-04-07-project-1.md",
-				"/home/cory/www/wallie-web/extra/make-thumbz.sh",
-				"/home/cory/www/wallie-web/_posts/2019-04-02-project-6.md",
-				"/home/cory/www/wallie-web/_posts/2019-04-05-project-3.md",
-				"/home/cory/www/wallie-web/_posts/2019-04-04-project-4.md",
-				"/home/cory/www/wallie-web/_posts/2019-04-03-project-5.md",
-				"/home/cory/www/wallie-web/_posts/2019-04-06-project-2.md",
-				"/home/cory/www/wallie-web/_includes/about1.md",
-				"/home/cory/www/wallie-web/_includes/modalsLoop.html",
-				"/home/cory/www/wallie-web/_posts/2019-04-07-project-name.md",
-				"/home/cory/www/wallie-web/_layouts/default.html",
-				"/home/cory/www/wallie-web/_includes/mainNav.html",
-				"/home/cory/www/wallie-web/insta_info.txt",
-				"/home/cory/www/wallie-web/_data/bodyScripts.yml",
-				"/home/cory/www/wallie-web/assets/css/main.scss",
-				"/home/cory/www/wallie-web/_data/global.yml",
-				"/home/cory/www/wallie-web/_includes/contact.html",
-				"/home/cory/www/wallie-web/_includes/about.html",
-				"/home/cory/www/wallie-web/_sass/_variables.scss",
-				"/home/cory/www/wallie-web/_includes/about2.md",
-				"/home/cory/www/wallie-web/about.md",
-				"/home/cory/www/wallie-web/_includes/header.html",
-				"/home/cory/www/wallie-web/_data/social.yml",
-				"/home/cory/www/wallie-web/assets/img/wallie_thumbnail.jpeg",
-				"/home/cory/www/wallie-web/_includes/footer.html",
-				"/home/cory/www/wallie-web/index.html",
-				"/home/cory/www/wallie-web/_includes/head.html",
-				"/home/cory/www/wallie-web/_includes/scrollButton.html",
-				"/home/cory/www/wallie-web/_data/headStyles.yml",
-				"/home/cory/www/wallie-web/_data/internalStyles.yml",
-				"/home/cory/www/wallie-web/_data/externalStyles.yml",
-				"/home/cory/www/wallie-web/_sass/freelancer.scss",
-				"/home/cory/www/wallie-web/index.md",
-				"/home/cory/prj/subl/wallie-web.sublime-project",
-				"/home/cory/www/wallie/gulpfile.js",
-				"/home/cory/www/wallie/index.html",
-				"/home/cory/www/wallie/kr.md",
-				"/home/cory/www/wallie/_config.yml",
-				"/home/cory/www/wallie/_data/lang/en.json",
-				"/home/cory/www/wallie/_data/lang/pt.json",
-				"/home/cory/www/wallie/_data/lang/kr.json",
-				"/home/cory/www/wallie/Gemfile",
-				"/home/cory/www/wallie/_includes/portfolio_grid.html",
-				"/home/cory/www/wallie/_posts/2014-07-13-project-6.markdown",
-				"/home/cory/www/wallie/style.css",
-				"/home/cory/www/wallie/_layouts/style.css",
-				"/home/cory/www/wallie/_includes/css/main.css",
-				"/home/cory/www/wallie/freelancer-theme-jekyll.gemspec",
-				"/home/cory/www/cory-g.github.io/.gitignore",
-				"/home/cory/www/cory-g.github.io/_layouts/post.html",
-				"/home/cory/www/cory-g.github.io/_layouts/home.html",
-				"/home/cory/www/cory-g.github.io/_includes/about_block.html",
-				"/home/cory/www/cory-g.github.io/_data/text.yml",
-				"/home/cory/www/cory-g.github.io/_posts/2019-04-05-dots.md",
-				"/home/cory/www/cory-g.github.io/_layouts/archive.html",
-				"/home/cory/www/cory-g.github.io/contact.md",
-				"/home/cory/www/cory-g.github.io/about.md",
-				"/home/cory/www/cory-g.github.io/_layouts/default.html",
-				"/home/cory/www/cory-g.github.io/_posts/2019-04-05-init.md",
-				"/home/cory/www/cory-g.github.io/assets/main.scss",
-				"/home/cory/www/cory-g.github.io/_sass/styles.scss",
-				"/home/cory/src/rusty-sublime/subl/Packages/Default/Preferences.sublime-settings",
-				"/home/cory/src/rusty-sublime/subl/Packages/User/Preferences.sublime-settings",
-				"/home/cory/src/rusty-sublime/subl/Local/License.sublime_license",
-				"/home/rustyschakelford/.config/sublime.sublime-project",
-				"/home/rustyschakelford/.config/.sublime.sublime-project",
-				"/home/rustyschakelford/.config/sublime-text-3/Packages/User/ApplySyntax.ext-list",
-				"/home/cory/www/smith/calc/src/ui/styles/components/_v-nav-drawer.sass",
-				"/home/cory/www/smith/calc/src/ui/styles/components/_v-input.sass",
-				"/home/cory/www/smith/calc/src/ui/styles/components/_v-global.sass",
-				"/home/cory/www/smith/calc/src/mixins/globalCalc/data.js",
-				"/home/cory/www/smith/calc/src/ui/styles/components/_v-btn.sass",
-				"/home/cory/www/smith/calc/src/ui/styles/_shame.sass",
-				"/home/cory/www/smith/calc/src/views/layouts/_stepper-step-main.pug",
-				"/home/cory/www/smith/calc/src/data/cbLength.json",
-				"/home/cory/www/smith/calc/src/data/colorProps.json",
-				"/home/cory/www/smith/calc/src/main.js",
-				"/home/cory/www/smith/calc/src/ui/themes/light.js",
-				"/home/cory/www/smith/calc/node_modules/vuetify/es5/util/colorUtils.js",
-				"/home/cory/www/smith/calc/node_modules/vuetify/es5/mixins/colorable.js",
-				"/home/cory/www/smith/calc/node_modules/vuetify/es5/util/colors.js",
-				"/home/cory/www/smith/calc/src/ui/themes/index.js",
-				"/home/cory/www/smith/calc/src/mixins/globalCalc/watch.js",
-				"/home/cory/www/smith/calc/src/data/localStorageValues.js",
-				"/home/cory/www/smith/calc/node_modules/vuetify/es5/util/color/transformSRGB.js",
-				"/home/cory/www/smith/calc/src/mixins/globalCalc/methods.js",
-				"/home/cory/www/smith/calc/src/views/app/dialog/settings/_appear-groupNav.pug",
-				"/home/cory/www/smith/calc/src/views/app/dialog/_settingsDialog.pug",
-				"/home/cory/www/smith/calc/src/views/app/dialog/settings/_appear-darkMode.pug",
-				"/home/cory/www/smith/calc/src/views/app/dialog/settings/_pref-changeUnits.pug",
-				"/home/cory/www/smith/calc/src/views/app/_01-drawerOverflowMenu.pug",
-				"/home/cory/www/smith/calc/src/views/app/dialog/settings/_pref-commaSep.pug",
-				"/home/cory/www/smith/calc/src/components/RollLength/script.js",
-				"/home/cory/www/smith/calc/src/components/App/styles.sass",
-				"/home/cory/www/smith/calc/src/components/App/script/methods.js",
-				"/home/cory/www/smith/calc/src/components/Home/script.js",
-				"/home/cory/www/smith/calc/src/components/App/script/index.js",
-				"/home/cory/www/smith/calc/src/mixins/globalCalc/index.js",
-				"/home/cory/www/smith/calc/src/components/App/script/created.js",
-				"/home/cory/www/smith/calc/src/components/App/script/data.js",
-				"/home/cory/www/smith/calc/src/App.vue",
-				"/home/cory/www/smith/calc/src/components/App/script.js",
-				"/home/cory/www/smith/calc/src/components/App/script/computed.js",
-				"/home/cory/www/smith/calc/src/data/MainNavItems.js",
-				"/home/cory/www/smith/calc/src/components/App/script/watch.js"
-			],
-			"find":
-			{
-				"height": 24.0
-			},
-			"find_in_files":
-			{
-				"height": 138.0,
-				"where_history":
-				[
-					"/home/cory/www/smith-calc",
-					"/home/cory/www/smith-calc/build"
-				]
-			},
-			"find_state":
-			{
-				"case_sensitive": false,
-				"find_history":
-				[
-					"http://calc.smithindustrial.com",
-					"http:",
-					"calc.smithindustrial.com"
-				],
-				"highlight": true,
-				"in_selection": false,
-				"preserve_case": false,
-				"regex": false,
-				"replace_history":
-				[
-					"https://smithcalc.com",
-					"https:",
-					"smithcalc.com"
-				],
-				"reverse": false,
-				"show_context": true,
-				"use_buffer2": true,
-				"whole_word": false,
-				"wrap": true
-			},
-			"incremental_find":
-			{
-				"height": 24.0
-			},
-			"input":
-			{
-				"height": 86.25
-			},
-			"menu_visible": true,
-			"output.exec":
-			{
-				"height": 112.0
-			},
-			"output.find_results":
-			{
-				"height": 0.0
-			},
-			"pinned_build_system": "",
-			"replace":
-			{
-				"height": 94.0
-			},
-			"save_all_on_build": true,
-			"select_file":
-			{
-				"height": 0.0,
-				"last_filter": "",
-				"selected_items":
-				[
-					[
-						"index util",
-						"src/util/index.js"
-					],
-					[
-						"main",
-						"src/main.js"
-					]
-				],
-				"width": 0.0
-			},
-			"select_project":
-			{
-				"height": 0.0,
-				"last_filter": "",
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"select_symbol":
-			{
-				"height": 0.0,
-				"last_filter": "",
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"show_minimap": false,
-			"show_open_files": false,
-			"show_tabs": true,
-			"side_bar_visible": true,
-			"side_bar_width": 195.0,
-			"status_bar_visible": true,
-			"template_settings":
-			{
-			}
-		},
-		"new_window_width": 969.0
-	},
-	"windows":
-	[
-		{
-			"auto_complete":
-			{
-				"selected_items":
-				[
-					[
-						"theA",
-						"theAppIsDark"
-					],
-					[
-						"default",
-						"defaultInputs"
-					],
-					[
-						"CrimpSp",
-						"CrimpSpecData"
-					],
-					[
-						"cbLen",
-						"cbLengthData"
-					],
-					[
-						"sha",
-						"shankMeas"
-					],
-					[
-						"the",
-						"theAppIsMetric"
-					],
-					[
-						"app",
-						"theAppIsMetric"
-					],
-					[
-						"do",
-						"doCalculation"
-					],
-					[
-						"curren",
-						"currentInput"
-					],
-					[
-						"sirp",
-						"SirpStepsNavButtons"
-					],
-					[
-						"Snow",
-						"SnowplowBladeWeight"
-					],
-					[
-						"lengthIn",
-						"lengthInches"
-					],
-					[
-						"si",
-						"sizeVal"
-					],
-					[
-						"length",
-						"lengthFeet"
-					],
-					[
-						"resu",
-						"resultDec"
-					],
-					[
-						"this",
-						"thisStep"
-					],
-					[
-						"backgroun",
-						"background-color"
-					],
-					[
-						"inli",
-						"inline-block"
-					],
-					[
-						"font-s",
-						"font-size"
-					],
-					[
-						"backgrou",
-						"background-color"
-					],
-					[
-						"THE",
-						"THE_IMAGE"
-					]
-				]
-			},
-			"buffers":
-			[
-				{
-					"file": "/home/cory/.dotfiles/.gitignore",
-					"settings":
-					{
-						"buffer_size": 150,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/cory/.dotfiles/bash/.bash_profile",
-					"settings":
-					{
-						"buffer_size": 120,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/cory/.dotfiles/bash/.bashrc",
-					"settings":
-					{
-						"buffer_size": 558,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				}
-			],
-			"build_system": "",
-			"build_system_choices":
-			[
-			],
-			"build_varint": "",
-			"command_palette":
-			{
-				"height": 0.0,
-				"last_filter": "",
-				"selected_items":
-				[
-					[
-						"in",
-						"Package Control: Install Package"
-					],
-					[
-						"install",
-						"Package Control: Install Package"
-					],
-					[
-						"remo",
-						"Package Control: Remove Package"
-					],
-					[
-						"insta",
-						"Package Control: Install Package"
-					],
-					[
-						"sync",
-						"Sync Settings: Upload"
-					],
-					[
-						"inst",
-						"Package Control: Install Package"
-					],
-					[
-						"ins",
-						"Package Control: Install Package"
-					],
-					[
-						"repos",
-						"Package Control: Add Repository"
-					],
-					[
-						"packa",
-						"Package Control: Advanced Install Package"
-					],
-					[
-						"add ",
-						"Package Control: Add Repository"
-					],
-					[
-						"Package Control: re",
-						"Package Control: Remove Package"
-					],
-					[
-						"inden",
-						"Indentation: Reindent Lines"
-					],
-					[
-						"rein",
-						"Indentation: Reindent Lines"
-					],
-					[
-						"indent",
-						"Indentation: Reindent Lines"
-					],
-					[
-						"lo",
-						"Snippet: Lorem ipsum"
-					],
-					[
-						"lorem",
-						"Snippet: Lorem ipsum"
-					],
-					[
-						"proje",
-						"Project Manager: Add New Project"
-					],
-					[
-						"remove",
-						"Package Control: Remove Package"
-					]
-				],
-				"width": 0.0
-			},
-			"console":
-			{
-				"height": 456.0,
-				"history":
-				[
-					"import urllib,urllib.request,os,zipfile; pf='Package Decontrol.sublime-package'; pp=sublime.packages_path(); fp=os.path.join(pp,pf); urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); open(fp,'wb').write(urllib.request.urlopen('http://bit.ly/s3-package-decontrol').read()); zipfile.ZipFile(fp).extractall(os.path.join(pp, 'Package Decontrol'))",
-					"import urllib2,os,zipfile; pf='Package Decontrol.sublime-package'; pp=sublime.packages_path(); fp=os.path.join(pp,pf); urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(fp,'wb').write(urllib2.urlopen('http://bit.ly/package-decontrol').read()); zipfile.ZipFile(fp).extractall(os.path.join(pp, 'Package Decontrol'))",
-					"import urllib,urllib.request,os,zipfile; pf='Package Decontrol.sublime-package'; pp=sublime.packages_path(); fp=os.path.join(pp,pf); urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); open(fp,'wb').write(urllib.request.urlopen('http://bit.ly/s3-package-decontrol').read()); zipfile.ZipFile(fp).extractall(os.path.join(pp, 'Package Decontrol'))"
-				]
-			},
-			"distraction_free":
-			{
-				"menu_visible": true,
-				"show_minimap": false,
-				"show_open_files": false,
-				"show_tabs": false,
-				"side_bar_visible": false,
-				"status_bar_visible": false
-			},
-			"expanded_folders":
-			[
-				"/home/cory/.dotfiles",
-				"/home/cory/.dotfiles/bash"
-			],
-			"file_history":
-			[
+				"/home/cory/.dotfiles/bash/.bash_aliases",
+				"/home/cory/.dotfiles/fish/.config/fish/functions/scrot.fish",
+				"/home/cory/.dotfiles/fish/.config/fish/config.fish",
+				"/home/cory/.dotfiles/fish/.config/fish/fish_variables",
+				"/home/cory/.dotfiles/.gitignore",
+				"/home/cory/.dotfiles/fish/.config/fish/functions/fish_prompt.fish",
+				"/home/cory/.config/fish/fish_variables",
+				"/home/cory/.dotfiles/bash/.bash_profile",
+				"/home/cory/.dotfiles/X/.xinitrc",
+				"/home/cory/.dotfiles/fish/.config/fish/functions/c.fish",
+				"/home/cory/.dotfiles/bash/.bashrc",
 				"/home/cory/.dotfiles/bash/.bashrc.d/ps1",
 				"/home/cory/.dotfiles/X/.Xresources",
 				"/home/cory/.dotfiles/X/.Xresources.d/colors/solarized",
@@ -800,18 +341,452 @@
 				"/home/cory/www/smith/calc/src/views/app/dialog/settings/_appear-groupNav.pug",
 				"/home/cory/www/smith/calc/src/views/app/dialog/_settingsDialog.pug",
 				"/home/cory/www/smith/calc/src/views/app/dialog/settings/_appear-darkMode.pug",
-				"/home/cory/www/smith/calc/src/views/app/dialog/settings/_pref-changeUnits.pug",
-				"/home/cory/www/smith/calc/src/views/app/_01-drawerOverflowMenu.pug",
-				"/home/cory/www/smith/calc/src/views/app/dialog/settings/_pref-commaSep.pug",
-				"/home/cory/www/smith/calc/src/components/RollLength/script.js",
-				"/home/cory/www/smith/calc/src/components/App/styles.sass",
-				"/home/cory/www/smith/calc/src/components/App/script/methods.js",
-				"/home/cory/www/smith/calc/src/components/Home/script.js",
-				"/home/cory/www/smith/calc/src/components/App/script/index.js",
-				"/home/cory/www/smith/calc/src/mixins/globalCalc/index.js",
-				"/home/cory/www/smith/calc/src/components/App/script/created.js",
-				"/home/cory/www/smith/calc/src/components/App/script/data.js",
-				"/home/cory/www/smith/calc/src/App.vue"
+				"/home/cory/www/smith/calc/src/views/app/dialog/settings/_pref-changeUnits.pug"
+			],
+			"find":
+			{
+				"height": 24.0
+			},
+			"find_in_files":
+			{
+				"height": 138.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 24.0
+			},
+			"input":
+			{
+				"height": 86.25
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 112.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 94.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"index util",
+						"src/util/index.js"
+					],
+					[
+						"main",
+						"src/main.js"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 195.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1896.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"theA",
+						"theAppIsDark"
+					],
+					[
+						"default",
+						"defaultInputs"
+					],
+					[
+						"CrimpSp",
+						"CrimpSpecData"
+					],
+					[
+						"cbLen",
+						"cbLengthData"
+					],
+					[
+						"sha",
+						"shankMeas"
+					],
+					[
+						"the",
+						"theAppIsMetric"
+					],
+					[
+						"app",
+						"theAppIsMetric"
+					],
+					[
+						"do",
+						"doCalculation"
+					],
+					[
+						"curren",
+						"currentInput"
+					],
+					[
+						"sirp",
+						"SirpStepsNavButtons"
+					],
+					[
+						"Snow",
+						"SnowplowBladeWeight"
+					],
+					[
+						"lengthIn",
+						"lengthInches"
+					],
+					[
+						"si",
+						"sizeVal"
+					],
+					[
+						"length",
+						"lengthFeet"
+					],
+					[
+						"resu",
+						"resultDec"
+					],
+					[
+						"this",
+						"thisStep"
+					],
+					[
+						"backgroun",
+						"background-color"
+					],
+					[
+						"inli",
+						"inline-block"
+					],
+					[
+						"font-s",
+						"font-size"
+					],
+					[
+						"backgrou",
+						"background-color"
+					],
+					[
+						"THE",
+						"THE_IMAGE"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/cory/.dotfiles/i3/.config/i3/config",
+					"settings":
+					{
+						"buffer_size": 5447,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"in",
+						"Package Control: Install Package"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"sync",
+						"Sync Settings: Upload"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"repos",
+						"Package Control: Add Repository"
+					],
+					[
+						"packa",
+						"Package Control: Advanced Install Package"
+					],
+					[
+						"add ",
+						"Package Control: Add Repository"
+					],
+					[
+						"Package Control: re",
+						"Package Control: Remove Package"
+					],
+					[
+						"inden",
+						"Indentation: Reindent Lines"
+					],
+					[
+						"rein",
+						"Indentation: Reindent Lines"
+					],
+					[
+						"indent",
+						"Indentation: Reindent Lines"
+					],
+					[
+						"lo",
+						"Snippet: Lorem ipsum"
+					],
+					[
+						"lorem",
+						"Snippet: Lorem ipsum"
+					],
+					[
+						"proje",
+						"Project Manager: Add New Project"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 456.0,
+				"history":
+				[
+					"import urllib,urllib.request,os,zipfile; pf='Package Decontrol.sublime-package'; pp=sublime.packages_path(); fp=os.path.join(pp,pf); urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); open(fp,'wb').write(urllib.request.urlopen('http://bit.ly/s3-package-decontrol').read()); zipfile.ZipFile(fp).extractall(os.path.join(pp, 'Package Decontrol'))",
+					"import urllib2,os,zipfile; pf='Package Decontrol.sublime-package'; pp=sublime.packages_path(); fp=os.path.join(pp,pf); urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(fp,'wb').write(urllib2.urlopen('http://bit.ly/package-decontrol').read()); zipfile.ZipFile(fp).extractall(os.path.join(pp, 'Package Decontrol'))",
+					"import urllib,urllib.request,os,zipfile; pf='Package Decontrol.sublime-package'; pp=sublime.packages_path(); fp=os.path.join(pp,pf); urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); open(fp,'wb').write(urllib.request.urlopen('http://bit.ly/s3-package-decontrol').read()); zipfile.ZipFile(fp).extractall(os.path.join(pp, 'Package Decontrol'))"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/home/cory/.dotfiles"
+			],
+			"file_history":
+			[
+				"/home/cory/.dotfiles/.gitignore",
+				"/home/cory/.local/bin/lolban",
+				"/home/cory/.dotfiles/scripts/.local/bin/mkscript",
+				"/home/cory/.local/bin/dotz",
+				"/home/cory/.dotfiles/bash/.bash_functions",
+				"/home/cory/.dotfiles/fish/.config/fish/functions/dot.fish",
+				"/home/cory/.local/bin/dotzupdate",
+				"/home/cory/.dotfiles/i3/.config/i3/config",
+				"/home/cory/.dotfiles/fish/.config/fish/functions/mkdir.fish",
+				"/home/cory/.dotfiles/polybar/.config/polybar/config",
+				"/home/cory/.dotfiles/bash/.bash_aliases",
+				"/home/cory/.dotfiles/fish/.config/fish/functions/scrot.fish",
+				"/home/cory/.dotfiles/fish/.config/fish/config.fish",
+				"/home/cory/.dotfiles/fish/.config/fish/fish_variables",
+				"/home/cory/.dotfiles/fish/.config/fish/functions/fish_prompt.fish",
+				"/home/cory/.config/fish/fish_variables",
+				"/home/cory/.dotfiles/bash/.bash_profile",
+				"/home/cory/.dotfiles/X/.xinitrc",
+				"/home/cory/.dotfiles/fish/.config/fish/functions/c.fish",
+				"/home/cory/.dotfiles/bash/.bashrc",
+				"/home/cory/.dotfiles/bash/.bashrc.d/ps1",
+				"/home/cory/.dotfiles/X/.Xresources",
+				"/home/cory/.dotfiles/X/.Xresources.d/colors/solarized",
+				"/home/cory/.dotfiles/X/.Xresources.d/rxvt-unicode",
+				"/home/cory/prj/subl/smith-calc.sublime-project",
+				"/home/cory/www/smith-calc/src/views/app/_navDrawer.pug",
+				"/home/cory/www/smith-calc/src/views/app/_00-drawerToolbar.pug",
+				"/home/cory/www/smith-calc/src/views/app/_01-drawerOverflowMenu.pug",
+				"/home/cory/www/smith-calc.wiki/Terms-of-Service.md",
+				"/home/cory/www/smith-calc.wiki/_Sidebar.md",
+				"/home/cory/www/smith-calc.wiki/Home.md",
+				"/home/cory/www/smith-calc/src/views/app/_toolbar.pug",
+				"/home/cory/www/smith-calc/src/views/app/dialog/_settingsDialog.pug",
+				"/home/cory/www/smith-calc/build/service-worker-prod.js",
+				"/home/cory/www/smith-calc/src/data/NavDrawerItems.js",
+				"/home/cory/www/smith-calc/src/data/NavDrawerItems.json",
+				"/home/cory/www/smith-calc/src/views/app/dialog/_bottom-sheet-dialog.pug",
+				"/home/cory/www/smith-calc/src/data/MainNavItems.js",
+				"/home/cory/www/smith-calc/build/utils.js",
+				"/home/cory/www/smith-calc/static/manifest.json",
+				"/home/cory/www/smith-calc/docs/manifest.json",
+				"/home/cory/www/smith-calc/build/build.js",
+				"/home/cory/www/smith-calc/config/index.js",
+				"/home/cory/www/smith-calc/.vsignore",
+				"/home/cory/www/smith-calc/package.json",
+				"/home/cory/www/wallie-web/_includes/portfolioLoop.html",
+				"/home/cory/.local/bin/wallawalla",
+				"/home/cory/www/wallie-web/_posts/2019-04-07-project-1.md",
+				"/home/cory/www/wallie-web/extra/make-thumbz.sh",
+				"/home/cory/www/wallie-web/_posts/2019-04-02-project-6.md",
+				"/home/cory/www/wallie-web/_posts/2019-04-05-project-3.md",
+				"/home/cory/www/wallie-web/_posts/2019-04-04-project-4.md",
+				"/home/cory/www/wallie-web/_posts/2019-04-03-project-5.md",
+				"/home/cory/www/wallie-web/_posts/2019-04-06-project-2.md",
+				"/home/cory/www/wallie-web/_includes/about1.md",
+				"/home/cory/www/wallie-web/_includes/modalsLoop.html",
+				"/home/cory/www/wallie-web/_posts/2019-04-07-project-name.md",
+				"/home/cory/www/wallie-web/_layouts/default.html",
+				"/home/cory/www/wallie-web/_includes/mainNav.html",
+				"/home/cory/www/wallie-web/insta_info.txt",
+				"/home/cory/www/wallie-web/_data/bodyScripts.yml",
+				"/home/cory/www/wallie-web/assets/css/main.scss",
+				"/home/cory/www/wallie-web/_data/global.yml",
+				"/home/cory/www/wallie-web/_includes/contact.html",
+				"/home/cory/www/wallie-web/_includes/about.html",
+				"/home/cory/www/wallie-web/_sass/_variables.scss",
+				"/home/cory/www/wallie-web/_includes/about2.md",
+				"/home/cory/www/wallie-web/about.md",
+				"/home/cory/www/wallie-web/_includes/header.html",
+				"/home/cory/www/wallie-web/_data/social.yml",
+				"/home/cory/www/wallie-web/assets/img/wallie_thumbnail.jpeg",
+				"/home/cory/www/wallie-web/_includes/footer.html",
+				"/home/cory/www/wallie-web/index.html",
+				"/home/cory/www/wallie-web/_includes/head.html",
+				"/home/cory/www/wallie-web/_includes/scrollButton.html",
+				"/home/cory/www/wallie-web/_data/headStyles.yml",
+				"/home/cory/www/wallie-web/_data/internalStyles.yml",
+				"/home/cory/www/wallie-web/_data/externalStyles.yml",
+				"/home/cory/www/wallie-web/_sass/freelancer.scss",
+				"/home/cory/www/wallie-web/index.md",
+				"/home/cory/prj/subl/wallie-web.sublime-project",
+				"/home/cory/www/wallie/gulpfile.js",
+				"/home/cory/www/wallie/index.html",
+				"/home/cory/www/wallie/kr.md",
+				"/home/cory/www/wallie/_config.yml",
+				"/home/cory/www/wallie/_data/lang/en.json",
+				"/home/cory/www/wallie/_data/lang/pt.json",
+				"/home/cory/www/wallie/_data/lang/kr.json",
+				"/home/cory/www/wallie/Gemfile",
+				"/home/cory/www/wallie/_includes/portfolio_grid.html",
+				"/home/cory/www/wallie/_posts/2014-07-13-project-6.markdown",
+				"/home/cory/www/wallie/style.css",
+				"/home/cory/www/wallie/_layouts/style.css",
+				"/home/cory/www/wallie/_includes/css/main.css",
+				"/home/cory/www/wallie/freelancer-theme-jekyll.gemspec",
+				"/home/cory/www/cory-g.github.io/.gitignore",
+				"/home/cory/www/cory-g.github.io/_layouts/post.html",
+				"/home/cory/www/cory-g.github.io/_layouts/home.html",
+				"/home/cory/www/cory-g.github.io/_includes/about_block.html",
+				"/home/cory/www/cory-g.github.io/_data/text.yml",
+				"/home/cory/www/cory-g.github.io/_posts/2019-04-05-dots.md",
+				"/home/cory/www/cory-g.github.io/_layouts/archive.html",
+				"/home/cory/www/cory-g.github.io/contact.md",
+				"/home/cory/www/cory-g.github.io/about.md",
+				"/home/cory/www/cory-g.github.io/_layouts/default.html",
+				"/home/cory/www/cory-g.github.io/_posts/2019-04-05-init.md",
+				"/home/cory/www/cory-g.github.io/assets/main.scss",
+				"/home/cory/www/cory-g.github.io/_sass/styles.scss",
+				"/home/cory/src/rusty-sublime/subl/Packages/Default/Preferences.sublime-settings",
+				"/home/cory/src/rusty-sublime/subl/Packages/User/Preferences.sublime-settings",
+				"/home/cory/src/rusty-sublime/subl/Local/License.sublime_license",
+				"/home/rustyschakelford/.config/sublime.sublime-project",
+				"/home/rustyschakelford/.config/.sublime.sublime-project",
+				"/home/rustyschakelford/.config/sublime-text-3/Packages/User/ApplySyntax.ext-list",
+				"/home/cory/www/smith/calc/src/ui/styles/components/_v-nav-drawer.sass",
+				"/home/cory/www/smith/calc/src/ui/styles/components/_v-input.sass",
+				"/home/cory/www/smith/calc/src/ui/styles/components/_v-global.sass",
+				"/home/cory/www/smith/calc/src/mixins/globalCalc/data.js",
+				"/home/cory/www/smith/calc/src/ui/styles/components/_v-btn.sass",
+				"/home/cory/www/smith/calc/src/ui/styles/_shame.sass",
+				"/home/cory/www/smith/calc/src/views/layouts/_stepper-step-main.pug",
+				"/home/cory/www/smith/calc/src/data/cbLength.json",
+				"/home/cory/www/smith/calc/src/data/colorProps.json",
+				"/home/cory/www/smith/calc/src/main.js",
+				"/home/cory/www/smith/calc/src/ui/themes/light.js",
+				"/home/cory/www/smith/calc/node_modules/vuetify/es5/util/colorUtils.js",
+				"/home/cory/www/smith/calc/node_modules/vuetify/es5/mixins/colorable.js",
+				"/home/cory/www/smith/calc/node_modules/vuetify/es5/util/colors.js"
 			],
 			"find":
 			{
@@ -846,94 +821,34 @@
 			"groups":
 			[
 				{
-					"selected": 2,
+					"selected": 0,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/home/cory/.dotfiles/.gitignore",
+							"file": "/home/cory/.dotfiles/i3/.config/i3/config",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 150,
+								"buffer_size": 5447,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										150,
-										150
+										548,
+										548
 									]
 								],
 								"settings":
 								{
 									"apply_syntax_touched": true,
-									"markdonw_live_preview_last_run": 1554819185.88,
-									"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
+									"markdonw_live_preview_last_run": 1554843775.79,
+									"syntax": "Packages/SimpleSyntax/ssHash.sublime-syntax"
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 2,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/cory/.dotfiles/bash/.bash_profile",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 120,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"apply_syntax_touched": true,
-									"markdonw_live_preview_last_run": 1554819274.02,
-									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/home/cory/.dotfiles/bash/.bashrc",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 558,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										558,
-										558
-									]
-								],
-								"settings":
-								{
-									"apply_syntax_touched": true,
-									"markdonw_live_preview_last_run": 1554819277.17,
-									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 45.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -982,7 +897,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,1064,38,1906,1066,1920,1080",
+			"position": "0,0,0,0,0,10,38,951,1066,1920,1080",
 			"project": "dotfiles.sublime-project",
 			"replace":
 			{
@@ -1032,7 +947,7 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 195.0,
+			"side_bar_width": 153.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
