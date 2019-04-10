@@ -53,3 +53,13 @@ echo -e "${TXT_GRN}Wallpaper saved to ${WP_FILE_PATH}${NC}"
 
 
 # feh --bg-fill $THE_WALLPAPER
+
+# open file for editing?
+dialog --title "Message"  --yesno "Set newly created wallpaper as current wallpaper?" 10 60 3>&1 1>&2 2>&3 3>&1
+if [[ $? == 1 ]]; then
+  echo "Wallpaper not set."
+else
+  rm .config/wall.*
+  cp ${WP_FILE_PATH} $HOME/.config/wall.$FILE_EXT
+  feh --bg-fill $HOME/.config/wall.$FILE_EXT
+fi

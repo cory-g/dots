@@ -1,3 +1,4 @@
+! syntax:ssExcla
 ! urxvt
 URxvt*buffered: true
 URxvt*cursorBlink: true
@@ -11,4 +12,8 @@ URxvt*saveLines: 5000
 URxvt*termName: rxvt-unicode
 URxvt.matcher.button: 1
 URxvt.depth: 32
+
+! solarized
 URxvt.background: [90]#002b36
+! gruvbox
+! URxvt.background: [90]#282828

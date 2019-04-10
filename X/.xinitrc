@@ -41,7 +41,7 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-xset +fp /home/cory/.local/share/fonts
+xset +fp $HOME/.local/share/fonts
 xset fp rehash
 
 # set screen DPI

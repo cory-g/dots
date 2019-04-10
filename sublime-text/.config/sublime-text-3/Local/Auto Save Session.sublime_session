@@ -539,26 +539,10 @@
 			"buffers":
 			[
 				{
-					"file": "/home/cory/.dotfiles/fish/.config/fish/functions/fish_prompt.fish",
+					"file": "/home/cory/.dotfiles/X/.Xresources.d/rxvt-unicode",
 					"settings":
 					{
-						"buffer_size": 1334,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/cory/.dotfiles/fish/.config/fish/functions/fish_right_prompt.fish",
-					"settings":
-					{
-						"buffer_size": 570,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/cory/.dotfiles/fish/.config/fish/functions/__sf_section_char.fish",
-					"settings":
-					{
-						"buffer_size": 1123,
+						"buffer_size": 515,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -576,6 +560,18 @@
 				"selected_items":
 				[
 					[
+						"color s",
+						"UI: Select Color Scheme"
+					],
+					[
+						"theme",
+						"UI: Select Theme"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
 						"install",
 						"Package Control: Install Package"
 					],
@@ -586,10 +582,6 @@
 					[
 						"remo",
 						"Package Control: Remove Package"
-					],
-					[
-						"insta",
-						"Package Control: Install Package"
 					],
 					[
 						"sync",
@@ -672,19 +664,29 @@
 			"expanded_folders":
 			[
 				"/home/cory/.dotfiles",
-				"/home/cory/.dotfiles/fish",
-				"/home/cory/.dotfiles/fish/.config",
-				"/home/cory/.dotfiles/fish/.config/fish",
-				"/home/cory/.dotfiles/fish/.config/fish/functions"
+				"/home/cory/.dotfiles/X",
+				"/home/cory/.dotfiles/X/.Xresources.d",
+				"/home/cory/.dotfiles/X/.Xresources.d/colors"
 			],
 			"file_history":
 			[
-				"/home/cory/.dotfiles/polybar/.config/polybar/config",
+				"/home/cory/.dotfiles/X/.Xresources.d/colors/solarized",
+				"/home/cory/.dotfiles/scripts/.local/bin/mkscript",
+				"/home/cory/.dotfiles/scripts/.local/bin/wallawalla",
 				"/home/cory/.dotfiles/bash/.bash_profile",
+				"/home/cory/.dotfiles/X/.Xresources",
+				"/home/cory/.dotfiles/X/.Xresources.d/rxvt-unicode",
+				"/home/cory/.dotfiles/scripts/.local/bin/wallpapersetter",
+				"/home/cory/.dotfiles/polybar/.config/polybar/launch.sh",
+				"/home/cory/.dotfiles/i3/.config/i3/config",
+				"/home/cory/.dotfiles/X/.xinitrc",
+				"/home/cory/.dotfiles/X/.Xresources.d/colors/gruvbox",
+				"/home/cory/.dotfiles/fish/.config/fish/functions/fish_prompt.fish",
+				"/home/cory/.dotfiles/fish/.config/fish/functions/fish_right_prompt.fish",
+				"/home/cory/.dotfiles/fish/.config/fish/functions/__sf_section_char.fish",
+				"/home/cory/.dotfiles/polybar/.config/polybar/config",
 				"/home/cory/.dotfiles/bash/.bashrc",
 				"/home/cory/.dotfiles/fish/.config/fish/config.fish",
-				"/home/cory/.dotfiles/fish/.config/fish/functions/fish_prompt.fish",
-				"/home/cory/.dotfiles/i3/.config/i3/config",
 				"/home/cory/.dotfiles/arandr/.screenlayout/1-external-vga.sh",
 				"/home/cory/.dotfiles/rofi/.config/rofi/scripts/rofi-mons",
 				"/home/cory/.dotfiles/rofi/.config/rofi/scripts/rofi-powermenu",
@@ -693,7 +695,6 @@
 				"/home/cory/.local/bin/mute-mic",
 				"/home/cory/.dotfiles/.gitignore",
 				"/home/cory/.local/bin/lolban",
-				"/home/cory/.dotfiles/scripts/.local/bin/mkscript",
 				"/home/cory/.local/bin/dotz",
 				"/home/cory/.dotfiles/bash/.bash_functions",
 				"/home/cory/.dotfiles/fish/.config/fish/functions/dot.fish",
@@ -703,12 +704,8 @@
 				"/home/cory/.dotfiles/fish/.config/fish/functions/scrot.fish",
 				"/home/cory/.dotfiles/fish/.config/fish/fish_variables",
 				"/home/cory/.config/fish/fish_variables",
-				"/home/cory/.dotfiles/X/.xinitrc",
 				"/home/cory/.dotfiles/fish/.config/fish/functions/c.fish",
 				"/home/cory/.dotfiles/bash/.bashrc.d/ps1",
-				"/home/cory/.dotfiles/X/.Xresources",
-				"/home/cory/.dotfiles/X/.Xresources.d/colors/solarized",
-				"/home/cory/.dotfiles/X/.Xresources.d/rxvt-unicode",
 				"/home/cory/prj/subl/smith-calc.sublime-project",
 				"/home/cory/www/smith-calc/src/views/app/_navDrawer.pug",
 				"/home/cory/www/smith-calc/src/views/app/_00-drawerToolbar.pug",
@@ -800,17 +797,11 @@
 				"/home/rustyschakelford/.config/.sublime.sublime-project",
 				"/home/rustyschakelford/.config/sublime-text-3/Packages/User/ApplySyntax.ext-list",
 				"/home/cory/www/smith/calc/src/ui/styles/components/_v-nav-drawer.sass",
-				"/home/cory/www/smith/calc/src/ui/styles/components/_v-input.sass",
-				"/home/cory/www/smith/calc/src/ui/styles/components/_v-global.sass",
-				"/home/cory/www/smith/calc/src/mixins/globalCalc/data.js",
-				"/home/cory/www/smith/calc/src/ui/styles/components/_v-btn.sass",
-				"/home/cory/www/smith/calc/src/ui/styles/_shame.sass",
-				"/home/cory/www/smith/calc/src/views/layouts/_stepper-step-main.pug",
-				"/home/cory/www/smith/calc/src/data/cbLength.json"
+				"/home/cory/www/smith/calc/src/ui/styles/components/_v-input.sass"
 			],
 			"find":
 			{
-				"height": 24.0
+				"height": 31.0
 			},
 			"find_in_files":
 			{
@@ -841,94 +832,34 @@
 			"groups":
 			[
 				{
-					"selected": 2,
+					"selected": 0,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/home/cory/.dotfiles/fish/.config/fish/functions/fish_prompt.fish",
+							"file": "/home/cory/.dotfiles/X/.Xresources.d/rxvt-unicode",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 1334,
+								"buffer_size": 515,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										760,
-										760
+										472,
+										472
 									]
 								],
 								"settings":
 								{
 									"apply_syntax_touched": true,
-									"markdonw_live_preview_last_run": 1554912580.63,
-									"syntax": "Packages/fish/fish.tmLanguage"
+									"markdonw_live_preview_last_run": 1554915106.51,
+									"syntax": "Packages/SimpleSyntax/ssExcla.sublime-syntax"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 2,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/cory/.dotfiles/fish/.config/fish/functions/fish_right_prompt.fish",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 570,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"apply_syntax_touched": true,
-									"markdonw_live_preview_last_run": 1554912644.19,
-									"syntax": "Packages/fish/fish.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/home/cory/.dotfiles/fish/.config/fish/functions/__sf_section_char.fish",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 1123,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										460,
-										460
-									]
-								],
-								"settings":
-								{
-									"apply_syntax_touched": true,
-									"markdonw_live_preview_last_run": 1554912664.48,
-									"syntax": "Packages/fish/fish.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 210.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -939,7 +870,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 24.0
+				"height": 31.0
 			},
 			"input":
 			{
@@ -977,7 +908,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,965,38,1906,545,1920,1080",
+			"position": "0,0,0,0,0,10,38,1906,1066,1920,1080",
 			"project": "dotfiles.sublime-project",
 			"replace":
 			{
@@ -1027,7 +958,7 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 292.0,
+			"side_bar_width": 199.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
