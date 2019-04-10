@@ -539,10 +539,26 @@
 			"buffers":
 			[
 				{
-					"file": "/home/cory/.dotfiles/i3/.config/i3/config",
+					"file": "/home/cory/.dotfiles/fish/.config/fish/functions/fish_prompt.fish",
 					"settings":
 					{
-						"buffer_size": 5447,
+						"buffer_size": 1334,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/cory/.dotfiles/fish/.config/fish/functions/fish_right_prompt.fish",
+					"settings":
+					{
+						"buffer_size": 570,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/cory/.dotfiles/fish/.config/fish/functions/__sf_section_char.fish",
+					"settings":
+					{
+						"buffer_size": 1123,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -655,10 +671,25 @@
 			},
 			"expanded_folders":
 			[
-				"/home/cory/.dotfiles"
+				"/home/cory/.dotfiles",
+				"/home/cory/.dotfiles/fish",
+				"/home/cory/.dotfiles/fish/.config",
+				"/home/cory/.dotfiles/fish/.config/fish",
+				"/home/cory/.dotfiles/fish/.config/fish/functions"
 			],
 			"file_history":
 			[
+				"/home/cory/.dotfiles/polybar/.config/polybar/config",
+				"/home/cory/.dotfiles/bash/.bash_profile",
+				"/home/cory/.dotfiles/bash/.bashrc",
+				"/home/cory/.dotfiles/fish/.config/fish/config.fish",
+				"/home/cory/.dotfiles/fish/.config/fish/functions/fish_prompt.fish",
+				"/home/cory/.dotfiles/i3/.config/i3/config",
+				"/home/cory/.dotfiles/arandr/.screenlayout/1-external-vga.sh",
+				"/home/cory/.dotfiles/rofi/.config/rofi/scripts/rofi-mons",
+				"/home/cory/.dotfiles/rofi/.config/rofi/scripts/rofi-powermenu",
+				"/home/cory/.dotfiles/arandr/.screenlayout/2-extend-vga.sh",
+				"/home/cory/.dotfiles/arandr/.screenlayout/1-internal-lvds.sh",
 				"/home/cory/.local/bin/mute-mic",
 				"/home/cory/.dotfiles/.gitignore",
 				"/home/cory/.local/bin/lolban",
@@ -667,19 +698,13 @@
 				"/home/cory/.dotfiles/bash/.bash_functions",
 				"/home/cory/.dotfiles/fish/.config/fish/functions/dot.fish",
 				"/home/cory/.local/bin/dotzupdate",
-				"/home/cory/.dotfiles/i3/.config/i3/config",
 				"/home/cory/.dotfiles/fish/.config/fish/functions/mkdir.fish",
-				"/home/cory/.dotfiles/polybar/.config/polybar/config",
 				"/home/cory/.dotfiles/bash/.bash_aliases",
 				"/home/cory/.dotfiles/fish/.config/fish/functions/scrot.fish",
-				"/home/cory/.dotfiles/fish/.config/fish/config.fish",
 				"/home/cory/.dotfiles/fish/.config/fish/fish_variables",
-				"/home/cory/.dotfiles/fish/.config/fish/functions/fish_prompt.fish",
 				"/home/cory/.config/fish/fish_variables",
-				"/home/cory/.dotfiles/bash/.bash_profile",
 				"/home/cory/.dotfiles/X/.xinitrc",
 				"/home/cory/.dotfiles/fish/.config/fish/functions/c.fish",
-				"/home/cory/.dotfiles/bash/.bashrc",
 				"/home/cory/.dotfiles/bash/.bashrc.d/ps1",
 				"/home/cory/.dotfiles/X/.Xresources",
 				"/home/cory/.dotfiles/X/.Xresources.d/colors/solarized",
@@ -781,12 +806,7 @@
 				"/home/cory/www/smith/calc/src/ui/styles/components/_v-btn.sass",
 				"/home/cory/www/smith/calc/src/ui/styles/_shame.sass",
 				"/home/cory/www/smith/calc/src/views/layouts/_stepper-step-main.pug",
-				"/home/cory/www/smith/calc/src/data/cbLength.json",
-				"/home/cory/www/smith/calc/src/data/colorProps.json",
-				"/home/cory/www/smith/calc/src/main.js",
-				"/home/cory/www/smith/calc/src/ui/themes/light.js",
-				"/home/cory/www/smith/calc/node_modules/vuetify/es5/util/colorUtils.js",
-				"/home/cory/www/smith/calc/node_modules/vuetify/es5/mixins/colorable.js"
+				"/home/cory/www/smith/calc/src/data/cbLength.json"
 			],
 			"find":
 			{
@@ -821,34 +841,94 @@
 			"groups":
 			[
 				{
-					"selected": 0,
+					"selected": 2,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/home/cory/.dotfiles/i3/.config/i3/config",
+							"file": "/home/cory/.dotfiles/fish/.config/fish/functions/fish_prompt.fish",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 5447,
+								"buffer_size": 1334,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										4863,
-										4863
+										760,
+										760
 									]
 								],
 								"settings":
 								{
 									"apply_syntax_touched": true,
-									"markdonw_live_preview_last_run": 1554843775.79,
-									"syntax": "Packages/SimpleSyntax/ssHash.sublime-syntax"
+									"markdonw_live_preview_last_run": 1554912580.63,
+									"syntax": "Packages/fish/fish.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 1672.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/cory/.dotfiles/fish/.config/fish/functions/fish_right_prompt.fish",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 570,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"apply_syntax_touched": true,
+									"markdonw_live_preview_last_run": 1554912644.19,
+									"syntax": "Packages/fish/fish.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/cory/.dotfiles/fish/.config/fish/functions/__sf_section_char.fish",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1123,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										460,
+										460
+									]
+								],
+								"settings":
+								{
+									"apply_syntax_touched": true,
+									"markdonw_live_preview_last_run": 1554912664.48,
+									"syntax": "Packages/fish/fish.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 210.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -897,7 +977,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,10,38,951,1066,1920,1080",
+			"position": "0,0,0,0,0,965,38,1906,545,1920,1080",
 			"project": "dotfiles.sublime-project",
 			"replace":
 			{
@@ -947,7 +1027,7 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 153.0,
+			"side_bar_width": 292.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{

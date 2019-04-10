@@ -1,0 +1,11 @@
+#!/bin/bash
+
+title="Power Menu"
+widthpercent=10
+
+typeset -A menu
+menu=(
+    ["Log Off"]="kill -9 -1"
+    ["Reboot"]="sudo reboot"
+    ["Power Off"]="sudo poweroff"
+)

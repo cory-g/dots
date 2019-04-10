@@ -1,0 +1,14 @@
+#!/bin/bash
+
+title="Monitor configuration"
+widthpercent=13
+
+typeset -A menu
+menu=(
+    ["1: internal only"]="~/.screenlayout/1-internal-lvds.sh"
+    ["2: external VGA"]="~/.screenlayout/1-external-vga.sh"
+    # ["3: external DP"]="~/sh_kawaiifaces 3"
+    # ["4: dual external"]="~/sh_kawaiifaces 4"
+    ["5: extend internal to VGA"]="~/.screenlayout/2-extend-vga.sh"
+    # ["6: extend internal to DP"]="~/sh_kawaiifaces 5"
+)
