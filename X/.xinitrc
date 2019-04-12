@@ -48,6 +48,7 @@ xset fp rehash
 ## xrandr --dpi 125.37
 
 # start system tray icons
+pamac-tray-appindicator &
 volumeicon &
 nm-applet &
 

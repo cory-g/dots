@@ -28,7 +28,7 @@ confirm_delete = True
 preloading_images = True
 savemode = 2
 start_in_fullscreen = False
-thumbsize = 128
+thumbsize = 96
 screenshot_delay = 2
 
 [actions]

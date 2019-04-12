@@ -332,7 +332,7 @@
        gradientdrag="1"
        font_sample="AaBbCcIiPpQq12369$€¢?.;/()"
        show_sample_in_list="1"
-       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:Montserrat;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:Montserrat;font-stretch:normal;font-variant:normal"
        selcue="1">
       <group
          id="lineheight"
@@ -574,8 +574,8 @@
        page="0"
        x="0"
        y="0"
-       w="347"
-       h="428"
+       w="320"
+       h="403"
        visible="1"
        state="2"
        placement="1" />
@@ -595,8 +595,8 @@
        panel_border="0"
        x="0"
        y="0"
-       w="347"
-       h="424"
+       w="320"
+       h="398"
        visible="1"
        state="2"
        placement="2" />
@@ -1001,10 +1001,10 @@
      id="desktop"
      style="line-height:1.25">
     <group
-       width="1304"
-       height="678"
-       x="28"
-       y="56"
+       width="1896"
+       height="1028"
+       x="10"
+       y="38"
        fullscreen="0"
        id="geometry"
        maximized="0" />

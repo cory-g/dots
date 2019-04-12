@@ -1,0 +1,24 @@
+#!/bin/sh
+#
+# i3exit - 0.0.1 - April 12, 2019 @  7:14 am
+# created: April 12, 2019 @  7:14 am by Cory G
+# license: gpl-2.0
+#
+#  ██  ████                  ██   ██
+# ░░  █░░░ █                ░░   ░██
+#  ██░    ░█  █████  ██   ██ ██ ██████
+# ░██   ███  ██░░░██░░██ ██ ░██░░░██░
+# ░██  ░░░ █░███████ ░░███  ░██  ░██
+# ░██ █   ░█░██░░░░   ██░██ ░██  ░██
+# ░██░ ████ ░░██████ ██ ░░██░██  ░░██
+# ░░  ░░░░   ░░░░░░ ░░   ░░ ░░    ░░
+#
+# *******************************
+# A script I've stupidly left with the default description and vaguely named i3exit
+# ------------------------------------------
+#
+# contact
+# -------
+# << cory.gantenbein@protonmail.com >> || << https://coryg.me >>
+
+i3-nagbar -t warning -m 'Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'
