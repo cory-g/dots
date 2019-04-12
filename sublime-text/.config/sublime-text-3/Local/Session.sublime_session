@@ -683,6 +683,7 @@
 			],
 			"file_history":
 			[
+				"/home/cory/.config/htop/htoprc",
 				"/home/cory/.dotfiles/i3/.config/i3/config",
 				"/home/cory/.dotfiles/polybar/.config/polybar/config",
 				"/home/cory/.dotfiles/polybar/.config/polybar/scripts/pacman-aur-updates.sh",
@@ -809,8 +810,7 @@
 				"/home/cory/src/rusty-sublime/subl/Packages/Default/Preferences.sublime-settings",
 				"/home/cory/src/rusty-sublime/subl/Packages/User/Preferences.sublime-settings",
 				"/home/cory/src/rusty-sublime/subl/Local/License.sublime_license",
-				"/home/rustyschakelford/.config/sublime.sublime-project",
-				"/home/rustyschakelford/.config/.sublime.sublime-project"
+				"/home/rustyschakelford/.config/sublime.sublime-project"
 			],
 			"find":
 			{
@@ -862,8 +862,8 @@
 								"selection":
 								[
 									[
-										387,
-										387
+										324,
+										324
 									]
 								],
 								"settings":
@@ -922,7 +922,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,10,38,1906,1066,1920,1080",
+			"position": "0,0,0,0,0,645,38,1271,1066,1920,1080",
 			"project": "dotfiles.sublime-project",
 			"replace":
 			{
