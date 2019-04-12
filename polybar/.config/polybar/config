@@ -23,7 +23,7 @@ yellow = ${xrdb:color3:#b58900}
 width = 100%
 height = 22
 radius = 0
-fixed-center = false
+fixed-center = true
 
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -46,7 +46,7 @@ font-2 = Siji:pixelsize=16;1
 
 modules-left = i3
 modules-center = xwindow
-modules-right = xbacklight battery date updates-arch-combined mons pwrmnu
+modules-right = xbacklight battery date mons pwrmnu
 
 tray-position = right
 tray-padding = 0
@@ -152,34 +152,27 @@ type = internal/battery
 battery = BAT0
 adapter = AC
 full-at = 98
+poll-interval = 5
 
 format-charging = <animation-charging> <label-charging>
 format-charging-underline = ${colors.green}
 
-format-discharging = <animation-discharging> <label-discharging>
+format-discharging = <ramp-capacity> <label-discharging>
 format-discharging-underline = ${colors.yellow}
 
-format-full-prefix = " "
+format-full-prefix = " "
 format-full-prefix-foreground = ${colors.foreground-alt}
 format-full-underline = ${self.format-charging-underline}
 
-ramp-capacity-0 = 
-ramp-capacity-1 = 
-ramp-capacity-2 = 
+ramp-capacity-0 = " "
+ramp-capacity-1 = " "
+ramp-capacity-2 = " "
 ramp-capacity-foreground = ${colors.foreground-alt}
 
-animation-charging-0 = 
-animation-charging-1 = 
-animation-charging-2 = 
-animation-charging-3 = 
+animation-charging-0 = " "
+
 animation-charging-foreground = ${colors.foreground-alt}
 animation-charging-framerate = 750
-
-animation-discharging-0 = 
-animation-discharging-1 = 
-animation-discharging-2 = 
-animation-discharging-foreground = ${colors.foreground-alt}
-animation-discharging-framerate = 750
 
 ; >> Monitors
 [module/mons]
