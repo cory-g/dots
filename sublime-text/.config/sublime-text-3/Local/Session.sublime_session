@@ -11,11 +11,11 @@
 		"/home/rustyschakelford/.config/sublime-text-3/Installed Packages"
 	],
 	"last_version": 3207,
-	"last_window_id": 31,
+	"last_window_id": 35,
 	"log_indexing": false,
 	"settings":
 	{
-		"new_window_height": 815.0,
+		"new_window_height": 1028.0,
 		"new_window_settings":
 		{
 			"auto_complete":
@@ -119,6 +119,10 @@
 				"selected_items":
 				[
 					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
 						"color s",
 						"UI: Select Color Scheme"
 					],
@@ -128,10 +132,6 @@
 					],
 					[
 						"insta",
-						"Package Control: Install Package"
-					],
-					[
-						"install",
 						"Package Control: Install Package"
 					],
 					[
@@ -222,26 +222,37 @@
 			},
 			"file_history":
 			[
-				"/home/cory/.dotfiles/X/.Xresources.d/rxvt-unicode",
+				"/home/cory/.config/sublime-text-3/Packages/WakaTime/WakaTime.sublime-settings",
+				"/home/cory/.config/sublime-text-3/Packages/User/WakaTime.sublime-settings",
+				"/home/cory/.config/gpymusic/config.json",
+				"/home/cory/.nowplaying",
+				"/home/cory/.dotfiles/rofi/.config/rofi/config",
+				"/home/cory/.dotfiles/rofi/.config/rofi/config.rasi",
+				"/home/cory/.local/bin/blurme",
+				"/home/cory/.dotfiles/X/.Xresources",
+				"/home/cory/.dotfiles/polybar/.config/polybar/config",
+				"/home/cory/.dotfiles/i3/.config/i3/config",
+				"/home/cory/.config/neofetch/config.conf",
+				"/home/cory/.config/htop/htoprc",
+				"/home/cory/.dotfiles/polybar/.config/polybar/scripts/pacman-aur-updates.sh",
+				"/home/cory/.dotfiles/X/.xinitrc",
 				"/home/cory/.dotfiles/X/.Xresources.d/colors/solarized",
+				"/home/cory/.local/bin/i3exit",
+				"/home/cory/.dotfiles/rofi/.config/rofi/scripts/rofi-powermenu",
+				"/home/cory/.dotfiles/X/.Xresources.d/rxvt-unicode",
 				"/home/cory/.dotfiles/scripts/.local/bin/mkscript",
 				"/home/cory/.dotfiles/scripts/.local/bin/wallawalla",
 				"/home/cory/.dotfiles/bash/.bash_profile",
-				"/home/cory/.dotfiles/X/.Xresources",
 				"/home/cory/.dotfiles/scripts/.local/bin/wallpapersetter",
 				"/home/cory/.dotfiles/polybar/.config/polybar/launch.sh",
-				"/home/cory/.dotfiles/i3/.config/i3/config",
-				"/home/cory/.dotfiles/X/.xinitrc",
 				"/home/cory/.dotfiles/X/.Xresources.d/colors/gruvbox",
 				"/home/cory/.dotfiles/fish/.config/fish/functions/fish_prompt.fish",
 				"/home/cory/.dotfiles/fish/.config/fish/functions/fish_right_prompt.fish",
 				"/home/cory/.dotfiles/fish/.config/fish/functions/__sf_section_char.fish",
-				"/home/cory/.dotfiles/polybar/.config/polybar/config",
 				"/home/cory/.dotfiles/bash/.bashrc",
 				"/home/cory/.dotfiles/fish/.config/fish/config.fish",
 				"/home/cory/.dotfiles/arandr/.screenlayout/1-external-vga.sh",
 				"/home/cory/.dotfiles/rofi/.config/rofi/scripts/rofi-mons",
-				"/home/cory/.dotfiles/rofi/.config/rofi/scripts/rofi-powermenu",
 				"/home/cory/.dotfiles/arandr/.screenlayout/2-extend-vga.sh",
 				"/home/cory/.dotfiles/arandr/.screenlayout/1-internal-lvds.sh",
 				"/home/cory/.local/bin/mute-mic",
@@ -338,22 +349,11 @@
 				"/home/cory/www/cory-g.github.io/_layouts/archive.html",
 				"/home/cory/www/cory-g.github.io/contact.md",
 				"/home/cory/www/cory-g.github.io/about.md",
-				"/home/cory/www/cory-g.github.io/_layouts/default.html",
-				"/home/cory/www/cory-g.github.io/_posts/2019-04-05-init.md",
-				"/home/cory/www/cory-g.github.io/assets/main.scss",
-				"/home/cory/www/cory-g.github.io/_sass/styles.scss",
-				"/home/cory/src/rusty-sublime/subl/Packages/Default/Preferences.sublime-settings",
-				"/home/cory/src/rusty-sublime/subl/Packages/User/Preferences.sublime-settings",
-				"/home/cory/src/rusty-sublime/subl/Local/License.sublime_license",
-				"/home/rustyschakelford/.config/sublime.sublime-project",
-				"/home/rustyschakelford/.config/.sublime.sublime-project",
-				"/home/rustyschakelford/.config/sublime-text-3/Packages/User/ApplySyntax.ext-list",
-				"/home/cory/www/smith/calc/src/ui/styles/components/_v-nav-drawer.sass",
-				"/home/cory/www/smith/calc/src/ui/styles/components/_v-input.sass"
+				"/home/cory/www/cory-g.github.io/_layouts/default.html"
 			],
 			"find":
 			{
-				"height": 31.0
+				"height": 24.0
 			},
 			"find_in_files":
 			{
@@ -367,6 +367,9 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"/*\t",
+					"cols",
+					"battery"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -374,6 +377,7 @@
 				"regex": false,
 				"replace_history":
 				[
+					"/*"
 				],
 				"reverse": false,
 				"show_context": true,
@@ -383,7 +387,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 31.0
+				"height": 24.0
 			},
 			"input":
 			{
@@ -401,7 +405,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 94.0
+				"height": 44.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -449,7 +453,7 @@
 			{
 			}
 		},
-		"new_window_width": 941.0
+		"new_window_width": 1896.0
 	},
 	"windows":
 	[
@@ -547,20 +551,10 @@
 			"buffers":
 			[
 				{
-					"file": "/home/cory/.dotfiles/rofi/.config/rofi/config",
+					"file": "/home/cory/www/wallie-web/_posts/.gitkeep",
 					"settings":
 					{
-						"buffer_size": 304,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/cory/.dotfiles/rofi/.config/rofi/config.rasi",
-					"settings":
-					{
-						"buffer_size": 4261,
-						"encoding": "UTF-8",
+						"buffer_size": 0,
 						"line_ending": "Unix"
 					}
 				}
@@ -577,28 +571,20 @@
 				"selected_items":
 				[
 					[
-						"install",
-						"Package Control: Install Package"
-					],
-					[
-						"color s",
-						"UI: Select Color Scheme"
-					],
-					[
-						"theme",
-						"UI: Select Theme"
-					],
-					[
-						"insta",
-						"Package Control: Install Package"
-					],
-					[
 						"in",
+						"Package Control: Install Package"
+					],
+					[
+						"install",
 						"Package Control: Install Package"
 					],
 					[
 						"remo",
 						"Package Control: Remove Package"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
 					],
 					[
 						"sync",
@@ -680,108 +666,59 @@
 			},
 			"expanded_folders":
 			[
-				"/home/cory/.dotfiles",
-				"/home/cory/.dotfiles/rofi",
-				"/home/cory/.dotfiles/rofi/.config",
-				"/home/cory/.dotfiles/rofi/.config/rofi",
-				"/home/cory/.dotfiles/rofi/.config/rofi/themes",
-				"/home/cory/.dotfiles/X"
+				"/home/cory/www/wallie-web",
+				"/home/cory/www/wallie-web/_drafts",
+				"/home/cory/www/wallie-web/_posts",
+				"/home/cory/www/wallie-web/assets",
+				"/home/cory/www/wallie-web/assets/img",
+				"/home/cory/www/wallie-web/assets/img/feed",
+				"/home/cory/www/wallie-web/extra"
 			],
 			"file_history":
 			[
-				"/home/cory/.dotfiles/X/.Xresources",
-				"/home/cory/.dotfiles/polybar/.config/polybar/config",
-				"/home/cory/.dotfiles/i3/.config/i3/config",
-				"/home/cory/.config/neofetch/config.conf",
-				"/home/cory/.config/htop/htoprc",
-				"/home/cory/.dotfiles/polybar/.config/polybar/scripts/pacman-aur-updates.sh",
-				"/home/cory/.dotfiles/X/.xinitrc",
-				"/home/cory/.dotfiles/X/.Xresources.d/colors/solarized",
-				"/home/cory/.local/bin/i3exit",
-				"/home/cory/.dotfiles/rofi/.config/rofi/config",
-				"/home/cory/.dotfiles/rofi/.config/rofi/scripts/rofi-powermenu",
-				"/home/cory/.dotfiles/X/.Xresources.d/rxvt-unicode",
-				"/home/cory/.dotfiles/scripts/.local/bin/mkscript",
-				"/home/cory/.dotfiles/scripts/.local/bin/wallawalla",
-				"/home/cory/.dotfiles/bash/.bash_profile",
-				"/home/cory/.dotfiles/scripts/.local/bin/wallpapersetter",
-				"/home/cory/.dotfiles/polybar/.config/polybar/launch.sh",
-				"/home/cory/.dotfiles/X/.Xresources.d/colors/gruvbox",
-				"/home/cory/.dotfiles/fish/.config/fish/functions/fish_prompt.fish",
-				"/home/cory/.dotfiles/fish/.config/fish/functions/fish_right_prompt.fish",
-				"/home/cory/.dotfiles/fish/.config/fish/functions/__sf_section_char.fish",
-				"/home/cory/.dotfiles/bash/.bashrc",
-				"/home/cory/.dotfiles/fish/.config/fish/config.fish",
-				"/home/cory/.dotfiles/arandr/.screenlayout/1-external-vga.sh",
-				"/home/cory/.dotfiles/rofi/.config/rofi/scripts/rofi-mons",
-				"/home/cory/.dotfiles/arandr/.screenlayout/2-extend-vga.sh",
-				"/home/cory/.dotfiles/arandr/.screenlayout/1-internal-lvds.sh",
-				"/home/cory/.local/bin/mute-mic",
-				"/home/cory/.dotfiles/.gitignore",
-				"/home/cory/.local/bin/lolban",
-				"/home/cory/.local/bin/dotz",
-				"/home/cory/.dotfiles/bash/.bash_functions",
-				"/home/cory/.dotfiles/fish/.config/fish/functions/dot.fish",
-				"/home/cory/.local/bin/dotzupdate",
-				"/home/cory/.dotfiles/fish/.config/fish/functions/mkdir.fish",
-				"/home/cory/.dotfiles/bash/.bash_aliases",
-				"/home/cory/.dotfiles/fish/.config/fish/functions/scrot.fish",
-				"/home/cory/.dotfiles/fish/.config/fish/fish_variables",
-				"/home/cory/.config/fish/fish_variables",
-				"/home/cory/.dotfiles/fish/.config/fish/functions/c.fish",
-				"/home/cory/.dotfiles/bash/.bashrc.d/ps1",
-				"/home/cory/prj/subl/smith-calc.sublime-project",
-				"/home/cory/www/smith-calc/src/views/app/_navDrawer.pug",
-				"/home/cory/www/smith-calc/src/views/app/_00-drawerToolbar.pug",
-				"/home/cory/www/smith-calc/src/views/app/_01-drawerOverflowMenu.pug",
-				"/home/cory/www/smith-calc.wiki/Terms-of-Service.md",
-				"/home/cory/www/smith-calc.wiki/_Sidebar.md",
-				"/home/cory/www/smith-calc.wiki/Home.md",
-				"/home/cory/www/smith-calc/src/views/app/_toolbar.pug",
-				"/home/cory/www/smith-calc/src/views/app/dialog/_settingsDialog.pug",
-				"/home/cory/www/smith-calc/build/service-worker-prod.js",
-				"/home/cory/www/smith-calc/src/data/NavDrawerItems.js",
-				"/home/cory/www/smith-calc/src/data/NavDrawerItems.json",
-				"/home/cory/www/smith-calc/src/views/app/dialog/_bottom-sheet-dialog.pug",
-				"/home/cory/www/smith-calc/src/data/MainNavItems.js",
-				"/home/cory/www/smith-calc/build/utils.js",
-				"/home/cory/www/smith-calc/static/manifest.json",
-				"/home/cory/www/smith-calc/docs/manifest.json",
-				"/home/cory/www/smith-calc/build/build.js",
-				"/home/cory/www/smith-calc/config/index.js",
-				"/home/cory/www/smith-calc/.vsignore",
-				"/home/cory/www/smith-calc/package.json",
-				"/home/cory/www/wallie-web/_includes/portfolioLoop.html",
-				"/home/cory/.local/bin/wallawalla",
 				"/home/cory/www/wallie-web/_posts/2019-04-07-project-1.md",
+				"/home/cory/www/wallie-web/assets/img/feed/proj_1.jpg",
+				"/home/cory/www/wallie-web/_data/display.yml",
+				"/home/cory/www/wallie-web/_drafts/2019-04-07-project-1.md",
+				"/home/cory/www/wallie-web/_includes/portfolioLoop.html",
+				"/home/cory/www/wallie-web/_includes/contact.html",
+				"/home/cory/www/wallie-web/_includes/about.md",
+				"/home/cory/www/wallie-web/_includes/about.html",
+				"/home/cory/www/wallie-web/_includes/about1.md",
+				"/home/cory/www/wallie-web/_includes/about2.md",
+				"/home/cory/www/wallie-web/_layouts/default.html",
+				"/home/cory/www/wallie-web/_includes/mainNav.html",
+				"/home/cory/www/wallie-web/_sass/_bootstrap-overrides.scss",
+				"/home/cory/www/wallie-web/assets/vendor/bootstrap/css/bootstrap.css",
+				"/home/cory/www/wallie-web/_data/headStyles.yml",
+				"/home/cory/www/wallie-web/_data/social.yml",
+				"/home/cory/.local/bin/wallawalla",
+				"/home/cory/www/wallie-web/_includes/bodyScripts.html",
+				"/home/cory/www/wallie-web/_includes/footer.html",
+				"/home/cory/www/wallie-web/_includes/header.html",
+				"/home/cory/www/wallie-web/_sass/_variables.scss",
+				"/home/cory/www/wallie-web/_sass/_global.scss",
+				"/home/cory/www/wallie-web/_sass/_mixins.scss",
+				"/home/cory/www/wallie-web/_sass/_portfolio.scss",
+				"/home/cory/www/wallie-web/_sass/_navbar.scss",
+				"/home/cory/www/wallie-web/_data/nav.yml",
+				"/home/cory/www/wallie-web/_data/global.yml",
+				"/home/cory/www/wallie-web/_includes/head.html",
 				"/home/cory/www/wallie-web/extra/make-thumbz.sh",
 				"/home/cory/www/wallie-web/_posts/2019-04-02-project-6.md",
 				"/home/cory/www/wallie-web/_posts/2019-04-05-project-3.md",
 				"/home/cory/www/wallie-web/_posts/2019-04-04-project-4.md",
 				"/home/cory/www/wallie-web/_posts/2019-04-03-project-5.md",
 				"/home/cory/www/wallie-web/_posts/2019-04-06-project-2.md",
-				"/home/cory/www/wallie-web/_includes/about1.md",
 				"/home/cory/www/wallie-web/_includes/modalsLoop.html",
 				"/home/cory/www/wallie-web/_posts/2019-04-07-project-name.md",
-				"/home/cory/www/wallie-web/_layouts/default.html",
-				"/home/cory/www/wallie-web/_includes/mainNav.html",
 				"/home/cory/www/wallie-web/insta_info.txt",
 				"/home/cory/www/wallie-web/_data/bodyScripts.yml",
 				"/home/cory/www/wallie-web/assets/css/main.scss",
-				"/home/cory/www/wallie-web/_data/global.yml",
-				"/home/cory/www/wallie-web/_includes/contact.html",
-				"/home/cory/www/wallie-web/_includes/about.html",
-				"/home/cory/www/wallie-web/_sass/_variables.scss",
-				"/home/cory/www/wallie-web/_includes/about2.md",
 				"/home/cory/www/wallie-web/about.md",
-				"/home/cory/www/wallie-web/_includes/header.html",
-				"/home/cory/www/wallie-web/_data/social.yml",
 				"/home/cory/www/wallie-web/assets/img/wallie_thumbnail.jpeg",
-				"/home/cory/www/wallie-web/_includes/footer.html",
 				"/home/cory/www/wallie-web/index.html",
-				"/home/cory/www/wallie-web/_includes/head.html",
 				"/home/cory/www/wallie-web/_includes/scrollButton.html",
-				"/home/cory/www/wallie-web/_data/headStyles.yml",
 				"/home/cory/www/wallie-web/_data/internalStyles.yml",
 				"/home/cory/www/wallie-web/_data/externalStyles.yml",
 				"/home/cory/www/wallie-web/_sass/freelancer.scss",
@@ -816,7 +753,57 @@
 				"/home/cory/www/cory-g.github.io/_sass/styles.scss",
 				"/home/cory/src/rusty-sublime/subl/Packages/Default/Preferences.sublime-settings",
 				"/home/cory/src/rusty-sublime/subl/Packages/User/Preferences.sublime-settings",
-				"/home/cory/src/rusty-sublime/subl/Local/License.sublime_license"
+				"/home/cory/src/rusty-sublime/subl/Local/License.sublime_license",
+				"/home/rustyschakelford/.config/sublime.sublime-project",
+				"/home/rustyschakelford/.config/.sublime.sublime-project",
+				"/home/rustyschakelford/.config/sublime-text-3/Packages/User/ApplySyntax.ext-list",
+				"/home/cory/www/smith/calc/src/ui/styles/components/_v-nav-drawer.sass",
+				"/home/cory/www/smith/calc/src/ui/styles/components/_v-input.sass",
+				"/home/cory/www/smith/calc/src/ui/styles/components/_v-global.sass",
+				"/home/cory/www/smith/calc/src/mixins/globalCalc/data.js",
+				"/home/cory/www/smith/calc/src/ui/styles/components/_v-btn.sass",
+				"/home/cory/www/smith/calc/src/ui/styles/_shame.sass",
+				"/home/cory/www/smith/calc/src/views/layouts/_stepper-step-main.pug",
+				"/home/cory/www/smith/calc/src/data/cbLength.json",
+				"/home/cory/www/smith/calc/src/data/colorProps.json",
+				"/home/cory/www/smith/calc/src/main.js",
+				"/home/cory/www/smith/calc/src/ui/themes/light.js",
+				"/home/cory/www/smith/calc/node_modules/vuetify/es5/util/colorUtils.js",
+				"/home/cory/www/smith/calc/node_modules/vuetify/es5/mixins/colorable.js",
+				"/home/cory/www/smith/calc/node_modules/vuetify/es5/util/colors.js",
+				"/home/cory/www/smith/calc/src/ui/themes/index.js",
+				"/home/cory/www/smith/calc/src/mixins/globalCalc/watch.js",
+				"/home/cory/www/smith/calc/src/data/localStorageValues.js",
+				"/home/cory/www/smith/calc/node_modules/vuetify/es5/util/color/transformSRGB.js",
+				"/home/cory/www/smith/calc/src/mixins/globalCalc/methods.js",
+				"/home/cory/www/smith/calc/src/views/app/dialog/settings/_appear-groupNav.pug",
+				"/home/cory/www/smith/calc/src/views/app/dialog/_settingsDialog.pug",
+				"/home/cory/www/smith/calc/src/views/app/dialog/settings/_appear-darkMode.pug",
+				"/home/cory/www/smith/calc/src/views/app/dialog/settings/_pref-changeUnits.pug",
+				"/home/cory/www/smith/calc/src/views/app/_01-drawerOverflowMenu.pug",
+				"/home/cory/www/smith/calc/src/views/app/dialog/settings/_pref-commaSep.pug",
+				"/home/cory/www/smith/calc/src/components/RollLength/script.js",
+				"/home/cory/www/smith/calc/src/components/App/styles.sass",
+				"/home/cory/www/smith/calc/src/components/App/script/methods.js",
+				"/home/cory/www/smith/calc/src/components/Home/script.js",
+				"/home/cory/www/smith/calc/src/components/App/script/index.js",
+				"/home/cory/www/smith/calc/src/mixins/globalCalc/index.js",
+				"/home/cory/www/smith/calc/src/components/App/script/created.js",
+				"/home/cory/www/smith/calc/src/components/App/script/data.js",
+				"/home/cory/www/smith/calc/src/App.vue",
+				"/home/cory/www/smith/calc/src/components/App/script.js",
+				"/home/cory/www/smith/calc/src/components/App/script/computed.js",
+				"/home/cory/www/smith/calc/src/data/MainNavItems.js",
+				"/home/cory/www/smith/calc/src/components/App/script/watch.js",
+				"/home/cory/www/smith/calc/src/mixins/globalCalc/created.js",
+				"/home/cory/www/smith/calc/src/mixins/globalCalc/mounted.js",
+				"/home/cory/www/smith/calc/src/views/app/_02-drawerItems.pug",
+				"/home/cory/www/smith/calc/src/data/words.js",
+				"/home/cory/www/smith/calc/src/components/SnowplowBladeWeight/template/shipment/shipmentBottomSheet/_savedShipments.pug",
+				"/home/cory/www/smith/calc/src/components/SnowplowBladeWeight/script.js",
+				"/home/cory/www/smith/calc/src/components/SnowplowBladeWeight/template/shipment/shipmentBottomSheet/_currentShipment.pug",
+				"/home/cory/www/smith/calc/src/components/SnowplowBladeWeight/template/steps/_step4.pug",
+				"/home/cory/www/smith/calc/src/data/units.js"
 			],
 			"find":
 			{
@@ -827,6 +814,8 @@
 				"height": 138.0,
 				"where_history":
 				[
+					"/home/cory/www/wallie-web/assets",
+					""
 				]
 			},
 			"find_state":
@@ -834,9 +823,11 @@
 				"case_sensitive": false,
 				"find_history":
 				[
-					"/*\t",
-					"cols",
-					"battery"
+					"background-color: #0062cc!important",
+					"navbar-toggler",
+					"background-color: #0062cc !important",
+					"background-color: #0062cc",
+					"/*\t"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -855,672 +846,32 @@
 			"groups":
 			[
 				{
-					"selected": 1,
+					"selected": 0,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/home/cory/.dotfiles/rofi/.config/rofi/config",
+							"file": "/home/cory/www/wallie-web/_posts/.gitkeep",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 304,
+								"buffer_size": 0,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										304,
-										304
+										0,
+										0
 									]
 								],
 								"settings":
 								{
 									"apply_syntax_touched": true,
-									"markdonw_live_preview_last_run": 1555086028.64,
-									"syntax": "Packages/SimpleSyntax/ssExcla.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/cory/.dotfiles/rofi/.config/rofi/config.rasi",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 4261,
-								"regions":
-								{
-									"gutter_color_1306":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1341":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1342":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1347":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1348":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1349":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1354":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1358":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1359":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1363":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1368":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1369":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1377":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1384":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1405":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1411":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1412":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1413":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1418":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1422":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1423":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1427":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1432":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1433":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1441":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1448":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1470":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1475":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1477":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1482":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1486":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1487":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1491":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1496":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1497":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1505":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1512":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1533":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1534":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1541":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1543":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1550":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1551":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1555":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1569":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1576":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									},
-									"gutter_color_1609":
-									{
-										"flags": 144,
-										"icon": "Cache/GutterColor/#510231.png",
-										"regions":
-										[
-											[
-												1377,
-												1377
-											]
-										],
-										"scope": "gutter_color"
-									}
-								},
-								"selection":
-								[
-									[
-										437,
-										437
-									]
-								],
-								"settings":
-								{
-									"apply_syntax_touched": true,
-									"markdonw_live_preview_last_run": 1555086216.61,
-									"syntax": "Packages/CSS/CSS.sublime-syntax"
+									"markdonw_live_preview_last_run": 1555535981.39,
+									"open_with_edit": true,
+									"syntax": "Packages/zzz A File Icon zzz/aliases/Plain Text (Git Keep).sublime-syntax"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -1572,11 +923,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,10,38,1906,1066,1920,1080",
-			"project": "dotfiles.sublime-project",
+			"position": "0,0,0,0,0,10,38,1150,852,1920,1080",
+			"project": "wallie-web.sublime-project",
 			"replace":
 			{
-				"height": 94.0
+				"height": 44.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -1622,23 +973,23 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 199.0,
+			"side_bar_width": 202.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			},
-			"window_id": 31,
-			"workspace_name": "/home/cory/prj/subl/dotfiles.sublime-workspace"
+			"window_id": 32,
+			"workspace_name": "/home/cory/prj/subl/wallie-web.sublime-workspace"
 		}
 	],
 	"workspaces":
 	{
 		"recent_workspaces":
 		[
-			"/home/cory/prj/subl/dotfiles.sublime-workspace",
-			"/home/cory/prj/subl/coryg.me.sublime-workspace",
-			"/home/cory/prj/subl/smith-calc.sublime-workspace",
 			"/home/cory/prj/subl/wallie-web.sublime-workspace",
+			"/home/cory/prj/subl/dotfiles.sublime-workspace",
+			"/home/cory/prj/subl/smith-calc.sublime-workspace",
+			"/home/cory/prj/subl/coryg.me.sublime-workspace",
 			"/home/rustyschakelford/.config/sublime-text-3/Packages/User/Projects/smith-calc.sublime-workspace",
 			"/home/rustyschakelford/.config/sublime.sublime-workspace",
 			"/home/rustyschakelford/.config/.sublime.sublime-workspace"

@@ -335,8 +335,8 @@
        style="fill:black;fill-opacity:1;stroke:none;font-family:Montserrat;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:Montserrat;font-stretch:normal;font-variant:normal"
        selcue="1">
       <group
-         id="lineheight"
-         display_unit="0" />
+         display_unit="0"
+         id="lineheight" />
     </eventcontext>
     <eventcontext
        id="nodes"
@@ -355,7 +355,7 @@
        live_objects="1"
        show_helperpath="0"
        x="0"
-       y="0"
+       y="600"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -412,7 +412,7 @@
        id="connector"
        style="fill:none;fill-rule:evenodd;stroke:black;stroke-opacity:1;stroke-linejoin:miter;stroke-width:1px;stroke-linecap:butt;"
        selcue="1"
-       curvature="3"
+       curvature="0"
        length="100" />
     <eventcontext
        id="paintbucket"
@@ -422,12 +422,12 @@
        offset="0"
        offsetunits="mm" />
     <group
-       id="measure"
-       fontsize="10"
-       precision="2"
-       scale="100"
+       unit="px"
        offset="5"
-       unit="px" />
+       scale="100"
+       precision="2"
+       fontsize="10"
+       id="measure" />
   </group>
   <group
      id="palette">
@@ -574,11 +574,11 @@
        page="0"
        x="0"
        y="0"
-       w="320"
-       h="403"
+       w="333"
+       h="412"
        visible="1"
        state="2"
-       placement="1" />
+       placement="5" />
     <group
        id="filtereffects" />
     <group
@@ -595,11 +595,11 @@
        panel_border="0"
        x="0"
        y="0"
-       w="320"
-       h="398"
+       w="333"
+       h="412"
        visible="1"
        state="2"
-       placement="2" />
+       placement="5" />
     <group
        id="xml" />
     <group
@@ -618,8 +618,8 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="960"
-       y="540"
+       x="1080"
+       y="283"
        w="608"
        h="638"
        visible="0"
@@ -646,7 +646,7 @@
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/home/cory/.config/inkscape/templates"
+       path="/home/cory/pix/wallie"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -661,7 +661,7 @@
     <group
        id="import"
        enable_preview="1"
-       path="/home/cory/pix/disney/"
+       path="/home/cory/pix/wallie/"
        ask="1"
        link="embed"
        scale="auto"
@@ -695,7 +695,18 @@
        id="extensioneditor" />
     <group
        id="trace"
-       state="1" />
+       state="1"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="671"
+       y="0"
+       w="585"
+       h="380"
+       visible="0"
+       placement="1" />
     <group
        id="script" />
     <group
@@ -703,7 +714,19 @@
     <group
        id="colorpickerwindow" />
     <group
-       id="undo-history" />
+       id="undo-history"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="333"
+       h="495"
+       visible="0"
+       state="2"
+       placement="1" />
     <group
        id="transparency"
        on-focus="1.0"
@@ -999,7 +1022,7 @@
      id="extensions" />
   <group
      id="desktop"
-     style="line-height:1.25">
+     style="line-height:1.25;fill:#ff8080;fill-opacity:1;-inkscape-font-specification:'8BIT WONDER';font-family:'8BIT WONDER';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;opacity:0.587;stroke:none">
     <group
        width="1896"
        height="1028"
