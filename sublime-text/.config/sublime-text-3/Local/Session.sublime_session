@@ -551,10 +551,37 @@
 			"buffers":
 			[
 				{
-					"file": "/home/cory/www/wallie-web/_posts/.gitkeep",
+					"file": "/home/cory/www/wallie-web/_data/display.yml",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 290,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/cory/tmp/dev.json",
+					"settings":
+					{
+						"buffer_size": 1568,
+						"encoding": "UTF-8",
+						"line_ending": "Unix",
+						"name": "{"
+					}
+				},
+				{
+					"file": "/home/cory/.config/blender/2.79/config/bookmarks.txt",
+					"settings":
+					{
+						"buffer_size": 37,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/cory/.config/blender/2.79/config/recent-files.txt",
+					"settings":
+					{
+						"buffer_size": 30,
 						"line_ending": "Unix"
 					}
 				}
@@ -571,11 +598,15 @@
 				"selected_items":
 				[
 					[
-						"in",
-						"Package Control: Install Package"
+						"prett",
+						"Pretty JSON: Format (Pretty Print) JSON"
 					],
 					[
 						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"in",
 						"Package Control: Install Package"
 					],
 					[
@@ -667,27 +698,38 @@
 			"expanded_folders":
 			[
 				"/home/cory/www/wallie-web",
+				"/home/cory/www/wallie-web/_data",
 				"/home/cory/www/wallie-web/_drafts",
+				"/home/cory/www/wallie-web/_includes",
+				"/home/cory/www/wallie-web/_layouts",
 				"/home/cory/www/wallie-web/_posts",
+				"/home/cory/www/wallie-web/_sass",
 				"/home/cory/www/wallie-web/assets",
-				"/home/cory/www/wallie-web/assets/img",
-				"/home/cory/www/wallie-web/assets/img/feed",
-				"/home/cory/www/wallie-web/extra"
+				"/home/cory/www/wallie-web/assets/css"
 			],
 			"file_history":
 			[
+				"/home/cory/www/wallie-web/_layouts/page.html",
+				"/home/cory/www/wallie-web/_layouts/default.html",
 				"/home/cory/www/wallie-web/_posts/2019-04-07-project-1.md",
-				"/home/cory/www/wallie-web/assets/img/feed/proj_1.jpg",
+				"/home/cory/www/wallie-web/_includes/pageHeader.html",
+				"/home/cory/www/wallie-web/_includes/mainNav.html",
+				"/home/cory/www/wallie-web/_layouts/home.html",
 				"/home/cory/www/wallie-web/_data/display.yml",
-				"/home/cory/www/wallie-web/_drafts/2019-04-07-project-1.md",
 				"/home/cory/www/wallie-web/_includes/portfolioLoop.html",
+				"/home/cory/www/wallie-web/index.html",
+				"/home/cory/www/wallie-web/_sass/_variables.scss",
+				"/home/cory/www/wallie-web/_sass/cg/_post-ribbon.scss",
+				"/home/cory/www/wallie-web/assets/css/main.scss",
+				"/home/cory/www/wallie-web/_posts/.gitkeep",
+				"/home/cory/www/wallie-web/_sass/freelancer.scss",
+				"/home/cory/www/wallie-web/assets/img/feed/proj_1.jpg",
+				"/home/cory/www/wallie-web/_drafts/2019-04-07-project-1.md",
 				"/home/cory/www/wallie-web/_includes/contact.html",
 				"/home/cory/www/wallie-web/_includes/about.md",
 				"/home/cory/www/wallie-web/_includes/about.html",
 				"/home/cory/www/wallie-web/_includes/about1.md",
 				"/home/cory/www/wallie-web/_includes/about2.md",
-				"/home/cory/www/wallie-web/_layouts/default.html",
-				"/home/cory/www/wallie-web/_includes/mainNav.html",
 				"/home/cory/www/wallie-web/_sass/_bootstrap-overrides.scss",
 				"/home/cory/www/wallie-web/assets/vendor/bootstrap/css/bootstrap.css",
 				"/home/cory/www/wallie-web/_data/headStyles.yml",
@@ -696,7 +738,6 @@
 				"/home/cory/www/wallie-web/_includes/bodyScripts.html",
 				"/home/cory/www/wallie-web/_includes/footer.html",
 				"/home/cory/www/wallie-web/_includes/header.html",
-				"/home/cory/www/wallie-web/_sass/_variables.scss",
 				"/home/cory/www/wallie-web/_sass/_global.scss",
 				"/home/cory/www/wallie-web/_sass/_mixins.scss",
 				"/home/cory/www/wallie-web/_sass/_portfolio.scss",
@@ -714,14 +755,11 @@
 				"/home/cory/www/wallie-web/_posts/2019-04-07-project-name.md",
 				"/home/cory/www/wallie-web/insta_info.txt",
 				"/home/cory/www/wallie-web/_data/bodyScripts.yml",
-				"/home/cory/www/wallie-web/assets/css/main.scss",
 				"/home/cory/www/wallie-web/about.md",
 				"/home/cory/www/wallie-web/assets/img/wallie_thumbnail.jpeg",
-				"/home/cory/www/wallie-web/index.html",
 				"/home/cory/www/wallie-web/_includes/scrollButton.html",
 				"/home/cory/www/wallie-web/_data/internalStyles.yml",
 				"/home/cory/www/wallie-web/_data/externalStyles.yml",
-				"/home/cory/www/wallie-web/_sass/freelancer.scss",
 				"/home/cory/www/wallie-web/index.md",
 				"/home/cory/prj/subl/wallie-web.sublime-project",
 				"/home/cory/www/wallie/gulpfile.js",
@@ -798,12 +836,7 @@
 				"/home/cory/www/smith/calc/src/mixins/globalCalc/created.js",
 				"/home/cory/www/smith/calc/src/mixins/globalCalc/mounted.js",
 				"/home/cory/www/smith/calc/src/views/app/_02-drawerItems.pug",
-				"/home/cory/www/smith/calc/src/data/words.js",
-				"/home/cory/www/smith/calc/src/components/SnowplowBladeWeight/template/shipment/shipmentBottomSheet/_savedShipments.pug",
-				"/home/cory/www/smith/calc/src/components/SnowplowBladeWeight/script.js",
-				"/home/cory/www/smith/calc/src/components/SnowplowBladeWeight/template/shipment/shipmentBottomSheet/_currentShipment.pug",
-				"/home/cory/www/smith/calc/src/components/SnowplowBladeWeight/template/steps/_step4.pug",
-				"/home/cory/www/smith/calc/src/data/units.js"
+				"/home/cory/www/smith/calc/src/data/words.js"
 			],
 			"find":
 			{
@@ -823,6 +856,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"#b20000",
 					"background-color: #0062cc!important",
 					"navbar-toggler",
 					"background-color: #0062cc !important",
@@ -835,6 +869,7 @@
 				"regex": false,
 				"replace_history":
 				[
+					"$primary",
 					"/*"
 				],
 				"reverse": false,
@@ -846,32 +881,119 @@
 			"groups":
 			[
 				{
-					"selected": 0,
+					"selected": 3,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/home/cory/www/wallie-web/_posts/.gitkeep",
+							"file": "/home/cory/www/wallie-web/_data/display.yml",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 0,
+								"buffer_size": 290,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										0,
-										0
+										72,
+										72
 									]
 								],
 								"settings":
 								{
 									"apply_syntax_touched": true,
-									"markdonw_live_preview_last_run": 1555535981.39,
-									"open_with_edit": true,
-									"syntax": "Packages/zzz A File Icon zzz/aliases/Plain Text (Git Keep).sublime-syntax"
+									"markdonw_live_preview_last_run": 1555614573.47,
+									"syntax": "Packages/YAML/YAML.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/cory/tmp/dev.json",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1568,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										927,
+										927
+									]
+								],
+								"settings":
+								{
+									"apply_syntax_touched": true,
+									"auto_name": "{",
+									"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/cory/.config/blender/2.79/config/bookmarks.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 37,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										37,
+										37
+									]
+								],
+								"settings":
+								{
+									"apply_syntax_touched": true,
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/home/cory/.config/blender/2.79/config/recent-files.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 30,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										30,
+										30
+									]
+								],
+								"settings":
+								{
+									"apply_syntax_touched": true,
+									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -923,7 +1045,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,10,38,1150,852,1920,1080",
+			"position": "0,0,0,0,0,965,38,1906,1066,1920,1080",
 			"project": "wallie-web.sublime-project",
 			"replace":
 			{
