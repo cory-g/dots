@@ -550,6 +550,15 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/cory/.dotfiles/i3/.config/i3/config",
+					"settings":
+					{
+						"buffer_size": 5597,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -563,11 +572,19 @@
 				"selected_items":
 				[
 					[
-						"prett",
-						"Pretty JSON: Format (Pretty Print) JSON"
+						"install",
+						"Package Control: Install Package"
 					],
 					[
-						"install",
+						"color s",
+						"UI: Select Color Scheme"
+					],
+					[
+						"theme",
+						"UI: Select Theme"
+					],
+					[
+						"insta",
 						"Package Control: Install Package"
 					],
 					[
@@ -577,10 +594,6 @@
 					[
 						"remo",
 						"Package Control: Remove Package"
-					],
-					[
-						"insta",
-						"Package Control: Install Package"
 					],
 					[
 						"sync",
@@ -662,77 +675,117 @@
 			},
 			"expanded_folders":
 			[
-				"/home/cory/www/wallie-web",
-				"/home/cory/www/wallie-web/_data",
-				"/home/cory/www/wallie-web/_drafts",
-				"/home/cory/www/wallie-web/_includes",
-				"/home/cory/www/wallie-web/_layouts",
-				"/home/cory/www/wallie-web/_posts",
-				"/home/cory/www/wallie-web/_sass",
-				"/home/cory/www/wallie-web/assets",
-				"/home/cory/www/wallie-web/assets/css"
+				"/home/cory/.dotfiles",
+				"/home/cory/.dotfiles/i3",
+				"/home/cory/.dotfiles/i3/.config",
+				"/home/cory/.dotfiles/i3/.config/i3",
+				"/home/cory/.dotfiles/i3/.config/i3/layouts"
 			],
 			"file_history":
 			[
-				"/home/cory/.config/Thunar/accels.scm",
-				"/home/cory/.config/gtk-3.0/bookmarks",
-				"/home/cory/.config/gtk-3.0/settings.ini",
-				"/home/cory/.config/Thunar/renamerrc",
-				"/home/cory/.config/Thunar/uca.xml",
-				"/home/cory/tmp/dev.json",
-				"/home/cory/.config/blender/2.79/config/bookmarks.txt",
-				"/home/cory/www/wallie-web/_data/display.yml",
-				"/home/cory/.config/blender/2.79/config/recent-files.txt",
-				"/home/cory/www/wallie-web/_layouts/page.html",
-				"/home/cory/www/wallie-web/_layouts/default.html",
-				"/home/cory/www/wallie-web/_posts/2019-04-07-project-1.md",
-				"/home/cory/www/wallie-web/_includes/pageHeader.html",
-				"/home/cory/www/wallie-web/_includes/mainNav.html",
-				"/home/cory/www/wallie-web/_layouts/home.html",
+				"/home/cory/.dotfiles/i3/.config/i3/layouts/rice-scrot.json",
+				"/home/cory/.dotfiles/scripts/.local/bin/wallpapersetter",
+				"/home/cory/.dotfiles/scripts/.local/bin/wallawalla",
+				"/home/cory/.config/sublime-text-3/Packages/WakaTime/WakaTime.sublime-settings",
+				"/home/cory/.config/sublime-text-3/Packages/User/WakaTime.sublime-settings",
+				"/home/cory/.config/gpymusic/config.json",
+				"/home/cory/.nowplaying",
+				"/home/cory/.dotfiles/rofi/.config/rofi/config",
+				"/home/cory/.dotfiles/rofi/.config/rofi/config.rasi",
+				"/home/cory/.local/bin/blurme",
+				"/home/cory/.dotfiles/X/.Xresources",
+				"/home/cory/.dotfiles/polybar/.config/polybar/config",
+				"/home/cory/.dotfiles/i3/.config/i3/config",
+				"/home/cory/.config/neofetch/config.conf",
+				"/home/cory/.config/htop/htoprc",
+				"/home/cory/.dotfiles/polybar/.config/polybar/scripts/pacman-aur-updates.sh",
+				"/home/cory/.dotfiles/X/.xinitrc",
+				"/home/cory/.dotfiles/X/.Xresources.d/colors/solarized",
+				"/home/cory/.local/bin/i3exit",
+				"/home/cory/.dotfiles/rofi/.config/rofi/scripts/rofi-powermenu",
+				"/home/cory/.dotfiles/X/.Xresources.d/rxvt-unicode",
+				"/home/cory/.dotfiles/scripts/.local/bin/mkscript",
+				"/home/cory/.dotfiles/bash/.bash_profile",
+				"/home/cory/.dotfiles/polybar/.config/polybar/launch.sh",
+				"/home/cory/.dotfiles/X/.Xresources.d/colors/gruvbox",
+				"/home/cory/.dotfiles/fish/.config/fish/functions/fish_prompt.fish",
+				"/home/cory/.dotfiles/fish/.config/fish/functions/fish_right_prompt.fish",
+				"/home/cory/.dotfiles/fish/.config/fish/functions/__sf_section_char.fish",
+				"/home/cory/.dotfiles/bash/.bashrc",
+				"/home/cory/.dotfiles/fish/.config/fish/config.fish",
+				"/home/cory/.dotfiles/arandr/.screenlayout/1-external-vga.sh",
+				"/home/cory/.dotfiles/rofi/.config/rofi/scripts/rofi-mons",
+				"/home/cory/.dotfiles/arandr/.screenlayout/2-extend-vga.sh",
+				"/home/cory/.dotfiles/arandr/.screenlayout/1-internal-lvds.sh",
+				"/home/cory/.local/bin/mute-mic",
+				"/home/cory/.dotfiles/.gitignore",
+				"/home/cory/.local/bin/lolban",
+				"/home/cory/.local/bin/dotz",
+				"/home/cory/.dotfiles/bash/.bash_functions",
+				"/home/cory/.dotfiles/fish/.config/fish/functions/dot.fish",
+				"/home/cory/.local/bin/dotzupdate",
+				"/home/cory/.dotfiles/fish/.config/fish/functions/mkdir.fish",
+				"/home/cory/.dotfiles/bash/.bash_aliases",
+				"/home/cory/.dotfiles/fish/.config/fish/functions/scrot.fish",
+				"/home/cory/.dotfiles/fish/.config/fish/fish_variables",
+				"/home/cory/.config/fish/fish_variables",
+				"/home/cory/.dotfiles/fish/.config/fish/functions/c.fish",
+				"/home/cory/.dotfiles/bash/.bashrc.d/ps1",
+				"/home/cory/prj/subl/smith-calc.sublime-project",
+				"/home/cory/www/smith-calc/src/views/app/_navDrawer.pug",
+				"/home/cory/www/smith-calc/src/views/app/_00-drawerToolbar.pug",
+				"/home/cory/www/smith-calc/src/views/app/_01-drawerOverflowMenu.pug",
+				"/home/cory/www/smith-calc.wiki/Terms-of-Service.md",
+				"/home/cory/www/smith-calc.wiki/_Sidebar.md",
+				"/home/cory/www/smith-calc.wiki/Home.md",
+				"/home/cory/www/smith-calc/src/views/app/_toolbar.pug",
+				"/home/cory/www/smith-calc/src/views/app/dialog/_settingsDialog.pug",
+				"/home/cory/www/smith-calc/build/service-worker-prod.js",
+				"/home/cory/www/smith-calc/src/data/NavDrawerItems.js",
+				"/home/cory/www/smith-calc/src/data/NavDrawerItems.json",
+				"/home/cory/www/smith-calc/src/views/app/dialog/_bottom-sheet-dialog.pug",
+				"/home/cory/www/smith-calc/src/data/MainNavItems.js",
+				"/home/cory/www/smith-calc/build/utils.js",
+				"/home/cory/www/smith-calc/static/manifest.json",
+				"/home/cory/www/smith-calc/docs/manifest.json",
+				"/home/cory/www/smith-calc/build/build.js",
+				"/home/cory/www/smith-calc/config/index.js",
+				"/home/cory/www/smith-calc/.vsignore",
+				"/home/cory/www/smith-calc/package.json",
 				"/home/cory/www/wallie-web/_includes/portfolioLoop.html",
-				"/home/cory/www/wallie-web/index.html",
-				"/home/cory/www/wallie-web/_sass/_variables.scss",
-				"/home/cory/www/wallie-web/_sass/cg/_post-ribbon.scss",
-				"/home/cory/www/wallie-web/assets/css/main.scss",
-				"/home/cory/www/wallie-web/_posts/.gitkeep",
-				"/home/cory/www/wallie-web/_sass/freelancer.scss",
-				"/home/cory/www/wallie-web/assets/img/feed/proj_1.jpg",
-				"/home/cory/www/wallie-web/_drafts/2019-04-07-project-1.md",
-				"/home/cory/www/wallie-web/_includes/contact.html",
-				"/home/cory/www/wallie-web/_includes/about.md",
-				"/home/cory/www/wallie-web/_includes/about.html",
-				"/home/cory/www/wallie-web/_includes/about1.md",
-				"/home/cory/www/wallie-web/_includes/about2.md",
-				"/home/cory/www/wallie-web/_sass/_bootstrap-overrides.scss",
-				"/home/cory/www/wallie-web/assets/vendor/bootstrap/css/bootstrap.css",
-				"/home/cory/www/wallie-web/_data/headStyles.yml",
-				"/home/cory/www/wallie-web/_data/social.yml",
 				"/home/cory/.local/bin/wallawalla",
-				"/home/cory/www/wallie-web/_includes/bodyScripts.html",
-				"/home/cory/www/wallie-web/_includes/footer.html",
-				"/home/cory/www/wallie-web/_includes/header.html",
-				"/home/cory/www/wallie-web/_sass/_global.scss",
-				"/home/cory/www/wallie-web/_sass/_mixins.scss",
-				"/home/cory/www/wallie-web/_sass/_portfolio.scss",
-				"/home/cory/www/wallie-web/_sass/_navbar.scss",
-				"/home/cory/www/wallie-web/_data/nav.yml",
-				"/home/cory/www/wallie-web/_data/global.yml",
-				"/home/cory/www/wallie-web/_includes/head.html",
+				"/home/cory/www/wallie-web/_posts/2019-04-07-project-1.md",
 				"/home/cory/www/wallie-web/extra/make-thumbz.sh",
 				"/home/cory/www/wallie-web/_posts/2019-04-02-project-6.md",
 				"/home/cory/www/wallie-web/_posts/2019-04-05-project-3.md",
 				"/home/cory/www/wallie-web/_posts/2019-04-04-project-4.md",
 				"/home/cory/www/wallie-web/_posts/2019-04-03-project-5.md",
 				"/home/cory/www/wallie-web/_posts/2019-04-06-project-2.md",
+				"/home/cory/www/wallie-web/_includes/about1.md",
 				"/home/cory/www/wallie-web/_includes/modalsLoop.html",
 				"/home/cory/www/wallie-web/_posts/2019-04-07-project-name.md",
+				"/home/cory/www/wallie-web/_layouts/default.html",
+				"/home/cory/www/wallie-web/_includes/mainNav.html",
 				"/home/cory/www/wallie-web/insta_info.txt",
 				"/home/cory/www/wallie-web/_data/bodyScripts.yml",
+				"/home/cory/www/wallie-web/assets/css/main.scss",
+				"/home/cory/www/wallie-web/_data/global.yml",
+				"/home/cory/www/wallie-web/_includes/contact.html",
+				"/home/cory/www/wallie-web/_includes/about.html",
+				"/home/cory/www/wallie-web/_sass/_variables.scss",
+				"/home/cory/www/wallie-web/_includes/about2.md",
 				"/home/cory/www/wallie-web/about.md",
+				"/home/cory/www/wallie-web/_includes/header.html",
+				"/home/cory/www/wallie-web/_data/social.yml",
 				"/home/cory/www/wallie-web/assets/img/wallie_thumbnail.jpeg",
+				"/home/cory/www/wallie-web/_includes/footer.html",
+				"/home/cory/www/wallie-web/index.html",
+				"/home/cory/www/wallie-web/_includes/head.html",
 				"/home/cory/www/wallie-web/_includes/scrollButton.html",
+				"/home/cory/www/wallie-web/_data/headStyles.yml",
 				"/home/cory/www/wallie-web/_data/internalStyles.yml",
 				"/home/cory/www/wallie-web/_data/externalStyles.yml",
+				"/home/cory/www/wallie-web/_sass/freelancer.scss",
 				"/home/cory/www/wallie-web/index.md",
 				"/home/cory/prj/subl/wallie-web.sublime-project",
 				"/home/cory/www/wallie/gulpfile.js",
@@ -757,51 +810,7 @@
 				"/home/cory/www/cory-g.github.io/_posts/2019-04-05-dots.md",
 				"/home/cory/www/cory-g.github.io/_layouts/archive.html",
 				"/home/cory/www/cory-g.github.io/contact.md",
-				"/home/cory/www/cory-g.github.io/about.md",
-				"/home/cory/www/cory-g.github.io/_layouts/default.html",
-				"/home/cory/www/cory-g.github.io/_posts/2019-04-05-init.md",
-				"/home/cory/www/cory-g.github.io/assets/main.scss",
-				"/home/cory/www/cory-g.github.io/_sass/styles.scss",
-				"/home/cory/src/rusty-sublime/subl/Packages/Default/Preferences.sublime-settings",
-				"/home/cory/src/rusty-sublime/subl/Packages/User/Preferences.sublime-settings",
-				"/home/cory/src/rusty-sublime/subl/Local/License.sublime_license",
-				"/home/rustyschakelford/.config/sublime.sublime-project",
-				"/home/rustyschakelford/.config/.sublime.sublime-project",
-				"/home/rustyschakelford/.config/sublime-text-3/Packages/User/ApplySyntax.ext-list",
-				"/home/cory/www/smith/calc/src/ui/styles/components/_v-nav-drawer.sass",
-				"/home/cory/www/smith/calc/src/ui/styles/components/_v-input.sass",
-				"/home/cory/www/smith/calc/src/ui/styles/components/_v-global.sass",
-				"/home/cory/www/smith/calc/src/mixins/globalCalc/data.js",
-				"/home/cory/www/smith/calc/src/ui/styles/components/_v-btn.sass",
-				"/home/cory/www/smith/calc/src/ui/styles/_shame.sass",
-				"/home/cory/www/smith/calc/src/views/layouts/_stepper-step-main.pug",
-				"/home/cory/www/smith/calc/src/data/cbLength.json",
-				"/home/cory/www/smith/calc/src/data/colorProps.json",
-				"/home/cory/www/smith/calc/src/main.js",
-				"/home/cory/www/smith/calc/src/ui/themes/light.js",
-				"/home/cory/www/smith/calc/node_modules/vuetify/es5/util/colorUtils.js",
-				"/home/cory/www/smith/calc/node_modules/vuetify/es5/mixins/colorable.js",
-				"/home/cory/www/smith/calc/node_modules/vuetify/es5/util/colors.js",
-				"/home/cory/www/smith/calc/src/ui/themes/index.js",
-				"/home/cory/www/smith/calc/src/mixins/globalCalc/watch.js",
-				"/home/cory/www/smith/calc/src/data/localStorageValues.js",
-				"/home/cory/www/smith/calc/node_modules/vuetify/es5/util/color/transformSRGB.js",
-				"/home/cory/www/smith/calc/src/mixins/globalCalc/methods.js",
-				"/home/cory/www/smith/calc/src/views/app/dialog/settings/_appear-groupNav.pug",
-				"/home/cory/www/smith/calc/src/views/app/dialog/_settingsDialog.pug",
-				"/home/cory/www/smith/calc/src/views/app/dialog/settings/_appear-darkMode.pug",
-				"/home/cory/www/smith/calc/src/views/app/dialog/settings/_pref-changeUnits.pug",
-				"/home/cory/www/smith/calc/src/views/app/_01-drawerOverflowMenu.pug",
-				"/home/cory/www/smith/calc/src/views/app/dialog/settings/_pref-commaSep.pug",
-				"/home/cory/www/smith/calc/src/components/RollLength/script.js",
-				"/home/cory/www/smith/calc/src/components/App/styles.sass",
-				"/home/cory/www/smith/calc/src/components/App/script/methods.js",
-				"/home/cory/www/smith/calc/src/components/Home/script.js",
-				"/home/cory/www/smith/calc/src/components/App/script/index.js",
-				"/home/cory/www/smith/calc/src/mixins/globalCalc/index.js",
-				"/home/cory/www/smith/calc/src/components/App/script/created.js",
-				"/home/cory/www/smith/calc/src/components/App/script/data.js",
-				"/home/cory/www/smith/calc/src/App.vue"
+				"/home/cory/www/cory-g.github.io/about.md"
 			],
 			"find":
 			{
@@ -812,8 +821,6 @@
 				"height": 138.0,
 				"where_history":
 				[
-					"/home/cory/www/wallie-web/assets",
-					""
 				]
 			},
 			"find_state":
@@ -821,12 +828,9 @@
 				"case_sensitive": false,
 				"find_history":
 				[
-					"#b20000",
-					"background-color: #0062cc!important",
-					"navbar-toggler",
-					"background-color: #0062cc !important",
-					"background-color: #0062cc",
-					"/*\t"
+					"/*\t",
+					"cols",
+					"battery"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -834,7 +838,6 @@
 				"regex": false,
 				"replace_history":
 				[
-					"$primary",
 					"/*"
 				],
 				"reverse": false,
@@ -846,8 +849,39 @@
 			"groups":
 			[
 				{
+					"selected": 0,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/cory/.dotfiles/i3/.config/i3/config",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 5597,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2259,
+										2259
+									]
+								],
+								"settings":
+								{
+									"apply_syntax_touched": true,
+									"markdonw_live_preview_last_run": 1555968283.73,
+									"syntax": "Packages/SimpleSyntax/ssHash.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 504.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -891,8 +925,8 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,965,38,1906,1066,1920,1080",
-			"project": "wallie-web.sublime-project",
+			"position": "0,0,0,0,0,10,38,1906,1066,1920,1080",
+			"project": "dotfiles.sublime-project",
 			"replace":
 			{
 				"height": 44.0
@@ -941,21 +975,21 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 202.0,
+			"side_bar_width": 199.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			},
 			"window_id": 32,
-			"workspace_name": "/home/cory/prj/subl/wallie-web.sublime-workspace"
+			"workspace_name": "/home/cory/prj/subl/dotfiles.sublime-workspace"
 		}
 	],
 	"workspaces":
 	{
 		"recent_workspaces":
 		[
-			"/home/cory/prj/subl/wallie-web.sublime-workspace",
 			"/home/cory/prj/subl/dotfiles.sublime-workspace",
+			"/home/cory/prj/subl/wallie-web.sublime-workspace",
 			"/home/cory/prj/subl/smith-calc.sublime-workspace",
 			"/home/cory/prj/subl/coryg.me.sublime-workspace",
 			"/home/rustyschakelford/.config/sublime-text-3/Packages/User/Projects/smith-calc.sublime-workspace",

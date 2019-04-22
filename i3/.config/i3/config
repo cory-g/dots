@@ -62,6 +62,12 @@ bindsym $super+b exec --no-startup-id google-chrome-stable
 bindsym $super+f exec --no-startup-id "thunar"
 # %%hotkey: Open Thunar File Manager as root %%
 bindsym $super+Shift+f exec --no-startup-id "sudo thunar"
+# %%hotkey: Open Sublime Text %%
+bindsym $super+e exec --no-startup-id subl
+# %%hotkey: Open Inkscape %%
+bindsym $super+i exec --no-startup-id inkscape
+# %%hotkey: Open Blender %%
+bindsym $super+d exec --no-startup-id blender
 
 # >> Focus
 # %%hotkey: Move focus left %%
