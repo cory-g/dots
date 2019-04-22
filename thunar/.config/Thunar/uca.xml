@@ -1,0 +1,22 @@
+<?xml encoding="UTF-8" version="1.0"?>
+<actions>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Open Terminal Here</name>
+	<unique-id>1554214166654355-1</unique-id>
+	<command>exo-open --working-directory %f --launch TerminalEmulator</command>
+	<description>Example for a custom action</description>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>gtk3-demo</icon>
+	<name>Make Wallpaper</name>
+	<unique-id>1554238537544647-2</unique-id>
+	<command>wallawalla %f</command>
+	<description>Make popart wallpaper from Xresources colors</description>
+	<patterns>*</patterns>
+	<image-files/>
+</action>
+</actions>
