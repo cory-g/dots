@@ -1,3 +1,4 @@
 [Bookmarks]
 [Recent]
+/home/cory/dwn/
 /home/cory/prj/
