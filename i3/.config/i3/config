@@ -21,6 +21,9 @@ for_window [class="^.*"] border pixel 2
 gaps inner 10
 # gaps outer 5
 
+for_window [window_role="pop-up"] floating enable
+for_window [class="Gnome-calculator"] floating enable
+
 # >> Behavior
 floating_modifier $super
 focus_follows_mouse no
@@ -56,6 +59,8 @@ bindsym $super+period exec --no-startup-id rofimoji
 # >> Applications
 # %%hotkey: Open a terminal %%
 bindsym $super+Return exec urxvt
+# %%hotkey: Open the dropdown terminal %%
+bindsym $super+s exec --no-startup-id i3-quickterm shell
 # %%hotkey: Open Google Chrome %%
 bindsym $super+b exec --no-startup-id google-chrome-stable
 # %%hotkey: Open Thunar File Manager %%
@@ -68,6 +73,8 @@ bindsym $super+e exec --no-startup-id subl
 bindsym $super+i exec --no-startup-id inkscape
 # %%hotkey: Open Blender %%
 bindsym $super+d exec --no-startup-id blender
+# %%hotkey: Open Calculator %%
+bindsym $super+Shift+c exec --no-startup-id gnome-calculator
 
 # >> Focus
 # %%hotkey: Move focus left %%
@@ -138,9 +145,9 @@ bindsym $super+Shift+8 move container to workspace $ws8
 
 # >> i3 Meta
 # %%hotkey: Reload i3's configuration file %%
-bindsym $super+Shift+c reload
+bindsym $super+$alt+c reload
 # %%hotkey: Restart i3 in place %%
-bindsym $super+Shift+r restart
+bindsym $super+$alt+r restart
 
 # >> Extra Keys
 # %%hotkey: Increase screen brightness %%

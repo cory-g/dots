@@ -554,7 +554,34 @@
 					"file": "/home/cory/.dotfiles/i3/.config/i3/config",
 					"settings":
 					{
-						"buffer_size": 5597,
+						"buffer_size": 5891,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/cory/.dotfiles/i3/.config/i3/i3-quickterm.json",
+					"settings":
+					{
+						"buffer_size": 235,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/cory/goo/okay.txt",
+					"settings":
+					{
+						"buffer_size": 5,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/cory/.dotfiles/.gitignore",
+					"settings":
+					{
+						"buffer_size": 288,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -678,11 +705,15 @@
 				"/home/cory/.dotfiles",
 				"/home/cory/.dotfiles/i3",
 				"/home/cory/.dotfiles/i3/.config",
-				"/home/cory/.dotfiles/i3/.config/i3",
-				"/home/cory/.dotfiles/i3/.config/i3/layouts"
+				"/home/cory/.dotfiles/i3/.config/i3"
 			],
 			"file_history":
 			[
+				"/home/cory/.dotfiles/scripts/.local/bin/i3-quickterm",
+				"/home/cory/.local/bin/floaterm",
+				"/home/cory/.config/volumeicon/volumeicon",
+				"/home/cory/.dotfiles/i3/.config/i3/config",
+				"/home/cory/.config/autostart/odrive.desktop",
 				"/home/cory/.dotfiles/i3/.config/i3/layouts/rice-scrot.json",
 				"/home/cory/.dotfiles/scripts/.local/bin/wallpapersetter",
 				"/home/cory/.dotfiles/scripts/.local/bin/wallawalla",
@@ -695,7 +726,6 @@
 				"/home/cory/.local/bin/blurme",
 				"/home/cory/.dotfiles/X/.Xresources",
 				"/home/cory/.dotfiles/polybar/.config/polybar/config",
-				"/home/cory/.dotfiles/i3/.config/i3/config",
 				"/home/cory/.config/neofetch/config.conf",
 				"/home/cory/.config/htop/htoprc",
 				"/home/cory/.dotfiles/polybar/.config/polybar/scripts/pacman-aur-updates.sh",
@@ -806,11 +836,7 @@
 				"/home/cory/www/cory-g.github.io/_layouts/post.html",
 				"/home/cory/www/cory-g.github.io/_layouts/home.html",
 				"/home/cory/www/cory-g.github.io/_includes/about_block.html",
-				"/home/cory/www/cory-g.github.io/_data/text.yml",
-				"/home/cory/www/cory-g.github.io/_posts/2019-04-05-dots.md",
-				"/home/cory/www/cory-g.github.io/_layouts/archive.html",
-				"/home/cory/www/cory-g.github.io/contact.md",
-				"/home/cory/www/cory-g.github.io/about.md"
+				"/home/cory/www/cory-g.github.io/_data/text.yml"
 			],
 			"find":
 			{
@@ -828,6 +854,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"$super+Shift+c",
 					"/*\t",
 					"cols",
 					"battery"
@@ -849,7 +876,7 @@
 			"groups":
 			[
 				{
-					"selected": 0,
+					"selected": 2,
 					"sheets":
 					[
 						{
@@ -858,28 +885,118 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 5597,
+								"buffer_size": 5891,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										2259,
-										2259
+										2641,
+										2630
 									]
 								],
 								"settings":
 								{
 									"apply_syntax_touched": true,
-									"markdonw_live_preview_last_run": 1555968283.73,
+									"markdonw_live_preview_last_run": 1556030478.25,
 									"syntax": "Packages/SimpleSyntax/ssHash.sublime-syntax"
 								},
 								"translation.x": 0.0,
-								"translation.y": 504.0,
+								"translation.y": 712.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/cory/.dotfiles/i3/.config/i3/i3-quickterm.json",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 235,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										163,
+										163
+									]
+								],
+								"settings":
+								{
+									"apply_syntax_touched": true,
+									"markdonw_live_preview_last_run": 1556036814.82,
+									"open_with_edit": true,
+									"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/cory/goo/okay.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 5,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										5,
+										5
+									]
+								],
+								"settings":
+								{
+									"apply_syntax_touched": true,
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/home/cory/.dotfiles/.gitignore",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 288,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										288,
+										288
+									]
+								],
+								"settings":
+								{
+									"apply_syntax_touched": true,
+									"markdonw_live_preview_last_run": 1556031428.52,
+									"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
 							"type": "text"
 						}
 					]
@@ -925,7 +1042,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,10,38,1906,1066,1920,1080",
+			"position": "0,0,0,0,0,485,38,951,1066,1920,1080",
 			"project": "dotfiles.sublime-project",
 			"replace":
 			{

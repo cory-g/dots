@@ -25,7 +25,13 @@ GIT=$(which git)
 TOILET=$(which toilet)
 
 THE_DATE=`date '+%B %e, %Y @ %l:%M %P'`
-COMMIT_MSG="Automated commit on ${THE_DATE}"
+
+if [[ -z $1 ]]; then
+  # echo "no message"
+  COMMIT_MSG="Automated commit on ${THE_DATE}"
+else
+  COMMIT_MSG=$1
+fi
 
 # echo $COMMIT_MSG
 

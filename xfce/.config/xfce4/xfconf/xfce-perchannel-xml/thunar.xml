@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="thunar" version="1.0">
+  <property name="last-view" type="string" value="ThunarDetailsView"/>
+  <property name="last-location-bar" type="string" value="ThunarLocationEntry"/>
+  <property name="last-icon-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_50_PERCENT"/>
+  <property name="last-window-width" type="int" value="1896"/>
+  <property name="last-window-height" type="int" value="1028"/>
+  <property name="last-window-maximized" type="bool" value="false"/>
+  <property name="last-show-hidden" type="bool" value="true"/>
+  <property name="last-details-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_38_PERCENT"/>
+  <property name="last-details-view-column-widths" type="string" value="150,1119,71,108,201,75,111,73,115,401"/>
+  <property name="last-separator-position" type="int" value="100"/>
+  <property name="last-side-pane" type="string" value="ThunarShortcutsPane"/>
+  <property name="misc-single-click" type="bool" value="false"/>
+  <property name="tree-icon-emblems" type="bool" value="true"/>
+  <property name="shortcuts-icon-size" type="string" value="THUNAR_ICON_SIZE_16"/>
+  <property name="misc-date-style" type="string" value="THUNAR_DATE_STYLE_SHORT"/>
+  <property name="misc-text-beside-icons" type="bool" value="false"/>
+  <property name="last-menubar-visible" type="bool" value="true"/>
+  <property name="default-view" type="string" value="ThunarDetailsView"/>
+  <property name="last-sort-column" type="string" value="THUNAR_COLUMN_NAME"/>
+  <property name="last-sort-order" type="string" value="GTK_SORT_ASCENDING"/>
+  <property name="last-details-view-visible-columns" type="string" value="THUNAR_COLUMN_DATE_MODIFIED,THUNAR_COLUMN_NAME,THUNAR_COLUMN_SIZE,THUNAR_COLUMN_TYPE"/>
+  <property name="hidden-devices" type="array">
+    <value type="string" value="b7dcf79a-419a-450a-a269-30658cbd2014"/>
+    <value type="string" value="d321bdba-30f5-4369-9d80-d31b7f9f4e10"/>
+    <value type="string" value="973bc0b6-280e-4c04-b6a6-baf2d2360f4a"/>
+  </property>
+  <property name="hidden-bookmarks" type="array">
+    <value type="string" value="file:///"/>
+    <value type="string" value="network://"/>
+  </property>
+</channel>
