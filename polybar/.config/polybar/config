@@ -20,6 +20,7 @@ yellow = ${xrdb:color3:#b58900}
 
 ; >> topbar
 [bar/topbar]
+monitor = ${env:MONITOR:}
 width = 100%
 height = 22
 radius = 0

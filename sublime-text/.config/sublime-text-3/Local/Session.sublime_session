@@ -551,37 +551,19 @@
 			"buffers":
 			[
 				{
-					"file": "/home/cory/.dotfiles/i3/.config/i3/config",
+					"file": "/home/cory/.dotfiles/polybar/.config/polybar/scripts/launch.sh",
 					"settings":
 					{
-						"buffer_size": 5891,
+						"buffer_size": 391,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/home/cory/.dotfiles/i3/.config/i3/i3-quickterm.json",
+					"file": "/home/cory/.dotfiles/polybar/.config/polybar/config",
 					"settings":
 					{
-						"buffer_size": 235,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/cory/goo/okay.txt",
-					"settings":
-					{
-						"buffer_size": 5,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/cory/.dotfiles/.gitignore",
-					"settings":
-					{
-						"buffer_size": 288,
+						"buffer_size": 4385,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -703,16 +685,21 @@
 			"expanded_folders":
 			[
 				"/home/cory/.dotfiles",
-				"/home/cory/.dotfiles/i3",
-				"/home/cory/.dotfiles/i3/.config",
-				"/home/cory/.dotfiles/i3/.config/i3"
+				"/home/cory/.dotfiles/polybar",
+				"/home/cory/.dotfiles/polybar/.config",
+				"/home/cory/.dotfiles/polybar/.config/polybar",
+				"/home/cory/.dotfiles/polybar/.config/polybar/scripts"
 			],
 			"file_history":
 			[
+				"/home/cory/.dotfiles/scripts/.local/bin/dotz",
+				"/home/cory/.dotfiles/i3/.config/i3/config",
+				"/home/cory/.dotfiles/i3/.config/i3/i3-quickterm.json",
+				"/home/cory/goo/okay.txt",
+				"/home/cory/.dotfiles/.gitignore",
 				"/home/cory/.dotfiles/scripts/.local/bin/i3-quickterm",
 				"/home/cory/.local/bin/floaterm",
 				"/home/cory/.config/volumeicon/volumeicon",
-				"/home/cory/.dotfiles/i3/.config/i3/config",
 				"/home/cory/.config/autostart/odrive.desktop",
 				"/home/cory/.dotfiles/i3/.config/i3/layouts/rice-scrot.json",
 				"/home/cory/.dotfiles/scripts/.local/bin/wallpapersetter",
@@ -748,7 +735,6 @@
 				"/home/cory/.dotfiles/arandr/.screenlayout/2-extend-vga.sh",
 				"/home/cory/.dotfiles/arandr/.screenlayout/1-internal-lvds.sh",
 				"/home/cory/.local/bin/mute-mic",
-				"/home/cory/.dotfiles/.gitignore",
 				"/home/cory/.local/bin/lolban",
 				"/home/cory/.local/bin/dotz",
 				"/home/cory/.dotfiles/bash/.bash_functions",
@@ -833,10 +819,7 @@
 				"/home/cory/www/wallie/_includes/css/main.css",
 				"/home/cory/www/wallie/freelancer-theme-jekyll.gemspec",
 				"/home/cory/www/cory-g.github.io/.gitignore",
-				"/home/cory/www/cory-g.github.io/_layouts/post.html",
-				"/home/cory/www/cory-g.github.io/_layouts/home.html",
-				"/home/cory/www/cory-g.github.io/_includes/about_block.html",
-				"/home/cory/www/cory-g.github.io/_data/text.yml"
+				"/home/cory/www/cory-g.github.io/_layouts/post.html"
 			],
 			"find":
 			{
@@ -854,6 +837,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"monitor",
 					"$super+Shift+c",
 					"/*\t",
 					"cols",
@@ -876,91 +860,31 @@
 			"groups":
 			[
 				{
-					"selected": 2,
+					"selected": 0,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/home/cory/.dotfiles/i3/.config/i3/config",
+							"file": "/home/cory/.dotfiles/polybar/.config/polybar/scripts/launch.sh",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 5891,
+								"buffer_size": 391,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										2641,
-										2630
+										189,
+										189
 									]
 								],
 								"settings":
 								{
 									"apply_syntax_touched": true,
-									"markdonw_live_preview_last_run": 1556030478.25,
-									"syntax": "Packages/SimpleSyntax/ssHash.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 712.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 2,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/cory/.dotfiles/i3/.config/i3/i3-quickterm.json",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 235,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										163,
-										163
-									]
-								],
-								"settings":
-								{
-									"apply_syntax_touched": true,
-									"markdonw_live_preview_last_run": 1556036814.82,
-									"open_with_edit": true,
-									"syntax": "Packages/JavaScript/JSON.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/home/cory/goo/okay.txt",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 5,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										5,
-										5
-									]
-								],
-								"settings":
-								{
-									"apply_syntax_touched": true,
-									"syntax": "Packages/Text/Plain text.tmLanguage"
+									"markdonw_live_preview_last_run": 1556039103.48,
+									"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -970,33 +894,33 @@
 							"type": "text"
 						},
 						{
-							"buffer": 3,
-							"file": "/home/cory/.dotfiles/.gitignore",
+							"buffer": 1,
+							"file": "/home/cory/.dotfiles/polybar/.config/polybar/config",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 288,
+								"buffer_size": 4385,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										288,
-										288
+										495,
+										495
 									]
 								],
 								"settings":
 								{
 									"apply_syntax_touched": true,
-									"markdonw_live_preview_last_run": 1556031428.52,
-									"syntax": "Packages/Git Formats/Git Ignore.sublime-syntax"
+									"markdonw_live_preview_last_run": 1556039147.17,
+									"syntax": "Packages/SimpleSyntax/ssSemi.sublime-syntax"
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 46.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 3,
+							"stack_index": 1,
 							"type": "text"
 						}
 					]
@@ -1042,11 +966,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,485,38,951,1066,1920,1080",
+			"position": "0,0,0,0,0,965,38,1906,1066,1920,1080",
 			"project": "dotfiles.sublime-project",
 			"replace":
 			{
-				"height": 44.0
+				"height": 94.0
 			},
 			"save_all_on_build": true,
 			"select_file":
