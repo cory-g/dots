@@ -20,6 +20,7 @@ exec_always --no-startup-id $HOME/.config/polybar/scripts/launch.sh
 exec_always --no-startup-id $HOME/.local/bin/wallpapersetter
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 & eval $(gnome-keyring-daemon -s --components=pkcs11,secrets,ssh,gpg) &
 exec --no-startup-id "compton -C --config $HOME/.config/compton/compton.conf --respect-prop-shadow"
+exec --no-startup-id "insync start"
 
 
 # >> .---.-.-----.-----.-----.---.-.----.---.-.-----.----.-----.
@@ -35,7 +36,7 @@ gaps inner 10
 
 for_window [window_role="pop-up"] floating enable
 for_window [class="Gnome-calculator"] floating enable
-for_window [class="odrive"] floating enable
+for_window [class="insync.py"] floating enable
 
 # >>  __          __                __
 # >> |  |--.-----|  |--.---.-.--.--|__.-----.----.

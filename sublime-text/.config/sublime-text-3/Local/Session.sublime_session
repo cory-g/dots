@@ -550,24 +550,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/cory/.dotfiles/polybar/.config/polybar/scripts/launch.sh",
-					"settings":
-					{
-						"buffer_size": 391,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/cory/.dotfiles/polybar/.config/polybar/config",
-					"settings":
-					{
-						"buffer_size": 4385,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -685,18 +667,38 @@
 			"expanded_folders":
 			[
 				"/home/cory/.dotfiles",
-				"/home/cory/.dotfiles/polybar",
-				"/home/cory/.dotfiles/polybar/.config",
-				"/home/cory/.dotfiles/polybar/.config/polybar",
-				"/home/cory/.dotfiles/polybar/.config/polybar/scripts"
+				"/home/cory/.dotfiles/i3",
+				"/home/cory/.dotfiles/i3/.config",
+				"/home/cory/.dotfiles/i3/.config/i3",
+				"/home/cory/.dotfiles/rofi",
+				"/home/cory/.dotfiles/rofi/.config",
+				"/home/cory/.dotfiles/rofi/.config/rofi",
+				"/home/cory/.dotfiles/rofi/.config/rofi/scripts",
+				"/home/cory/.dotfiles/X"
 			],
 			"file_history":
 			[
-				"/home/cory/.dotfiles/scripts/.local/bin/dotz",
+				"/home/cory/.config/htop/htoprc",
 				"/home/cory/.dotfiles/i3/.config/i3/config",
+				"/home/cory/.gtk-bookmarks",
+				"/home/cory/.gtkrc-2.0",
+				"/home/cory/.local/share/fonts/fonts.dir",
+				"/home/cory/.dotfiles/X/.xscreensaver",
+				"/home/cory/.xscreensaver",
+				"/home/cory/.dotfiles/X/.xinitrc",
+				"/home/cory/prj/book/novel-001/ch01sc01be01.txt",
+				"/home/cory/tmp/pkglist.txt",
+				"/home/cory/.dotfiles/scripts/.local/bin/rofigen",
+				"/home/cory/.dotfiles/rofi/.config/rofi/scripts/rofi-mons",
+				"/home/cory/.local/bin/thisisatest",
+				"/home/cory/.local/bin/mickey",
+				"/home/cory/.local/bin/mickey-mouse",
+				"/home/cory/.dotfiles/.gitignore",
+				"/home/cory/.dotfiles/polybar/.config/polybar/config",
+				"/home/cory/.dotfiles/polybar/.config/polybar/scripts/launch.sh",
+				"/home/cory/.dotfiles/scripts/.local/bin/dotz",
 				"/home/cory/.dotfiles/i3/.config/i3/i3-quickterm.json",
 				"/home/cory/goo/okay.txt",
-				"/home/cory/.dotfiles/.gitignore",
 				"/home/cory/.dotfiles/scripts/.local/bin/i3-quickterm",
 				"/home/cory/.local/bin/floaterm",
 				"/home/cory/.config/volumeicon/volumeicon",
@@ -712,11 +714,8 @@
 				"/home/cory/.dotfiles/rofi/.config/rofi/config.rasi",
 				"/home/cory/.local/bin/blurme",
 				"/home/cory/.dotfiles/X/.Xresources",
-				"/home/cory/.dotfiles/polybar/.config/polybar/config",
 				"/home/cory/.config/neofetch/config.conf",
-				"/home/cory/.config/htop/htoprc",
 				"/home/cory/.dotfiles/polybar/.config/polybar/scripts/pacman-aur-updates.sh",
-				"/home/cory/.dotfiles/X/.xinitrc",
 				"/home/cory/.dotfiles/X/.Xresources.d/colors/solarized",
 				"/home/cory/.local/bin/i3exit",
 				"/home/cory/.dotfiles/rofi/.config/rofi/scripts/rofi-powermenu",
@@ -731,7 +730,6 @@
 				"/home/cory/.dotfiles/bash/.bashrc",
 				"/home/cory/.dotfiles/fish/.config/fish/config.fish",
 				"/home/cory/.dotfiles/arandr/.screenlayout/1-external-vga.sh",
-				"/home/cory/.dotfiles/rofi/.config/rofi/scripts/rofi-mons",
 				"/home/cory/.dotfiles/arandr/.screenlayout/2-extend-vga.sh",
 				"/home/cory/.dotfiles/arandr/.screenlayout/1-internal-lvds.sh",
 				"/home/cory/.local/bin/mute-mic",
@@ -807,19 +805,7 @@
 				"/home/cory/www/wallie/gulpfile.js",
 				"/home/cory/www/wallie/index.html",
 				"/home/cory/www/wallie/kr.md",
-				"/home/cory/www/wallie/_config.yml",
-				"/home/cory/www/wallie/_data/lang/en.json",
-				"/home/cory/www/wallie/_data/lang/pt.json",
-				"/home/cory/www/wallie/_data/lang/kr.json",
-				"/home/cory/www/wallie/Gemfile",
-				"/home/cory/www/wallie/_includes/portfolio_grid.html",
-				"/home/cory/www/wallie/_posts/2014-07-13-project-6.markdown",
-				"/home/cory/www/wallie/style.css",
-				"/home/cory/www/wallie/_layouts/style.css",
-				"/home/cory/www/wallie/_includes/css/main.css",
-				"/home/cory/www/wallie/freelancer-theme-jekyll.gemspec",
-				"/home/cory/www/cory-g.github.io/.gitignore",
-				"/home/cory/www/cory-g.github.io/_layouts/post.html"
+				"/home/cory/www/wallie/_config.yml"
 			],
 			"find":
 			{
@@ -837,6 +823,10 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"\\'",
+					"`",
+					"'",
+					"\"",
 					"monitor",
 					"$super+Shift+c",
 					"/*\t",
@@ -849,6 +839,10 @@
 				"regex": false,
 				"replace_history":
 				[
+					"'",
+					"\\`",
+					"\\'",
+					"\\\"",
 					"/*"
 				],
 				"reverse": false,
@@ -860,69 +854,8 @@
 			"groups":
 			[
 				{
-					"selected": 0,
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/cory/.dotfiles/polybar/.config/polybar/scripts/launch.sh",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 391,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										189,
-										189
-									]
-								],
-								"settings":
-								{
-									"apply_syntax_touched": true,
-									"markdonw_live_preview_last_run": 1556039103.48,
-									"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/cory/.dotfiles/polybar/.config/polybar/config",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 4385,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										495,
-										495
-									]
-								],
-								"settings":
-								{
-									"apply_syntax_touched": true,
-									"markdonw_live_preview_last_run": 1556039147.17,
-									"syntax": "Packages/SimpleSyntax/ssSemi.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 46.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
-						}
 					]
 				}
 			],
@@ -970,7 +903,7 @@
 			"project": "dotfiles.sublime-project",
 			"replace":
 			{
-				"height": 94.0
+				"height": 44.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -1016,7 +949,7 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 199.0,
+			"side_bar_width": 220.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{

@@ -47,6 +47,8 @@ xset fp rehash
 # set screen DPI
 ## xrandr --dpi 125.37
 
+xscreensaver &
+
 # start system tray icons
 pamac-tray-appindicator &
 volumeicon &

@@ -335,8 +335,8 @@
        style="fill:black;fill-opacity:1;stroke:none;font-family:Montserrat;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:Montserrat;font-stretch:normal;font-variant:normal"
        selcue="1">
       <group
-         display_unit="0"
-         id="lineheight" />
+         id="lineheight"
+         display_unit="0" />
     </eventcontext>
     <eventcontext
        id="nodes"
@@ -354,8 +354,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="0"
-       y="0"
+       x="111.987"
+       y="669.874"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -422,12 +422,12 @@
        offset="0"
        offsetunits="mm" />
     <group
-       unit="px"
-       offset="5"
-       scale="100"
-       precision="2"
+       id="measure"
        fontsize="10"
-       id="measure" />
+       precision="2"
+       scale="100"
+       offset="5"
+       unit="px" />
   </group>
   <group
      id="palette">
@@ -575,7 +575,7 @@
        x="0"
        y="0"
        w="333"
-       h="495"
+       h="401"
        visible="1"
        state="2"
        placement="5" />
@@ -596,7 +596,7 @@
        x="0"
        y="0"
        w="333"
-       h="495"
+       h="401"
        visible="1"
        state="2"
        placement="5" />
@@ -646,7 +646,7 @@
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/home/cory/pix/wallie"
+       path="/home/cory/pix/Wallie/wallie things"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -1022,7 +1022,7 @@
      id="extensions" />
   <group
      id="desktop"
-     style="line-height:1.25;fill:#7e849a;fill-opacity:1;-inkscape-font-specification:'8BIT WONDER';font-family:'8BIT WONDER';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;opacity:0.587;stroke:none">
+     style="line-height:1.25;fill:#000000;fill-opacity:0;-inkscape-font-specification:PRIMETIME;font-family:PRIMETIME;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;opacity:1;stroke:none">
     <group
        width="1896"
        height="1028"
