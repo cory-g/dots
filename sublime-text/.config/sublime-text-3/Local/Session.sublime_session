@@ -550,6 +550,50 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/home/cory/www/cory-g.github.io/_sass/styles.scss",
+					"settings":
+					{
+						"buffer_size": 282,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "---\nlayout: default\n---\n\n{% include about_block.html %}\n\n{% for p in site.posts %}\n  <div class=\"row\">\n    <div class=\"{{ site.data.text.mainColClass }}\">\n      <div class=\"card fluid\">\n          <h2 class=\"\">{{ p.title | escape }}</h2>\n          <h5 class=\"cg-proj-title\">{{ p.tagline | escape }}</h5>\n        <small style=\"margin: var(--universal-margin);\">\n          Start: {{ p.dates.start | date: \"%B %-d, %Y\" }}{% if p.dates.end %} End: {{ p.dates.end | date: \"%B %-d, %Y\" }}{% endif %}\n        </small>\n        <p>{{ p.summary }}</p>\n        <p>\n          {% for l in p.www %}\n            {% if forloop.last %}\n              Link: <a href=\"{{ l.address | relative_url }}\">{{ l.text }}</a>\n            {% else %}\n              Link: <a href=\"{{ l.address | relative_url }}\">{{ l.text }}</a><br>\n            {% endif %}\n          {% endfor %}\n        </p>\n      </div>\n\n      {% comment %}\n      <label for=\"modal-control-{{ p.slug }}\">Show modal</label>\n      <input type=\"checkbox\" id=\"modal-control-{{ p.slug }}\" class=\"modal\">\n      <div>\n        <div class=\"card\">\n          <label for=\"modal-control-{{ p.slug }}\" class=\"modal-close\" ></label>\n          <h3 class=\"section\">{{ p.title }} Modal</h3>\n          <p class=\"section\">This is a modal dialog!</p>\n        </div>\n      </div>\n      {% endcomment %}\n\n\n    </div>\n\n  </div>\n{% endfor %}\n",
+					"file": "/home/cory/www/cory-g.github.io/_layouts/home.html",
+					"file_size": 1354,
+					"file_write_time": 132010297852478869,
+					"settings":
+					{
+						"buffer_size": 1354,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home-old/cory/.xinitrc",
+					"settings":
+					{
+						"buffer_size": 816,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/cory/www/cory-g.github.io/_sass/mini-nord.scss",
+					"settings":
+					{
+						"buffer_size": 17718,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/cory/www/cory-g.github.io/assets/main.scss",
+					"settings":
+					{
+						"buffer_size": 109,
+						"line_ending": "Unix"
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -563,28 +607,20 @@
 				"selected_items":
 				[
 					[
-						"install",
-						"Package Control: Install Package"
-					],
-					[
-						"color s",
-						"UI: Select Color Scheme"
-					],
-					[
-						"theme",
-						"UI: Select Theme"
-					],
-					[
-						"insta",
-						"Package Control: Install Package"
-					],
-					[
 						"in",
+						"Package Control: Install Package"
+					],
+					[
+						"install",
 						"Package Control: Install Package"
 					],
 					[
 						"remo",
 						"Package Control: Remove Package"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
 					],
 					[
 						"sync",
@@ -666,146 +702,141 @@
 			},
 			"expanded_folders":
 			[
-				"/home/cory/.dotfiles",
-				"/home/cory/.dotfiles/i3",
-				"/home/cory/.dotfiles/i3/.config",
-				"/home/cory/.dotfiles/i3/.config/i3",
-				"/home/cory/.dotfiles/rofi",
-				"/home/cory/.dotfiles/rofi/.config",
-				"/home/cory/.dotfiles/rofi/.config/rofi",
-				"/home/cory/.dotfiles/rofi/.config/rofi/scripts",
-				"/home/cory/.dotfiles/X"
+				"/home/cory/www/cory-g.github.io",
+				"/home/cory/www/cory-g.github.io/_layouts",
+				"/home/cory/www/cory-g.github.io/_sass",
+				"/home/cory/www/cory-g.github.io/assets"
 			],
 			"file_history":
 			[
-				"/home/cory/.config/htop/htoprc",
-				"/home/cory/.dotfiles/i3/.config/i3/config",
-				"/home/cory/.gtk-bookmarks",
-				"/home/cory/.gtkrc-2.0",
-				"/home/cory/.local/share/fonts/fonts.dir",
-				"/home/cory/.dotfiles/X/.xscreensaver",
 				"/home/cory/.xscreensaver",
-				"/home/cory/.dotfiles/X/.xinitrc",
-				"/home/cory/prj/book/novel-001/ch01sc01be01.txt",
-				"/home/cory/tmp/pkglist.txt",
-				"/home/cory/.dotfiles/scripts/.local/bin/rofigen",
-				"/home/cory/.dotfiles/rofi/.config/rofi/scripts/rofi-mons",
-				"/home/cory/.local/bin/thisisatest",
-				"/home/cory/.local/bin/mickey",
-				"/home/cory/.local/bin/mickey-mouse",
-				"/home/cory/.dotfiles/.gitignore",
-				"/home/cory/.dotfiles/polybar/.config/polybar/config",
-				"/home/cory/.dotfiles/polybar/.config/polybar/scripts/launch.sh",
-				"/home/cory/.dotfiles/scripts/.local/bin/dotz",
-				"/home/cory/.dotfiles/i3/.config/i3/i3-quickterm.json",
-				"/home/cory/goo/okay.txt",
-				"/home/cory/.dotfiles/scripts/.local/bin/i3-quickterm",
-				"/home/cory/.local/bin/floaterm",
-				"/home/cory/.config/volumeicon/volumeicon",
-				"/home/cory/.config/autostart/odrive.desktop",
-				"/home/cory/.dotfiles/i3/.config/i3/layouts/rice-scrot.json",
-				"/home/cory/.dotfiles/scripts/.local/bin/wallpapersetter",
-				"/home/cory/.dotfiles/scripts/.local/bin/wallawalla",
-				"/home/cory/.config/sublime-text-3/Packages/WakaTime/WakaTime.sublime-settings",
-				"/home/cory/.config/sublime-text-3/Packages/User/WakaTime.sublime-settings",
-				"/home/cory/.config/gpymusic/config.json",
-				"/home/cory/.nowplaying",
-				"/home/cory/.dotfiles/rofi/.config/rofi/config",
-				"/home/cory/.dotfiles/rofi/.config/rofi/config.rasi",
-				"/home/cory/.local/bin/blurme",
-				"/home/cory/.dotfiles/X/.Xresources",
-				"/home/cory/.config/neofetch/config.conf",
-				"/home/cory/.dotfiles/polybar/.config/polybar/scripts/pacman-aur-updates.sh",
-				"/home/cory/.dotfiles/X/.Xresources.d/colors/solarized",
-				"/home/cory/.local/bin/i3exit",
-				"/home/cory/.dotfiles/rofi/.config/rofi/scripts/rofi-powermenu",
-				"/home/cory/.dotfiles/X/.Xresources.d/rxvt-unicode",
-				"/home/cory/.dotfiles/scripts/.local/bin/mkscript",
-				"/home/cory/.dotfiles/bash/.bash_profile",
-				"/home/cory/.dotfiles/polybar/.config/polybar/launch.sh",
-				"/home/cory/.dotfiles/X/.Xresources.d/colors/gruvbox",
-				"/home/cory/.dotfiles/fish/.config/fish/functions/fish_prompt.fish",
-				"/home/cory/.dotfiles/fish/.config/fish/functions/fish_right_prompt.fish",
-				"/home/cory/.dotfiles/fish/.config/fish/functions/__sf_section_char.fish",
-				"/home/cory/.dotfiles/bash/.bashrc",
-				"/home/cory/.dotfiles/fish/.config/fish/config.fish",
-				"/home/cory/.dotfiles/arandr/.screenlayout/1-external-vga.sh",
-				"/home/cory/.dotfiles/arandr/.screenlayout/2-extend-vga.sh",
-				"/home/cory/.dotfiles/arandr/.screenlayout/1-internal-lvds.sh",
-				"/home/cory/.local/bin/mute-mic",
-				"/home/cory/.local/bin/lolban",
-				"/home/cory/.local/bin/dotz",
-				"/home/cory/.dotfiles/bash/.bash_functions",
-				"/home/cory/.dotfiles/fish/.config/fish/functions/dot.fish",
-				"/home/cory/.local/bin/dotzupdate",
-				"/home/cory/.dotfiles/fish/.config/fish/functions/mkdir.fish",
-				"/home/cory/.dotfiles/bash/.bash_aliases",
-				"/home/cory/.dotfiles/fish/.config/fish/functions/scrot.fish",
-				"/home/cory/.dotfiles/fish/.config/fish/fish_variables",
-				"/home/cory/.config/fish/fish_variables",
-				"/home/cory/.dotfiles/fish/.config/fish/functions/c.fish",
-				"/home/cory/.dotfiles/bash/.bashrc.d/ps1",
-				"/home/cory/prj/subl/smith-calc.sublime-project",
-				"/home/cory/www/smith-calc/src/views/app/_navDrawer.pug",
-				"/home/cory/www/smith-calc/src/views/app/_00-drawerToolbar.pug",
-				"/home/cory/www/smith-calc/src/views/app/_01-drawerOverflowMenu.pug",
-				"/home/cory/www/smith-calc.wiki/Terms-of-Service.md",
-				"/home/cory/www/smith-calc.wiki/_Sidebar.md",
-				"/home/cory/www/smith-calc.wiki/Home.md",
-				"/home/cory/www/smith-calc/src/views/app/_toolbar.pug",
-				"/home/cory/www/smith-calc/src/views/app/dialog/_settingsDialog.pug",
-				"/home/cory/www/smith-calc/build/service-worker-prod.js",
-				"/home/cory/www/smith-calc/src/data/NavDrawerItems.js",
-				"/home/cory/www/smith-calc/src/data/NavDrawerItems.json",
-				"/home/cory/www/smith-calc/src/views/app/dialog/_bottom-sheet-dialog.pug",
-				"/home/cory/www/smith-calc/src/data/MainNavItems.js",
-				"/home/cory/www/smith-calc/build/utils.js",
-				"/home/cory/www/smith-calc/static/manifest.json",
-				"/home/cory/www/smith-calc/docs/manifest.json",
-				"/home/cory/www/smith-calc/build/build.js",
-				"/home/cory/www/smith-calc/config/index.js",
-				"/home/cory/www/smith-calc/.vsignore",
-				"/home/cory/www/smith-calc/package.json",
-				"/home/cory/www/wallie-web/_includes/portfolioLoop.html",
-				"/home/cory/.local/bin/wallawalla",
-				"/home/cory/www/wallie-web/_posts/2019-04-07-project-1.md",
-				"/home/cory/www/wallie-web/extra/make-thumbz.sh",
-				"/home/cory/www/wallie-web/_posts/2019-04-02-project-6.md",
-				"/home/cory/www/wallie-web/_posts/2019-04-05-project-3.md",
-				"/home/cory/www/wallie-web/_posts/2019-04-04-project-4.md",
-				"/home/cory/www/wallie-web/_posts/2019-04-03-project-5.md",
-				"/home/cory/www/wallie-web/_posts/2019-04-06-project-2.md",
-				"/home/cory/www/wallie-web/_includes/about1.md",
-				"/home/cory/www/wallie-web/_includes/modalsLoop.html",
-				"/home/cory/www/wallie-web/_posts/2019-04-07-project-name.md",
-				"/home/cory/www/wallie-web/_layouts/default.html",
-				"/home/cory/www/wallie-web/_includes/mainNav.html",
-				"/home/cory/www/wallie-web/insta_info.txt",
-				"/home/cory/www/wallie-web/_data/bodyScripts.yml",
-				"/home/cory/www/wallie-web/assets/css/main.scss",
-				"/home/cory/www/wallie-web/_data/global.yml",
-				"/home/cory/www/wallie-web/_includes/contact.html",
-				"/home/cory/www/wallie-web/_includes/about.html",
-				"/home/cory/www/wallie-web/_sass/_variables.scss",
-				"/home/cory/www/wallie-web/_includes/about2.md",
-				"/home/cory/www/wallie-web/about.md",
-				"/home/cory/www/wallie-web/_includes/header.html",
-				"/home/cory/www/wallie-web/_data/social.yml",
-				"/home/cory/www/wallie-web/assets/img/wallie_thumbnail.jpeg",
-				"/home/cory/www/wallie-web/_includes/footer.html",
-				"/home/cory/www/wallie-web/index.html",
-				"/home/cory/www/wallie-web/_includes/head.html",
-				"/home/cory/www/wallie-web/_includes/scrollButton.html",
-				"/home/cory/www/wallie-web/_data/headStyles.yml",
-				"/home/cory/www/wallie-web/_data/internalStyles.yml",
-				"/home/cory/www/wallie-web/_data/externalStyles.yml",
-				"/home/cory/www/wallie-web/_sass/freelancer.scss",
-				"/home/cory/www/wallie-web/index.md",
-				"/home/cory/prj/subl/wallie-web.sublime-project",
-				"/home/cory/www/wallie/gulpfile.js",
-				"/home/cory/www/wallie/index.html",
-				"/home/cory/www/wallie/kr.md",
-				"/home/cory/www/wallie/_config.yml"
+				"/home/cory/www/cory-g.github.io/_config.yml",
+				"/home/cory/www/cory-g.github.io/_data/favicons.yml",
+				"/home/cory/www/cory-g.github.io/_includes/head.html",
+				"/home/cory/www/cory-g.github.io/code.txt",
+				"/home/cory/www/cory-g.github.io/_includes/og-meta.html",
+				"/home/cory/www/cory-g.github.io/_sass/mini-nord.scss",
+				"/home/cory/www/cory-g.github.io/_sass/styles.scss",
+				"/home/cory/www/cory-g.github.io/_includes/header.html",
+				"/home/cory/www/cory-g.github.io/_sass/mini/_core.scss",
+				"/home/cory/www/cory-g.github.io/_sass/mini/_progress_mixins.scss",
+				"/home/cory/www/cory-g.github.io/_sass/mini/_utility.scss",
+				"/home/cory/www/cory-g.github.io/_sass/mini/_input_control.scss",
+				"/home/cory/www/cory-g.github.io/_sass/mini/_input_control_mixins.scss",
+				"/home/cory/www/cory-g.github.io/_sass/mini/_layout.scss",
+				"/home/cory/www/cory-g.github.io/_sass/mini/_layout_mixins.scss",
+				"/home/cory/www/cory-g.github.io/_sass/mini/_icon.scss",
+				"/home/cory/www/cory-g.github.io/_layouts/home.html",
+				"/home/cory/www/cory-g.github.io/_data/text.yml",
+				"/home/cory/www/cory-g.github.io/_layouts/page.html",
+				"/home/cory/www/cory-g.github.io/_layouts/post.html",
+				"/home/cory/www/cory-g.github.io/_layouts/archive.html",
+				"/home/cory/www/cory-g.github.io/_includes/twitter-meta.html",
+				"/home/cory/www/cory-g.github.io/_includes/footer.html",
+				"/home/cory/www/cory-g.github.io/_data/projects.json",
+				"/home/cory/www/cory-g.github.io/_posts/2019-04-04-dots.md",
+				"/home/cory/www/cory-g.github.io/_posts/2018-08-29-smithcalc.md",
+				"/home/cory/www/cory-g.github.io/_posts/2019-04-07-wallie-web.md",
+				"/home/cory/www/cory-g.github.io/archive.md",
+				"/home/cory/www/cory-g.github.io/.forestry/settings.yml",
+				"/home/cory/www/cory-g.github.io/about.md",
+				"/home/cory/www/cory-g.github.io/contact.md",
+				"/home/cory/www/cory-g.github.io/assets/main.scss",
+				"/home/cory/www/cory-g.github.io/.gitignore",
+				"/home/cory/www/cory-g.github.io/_includes/about_block.html",
+				"/home/cory/www/cory-g.github.io/_posts/2019-04-05-dots.md",
+				"/home/cory/www/cory-g.github.io/_layouts/default.html",
+				"/home/cory/www/cory-g.github.io/_posts/2019-04-05-init.md",
+				"/home/cory/src/rusty-sublime/subl/Packages/Default/Preferences.sublime-settings",
+				"/home/cory/src/rusty-sublime/subl/Packages/User/Preferences.sublime-settings",
+				"/home/cory/src/rusty-sublime/subl/Local/License.sublime_license",
+				"/home/rustyschakelford/.config/sublime.sublime-project",
+				"/home/rustyschakelford/.config/.sublime.sublime-project",
+				"/home/rustyschakelford/.config/sublime-text-3/Packages/User/ApplySyntax.ext-list",
+				"/home/cory/www/smith/calc/src/ui/styles/components/_v-nav-drawer.sass",
+				"/home/cory/www/smith/calc/src/ui/styles/components/_v-input.sass",
+				"/home/cory/www/smith/calc/src/ui/styles/components/_v-global.sass",
+				"/home/cory/www/smith/calc/src/mixins/globalCalc/data.js",
+				"/home/cory/www/smith/calc/src/ui/styles/components/_v-btn.sass",
+				"/home/cory/www/smith/calc/src/ui/styles/_shame.sass",
+				"/home/cory/www/smith/calc/src/views/layouts/_stepper-step-main.pug",
+				"/home/cory/www/smith/calc/src/data/cbLength.json",
+				"/home/cory/www/smith/calc/src/data/colorProps.json",
+				"/home/cory/www/smith/calc/src/main.js",
+				"/home/cory/www/smith/calc/src/ui/themes/light.js",
+				"/home/cory/www/smith/calc/node_modules/vuetify/es5/util/colorUtils.js",
+				"/home/cory/www/smith/calc/node_modules/vuetify/es5/mixins/colorable.js",
+				"/home/cory/www/smith/calc/node_modules/vuetify/es5/util/colors.js",
+				"/home/cory/www/smith/calc/src/ui/themes/index.js",
+				"/home/cory/www/smith/calc/src/mixins/globalCalc/watch.js",
+				"/home/cory/www/smith/calc/src/data/localStorageValues.js",
+				"/home/cory/www/smith/calc/node_modules/vuetify/es5/util/color/transformSRGB.js",
+				"/home/cory/www/smith/calc/src/mixins/globalCalc/methods.js",
+				"/home/cory/www/smith/calc/src/views/app/dialog/settings/_appear-groupNav.pug",
+				"/home/cory/www/smith/calc/src/views/app/dialog/_settingsDialog.pug",
+				"/home/cory/www/smith/calc/src/views/app/dialog/settings/_appear-darkMode.pug",
+				"/home/cory/www/smith/calc/src/views/app/dialog/settings/_pref-changeUnits.pug",
+				"/home/cory/www/smith/calc/src/views/app/_01-drawerOverflowMenu.pug",
+				"/home/cory/www/smith/calc/src/views/app/dialog/settings/_pref-commaSep.pug",
+				"/home/cory/www/smith/calc/src/components/RollLength/script.js",
+				"/home/cory/www/smith/calc/src/components/App/styles.sass",
+				"/home/cory/www/smith/calc/src/components/App/script/methods.js",
+				"/home/cory/www/smith/calc/src/components/Home/script.js",
+				"/home/cory/www/smith/calc/src/components/App/script/index.js",
+				"/home/cory/www/smith/calc/src/mixins/globalCalc/index.js",
+				"/home/cory/www/smith/calc/src/components/App/script/created.js",
+				"/home/cory/www/smith/calc/src/components/App/script/data.js",
+				"/home/cory/www/smith/calc/src/App.vue",
+				"/home/cory/www/smith/calc/src/components/App/script.js",
+				"/home/cory/www/smith/calc/src/components/App/script/computed.js",
+				"/home/cory/www/smith/calc/src/data/MainNavItems.js",
+				"/home/cory/www/smith/calc/src/components/App/script/watch.js",
+				"/home/cory/www/smith/calc/src/mixins/globalCalc/created.js",
+				"/home/cory/www/smith/calc/src/mixins/globalCalc/mounted.js",
+				"/home/cory/www/smith/calc/src/views/app/_02-drawerItems.pug",
+				"/home/cory/www/smith/calc/src/data/words.js",
+				"/home/cory/www/smith/calc/src/components/SnowplowBladeWeight/template/shipment/shipmentBottomSheet/_savedShipments.pug",
+				"/home/cory/www/smith/calc/src/components/SnowplowBladeWeight/script.js",
+				"/home/cory/www/smith/calc/src/components/SnowplowBladeWeight/template/shipment/shipmentBottomSheet/_currentShipment.pug",
+				"/home/cory/www/smith/calc/src/components/SnowplowBladeWeight/template/steps/_step4.pug",
+				"/home/cory/www/smith/calc/src/data/units.js",
+				"/home/cory/www/smith/calc/src/components/ConveyorLength/template/steps/_step3.pug",
+				"/home/cory/www/smith/calc/src/components/ConveyorBeltWeight/template/steps/_step4.pug",
+				"/home/cory/www/smith/calc/src/components/SquareFootage/script.js",
+				"/home/cory/www/smith/calc/src/components/RollLength/template/steps/_step4.pug",
+				"/home/cory/www/smith/calc/src/components/SquareFootage/template/steps/_step3.pug",
+				"/home/cory/www/smith/calc/src/components/SquareFootage/template/steps/_step2.pug",
+				"/home/cory/www/smith/calc/src/components/SquareFootage/template/steps/_step1.pug",
+				"/home/cory/www/smith/calc/src/mixins/snowplowCalc/shipment.js",
+				"/home/cory/www/smith/calc/src/components/SnowplowBladeWeight/template/steps/_step3.pug",
+				"/home/cory/www/smith/calc/src/components/SnowplowBladeWeight/template/steps/_step2.pug",
+				"/home/cory/www/smith/calc/src/components/SnowplowBladeWeight/template/steps/_step1.pug",
+				"/home/cory/www/smith/calc/src/components/CrimpSpec/script.js",
+				"/home/cory/www/smith/calc/src/components/CrimpSpec/template/steps/_step2.pug",
+				"/home/cory/www/smith/calc/src/components/CrimpSpec/template/steps/_step5.pug",
+				"/home/cory/www/smith/calc/src/components/ConveyorLength/script.js",
+				"/home/cory/www/smith/calc/src/components/CrimpSpec/template/steps/_step4.pug",
+				"/home/cory/www/smith/calc/src/components/CrimpSpec/template/steps/_step3.pug",
+				"/home/cory/www/smith/calc/src/components/CrimpSpec/template/steps/_step1.pug",
+				"/home/cory/www/smith/calc/src/components/RollLength/template/steps/_step2.pug",
+				"/home/cory/www/smith/calc/src/components/ConveyorLength/template/steps/_step2.pug",
+				"/home/cory/www/smith/calc/src/components/ConveyorLength/template/steps/_step1.pug",
+				"/home/cory/www/smith/calc/src/components/ConveyorBeltWeight/script.js",
+				"/home/cory/www/smith/calc/src/components/ConveyorBeltWeight/template/steps/_step3.pug",
+				"/home/cory/www/smith/calc/src/components/ConveyorBeltWeight/template/steps/_step2.pug",
+				"/home/cory/www/smith/calc/src/components/ConveyorBeltWeight/template/steps/_step1.pug",
+				"/home/cory/www/smith/calc/src/components/RollLength/template/steps/_step3.pug",
+				"/home/cory/www/smith/calc/src/components/RollLength/template/_result.pug",
+				"/home/cory/www/smith/calc/src/components/RollLength/template/steps/_step1.pug",
+				"/home/cory/www/smith/calc/src/mixins/globalCalc/computed.js",
+				"/home/cory/www/smith/calc/src/ui/styles/abstracts/_variables.sass",
+				"/home/cory/www/smith/calc/src/ui/styles/components/_v-list.sass",
+				"/home/cory/www/smith/calc/src/components/ConveyorBeltWeight/template/dialog/_addCustomBeltDialog.pug",
+				"/home/cory/www/smith/calc/src/components/ConveyorBeltWeight/template/index.pug",
+				"/home/cory/www/smith/calc/src/ui/themes/dark.js",
+				"/home/cory/www/smith/calc/src/components/Home/template/index.pug",
+				"/home/cory/www/smith/calc/src/ui/themes.js",
+				"/home/cory/www/smith/calc/src/components/RollLength/template/index.pug"
 			],
 			"find":
 			{
@@ -813,7 +844,7 @@
 			},
 			"find_in_files":
 			{
-				"height": 138.0,
+				"height": 133.75,
 				"where_history":
 				[
 				]
@@ -823,15 +854,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
-					"\\'",
-					"`",
-					"'",
-					"\"",
-					"monitor",
-					"$super+Shift+c",
-					"/*\t",
-					"cols",
-					"battery"
+					"\""
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -839,11 +862,7 @@
 				"regex": false,
 				"replace_history":
 				[
-					"'",
-					"\\`",
-					"\\'",
-					"\\\"",
-					"/*"
+					""
 				],
 				"reverse": false,
 				"show_context": true,
@@ -854,8 +873,1491 @@
 			"groups":
 			[
 				{
+					"selected": 2,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/home/cory/www/cory-g.github.io/_sass/styles.scss",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 282,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										174,
+										174
+									]
+								],
+								"settings":
+								{
+									"apply_syntax_touched": true,
+									"editorconfig": true,
+									"ensure_newline_at_eof_on_save": true,
+									"markdonw_live_preview_last_run": 1556555843.31,
+									"syntax": "Packages/SCSS/SCSS.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true,
+									"trim_trailing_white_space_on_save": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/cory/www/cory-g.github.io/_layouts/home.html",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1354,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										959,
+										959
+									]
+								],
+								"settings":
+								{
+									"apply_syntax_touched": true,
+									"editorconfig": true,
+									"ensure_newline_at_eof_on_save": true,
+									"markdonw_live_preview_last_run": 1556556145.53,
+									"syntax": "Packages/HTML/HTML.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true,
+									"trim_trailing_white_space_on_save": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home-old/cory/.xinitrc",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 816,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"apply_syntax_touched": true,
+									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/home/cory/www/cory-g.github.io/_sass/mini-nord.scss",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 17718,
+								"regions":
+								{
+									"gutter_color_10016":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#eceff4.png",
+										"regions":
+										[
+											[
+												10016,
+												10088
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_1008":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#d8dee9.png",
+										"regions":
+										[
+											[
+												1008,
+												1047
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_10089":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#e5e9f0.png",
+										"regions":
+										[
+											[
+												10089,
+												10159
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_10160":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#88c0d0.png",
+										"regions":
+										[
+											[
+												10160,
+												10229
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_10230":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#eceff4.png",
+										"regions":
+										[
+											[
+												10230,
+												10304
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_10305":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#e5e9f0.png",
+										"regions":
+										[
+											[
+												10305,
+												10377
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_10378":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#e5e9f0.png",
+										"regions":
+										[
+											[
+												10378,
+												10474
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_10475":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#3b4252.png",
+										"regions":
+										[
+											[
+												10475,
+												10560
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_1048":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#e5e9f0.png",
+										"regions":
+										[
+											[
+												1048,
+												1107
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_11564":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#d8dee9.png",
+										"regions":
+										[
+											[
+												11564,
+												11631
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_11632":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#434c5e.png",
+										"regions":
+										[
+											[
+												11632,
+												11731
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_11732":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#e5e9f0.png",
+										"regions":
+										[
+											[
+												11732,
+												11802
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_11803":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#2e3440.png",
+										"regions":
+										[
+											[
+												11803,
+												11866
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_11867":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#eceff4.png",
+										"regions":
+										[
+											[
+												11867,
+												11936
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_11937":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#2e3440.png",
+										"regions":
+										[
+											[
+												11937,
+												12000
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_12001":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#e5e9f0.png",
+										"regions":
+										[
+											[
+												12001,
+												12104
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_12105":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#88c0d0.png",
+										"regions":
+										[
+											[
+												12105,
+												12206
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_12234":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#5e81ac.png",
+										"regions":
+										[
+											[
+												12234,
+												12291
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_12292":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#fafafa.png",
+										"regions":
+										[
+											[
+												12292,
+												12343
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_12443":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#2e3440.png",
+										"regions":
+										[
+											[
+												12443,
+												12510
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_12511":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#eceff4.png",
+										"regions":
+										[
+											[
+												12511,
+												12572
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_12573":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#2e3440.png",
+										"regions":
+										[
+											[
+												12573,
+												12644
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_12645":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#eceff4.png",
+										"regions":
+										[
+											[
+												12645,
+												12710
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_12711":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/rgba(0,0,0,0.45).png",
+										"regions":
+										[
+											[
+												12711,
+												12794
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_12795":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#3b4252.png",
+										"regions":
+										[
+											[
+												12795,
+												12888
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_12889":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#e5e9f0.png",
+										"regions":
+										[
+											[
+												12889,
+												13016
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_13291":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#e5e9f0.png",
+										"regions":
+										[
+											[
+												13291,
+												13384
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_13385":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#2e3440.png",
+										"regions":
+										[
+											[
+												13385,
+												13472
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_13473":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#e5e9f0.png",
+										"regions":
+										[
+											[
+												13473,
+												13580
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_13581":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#e5e9f0.png",
+										"regions":
+										[
+											[
+												13581,
+												13692
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_13693":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#e5e9f0.png",
+										"regions":
+										[
+											[
+												13693,
+												13764
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_13765":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#88c0d0.png",
+										"regions":
+										[
+											[
+												13765,
+												13869
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_13870":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#fafafa.png",
+										"regions":
+										[
+											[
+												13870,
+												13967
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_14166":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#bf616a.png",
+										"regions":
+										[
+											[
+												14166,
+												14258
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_14424":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#a3be8c.png",
+										"regions":
+										[
+											[
+												14424,
+												14514
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_14899":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#e5e9f0.png",
+										"regions":
+										[
+											[
+												14899,
+												14964
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_14965":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#434c5e.png",
+										"regions":
+										[
+											[
+												14965,
+												15030
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_15380":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#d8dee9.png",
+										"regions":
+										[
+											[
+												15380,
+												15454
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_15455":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#434c5e.png",
+										"regions":
+										[
+											[
+												15455,
+												15529
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_15713":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#5e81ac.png",
+										"regions":
+										[
+											[
+												15713,
+												15815
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_16005":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#bf616a.png",
+										"regions":
+										[
+											[
+												16005,
+												16109
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_16302":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#a3be8c.png",
+										"regions":
+										[
+											[
+												16302,
+												16405
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_16603":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#5e81ac.png",
+										"regions":
+										[
+											[
+												16603,
+												16713
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_16926":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#bf616a.png",
+										"regions":
+										[
+											[
+												16926,
+												17038
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_17254":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#a3be8c.png",
+										"regions":
+										[
+											[
+												17254,
+												17365
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_17499":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/rgba(0,0,0,0.125).png",
+										"regions":
+										[
+											[
+												17499,
+												17610
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_17611":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/red.png",
+										"regions":
+										[
+											[
+												17611,
+												17689
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_218":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/red.png",
+										"regions":
+										[
+											[
+												218,
+												308
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_2209":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#88c0d0.png",
+										"regions":
+										[
+											[
+												2209,
+												2254
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_2255":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#5e81ac.png",
+										"regions":
+										[
+											[
+												2255,
+												2306
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_2933":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#2e3440.png",
+										"regions":
+										[
+											[
+												2933,
+												2988
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_2989":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#eceff4.png",
+										"regions":
+										[
+											[
+												2989,
+												3050
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_3051":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#e5e9f0.png",
+										"regions":
+										[
+											[
+												3051,
+												3110
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_3793":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#ebcb8b.png",
+										"regions":
+										[
+											[
+												3793,
+												3880
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_3881":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#2e3440.png",
+										"regions":
+										[
+											[
+												3881,
+												3962
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_3963":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#d08770.png",
+										"regions":
+										[
+											[
+												3963,
+												4048
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_4252":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#bf616a.png",
+										"regions":
+										[
+											[
+												4252,
+												4334
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_4335":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#2e3440.png",
+										"regions":
+										[
+											[
+												4335,
+												4411
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_4412":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#434c5e.png",
+										"regions":
+										[
+											[
+												4412,
+												4492
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_4695":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#d8dee9.png",
+										"regions":
+										[
+											[
+												4695,
+												4785
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_4786":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#2e3440.png",
+										"regions":
+										[
+											[
+												4786,
+												4870
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_5461":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#e5e9f0.png",
+										"regions":
+										[
+											[
+												5461,
+												5518
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_5519":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#2e3440.png",
+										"regions":
+										[
+											[
+												5519,
+												5570
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_5571":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#e5e9f0.png",
+										"regions":
+										[
+											[
+												5571,
+												5626
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_5627":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#eceff4.png",
+										"regions":
+										[
+											[
+												5627,
+												5694
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_5695":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#2e3440.png",
+										"regions":
+										[
+											[
+												5695,
+												5756
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_5757":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#e5e9f0.png",
+										"regions":
+										[
+											[
+												5757,
+												5822
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_5823":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#88c0d0.png",
+										"regions":
+										[
+											[
+												5823,
+												5895
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_5896":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#bf616a.png",
+										"regions":
+										[
+											[
+												5896,
+												5970
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_5971":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#e5e9f0.png",
+										"regions":
+										[
+											[
+												5971,
+												6032
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_6033":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#d8dee9.png",
+										"regions":
+										[
+											[
+												6033,
+												6108
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_6109":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#2e3440.png",
+										"regions":
+										[
+											[
+												6109,
+												6164
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_6307":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/rgba(124,124,124,0.54).png",
+										"regions":
+										[
+											[
+												6307,
+												6393
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_6564":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#5e81ac.png",
+										"regions":
+										[
+											[
+												6564,
+												6653
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_6654":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#5e81ac.png",
+										"regions":
+										[
+											[
+												6654,
+												6757
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_670":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#2e3440.png",
+										"regions":
+										[
+											[
+												670,
+												718
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_6758":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#eceff4.png",
+										"regions":
+										[
+											[
+												6758,
+												6841
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_7075":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#bf616a.png",
+										"regions":
+										[
+											[
+												7075,
+												7168
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_7169":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#bf616a.png",
+										"regions":
+										[
+											[
+												7169,
+												7276
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_719":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#3b4252.png",
+										"regions":
+										[
+											[
+												719,
+												787
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_7277":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#eceff4.png",
+										"regions":
+										[
+											[
+												7277,
+												7364
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_7603":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#a3be8c.png",
+										"regions":
+										[
+											[
+												7603,
+												7694
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_7695":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#a3be8c.png",
+										"regions":
+										[
+											[
+												7695,
+												7800
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_7801":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#434c5e.png",
+										"regions":
+										[
+											[
+												7801,
+												7886
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_788":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#eceff4.png",
+										"regions":
+										[
+											[
+												788,
+												829
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_8118":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#3b4252.png",
+										"regions":
+										[
+											[
+												8118,
+												8207
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_8208":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#2e3440.png",
+										"regions":
+										[
+											[
+												8208,
+												8311
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_830":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#e5e9f0.png",
+										"regions":
+										[
+											[
+												830,
+												891
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_8312":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#eceff4.png",
+										"regions":
+										[
+											[
+												8312,
+												8395
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_892":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#d08770.png",
+										"regions":
+										[
+											[
+												892,
+												963
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_9313":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#eceff4.png",
+										"regions":
+										[
+											[
+												9313,
+												9385
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_9386":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#e5e9f0.png",
+										"regions":
+										[
+											[
+												9386,
+												9472
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_9473":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#3b4252.png",
+										"regions":
+										[
+											[
+												9473,
+												9539
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_9540":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#e5e9f0.png",
+										"regions":
+										[
+											[
+												9540,
+												9610
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_9611":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#eceff4.png",
+										"regions":
+										[
+											[
+												9611,
+												9677
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_964":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#b48ead.png",
+										"regions":
+										[
+											[
+												964,
+												1007
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_9678":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#e5e9f0.png",
+										"regions":
+										[
+											[
+												9678,
+												9758
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_9759":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#3b4252.png",
+										"regions":
+										[
+											[
+												9759,
+												9819
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_9820":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#e5e9f0.png",
+										"regions":
+										[
+											[
+												9820,
+												9884
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_9885":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#88c0d0.png",
+										"regions":
+										[
+											[
+												9885,
+												9948
+											]
+										],
+										"scope": "gutter_color"
+									},
+									"gutter_color_9949":
+									{
+										"flags": 144,
+										"icon": "Cache/GutterColor/#3b4252.png",
+										"regions":
+										[
+											[
+												9949,
+												10015
+											]
+										],
+										"scope": "gutter_color"
+									}
+								},
+								"selection":
+								[
+									[
+										2255,
+										2255
+									]
+								],
+								"settings":
+								{
+									"apply_syntax_touched": true,
+									"editorconfig": true,
+									"ensure_newline_at_eof_on_save": true,
+									"markdonw_live_preview_last_run": 1556555884.43,
+									"syntax": "Packages/SCSS/SCSS.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true,
+									"trim_trailing_white_space_on_save": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 4,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/home/cory/www/cory-g.github.io/assets/main.scss",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 109,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"apply_syntax_touched": true,
+									"editorconfig": true,
+									"ensure_newline_at_eof_on_save": true,
+									"markdonw_live_preview_last_run": 1556555980.32,
+									"syntax": "Packages/SCSS/SCSS.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true,
+									"trim_trailing_white_space_on_save": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -899,8 +2401,8 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,965,38,1906,1066,1920,1080",
-			"project": "dotfiles.sublime-project",
+			"position": "0,0,0,0,0,10,38,1906,1066,1920,1080",
+			"project": "coryg.me.sublime-project",
 			"replace":
 			{
 				"height": 44.0
@@ -945,27 +2447,27 @@
 			"settings":
 			{
 			},
-			"show_minimap": false,
+			"show_minimap": true,
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 220.0,
+			"side_bar_width": 188.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			},
 			"window_id": 32,
-			"workspace_name": "/home/cory/prj/subl/dotfiles.sublime-workspace"
+			"workspace_name": "/home/cory/prj/subl/coryg.me.sublime-workspace"
 		}
 	],
 	"workspaces":
 	{
 		"recent_workspaces":
 		[
+			"/home/cory/prj/subl/coryg.me.sublime-workspace",
 			"/home/cory/prj/subl/dotfiles.sublime-workspace",
 			"/home/cory/prj/subl/wallie-web.sublime-workspace",
 			"/home/cory/prj/subl/smith-calc.sublime-workspace",
-			"/home/cory/prj/subl/coryg.me.sublime-workspace",
 			"/home/rustyschakelford/.config/sublime-text-3/Packages/User/Projects/smith-calc.sublime-workspace",
 			"/home/rustyschakelford/.config/sublime.sublime-workspace",
 			"/home/rustyschakelford/.config/.sublime.sublime-workspace"

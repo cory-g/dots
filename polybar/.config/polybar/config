@@ -139,7 +139,7 @@ card = intel_backlight
 type = internal/date
 interval = 5
 
-time = " %H:%M "
+time = " %I:%M "
 time-alt = " %Y-%m-%d "
 
 format-prefix-foreground = ${colors.foreground-alt}
@@ -202,5 +202,3 @@ screenchange-reload = true
 [global/wm]
 margin-top = 5
 margin-bottom = 5
-
-; vim:ft=dosini

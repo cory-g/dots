@@ -132,8 +132,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="0"
-         height="0"
+         width="108"
+         height="124.708"
          rx="0"
          ry="0" />
       <eventcontext
@@ -335,8 +335,8 @@
        style="fill:black;fill-opacity:1;stroke:none;font-family:Montserrat;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:Montserrat;font-stretch:normal;font-variant:normal"
        selcue="1">
       <group
-         id="lineheight"
-         display_unit="0" />
+         display_unit="0"
+         id="lineheight" />
     </eventcontext>
     <eventcontext
        id="nodes"
@@ -354,8 +354,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="111.987"
-       y="669.874"
+       x="0"
+       y="0"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -422,12 +422,12 @@
        offset="0"
        offsetunits="mm" />
     <group
-       id="measure"
-       fontsize="10"
-       precision="2"
-       scale="100"
+       unit="px"
        offset="5"
-       unit="px" />
+       scale="100"
+       precision="2"
+       fontsize="10"
+       id="measure" />
   </group>
   <group
      id="palette">
@@ -618,8 +618,8 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="706"
-       y="310"
+       x="1307"
+       y="327"
        w="608"
        h="638"
        visible="0"
@@ -1022,7 +1022,7 @@
      id="extensions" />
   <group
      id="desktop"
-     style="line-height:1.25;fill:#000000;fill-opacity:0;-inkscape-font-specification:PRIMETIME;font-family:PRIMETIME;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;opacity:1;stroke:none">
+     style="line-height:1.25;fill:#ff66a4;fill-opacity:1;-inkscape-font-specification:PRIMETIME;font-family:PRIMETIME;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;opacity:1;stroke:#ffffff">
     <group
        width="1896"
        height="1028"
