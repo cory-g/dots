@@ -51,6 +51,8 @@ xset fp rehash
 xscreensaver &
 sxhkd &
 dunst &
+compton &
+insync start &
 
 # start system tray icons
 pamac-tray-appindicator &
