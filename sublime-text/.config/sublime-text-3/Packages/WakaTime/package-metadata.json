@@ -1,1 +1,1 @@
-{"sublime_text": "*", "platforms": ["*"], "description": "Sublime Text 2 & 3 plugin for automatic time tracking and metrics generated from your programming activity.", "version": "8.3.4", "url": "https://wakatime.com/sublime-text", "dependencies": []}
+{"sublime_text": "*", "dependencies": [], "platforms": ["*"], "version": "8.5.0", "description": "Sublime Text 2 & 3 plugin for automatic time tracking and metrics generated from your programming activity.", "url": "https://wakatime.com/sublime-text"}

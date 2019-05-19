@@ -1,3 +1,9 @@
+# set variables for user applications
+set -g -x BROWSER "google-chrome-stable"
+set -g -x TERMINAL "urxvt"
+set -g -x FILES "thunar"
+set -g -x EDITOR "subl"
+
 # Start X at login
 if status --is-login
   if test -z "$DISPLAY" -a $XDG_VTNR = 1

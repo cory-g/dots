@@ -238,6 +238,10 @@
       "rules": [{"contains": "syntax:ssDquote"} ]
     },
     {
+      "syntax": "INI",
+      "rules": [{"contains": "syntax:INI"} ]
+    },
+    {
       "syntax": "JavaScript/JSON",
       "rules": [{"contains": "syntax:JSON"} ]
     },

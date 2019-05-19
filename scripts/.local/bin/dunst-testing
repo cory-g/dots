@@ -1,0 +1,28 @@
+#!/bin/sh
+#
+# dunst-testing - 0.0.1 - May 19, 2019 @  9:27 am
+# created: May 19, 2019 @  9:27 am by Cory G
+# license: gpl-2.0
+#
+# *******************************
+# A script I've stupidly left with the default description and vaguely named dunst-testing
+# ------------------------------------------
+#
+# contact
+# -------
+# << cory.gantenbein@protonmail.com >> || << https://coryg.me >>
+
+# pkill dunst
+killall dunst
+sleep 1
+dunst -config ~/.config/dunst/dunstrc &
+
+notify-send -u critical "Test message: critical test 1"
+notify-send -u normal "Test message: normal test 2"
+notify-send -u low "Test message: low test 3"
+notify-send -u critical "Test message: critical test 4"
+notify-send -u normal "Test message: normal test 5"
+notify-send -u low "Test message: low test 6"
+notify-send -u critical "Test message: critical test 7"
+notify-send -u normal "Test message: normal test 8"
+notify-send -u low "Test message: low test 9"

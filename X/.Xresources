@@ -1,4 +1,5 @@
 ! syntax:ssExcla
 #include "./.Xresources.d/rxvt-unicode"
+#include "./.Xresources.d/xst"
 #include "./.Xresources.d/colors/solarized"
 ! #include "./.Xresources.d/colors/gruvbox"

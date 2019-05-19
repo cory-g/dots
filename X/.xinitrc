@@ -47,7 +47,10 @@ xset fp rehash
 # set screen DPI
 ## xrandr --dpi 125.37
 
+# start daemons and other stuff
 xscreensaver &
+sxhkd &
+dunst &
 
 # start system tray icons
 pamac-tray-appindicator &

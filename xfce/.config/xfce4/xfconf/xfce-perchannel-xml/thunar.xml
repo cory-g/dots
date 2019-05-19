@@ -4,13 +4,13 @@
   <property name="last-view" type="string" value="ThunarDetailsView"/>
   <property name="last-location-bar" type="string" value="ThunarLocationEntry"/>
   <property name="last-icon-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_50_PERCENT"/>
-  <property name="last-window-width" type="int" value="978"/>
-  <property name="last-window-height" type="int" value="744"/>
+  <property name="last-window-width" type="int" value="1342"/>
+  <property name="last-window-height" type="int" value="716"/>
   <property name="last-window-maximized" type="bool" value="false"/>
-  <property name="last-show-hidden" type="bool" value="true"/>
+  <property name="last-show-hidden" type="bool" value="false"/>
   <property name="last-details-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_38_PERCENT"/>
-  <property name="last-details-view-column-widths" type="string" value="150,193,71,108,304,75,111,73,115,306"/>
-  <property name="last-separator-position" type="int" value="100"/>
+  <property name="last-details-view-column-widths" type="string" value="150,190,71,108,638,75,111,80,115,113"/>
+  <property name="last-separator-position" type="int" value="208"/>
   <property name="last-side-pane" type="string" value="ThunarShortcutsPane"/>
   <property name="misc-single-click" type="bool" value="false"/>
   <property name="tree-icon-emblems" type="bool" value="true"/>
@@ -19,9 +19,9 @@
   <property name="misc-text-beside-icons" type="bool" value="false"/>
   <property name="last-menubar-visible" type="bool" value="true"/>
   <property name="default-view" type="string" value="ThunarDetailsView"/>
-  <property name="last-sort-column" type="string" value="THUNAR_COLUMN_TYPE"/>
-  <property name="last-sort-order" type="string" value="GTK_SORT_ASCENDING"/>
-  <property name="last-details-view-visible-columns" type="string" value="THUNAR_COLUMN_DATE_MODIFIED,THUNAR_COLUMN_NAME,THUNAR_COLUMN_SIZE,THUNAR_COLUMN_TYPE"/>
+  <property name="last-sort-column" type="string" value="THUNAR_COLUMN_DATE_MODIFIED"/>
+  <property name="last-sort-order" type="string" value="GTK_SORT_DESCENDING"/>
+  <property name="last-details-view-visible-columns" type="string" value="THUNAR_COLUMN_DATE_MODIFIED,THUNAR_COLUMN_NAME,THUNAR_COLUMN_PERMISSIONS,THUNAR_COLUMN_SIZE,THUNAR_COLUMN_TYPE"/>
   <property name="hidden-devices" type="array">
     <value type="string" value="b7dcf79a-419a-450a-a269-30658cbd2014"/>
     <value type="string" value="d321bdba-30f5-4369-9d80-d31b7f9f4e10"/>
@@ -32,4 +32,7 @@
     <value type="string" value="network://"/>
   </property>
   <property name="shortcuts-icon-emblems" type="bool" value="false"/>
+  <property name="misc-open-new-window-as-tab" type="bool" value="false"/>
+  <property name="last-details-view-fixed-columns" type="bool" value="true"/>
+  <property name="last-details-view-column-order" type="string" value="THUNAR_COLUMN_NAME,THUNAR_COLUMN_DATE_MODIFIED,THUNAR_COLUMN_SIZE,THUNAR_COLUMN_SIZE_IN_BYTES,THUNAR_COLUMN_TYPE,THUNAR_COLUMN_OWNER,THUNAR_COLUMN_PERMISSIONS,THUNAR_COLUMN_DATE_ACCESSED,THUNAR_COLUMN_GROUP,THUNAR_COLUMN_MIME_TYPE"/>
 </channel>

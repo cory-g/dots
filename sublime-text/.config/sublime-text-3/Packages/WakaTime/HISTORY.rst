@@ -3,6 +3,48 @@ History
 -------
 
 
+8.5.0 (2019-05-10)
+++++++++++++++++++
+
+- Remove clock icon from status bar.
+- Use wakatime-cli to fetch status bar coding time.
+
+
+8.4.2 (2019-05-07)
+++++++++++++++++++
+
+- Upgrade wakatime-cli to v11.0.0.
+- Rename argument --show-time-today to --today.
+- New argument --show-time-today for printing Today's coding time.
+
+
+8.4.1 (2019-05-01)
+++++++++++++++++++
+
+- Use api subdomain for fetching today's coding activity.
+
+
+8.4.0 (2019-05-01)
+++++++++++++++++++
+
+- Show today's coding time in status bar.
+
+
+8.3.6 (2019-04-30)
+++++++++++++++++++
+
+- Upgrade wakatime-cli to v10.8.4.
+- Use wakatime fork of certifi package.
+  `sublime-wakatime#95 <https://github.com/wakatime/sublime-wakatime/issues/95>`_
+
+
+8.3.5 (2019-04-30)
+++++++++++++++++++
+
+- Upgrade wakatime-cli to v10.8.3.
+- Upgrade certifi to version 2019.03.09.
+
+
 8.3.4 (2019-03-30)
 ++++++++++++++++++
 

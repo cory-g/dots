@@ -34,7 +34,7 @@
        state="1" />
     <group
        id="scrollbars"
-       state="1" />
+       state="0" />
   </group>
   <group
      id="fullscreen">
@@ -132,8 +132,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="108"
-         height="124.708"
+         width="5400"
+         height="5400"
          rx="0"
          ry="0" />
       <eventcontext
@@ -548,7 +548,7 @@
   </group>
   <group
      id="colorselector"
-     page="0" />
+     page="1" />
   <group
      id="embedded">
     <group
@@ -574,11 +574,11 @@
        page="0"
        x="0"
        y="0"
-       w="333"
-       h="401"
+       w="320"
+       h="403"
        visible="1"
        state="2"
-       placement="5" />
+       placement="1" />
     <group
        id="filtereffects" />
     <group
@@ -595,11 +595,12 @@
        panel_border="0"
        x="0"
        y="0"
-       w="333"
-       h="401"
+       w="320"
+       h="497"
        visible="1"
        state="2"
-       placement="5" />
+       placement="2"
+       align-to="0" />
     <group
        id="xml" />
     <group
@@ -618,9 +619,9 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="1307"
-       y="327"
-       w="608"
+       x="960"
+       y="540"
+       w="605"
        h="638"
        visible="0"
        placement="1" />
@@ -635,11 +636,25 @@
        id="export"
        default=""
        append_extension="1"
-       path="">
+       path=""
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="1176"
+       y="350"
+       w="352"
+       h="481"
+       visible="0"
+       state="1"
+       placement="1">
       <group
-         id="exportarea" />
+         id="exportarea"
+         value="drawing" />
       <group
-         id="defaultxdpi" />
+         id="defaultxdpi"
+         value="53.33" />
     </group>
     <group
        id="save_as"
@@ -657,7 +672,7 @@
     <group
        id="open"
        enable_preview="1"
-       path="" />
+       path="/home/cory/pix/" />
     <group
        id="import"
        enable_preview="1"
@@ -1022,11 +1037,11 @@
      id="extensions" />
   <group
      id="desktop"
-     style="line-height:1.25;fill:#ff66a4;fill-opacity:1;-inkscape-font-specification:PRIMETIME;font-family:PRIMETIME;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;opacity:1;stroke:#ffffff">
+     style="line-height:1.25;fill:#cccccc;fill-opacity:1;-inkscape-font-specification:'Baekmuk Headline';font-family:'Baekmuk Headline';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none">
     <group
-       width="1896"
-       height="1028"
-       x="10"
+       width="664"
+       height="716"
+       x="688"
        y="38"
        fullscreen="0"
        id="geometry"

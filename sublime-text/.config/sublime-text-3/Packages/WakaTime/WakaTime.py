@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """ ==========================================================
 File:        WakaTime.py
 Description: Automatic time tracking for Sublime Text 2 and 3.
@@ -7,7 +8,7 @@ Website:     https://wakatime.com/
 ==========================================================="""
 
 
-__version__ = '8.3.4'
+__version__ = '8.5.0'
 
 
 import sublime
@@ -25,7 +26,6 @@ import threading
 import traceback
 import urllib
 import webbrowser
-from datetime import datetime
 from subprocess import STDOUT, PIPE
 from zipfile import ZipFile
 try:
@@ -121,6 +121,9 @@ LAST_HEARTBEAT = {
     'is_write': False,
 }
 LAST_HEARTBEAT_SENT_AT = 0
+LAST_FETCH_TODAY_CODING_TIME = 0
+FETCH_TODAY_DEBOUNCE_COUNTER = 0
+FETCH_TODAY_DEBOUNCE_SECONDS = 60
 PYTHON_LOCATION = None
 HEARTBEATS = queue.Queue()
 HEARTBEAT_FREQUENCY = 2  # minutes between logging heartbeat when editing same file
@@ -180,21 +183,89 @@ def resources_folder():
         return os.path.join(os.path.expanduser('~'), '.wakatime')
 
 
-def update_status_bar(status):
+def update_status_bar(status=None, debounced=False, msg=None):
     """Updates the status bar."""
+    global LAST_FETCH_TODAY_CODING_TIME, FETCH_TODAY_DEBOUNCE_COUNTER
 
     try:
-        if SETTINGS.get('status_bar_message'):
-            msg = datetime.now().strftime(SETTINGS.get('status_bar_message_fmt'))
-            if '{status}' in msg:
-                msg = msg.format(status=status)
+        if not msg and SETTINGS.get('status_bar_message') is not False and SETTINGS.get('status_bar_enabled'):
+            if SETTINGS.get('status_bar_coding_activity') and status == 'OK':
+                if debounced:
+                    FETCH_TODAY_DEBOUNCE_COUNTER -= 1
+                if debounced or not LAST_FETCH_TODAY_CODING_TIME:
+                    now = int(time.time())
+                    if LAST_FETCH_TODAY_CODING_TIME and (FETCH_TODAY_DEBOUNCE_COUNTER > 0 or LAST_FETCH_TODAY_CODING_TIME > now - FETCH_TODAY_DEBOUNCE_SECONDS):
+                        return
+                    LAST_FETCH_TODAY_CODING_TIME = now
+                    FetchStatusBarCodingTime().start()
+                    return
+                else:
+                    FETCH_TODAY_DEBOUNCE_COUNTER += 1
+                    set_timeout(lambda: update_status_bar(status, debounced=True), FETCH_TODAY_DEBOUNCE_SECONDS)
+                    return
+            else:
+                msg = 'WakaTime: {status}'.format(status=status)
 
+        if msg:
             active_window = sublime.active_window()
             if active_window:
                 for view in active_window.views():
                     view.set_status('wakatime', msg)
+
     except RuntimeError:
-        set_timeout(lambda: update_status_bar(status), 0)
+        set_timeout(lambda: update_status_bar(status=status, debounced=debounced, msg=msg), 0)
+
+
+class FetchStatusBarCodingTime(threading.Thread):
+
+    def __init__(self):
+        threading.Thread.__init__(self)
+
+        self.debug = SETTINGS.get('debug')
+        self.api_key = SETTINGS.get('api_key', '')
+        self.proxy = SETTINGS.get('proxy')
+        self.python_binary = SETTINGS.get('python_binary')
+
+    def run(self):
+        if not self.api_key:
+            log(DEBUG, 'Missing WakaTime API key.')
+            return
+
+        python = self.python_binary
+        if not python or not python.strip():
+            python = python_binary()
+        if not python:
+            log(DEBUG, 'Missing Python.')
+            return
+
+        ua = 'sublime/%d sublime-wakatime/%s' % (ST_VERSION, __version__)
+        cmd = [
+            python,
+            API_CLIENT,
+            '--today',
+            '--key', str(bytes.decode(self.api_key.encode('utf8'))),
+            '--plugin', ua,
+        ]
+        if self.debug:
+            cmd.append('--verbose')
+        if self.proxy:
+            cmd.extend(['--proxy', self.proxy])
+
+        log(DEBUG, ' '.join(obfuscate_apikey(cmd)))
+        try:
+            process = Popen(cmd, stdout=PIPE, stderr=STDOUT)
+            output, err = process.communicate()
+            output = u(output)
+            retcode = process.poll()
+            if not retcode and output:
+                msg = 'Today: {output}'.format(output=output)
+                update_status_bar(msg=msg)
+            else:
+                log(DEBUG, 'wakatime-core today exited with status: {0}'.format(retcode))
+                if output:
+                    log(DEBUG, u('wakatime-core today output: {0}').format(output))
+        except:
+            pass
 
 
 def prompt_api_key():
@@ -648,7 +719,7 @@ def plugin_loaded():
     SETTINGS = sublime.load_settings(SETTINGS_FILE)
 
     log(INFO, 'Initializing WakaTime plugin v%s' % __version__)
-    update_status_bar('Initializing')
+    update_status_bar('Initializing...')
 
     if not python_binary():
         log(WARNING, 'Python binary not found.')
@@ -664,6 +735,7 @@ def plugin_loaded():
 def after_loaded():
     if not prompt_api_key():
         set_timeout(after_loaded, 0.5)
+    update_status_bar('OK')
 
 
 # need to call plugin_loaded because only ST3 will auto-call it

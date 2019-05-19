@@ -1,3 +1,13 @@
+#  ██  ████                              ████ ██
+# ░░  █░░░ █                            ░██░ ░░   █████
+#  ██░    ░█  █████   ██████  ███████  ██████ ██ ██░░░██
+# ░██   ███  ██░░░██ ██░░░░██░░██░░░██░░░██░ ░██░██  ░██
+# ░██  ░░░ █░██  ░░ ░██   ░██ ░██  ░██  ░██  ░██░░██████
+# ░██ █   ░█░██   ██░██   ░██ ░██  ░██  ░██  ░██ ░░░░░██
+# ░██░ ████ ░░█████ ░░██████  ███  ░██  ░██  ░██  █████
+# ░░  ░░░░   ░░░░░   ░░░░░░  ░░░   ░░   ░░   ░░  ░░░░░
+
+
 # syntax:ssHash
 
 # >>                   __       __    __
@@ -7,6 +17,7 @@
 
 set $super Mod4
 set $alt Mod1
+set $term urxvt
 
 
 # >>        __              __
@@ -48,8 +59,6 @@ focus_follows_mouse no
 
 # %%hotkey: Switch to last active workspace %%
 bindsym $super+Tab workspace back_and_forth
-# %%hotkey: Open rofi window switcher %%
-bindsym $alt+Tab exec --no-startup-id "rofi -show window -show-icons"
 
 # >>        __   __ __ __ __   __
 # >> .--.--|  |_|__|  |__|  |_|__.-----.-----.
@@ -66,51 +75,6 @@ bindsym $super+t split toggle
 bindsym $super+F11 fullscreen toggle
 # %%hotkey: Toggle floating for active window %%
 bindsym $super+Shift+space floating toggle
-
-# >>              ___ __      __                         __
-# >> .----.-----.'  _|__|____|  |--.---.-.-----.-----.--|  |
-# >> |   _|  _  |   _|  |____|  _  |  _  |__ --|  -__|  _  |
-# >> |__| |_____|__| |__|    |_____|___._|_____|_____|_____|
-
-# %%hotkey: Open rofi program launcher %%
-bindsym $super+space exec --no-startup-id "rofi -show run"
-# %%hotkey: Open hotkey menu %%
-bindsym $super+$alt+h exec --no-startup-id "dmenu_hotkeys --menu rofi --app i3"
-# %%hotkey: Open rofi web search %%
-bindsym $super+Shift+s exec --no-startup-id "$HOME/.config/rofi/scripts/web-search.sh"
-# %%hotkey: Open emoji picker %%
-bindsym $super+period exec --no-startup-id rofimoji
-
-
-# >>                    __ __            __   __
-# >> .---.-.-----.-----|  |__.----.---.-|  |_|__.-----.-----.-----.
-# >> |  _  |  _  |  _  |  |  |  __|  _  |   _|  |  _  |     |__ --|
-# >> |___._|   __|   __|__|__|____|___._|____|__|_____|__|__|_____|
-# >>       |__|  |__|
-
-# >> Terminal
-# %%hotkey: Open a terminal %%
-bindsym $super+Return exec urxvt
-# %%hotkey: Open the dropdown terminal %%
-bindsym $super+s exec --no-startup-id i3-quickterm shell
-
-# >> Utilities
-# %%hotkey: Open Calculator %%
-bindsym $super+Shift+c exec --no-startup-id gnome-calculator
-# %%hotkey: Open Thunar File Manager %%
-bindsym $super+f exec --no-startup-id "thunar"
-# %%hotkey: Open Thunar File Manager as root %%
-bindsym $super+Shift+f exec --no-startup-id "sudo thunar"
-
-# >> User
-# %%hotkey: Open Google Chrome %%
-bindsym $super+b exec --no-startup-id google-chrome-stable
-# %%hotkey: Open Sublime Text %%
-bindsym $super+e exec --no-startup-id subl
-# %%hotkey: Open Inkscape %%
-bindsym $super+i exec --no-startup-id inkscape
-# %%hotkey: Open Blender %%
-bindsym $super+d exec --no-startup-id blender
 
 # >>   ___
 # >> .'  _.-----.----.--.--.-----.
@@ -203,38 +167,3 @@ bindsym $super+Shift+8 move container to workspace $ws8
 bindsym $super+$alt+c reload
 # %%hotkey: Restart i3 in place %%
 bindsym $super+$alt+r restart
-
-
-# >>              __                 __
-# >> .-----.--.--|  |_.----.---.-.  |  |--.-----.--.--.-----.
-# >> |  -__|_   _|   _|   _|  _  |  |    <|  -__|  |  |__ --|
-# >> |_____|__.__|____|__| |___._|  |__|__|_____|___  |_____|
-# >>                                            |_____|
-
-# %%hotkey: Increase screen brightness %%
-bindsym XF86MonBrightnessUp exec --no-startup-id "light -A 5"
-# %%hotkey: Decrease screen brightness %%
-bindsym XF86MonBrightnessDown exec --no-startup-id "light -U 5"
-
-# >>                                          __          __
-# >> .-----.----.----.-----.-----.-----.-----|  |--.-----|  |_.-----.
-# >> |__ --|  __|   _|  -__|  -__|     |__ --|     |  _  |   _|__ --|
-# >> |_____|____|__| |_____|_____|__|__|_____|__|__|_____|____|_____|
-
-# %%hotkey: Take a screenshot %%
-bindsym $super+$alt+p exec --no-startup-id $HOME/.local/bin/scrotz
-# %%hotkey: Take the screenshot for my dotfile repo and put it in the proper folder %%
-bindsym $super+$alt+Shift+p exec --no-startup-id $HOME/.local/bin/dotscrot
-
-# >>                    __ __          __
-# >> .--------.-----.--|  |__.---.-.  |  |--.-----.--.--.-----.
-# >> |        |  -__|  _  |  |  _  |  |    <|  -__|  |  |__ --|
-# >> |__|__|__|_____|_____|__|___._|  |__|__|_____|___  |_____|
-# >>                                              |_____|
-
-# %%hotkey: Mute audio %%
-bindsym XF86AudioMute exec amixer sset 'Master' toggle
-# %%hotkey: Decrease master volume %%
-bindsym XF86AudioLowerVolume exec amixer sset 'Master' 5%-
-# %%hotkey: Increase master volume %%
-bindsym XF86AudioRaiseVolume exec amixer sset 'Master' 5%+

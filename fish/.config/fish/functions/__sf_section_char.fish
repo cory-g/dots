@@ -9,8 +9,7 @@ function __sf_section_char -d "Display the prompt character"
 
 	__sf_util_set_default SPACEFISH_CHAR_PREFIX ""
 	__sf_util_set_default SPACEFISH_CHAR_SUFFIX " "
-  __sf_util_set_default SPACEFISH_CHAR_SYMBOL ➜
-	# __sf_util_set_default SPACEFISH_CHAR_SYMBOL ">>"
+	__sf_util_set_default SPACEFISH_CHAR_SYMBOL ➜
 	__sf_util_set_default SPACEFISH_CHAR_COLOR_SUCCESS green
 	__sf_util_set_default SPACEFISH_CHAR_COLOR_FAILURE red
 
