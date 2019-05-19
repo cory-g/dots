@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --bg-fill '/home/cory/.config/wall.png' 
+feh --bg-fill '/home/cory/.config/wall.jpg' 

@@ -554,7 +554,7 @@
 					"file": "/home/cory/.dotfiles/i3/.config/i3/config",
 					"settings":
 					{
-						"buffer_size": 5953,
+						"buffer_size": 4951,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -563,16 +563,7 @@
 					"file": "/home/cory/.dotfiles/sxhkd/.config/sxhkd/sxhkdrc",
 					"settings":
 					{
-						"buffer_size": 2477,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/cory/.dotfiles/fish/.config/fish/config.fish",
-					"settings":
-					{
-						"buffer_size": 275,
+						"buffer_size": 2679,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -712,6 +703,8 @@
 			],
 			"file_history":
 			[
+				"/home/cory/.dotfiles/X/.xinitrc",
+				"/home/cory/.dotfiles/fish/.config/fish/config.fish",
 				"/home/cory/.dotfiles/dunst/.config/dunst/dunstrc",
 				"/home/cory/.dotfiles/rofi/.config/rofi/config",
 				"/home/cory/.dotfiles/rofi/.config/rofi/config.rasi",
@@ -719,7 +712,6 @@
 				"/home/cory/.dotfiles/scripts/.local/bin/dotscrot",
 				"/home/cory/.dotfiles/scripts/.local/bin/scrotz",
 				"/home/cory/.local/bin/dunst-testing",
-				"/home/cory/.dotfiles/X/.xinitrc",
 				"/home/cory/.dotfiles/polybar/.config/polybar/scripts/launch.sh",
 				"/home/cory/.dotfiles/rofi/.config/rofi/scripts/rofi-powermenu",
 				"/home/cory/.local/bin/keyfresh",
@@ -769,7 +761,6 @@
 				"/home/cory/.dotfiles/fish/.config/fish/functions/fish_right_prompt.fish",
 				"/home/cory/.dotfiles/fish/.config/fish/functions/__sf_section_char.fish",
 				"/home/cory/.dotfiles/bash/.bashrc",
-				"/home/cory/.dotfiles/fish/.config/fish/config.fish",
 				"/home/cory/.dotfiles/arandr/.screenlayout/1-external-vga.sh",
 				"/home/cory/.dotfiles/arandr/.screenlayout/2-extend-vga.sh",
 				"/home/cory/.dotfiles/arandr/.screenlayout/1-internal-lvds.sh",
@@ -857,6 +848,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"term",
 					"icon",
 					"urxvt",
 					"\\'",
@@ -891,7 +883,7 @@
 			"groups":
 			[
 				{
-					"selected": 0,
+					"selected": 1,
 					"sheets":
 					[
 						{
@@ -900,15 +892,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 5953,
+								"buffer_size": 4951,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										1604,
-										1604
+										1416,
+										1416
 									]
 								],
 								"settings":
@@ -919,10 +911,10 @@
 									"wrap_width": 80
 								},
 								"translation.x": 0.0,
-								"translation.y": 321.0,
+								"translation.y": 2119.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 0,
+							"stack_index": 1,
 							"type": "text"
 						},
 						{
@@ -931,15 +923,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 2477,
+								"buffer_size": 2679,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										1361,
-										1361
+										541,
+										541
 									]
 								],
 								"settings":
@@ -949,40 +941,10 @@
 									"syntax": "Packages/SimpleSyntax/ssHash.sublime-syntax"
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 1335.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 1,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/home/cory/.dotfiles/fish/.config/fish/config.fish",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 275,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										37,
-										37
-									]
-								],
-								"settings":
-								{
-									"apply_syntax_touched": true,
-									"markdonw_live_preview_last_run": 1558281834.03,
-									"syntax": "Packages/fish/fish.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 2,
+							"stack_index": 0,
 							"type": "text"
 						}
 					]

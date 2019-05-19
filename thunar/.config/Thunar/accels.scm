@@ -39,6 +39,7 @@
 ; (gtk_accel_path "<Actions>/ThunarBookmarks/0145d1937be6311b6587b0f3ba30ff01" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/open-home" "<Alt>Home")
 ; (gtk_accel_path "<Actions>/ThunarLauncher/open-with-other-in-menu" "")
+; (gtk_accel_path "<Actions>/ThunarActions/uca-action-1554238537544647-2" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/open-templates" "")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/rename" "F2")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/paste" "<Primary>v")
