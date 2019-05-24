@@ -58,6 +58,8 @@ insync start &
 pamac-tray-appindicator &
 volumeicon &
 nm-applet &
+menutray &
 
 # start session
 exec i3
+# exec dwm

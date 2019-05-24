@@ -25,20 +25,20 @@ super + l
 super + space
   rofi -show run
 
-super + alt + h
-  dmenu_hotkeys --menu rofi --app i3
+# super + alt + h
+#   dmenu_hotkeys --menu rofi --app i3
 
-super + shift + s
-  $HOME/.config/rofi/scripts/web-search.sh
+# super + shift + s
+#   $HOME/.config/rofi/scripts/web-search.sh
 
-super + period
-  rofimoji
+# super + period
+#   rofimoji
 
-super + shift + l
-  layout_manager
+# super + shift + l
+#   layout_manager
 
-alt + Tab
-  rofi -show window -show-icons
+# alt + Tab
+#   rofi -show window -show-icons
 
 # >>                    __ __            __   __
 # >> .---.-.-----.-----|  |__.----.---.-|  |_|__.-----.-----.-----.
@@ -76,8 +76,8 @@ super + e
 super + i
   inkscape
 
-super + d
-  blender
+# super + d
+#   blender
 
 
 # >>                                          __          __

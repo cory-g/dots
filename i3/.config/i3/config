@@ -39,6 +39,7 @@ exec_always --no-startup-id $HOME/.config/polybar/scripts/launch.sh
 exec_always --no-startup-id $HOME/.local/bin/wallpapersetter
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 & eval $(gnome-keyring-daemon -s --components=pkcs11,secrets,ssh,gpg) &
 exec --no-startup-id "compton -C --config $HOME/.config/compton/compton.conf --respect-prop-shadow"
+exec_always --no-startup-id flashfocus
 
 # >> .---.-.-----.-----.-----.---.-.----.---.-.-----.----.-----.
 # >> |  _  |  _  |  _  |  -__|  _  |   _|  _  |     |  __|  -__|
@@ -63,7 +64,6 @@ for_window [class="insync.py"] floating enable
 floating_modifier $super
 focus_follows_mouse no
 
-# %%hotkey: Switch to last active workspace %%
 bindsym $super+Tab workspace back_and_forth
 
 # >>        __   __ __ __ __   __
@@ -71,27 +71,20 @@ bindsym $super+Tab workspace back_and_forth
 # >> |  |  |   _|  |  |  |   _|  |  -__|__ --|
 # >> |_____|____|__|__|__|____|__|_____|_____|
 
-# %%hotkey: Close active window %%
 bindsym $super+q kill
-# %%hotkey: Toggle between vertical and horizontal splitting %%
 bindsym $super+t split toggle
-# %%hotkey: Toggle fullscreen %%
 bindsym $super+F11 fullscreen toggle
-# %%hotkey: Toggle floating for active window %%
 bindsym $super+Shift+space floating toggle
+bindsym $super+n exec --no-startup-id flash_window
 
 # >>   ___
 # >> .'  _.-----.----.--.--.-----.
 # >> |   _|  _  |  __|  |  |__ --|
 # >> |__| |_____|____|_____|_____|
 
-# %%hotkey: Move focus left %%
 bindsym $super+Left focus left
-# %%hotkey: Move focus down %%
 bindsym $super+Down focus down
-# %%hotkey: Move focus up %%
 bindsym $super+Up focus up
-# %%hotkey: Move focus right %%
 bindsym $super+Right focus right
 
 # >>                                                  __
@@ -99,13 +92,9 @@ bindsym $super+Right focus right
 # >> |        |  _  |  |  |  -__|        |  -__|     |   _|
 # >> |__|__|__|_____|\___/|_____|__|__|__|_____|__|__|____|
 
-# %%hotkey: Move focused window left %%
 bindsym $super+Shift+Left move left
-# %%hotkey: Move focused window down %%
 bindsym $super+Shift+Down move down
-# %%hotkey: Move focused window up %%
 bindsym $super+Shift+Up move up
-# %%hotkey: Move focused window right %%
 bindsym $super+Shift+Right move right
 
 # >>                      __
@@ -140,7 +129,6 @@ bindsym $super+Shift+8 move container to workspace $ws8
 # >> |  |__    |  |        |  -__|   _|  _  |
 # >> |__|______|  |__|__|__|_____|____|___._|
 
-# %%hotkey: Reload i3's configuration file %%
 bindsym $super+$alt+c reload
-# %%hotkey: Restart i3 in place %%
-bindsym $super+$alt+r restart
+
+bindsym $super+Shift+r restart
