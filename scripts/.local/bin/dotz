@@ -27,13 +27,6 @@ TOILET=$(which toilet)
 THE_DATE=`date '+%B %e, %Y @ %l:%M %P'`
 AUTO_COMMIT_MSG="Automated commit on ${THE_DATE}"
 
-# if [[ -z $1 ]]; then
-#   COMMIT_MSG="Automated commit on ${THE_DATE}"
-# else
-#   COMMIT_MSG=$1
-# fi
-
-
 COMMIT_MSG=${1:-$AUTO_COMMIT_MSG}
 
 # Update package list in docs
