@@ -25,61 +25,20 @@ GIT=$(which git)
 TOILET=$(which toilet)
 
 THE_DATE=`date '+%B %e, %Y @ %l:%M %P'`
+AUTO_COMMIT_MSG="Automated commit on ${THE_DATE}"
 
-if [[ -z $1 ]]; then
-  COMMIT_MSG="Automated commit on ${THE_DATE}"
-else
-  COMMIT_MSG=$1
-fi
+# if [[ -z $1 ]]; then
+#   COMMIT_MSG="Automated commit on ${THE_DATE}"
+# else
+#   COMMIT_MSG=$1
+# fi
+
+
+COMMIT_MSG=${1:-$AUTO_COMMIT_MSG}
 
 # Update package list in docs
 $TOILET -f Chunky "apps" | lolcat
 echo ""
-
-# ## Make package lists
-# DOC_PATH=$HOME/.dotfiles/doc/
-# # AUR packages
-# pacman -Qm >> ./yay.tmp.txt
-# sed -e 's/^/- /' ./yay.tmp.txt > ./yay.txt
-# rm ./yay.tmp.txt
-# # Pacman packages
-# pacman -Qet >> ./pac.tmp.txt
-# sed -e 's/^/- /' ./pac.tmp.txt > ./pac.txt
-# rm ./pac.tmp.txt
-# # Clean pacman list
-# grep -v -x -f ./yay.txt ./pac.txt >> ./apps.txt
-
-
-# echo "# Packages" > $DOC_PATH/apps.tmp.md
-# echo "## AUR" >> $DOC_PATH/apps.tmp.md
-# echo "\`Result of pacman -Qm\`" >> $DOC_PATH/apps.tmp.md
-# echo "" >> $DOC_PATH/apps.tmp.md
-
-# cat $DOC_PATH/apps.tmp.md ./yay.txt > $DOC_PATH/apps.md
-# rm $DOC_PATH/apps.tmp.md
-# echo "" >> $DOC_PATH/apps.md
-
-# echo "## Pacman" >> $DOC_PATH/apps.tmp.md
-# echo "\`Result of pacman -Qet\`" >> $DOC_PATH/apps.tmp.md
-# echo "" >> $DOC_PATH/apps.tmp.md
-
-# cat $DOC_PATH/apps.md ./apps.txt > $DOC_PATH/tmp.md
-
-# rm $DOC_PATH/apps.md
-# cp $DOC_PATH/tmp.md $DOC_PATH/apps.md
-# rm $DOC_PATH/apps.tmp.md
-
-
-
-
-# sed -e 's/^/- /' ./apps.tmp.txt > ./apps.txt
-# rm ./apps.tmp.txt
-
-
-# cat $HOME/.dotfiles/doc/apps.tmp.md ./apps.txt > $HOME/.dotfiles/doc/apps.md
-# rm ./apps.txt
-# rm $HOME/.dotfiles/doc/apps.tmp.md
-
 list-pacs $HOME/.dotfiles/doc/
 
 # status
