@@ -34,6 +34,15 @@ fi
 
 # echo $COMMIT_MSG
 
+# Update README with packages
+$TOILET -f Chunky "apps" | lolcat
+echo ""
+pacman -Qet >> ./apps.tmp.txt
+sed -e 's/^/- /' ./apps.tmp.txt > ./apps.txt
+rm ./apps.tmp.txt
+cat $HOME/.dotfiles/doc/readme-01.txt ./apps.txt > $HOME/.dotfiles/README.md
+rm ./apps.txt
+
 # status
 $TOILET -f Chunky "status" | lolcat
 echo ""
