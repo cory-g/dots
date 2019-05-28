@@ -1,0 +1,63 @@
+#!/bin/sh
+#
+# list-pacs - 0.0.1 - May 28, 2019 @  2:27 pm
+# created: May 28, 2019 @  2:27 pm by Cory G
+# license: gpl-2.0
+#
+#   ██ ██           ██
+#  ░██░░           ░██         ██████
+#  ░██ ██  ██████ ██████      ░██░░░██  ██████    █████   ██████
+#  ░██░██ ██░░░░ ░░░██░  █████░██  ░██ ░░░░░░██  ██░░░██ ██░░░░
+#  ░██░██░░█████   ░██  ░░░░░ ░██████   ███████ ░██  ░░ ░░█████
+#  ░██░██ ░░░░░██  ░██        ░██░░░   ██░░░░██ ░██   ██ ░░░░░██
+#  ███░██ ██████   ░░██       ░██     ░░████████░░█████  ██████
+# ░░░ ░░ ░░░░░░     ░░        ░░       ░░░░░░░░  ░░░░░  ░░░░░░
+#
+# *******************************
+# A script I've stupidly left with the default description and vaguely named list-pacs
+# ------------------------------------------
+#
+# contact
+# -------
+# << cory.gantenbein@protonmail.com >> || << https://coryg.me >>
+
+## Make package lists
+DOC_PATH=${1:-$(pwd)}
+
+# echo $DOC_PATH
+
+# DOC_PATH=.
+# AUR packages
+pacman -Qm >> $DOC_PATH/yay.tmp.txt
+sed -e 's/^/- /' $DOC_PATH/yay.tmp.txt > $DOC_PATH/yay.txt
+rm $DOC_PATH/yay.tmp.txt
+# Pacman packages
+pacman -Qet >> $DOC_PATH/pac.tmp.txt
+sed -e 's/^/- /' $DOC_PATH/pac.tmp.txt > $DOC_PATH/pac.txt
+rm $DOC_PATH/pac.tmp.txt
+# Clean pacman list
+grep -v -x -f $DOC_PATH/yay.txt $DOC_PATH/pac.txt >> $DOC_PATH/apps.txt
+
+
+echo "# Packages
+" > $DOC_PATH/apps.tmp.md
+echo "## AUR" >> $DOC_PATH/apps.tmp.md
+# echo "\`Result of pacman -Qm\`" >> $DOC_PATH/apps.tmp.md
+echo "" >> $DOC_PATH/apps.tmp.md
+
+cat $DOC_PATH/apps.tmp.md $DOC_PATH/yay.txt > $DOC_PATH/apps.md
+rm $DOC_PATH/apps.tmp.md
+echo "" >> $DOC_PATH/apps.md
+
+echo "## Pacman" >> $DOC_PATH/apps.md
+# echo "\`Result of pacman -Qet\`" >> $DOC_PATH/apps.md
+echo "" >> $DOC_PATH/apps.md
+
+cat $DOC_PATH/apps.md $DOC_PATH/apps.txt > $DOC_PATH/tmp.md
+
+rm $DOC_PATH/apps.md
+cp $DOC_PATH/tmp.md $DOC_PATH/apps.md
+rm $DOC_PATH/apps.txt
+rm $DOC_PATH/pac.txt
+rm $DOC_PATH/tmp.md
+rm $DOC_PATH/yay.txt
