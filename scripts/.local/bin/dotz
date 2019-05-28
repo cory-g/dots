@@ -32,16 +32,18 @@ else
   COMMIT_MSG=$1
 fi
 
-# echo $COMMIT_MSG
-
-# Update README with packages
+# Update package list in docs
 $TOILET -f Chunky "apps" | lolcat
 echo ""
+echo "# Packages" > $HOME/.dotfiles/doc/apps.tmp.md
+echo "\`Result of pacman -Qet\`" >> $HOME/.dotfiles/doc/apps.tmp.md
+echo "" >> $HOME/.dotfiles/doc/apps.tmp.md
 pacman -Qet >> ./apps.tmp.txt
 sed -e 's/^/- /' ./apps.tmp.txt > ./apps.txt
 rm ./apps.tmp.txt
-cat $HOME/.dotfiles/doc/readme-01.txt ./apps.txt > $HOME/.dotfiles/README.md
+cat $HOME/.dotfiles/doc/apps.tmp.md ./apps.txt > $HOME/.dotfiles/doc/apps.md
 rm ./apps.txt
+rm $HOME/.dotfiles/doc/apps.tmp.md
 
 # status
 $TOILET -f Chunky "status" | lolcat
