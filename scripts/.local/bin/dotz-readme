@@ -28,7 +28,7 @@
 # contact
 # -------
 # << cory.gantenbein@protonmail.com >> || << https://coryg.me >>
-RDMEFILE=$DOTSDIR/README2.md
+RDMEFILE=$DOTSDIR/README.md
 rm $RDMEFILE
 
 RDME1="# Arch .dotfiles

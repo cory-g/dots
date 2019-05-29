@@ -2,11 +2,10 @@
 
 ![Screenshot](scrot.png)
 
-### Primary features
-- i3-gaps
-- polybar
-- URxvt
-- yay AUR helper
+### Basics
+- Window manager: i3
+- Terminal: rxvt-unicode
+- Shell: fish
 
 #### Notes
 
