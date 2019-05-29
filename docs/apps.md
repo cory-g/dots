@@ -4,113 +4,197 @@
 
 ## AUR
 
-- betterlockscreen 3.0.1-4
-- blender-2.8-bin 2.80.190419.638938e5a8c3-1
-- cli-visualizer 1.8-8
-- corrupter-git r26.825232d-1
-- debtap 3.2.2-1
-- flashfocus-git v1.2.1.r1.g75e1d96-1
-- google-chrome 74.0.3729.157-1
-- gravit-designer-bin 2019_1.8-1
-- gtk-theme-arc-gruvbox-git r12.e5ea0ff-1
-- gtk-theme-solarc-git 712.d88d462-1
-- i3lock-color 2.12-1
-- insync 1.5.7-2
-- light-git 1.2.r18.g215dbcd-1
-- menutray 0.52-1
-- mirage 0.9.5.2-5
-- mons 0.8.2-1
-- nerd-fonts-complete-mono-glyphs 1.0.0-1
-- numix-cursor-theme 1.1-1
-- numix-icon-theme-git 0.r1982.88ba36545-1
-- nvm 0.34.0-3
-- otf-hermit 2.0-1
-- pamac-aur-git 7.4.0-1
-- pamac-aur-tray-appindicator-git 7.4.0-1
-- perl-linux-desktopfiles 0.25-2
-- polybar-git 3.3.0.r92.g7724c4dc-1
-- python2-exiv2 0.3.2-22
-- reaper-bin 5.978-1
-- rofimoji-git 2.1.0.r1.gd7d7234-1
-- rxvt-unicode-pixbuf 9.22-2
-- siji-git r23.c691f20-1
-- thinkfan 1.0.2-1
-- thunar-vcs-plugin-git 0.2.0+47+g8eb5c48-1
-- tlpui-git 0.r109.703bade-1
-- toilet 0.3.r155.3eb9d58-1
-- ttf-iosevka 2.2.1-1
-- ttf-ms-fonts 2.0-10
-- ttf-unifont 12.1.01-1
-- tty-clock 2.3-1
-- undefined-medium-fonts 1.0-4
-- xcursor-arch-cursor-complete 06.10.2018-1
-- xcursor-capitaine 2.1-1
-- xcursor-human 0.6-4
-- xgetres 1.0-1
-- xst-git 20190112.b2f0dda-1
-- yay 9.2.0-1
+- betterlockscreen
+- blender-2.8-bin
+- cli-visualizer
+- corrupter-git
+- debtap
+- flashfocus-git
+- google-chrome
+- gravit-designer-bin
+- gtk-theme-arc-gruvbox-git
+- gtk-theme-solarc-git
+- i3lock-color
+- insync
+- light-git
+- menutray
+- mirage
+- mons
+- nerd-fonts-complete-mono-glyphs
+- numix-cursor-theme
+- numix-icon-theme-git
+- nvm
+- otf-hermit
+- pamac-aur-tray-appindicator-git
+- polybar-git
+- reaper-bin
+- rofimoji-git
+- rxvt-unicode-pixbuf
+- siji-git
+- thinkfan
+- thunar-vcs-plugin-git
+- tlpui-git
+- toilet
+- ttf-iosevka
+- ttf-ms-fonts
+- ttf-unifont
+- tty-clock
+- undefined-medium-fonts
+- xcursor-arch-cursor-complete
+- xcursor-capitaine
+- xcursor-human
+- xgetres
+- xst-git
+- yay
 
 ## Pacman
 
-- alsa-utils 1.1.8-1
-- android-file-transfer 3.7-2
-- arandr 0.1.10-3
-- archlinux-xdg-menu 0.7.6.3-1
-- autoconf 2.69-5
-- automake 1.16.1-1
-- bison 3.3.2-1
-- blender 17:2.79.b.git5.a29446da-2
-- compton 6.2-2
-- ctags 1:r20181015+g45968eff-1
-- dunst 1.4.0-1
-- fish 3.0.2-1
-- flex 2.6.4-2
-- gimp 2.10.10-1
-- gnome-calculator 3.32.1-1
-- gnome-font-viewer 3.32.0-1
-- gnome-icon-theme 3.12.0-5
-- grub 2:2.02-8
-- gucharmap 12.0.1-1
-- htop 2.2.0-2
-- hwinfo 21.60-2
-- inkscape 0.92.4-5
-- iputils 20180629.f6aac8d-4
-- jfsutils 1.1.15-6
-- kcharselect 19.04.1-1
-- klavaro 3.03-2
-- licenses 20181104-1
-- logrotate 3.15.0-1
-- lolcat 99.9.21-1
-- lxappearance 0.6.3-2
-- make 4.2.1-3
-- man-db 2.8.5-2
-- man-pages 5.01-1
-- mpv 1:0.29.1-6
-- nano 4.2-1
-- neofetch 6.0.0-1
-- netctl 1.20-1
-- network-manager-applet 1.8.21dev+3+gb4c365b1-1
-- nnn 2.4-1
-- patch 2.7.6-7
-- ranger 1.9.2-1
-- reiserfsprogs 3.6.27-2
-- scrot 0.8.18-1
-- stow 2.2.2-5
-- sublime-text 3207-1
-- sxhkd 0.6.0-1
-- ttf-fira-code 1.206-1
-- vi 1:070224-3
-- vim 8.1.1186-1
-- vlc 3.0.6-11
-- volumeicon 0.5.1-4
-- which 2.21-3
-- wine 4.8-1
-- wmctrl 1.07-5
-- xclip 0.13-2
-- xorg-server 1.20.4-1
-- xorg-xbacklight 1.2.2-1
-- xorg-xfontsel 1.0.6-1
-- xorg-xinit 1.4.1-1
-- xorg-xlsclients 1.1.4-1
-- xscreensaver 5.42-1
-- yarn 1.16.0-1
+- acpi_call
+- alsa-utils
+- android-file-transfer
+- arandr
+- archlinux-xdg-menu
+- autoconf
+- automake
+- bash
+- bc
+- binutils
+- bison
+- blender
+- btrfs-progs
+- bzip2
+- compton
+- coreutils
+- cryptsetup
+- ctags
+- device-mapper
+- dhcpcd
+- dialog
+- diffutils
+- dmenu
+- dunst
+- e2fsprogs
+- fakeroot
+- feh
+- file
+- file-roller
+- filesystem
+- findutils
+- fish
+- flex
+- fuse2
+- gawk
+- gcc
+- gcc-libs
+- gettext
+- gimp
+- git
+- glibc
+- gnome-calculator
+- gnome-font-viewer
+- gnome-icon-theme
+- gnome-keyring
+- grep
+- groff
+- grub
+- gucharmap
+- gvfs
+- gzip
+- htop
+- hwinfo
+- i3-gaps
+- i3status
+- imagemagick
+- inetutils
+- inkscape
+- iproute2
+- iputils
+- jfsutils
+- kcharselect
+- klavaro
+- less
+- libtool
+- licenses
+- linux
+- linux-firmware
+- logrotate
+- lolcat
+- lvm2
+- lxappearance
+- m4
+- make
+- man-db
+- man-pages
+- mdadm
+- mpv
+- nano
+- neofetch
+- netctl
+- network-manager-applet
+- networkmanager
+- nnn
+- noto-fonts
+- noto-fonts-emoji
+- openssh
+- pacman
+- pacman-contrib
+- patch
+- pciutils
+- perl
+- pkgconf
+- polkit-gnome
+- procps-ng
+- psmisc
+- python-gobject
+- python-jinja
+- python-pip
+- ranger
+- reiserfsprogs
+- rofi
+- ruby
+- s-nail
+- scrot
+- sed
+- shadow
+- stow
+- sublime-text
+- sudo
+- sxhkd
+- sysfsutils
+- systemd
+- systemd-sysvcompat
+- tar
+- texinfo
+- thunar
+- thunar-archive-plugin
+- thunar-media-tags-plugin
+- thunar-volman
+- tlp
+- tp_smapi
+- ttf-fira-code
+- unrar
+- unzip
+- usbutils
+- util-linux
+- vi
+- vim
+- vlc
+- volumeicon
+- w3m
+- which
+- wine
+- wmctrl
+- xclip
+- xfsprogs
+- xorg-server
+- xorg-xbacklight
+- xorg-xdpyinfo
+- xorg-xfd
+- xorg-xfontsel
+- xorg-xinit
+- xorg-xlsclients
+- xorg-xprop
+- xorg-xwininfo
+- xscreensaver
+- yarn
+- youtube-dl

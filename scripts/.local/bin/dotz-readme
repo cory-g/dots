@@ -28,6 +28,7 @@
 # contact
 # -------
 # << cory.gantenbein@protonmail.com >> || << https://coryg.me >>
+
 RDMEFILE=$DOTSDIR/README.md
 rm $RDMEFILE
 
@@ -37,15 +38,19 @@ RDME1="# Arch .dotfiles
 
 ### Basics"
 
-# - i3-gaps
-# - polybar
-# - URxvt
-# - yay AUR helper
-
+# window manager
 LINE="$(wmctrl -m | head -n 1)"
 WMNAME=${LINE#* }
+
+# shell
 PREFIX="/usr/bin/"
-USRSHELL=$(echo "$SHELL" | grep -oP "^$PREFIX\K.*")
+SHELL_RAW=$(echo "$SHELL" | grep -oP "^$PREFIX\K.*")
+SHELL_VERSION=$(grep -F $SHELL_RAW $DOTSDIR/docs/apps.md)
+SHELL_STRING=${SHELL_VERSION:2}
+
+# terminal
+TERM_VERSION=$(grep -F $TERM $DOTSDIR/docs/apps.md)
+TERM_STRING=${TERM_VERSION:2}
 
 RDME2="#### Notes
 
@@ -57,7 +62,7 @@ Complete list of both AUR packages as well as Repo Packages is located [here](ht
 
 echo "$RDME1" > $RDMEFILE
 echo "- Window manager: $WMNAME" >> $RDMEFILE
-echo "- Terminal: $TERM" >> $RDMEFILE
-echo "- Shell: $USRSHELL" >> $RDMEFILE
+echo "- Terminal: $TERM_STRING" >> $RDMEFILE
+echo "- Shell: $SHELL_STRING" >> $RDMEFILE
 echo "" >> $RDMEFILE
 echo "$RDME2" >> $RDMEFILE

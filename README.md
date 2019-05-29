@@ -4,7 +4,7 @@
 
 ### Basics
 - Window manager: i3
-- Terminal: rxvt-unicode
+- Terminal: rxvt-unicode-pixbuf
 - Shell: fish
 
 #### Notes
