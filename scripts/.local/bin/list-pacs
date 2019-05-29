@@ -40,7 +40,10 @@ grep -v -x -f $DOC_PATH/yay.txt $DOC_PATH/pac.txt >> $DOC_PATH/apps.txt
 
 
 echo "# Packages
+
+> This list is not exhaustive and does not include dependencies.
 " > $DOC_PATH/apps.tmp.md
+
 echo "## AUR" >> $DOC_PATH/apps.tmp.md
 # echo "\`Result of pacman -Qm\`" >> $DOC_PATH/apps.tmp.md
 echo "" >> $DOC_PATH/apps.tmp.md

@@ -1,5 +1,7 @@
 # Packages
 
+> This list is not exhaustive and does not include dependencies.
+
 ## AUR
 
 - betterlockscreen 3.0.1-4
@@ -22,7 +24,6 @@
 - numix-cursor-theme 1.1-1
 - numix-icon-theme-git 0.r1982.88ba36545-1
 - nvm 0.34.0-3
-- odrive-bin 0.2.2-1
 - otf-hermit 2.0-1
 - pamac-aur-git 7.4.0-1
 - pamac-aur-tray-appindicator-git 7.4.0-1
@@ -78,7 +79,6 @@
 - kcharselect 19.04.1-1
 - klavaro 3.03-2
 - licenses 20181104-1
-- lightdm-webkit2-greeter 2.2.5-2
 - logrotate 3.15.0-1
 - lolcat 99.9.21-1
 - lxappearance 0.6.3-2

@@ -32,28 +32,28 @@ COMMIT_MSG=${1:-$AUTO_COMMIT_MSG}
 # Update package list in docs
 $TOILET -f Chunky "apps" | lolcat
 echo ""
-list-pacs $HOME/.dotfiles/doc/
+list-pacs $DOTSDIR/docs/
 
 # status
 $TOILET -f Chunky "status" | lolcat
 echo ""
-$GIT --git-dir=$HOME/.dotfiles/.git --work-tree=$HOME/.dotfiles status
+$GIT --git-dir=$DOTSDIR/.git --work-tree=$DOTSDIR status
 
 # add all
-$GIT --git-dir=$HOME/.dotfiles/.git --work-tree=$HOME/.dotfiles add .
+$GIT --git-dir=$DOTSDIR/.git --work-tree=$DOTSDIR add .
 
 # status again
 echo ""
 $TOILET -f Chunky "status" | lolcat
-$GIT --git-dir=$HOME/.dotfiles/.git --work-tree=$HOME/.dotfiles status
+$GIT --git-dir=$DOTSDIR/.git --work-tree=$DOTSDIR status
 
 # commit
 echo ""
 $TOILET -f Chunky "commit" | lolcat
 echo "Committing with message '${COMMIT_MSG}'"
-$GIT --git-dir=$HOME/.dotfiles/.git --work-tree=$HOME/.dotfiles commit -m "${COMMIT_MSG}"
+$GIT --git-dir=$DOTSDIR/.git --work-tree=$DOTSDIR commit -m "${COMMIT_MSG}"
 
 # push
 echo ""
 $TOILET -f Chunky "push" | lolcat
-$GIT --git-dir=$HOME/.dotfiles/.git --work-tree=$HOME/.dotfiles push
+$GIT --git-dir=$DOTSDIR/.git --work-tree=$DOTSDIR push

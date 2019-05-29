@@ -38,8 +38,6 @@ set $ws8 "8"
 exec_always --no-startup-id $HOME/.config/polybar/scripts/launch.sh
 exec_always --no-startup-id $HOME/.local/bin/wallpapersetter
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 & eval $(gnome-keyring-daemon -s --components=pkcs11,secrets,ssh,gpg) &
-exec --no-startup-id "compton -C --config $HOME/.config/compton/compton.conf --respect-prop-shadow"
-exec_always --no-startup-id flashfocus
 
 # >> .---.-.-----.-----.-----.---.-.----.---.-.-----.----.-----.
 # >> |  _  |  _  |  _  |  -__|  _  |   _|  _  |     |  __|  -__|

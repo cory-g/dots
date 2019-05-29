@@ -53,6 +53,7 @@ sxhkd &
 dunst &
 compton &
 insync start &
+compton -b -C --config $HOME/.config/compton/compton.conf --respect-prop-shadow &
 
 # start system tray icons
 pamac-tray-appindicator &

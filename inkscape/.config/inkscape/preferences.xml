@@ -171,17 +171,17 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="140"
-         ry="140" />
+         rx="322"
+         ry="322" />
       <eventcontext
          id="star"
-         magnitude="4"
+         magnitude="6"
          style="fill:yellow;"
          usecurrent="1"
          proportion="0.337"
          rounded="0"
-         randomized="-0.078"
-         isflatsided="0" />
+         randomized="0"
+         isflatsided="1" />
       <eventcontext
          id="spiral"
          style="fill:none;stroke:black"
@@ -339,8 +339,8 @@
        selcue="1"
        align_mode="1">
       <group
-         id="lineheight"
-         display_unit="0" />
+         display_unit="0"
+         id="lineheight" />
     </eventcontext>
     <eventcontext
        id="nodes"
@@ -358,8 +358,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="0"
-       y="0"
+       x="148.653"
+       y="555.848"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -426,12 +426,12 @@
        offset="0"
        offsetunits="mm" />
     <group
-       id="measure"
-       fontsize="10"
-       precision="2"
-       scale="100"
+       unit="px"
        offset="5"
-       unit="px" />
+       scale="100"
+       precision="2"
+       fontsize="10"
+       id="measure" />
   </group>
   <group
      id="palette">
@@ -575,7 +575,7 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       page="0"
+       page="2"
        x="0"
        y="0"
        w="320"
@@ -600,7 +600,7 @@
        x="0"
        y="0"
        w="320"
-       h="497"
+       h="398"
        visible="1"
        state="2"
        placement="2"
@@ -665,7 +665,7 @@
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/home/cory/pix/inkscape-design/wallie__1st-birthday-cake"
+       path="/home/cory/pix/inkscape-design/wallie__circle-banner"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -914,7 +914,7 @@
        value="2" />
     <group
        id="transform"
-       stroke="1"
+       stroke="0"
        rectcorners="1"
        pattern="1"
        gradient="1" />
@@ -1041,12 +1041,12 @@
      id="extensions" />
   <group
      id="desktop"
-     style="line-height:1.25;fill:#ffffff;fill-opacity:1;-inkscape-font-specification:'Montserrat Semi-Bold';font-family:Montserrat;font-weight:600;font-style:normal;font-stretch:normal;font-variant:normal;opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;font-size:96px;text-anchor:middle;text-align:center">
+     style="line-height:1.25;fill:#ffffff;fill-opacity:1;-inkscape-font-specification:'Gotham Black, ';font-family:'Gotham Black';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;opacity:0.486;stroke:none;stroke-width:75;stroke-miterlimit:4;stroke-dasharray:none;font-size:53.33333333px;text-anchor:middle;text-align:center">
     <group
-       width="1054"
-       height="1056"
-       x="1366"
-       y="22"
+       width="1896"
+       height="1028"
+       x="10"
+       y="38"
        fullscreen="0"
        id="geometry"
        maximized="0" />
