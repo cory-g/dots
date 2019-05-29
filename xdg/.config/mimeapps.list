@@ -1,7 +1,36 @@
 [Added Associations]
-image/jpeg=mirage.desktop;feh.desktop;
+image/jpeg=sxiv-rifle.desktop;sxiv.desktop;mirage.desktop;gimp.desktop;feh.desktop;
 image/png=mirage.desktop;feh.desktop;
+text/plain=sublime_text.desktop;
+application/x-yaml=vim.desktop;
+text/html=sublime_text.desktop;google-chrome.desktop;
+application/zip=org.gnome.FileRoller.desktop;
+application/x-shellscript=sublime_text.desktop;
+application/x-blender=blender.desktop;blender-2.8.desktop;
+application/xml=sublime_text.desktop;
+text/x-scheme=sublime_text.desktop;
+application/vnd.rar=org.gnome.FileRoller.desktop;
+image/gif=mirage.desktop;gimp.desktop;
+application/x-desktop=sublime_text.desktop;
+video/mp4=vlc.desktop;
+video/quicktime=vlc.desktop;
+audio/x-wav=vlc.desktop;
+application/javascript=sublime_text.desktop;
+text/markdown=sublime_text.desktop;
+text/x-csrc=sublime_text.desktop;
+audio/mpeg=vlc.desktop;
+text/x-log=sublime_text.desktop;
+video/x-matroska=vlc.desktop;
+font/ttf=org.gnome.font-viewer.desktop;
+image/svg+xml=mirage.desktop;inkscape.desktop;
+application/x-ms-dos-executable=wine.desktop;
+application/pdf=wine-extension-pdf.desktop;
+application/vnd.insync.link.drive.sheet=google-chrome.desktop;
+inode/directory=mirage.desktop;
 
 [Default Applications]
 image/jpeg=mirage.desktop
 image/png=mirage.desktop
+application/zip=org.gnome.FileRoller.desktop
+image/gif=mirage.desktop
+video/mp4=vlc.desktop

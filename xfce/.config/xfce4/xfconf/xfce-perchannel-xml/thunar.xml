@@ -9,8 +9,8 @@
   <property name="last-window-maximized" type="bool" value="false"/>
   <property name="last-show-hidden" type="bool" value="true"/>
   <property name="last-details-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_38_PERCENT"/>
-  <property name="last-details-view-column-widths" type="string" value="150,190,71,108,357,75,946,80,115,181"/>
-  <property name="last-separator-position" type="int" value="208"/>
+  <property name="last-details-view-column-widths" type="string" value="150,190,71,108,397,75,946,80,115,181"/>
+  <property name="last-separator-position" type="int" value="100"/>
   <property name="last-side-pane" type="string" value="ThunarShortcutsPane"/>
   <property name="misc-single-click" type="bool" value="false"/>
   <property name="tree-icon-emblems" type="bool" value="true"/>

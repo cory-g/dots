@@ -238,7 +238,7 @@
       "rules": [{"contains": "syntax:ssDquote"} ]
     },
     {
-      "syntax": "INI",
+      "syntax": "INI/INI",
       "rules": [{"contains": "syntax:INI"} ]
     },
     {

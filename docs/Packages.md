@@ -4,15 +4,11 @@
 
 ## AUR
 
-- betterlockscreen
 - blender-2.8-bin
 - cli-visualizer
 - corrupter-git
-- debtap
-- flashfocus-git
 - google-chrome
 - gravit-designer-bin
-- gtk-theme-arc-gruvbox-git
 - gtk-theme-solarc-git
 - i3lock-color
 - insync
@@ -32,7 +28,6 @@
 - rxvt-unicode-pixbuf
 - siji-git
 - thinkfan
-- thunar-vcs-plugin-git
 - tlpui-git
 - toilet
 - ttf-iosevka
@@ -40,9 +35,7 @@
 - ttf-unifont
 - tty-clock
 - undefined-medium-fonts
-- xcursor-arch-cursor-complete
 - xcursor-capitaine
-- xcursor-human
 - xgetres
 - xst-git
 - yay
@@ -74,6 +67,7 @@
 - dmenu
 - dunst
 - e2fsprogs
+- entr
 - fakeroot
 - feh
 - file
@@ -132,7 +126,6 @@
 - netctl
 - network-manager-applet
 - networkmanager
-- nnn
 - noto-fonts
 - noto-fonts-emoji
 - openssh
@@ -140,6 +133,7 @@
 - pacman-contrib
 - patch
 - pciutils
+- peek
 - perl
 - pkgconf
 - polkit-gnome
@@ -148,7 +142,6 @@
 - python-gobject
 - python-jinja
 - python-pip
-- ranger
 - reiserfsprogs
 - rofi
 - ruby
@@ -182,7 +175,6 @@
 - volumeicon
 - w3m
 - which
-- wine
 - wmctrl
 - xclip
 - xfsprogs

@@ -22,39 +22,45 @@
 # << cory.gantenbein@protonmail.com >> || << https://coryg.me >>
 
 DOC_PATH=${1:-$(pwd)}
+FINAL_FILE="Packages.md"
+YAY_TXT="yay.txt"
+YAY_TMP="yay.tmp.txt"
+PAC_TXT="pac.txt"
+PAC_TMP="pac.tmp.txt"
+MD_TMP="tmp.md"
 
 # AUR packages
-pacman -Qqem >> $DOC_PATH/yay.tmp.txt
-sed -e 's/^/- /' $DOC_PATH/yay.tmp.txt > $DOC_PATH/yay.txt
-rm $DOC_PATH/yay.tmp.txt
+pacman -Qqem >> $DOC_PATH/$YAY_TMP
+sed -e 's/^/- /' $DOC_PATH/$YAY_TMP > $DOC_PATH/$YAY_TXT
+rm $DOC_PATH/$YAY_TMP
 
 # Pacman packages
-pacman -Qqen >> $DOC_PATH/pac.tmp.txt
-sed -e 's/^/- /' $DOC_PATH/pac.tmp.txt > $DOC_PATH/pac.txt
-rm $DOC_PATH/pac.tmp.txt
+pacman -Qqen >> $DOC_PATH/$PAC_TMP
+sed -e 's/^/- /' $DOC_PATH/$PAC_TMP > $DOC_PATH/$PAC_TXT
+rm $DOC_PATH/$PAC_TMP
 
 
 echo "# Packages
 
 > This list is not exhaustive and does not include dependencies.
-" > $DOC_PATH/apps.tmp.md
+" > $DOC_PATH/apps.$MD_TMP
 
-echo "## AUR" >> $DOC_PATH/apps.tmp.md
-# echo "\`Result of pacman -Qm\`" >> $DOC_PATH/apps.tmp.md
-echo "" >> $DOC_PATH/apps.tmp.md
+echo "## AUR" >> $DOC_PATH/apps.$MD_TMP
+# echo "\`Result of pacman -Qm\`" >> $DOC_PATH/apps.$MD_TMP
+echo "" >> $DOC_PATH/apps.$MD_TMP
 
-cat $DOC_PATH/apps.tmp.md $DOC_PATH/yay.txt > $DOC_PATH/apps.md
-rm $DOC_PATH/apps.tmp.md
-echo "" >> $DOC_PATH/apps.md
+cat $DOC_PATH/apps.$MD_TMP $DOC_PATH/$YAY_TXT > $DOC_PATH/$FINAL_FILE
+rm $DOC_PATH/apps.$MD_TMP
+echo "" >> $DOC_PATH/$FINAL_FILE
 
-echo "## Pacman" >> $DOC_PATH/apps.md
-# echo "\`Result of pacman -Qet\`" >> $DOC_PATH/apps.md
-echo "" >> $DOC_PATH/apps.md
+echo "## Pacman" >> $DOC_PATH/$FINAL_FILE
+# echo "\`Result of pacman -Qet\`" >> $DOC_PATH/$FINAL_FILE
+echo "" >> $DOC_PATH/$FINAL_FILE
 
-cat $DOC_PATH/apps.md $DOC_PATH/pac.txt > $DOC_PATH/tmp.md
+cat $DOC_PATH/$FINAL_FILE $DOC_PATH/$PAC_TXT > $DOC_PATH/$MD_TMP
 
-rm $DOC_PATH/apps.md
-cp $DOC_PATH/tmp.md $DOC_PATH/apps.md
-rm $DOC_PATH/pac.txt
-rm $DOC_PATH/tmp.md
-rm $DOC_PATH/yay.txt
+rm $DOC_PATH/$FINAL_FILE
+cp $DOC_PATH/$MD_TMP $DOC_PATH/$FINAL_FILE
+rm $DOC_PATH/$PAC_TXT
+rm $DOC_PATH/$MD_TMP
+rm $DOC_PATH/$YAY_TXT

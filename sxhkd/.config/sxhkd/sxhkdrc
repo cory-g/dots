@@ -51,8 +51,11 @@ super + space
 super + Return
   $TERMINAL
 
-super + s
-  i3-quickterm shell
+super + alt + Return
+  urxvt -name "floatterm"
+
+# super + s
+#   i3-quickterm shell
 
 # >> Utilities
 
@@ -72,6 +75,9 @@ super + b
 
 super + e
   $EDITOR
+
+super + shift + e
+  sudo $EDITOR
 
 super + i
   inkscape

@@ -16,11 +16,11 @@
 		"/home/rustyschakelford/.config/sublime-text-3/Installed Packages"
 	],
 	"last_version": 3207,
-	"last_window_id": 41,
+	"last_window_id": 42,
 	"log_indexing": false,
 	"settings":
 	{
-		"new_window_height": 716.0,
+		"new_window_height": 1028.0,
 		"new_window_settings":
 		{
 			"auto_complete":
@@ -227,17 +227,69 @@
 			},
 			"file_history":
 			[
+				"/home/cory/.dotfiles/i3/.config/i3/config",
+				"/home/cory/.dotfiles/scripts/.local/bin/infostuff",
+				"/home/cory/.dotfiles/sxhkd/.config/sxhkd/okay.txt",
+				"/home/cory/.dotfiles/docs/apps.md",
+				"/home/cory/.dotfiles/fish/.config/fish/functions/scrot.fish",
+				"/home/cory/.dotfiles/fish/.config/fish/functions/whattime.fish",
+				"/home/cory/.dotfiles/fish/.config/fish/functions/keyfresh.fish",
+				"/home/cory/.local/bin/testing",
+				"/home/cory/.dotfiles/fish/.config/fish/functions/xfresh.fish",
+				"/home/cory/.dotfiles/scripts/.local/bin/keyfresh",
+				"/home/cory/.dotfiles/sxhkd/.config/sxhkd/sxhkdrc",
+				"/home/cory/.local/bin/dotz-readme",
+				"/home/cory/.dotfiles/README.md",
+				"/home/cory/.dotfiles/scripts/.local/bin/list-pacs",
+				"/home/cory/apps.md",
+				"/home/cory/.dotfiles/scripts/.local/bin/dotz",
 				"/home/cory/.dotfiles/X/.xinitrc",
+				"/home/cory/.path",
+				"/home/cory/.local/bin/infostuff",
+				"/home/cory/.dotfiles/fish/.config/fish/config.fish",
+				"/home/cory/.path.bak",
+				"/home/cory/.dotfiles/README2.md",
+				"/home/cory/.dotfiles/compton/.config/compton/compton.conf",
+				"/home/cory/.dotfiles/doc/apps.md",
+				"/home/cory/.local/bin/list-pacs",
+				"/home/cory/.dotfiles/doc/readme-01.txt",
+				"/home/cory/.local/bin/oooooooooook",
+				"/home/cory/.local/bin/sometest",
+				"/home/cory/.dotfiles/README_bak.md",
+				"/home/cory/tmp/apps.txt",
+				"/home/cory/.dotfiles/feh/.fehbg",
+				"/home/cory/.dotfiles/scripts/.local/bin/mkscript",
+				"/home/cory/.dotfiles/rofi/.config/rofi/scripts/rofi-mons",
+				"/home/cory/.dotfiles/menutray/.config/menutray/config.pl",
+				"/home/cory/.dotfiles/menutray/.config/menutray/menu.pl",
+				"/home/cory/.subversion/README.txt",
+				"/home/cory/.dotfiles/flashfocus/.config/flashfocus/flashfocus.yml",
+				"/home/cory/.dotfiles/menutray/.config/menutray/schema.pl",
+				"/home/cory/.dotfiles/polybar/.config/polybar/config",
+				"/home/cory/.dotfiles/jgmenu/.config/jgmenu/append.csv",
+				"/home/cory/.dotfiles/jgmenu/.config/jgmenu/prepend.csv",
+				"/home/cory/.dotfiles/X/.Xresources.d/rxvt-unicode",
+				"/home/cory/.dotfiles/jgmenu/.config/jgmenu/jgmenurc",
+				"/home/cory/.dotfiles/tint2/.config/tint2/tint2rc",
+				"/home/cory/.dotfiles/X/.Xresources.d/colors/solarized",
+				"/home/cory/prj/create-a-language/how_to_outline.txt",
+				"/home/cory/pla/HTML Boilerplate (.html).html",
+				"/home/cory/index.html",
+				"/home/cory/pla/Pug Boilerplate (.pug).pug",
+				"/home/cory/pla/Text Document.txt",
+				"/home/cory/index.pug",
+				"/home/cory/.dotfiles/dunst/.config/dunst/dunstrc",
+				"/home/cory/.dotfiles/rofi/.config/rofi/config",
+				"/home/cory/.dotfiles/rofi/.config/rofi/config.rasi",
+				"/home/cory/.dotfiles/scripts/.local/bin/dotscrot",
+				"/home/cory/.dotfiles/scripts/.local/bin/scrotz",
+				"/home/cory/.local/bin/dunst-testing",
 				"/home/cory/.dotfiles/polybar/.config/polybar/scripts/launch.sh",
 				"/home/cory/.dotfiles/rofi/.config/rofi/scripts/rofi-powermenu",
 				"/home/cory/.local/bin/keyfresh",
-				"/home/cory/.dotfiles/X/.Xresources.d/colors/solarized",
-				"/home/cory/.dotfiles/X/.Xresources.d/rxvt-unicode",
 				"/home/cory/.dotfiles/X/.Xresources.d/xst",
-				"/home/cory/.dotfiles/polybar/.config/polybar/config",
 				"/home/cory/.dotfiles/betterlockscreen/.config/betterlockscreenrc",
 				"/home/cory/.config/htop/htoprc",
-				"/home/cory/.dotfiles/i3/.config/i3/config",
 				"/home/cory/.gtk-bookmarks",
 				"/home/cory/.gtkrc-2.0",
 				"/home/cory/.local/share/fonts/fonts.dir",
@@ -246,12 +298,10 @@
 				"/home/cory/prj/book/novel-001/ch01sc01be01.txt",
 				"/home/cory/tmp/pkglist.txt",
 				"/home/cory/.dotfiles/scripts/.local/bin/rofigen",
-				"/home/cory/.dotfiles/rofi/.config/rofi/scripts/rofi-mons",
 				"/home/cory/.local/bin/thisisatest",
 				"/home/cory/.local/bin/mickey",
 				"/home/cory/.local/bin/mickey-mouse",
 				"/home/cory/.dotfiles/.gitignore",
-				"/home/cory/.dotfiles/scripts/.local/bin/dotz",
 				"/home/cory/.dotfiles/i3/.config/i3/i3-quickterm.json",
 				"/home/cory/goo/okay.txt",
 				"/home/cory/.dotfiles/scripts/.local/bin/i3-quickterm",
@@ -265,14 +315,11 @@
 				"/home/cory/.config/sublime-text-3/Packages/User/WakaTime.sublime-settings",
 				"/home/cory/.config/gpymusic/config.json",
 				"/home/cory/.nowplaying",
-				"/home/cory/.dotfiles/rofi/.config/rofi/config",
-				"/home/cory/.dotfiles/rofi/.config/rofi/config.rasi",
 				"/home/cory/.local/bin/blurme",
 				"/home/cory/.dotfiles/X/.Xresources",
 				"/home/cory/.config/neofetch/config.conf",
 				"/home/cory/.dotfiles/polybar/.config/polybar/scripts/pacman-aur-updates.sh",
 				"/home/cory/.local/bin/i3exit",
-				"/home/cory/.dotfiles/scripts/.local/bin/mkscript",
 				"/home/cory/.dotfiles/bash/.bash_profile",
 				"/home/cory/.dotfiles/polybar/.config/polybar/launch.sh",
 				"/home/cory/.dotfiles/X/.Xresources.d/colors/gruvbox",
@@ -280,7 +327,6 @@
 				"/home/cory/.dotfiles/fish/.config/fish/functions/fish_right_prompt.fish",
 				"/home/cory/.dotfiles/fish/.config/fish/functions/__sf_section_char.fish",
 				"/home/cory/.dotfiles/bash/.bashrc",
-				"/home/cory/.dotfiles/fish/.config/fish/config.fish",
 				"/home/cory/.dotfiles/arandr/.screenlayout/1-external-vga.sh",
 				"/home/cory/.dotfiles/arandr/.screenlayout/2-extend-vga.sh",
 				"/home/cory/.dotfiles/arandr/.screenlayout/1-internal-lvds.sh",
@@ -292,7 +338,6 @@
 				"/home/cory/.local/bin/dotzupdate",
 				"/home/cory/.dotfiles/fish/.config/fish/functions/mkdir.fish",
 				"/home/cory/.dotfiles/bash/.bash_aliases",
-				"/home/cory/.dotfiles/fish/.config/fish/functions/scrot.fish",
 				"/home/cory/.dotfiles/fish/.config/fish/fish_variables",
 				"/home/cory/.config/fish/fish_variables",
 				"/home/cory/.dotfiles/fish/.config/fish/functions/c.fish",
@@ -309,56 +354,11 @@
 				"/home/cory/www/smith-calc/build/service-worker-prod.js",
 				"/home/cory/www/smith-calc/src/data/NavDrawerItems.js",
 				"/home/cory/www/smith-calc/src/data/NavDrawerItems.json",
-				"/home/cory/www/smith-calc/src/views/app/dialog/_bottom-sheet-dialog.pug",
-				"/home/cory/www/smith-calc/src/data/MainNavItems.js",
-				"/home/cory/www/smith-calc/build/utils.js",
-				"/home/cory/www/smith-calc/static/manifest.json",
-				"/home/cory/www/smith-calc/docs/manifest.json",
-				"/home/cory/www/smith-calc/build/build.js",
-				"/home/cory/www/smith-calc/config/index.js",
-				"/home/cory/www/smith-calc/.vsignore",
-				"/home/cory/www/smith-calc/package.json",
-				"/home/cory/www/wallie-web/_includes/portfolioLoop.html",
-				"/home/cory/.local/bin/wallawalla",
-				"/home/cory/www/wallie-web/_posts/2019-04-07-project-1.md",
-				"/home/cory/www/wallie-web/extra/make-thumbz.sh",
-				"/home/cory/www/wallie-web/_posts/2019-04-02-project-6.md",
-				"/home/cory/www/wallie-web/_posts/2019-04-05-project-3.md",
-				"/home/cory/www/wallie-web/_posts/2019-04-04-project-4.md",
-				"/home/cory/www/wallie-web/_posts/2019-04-03-project-5.md",
-				"/home/cory/www/wallie-web/_posts/2019-04-06-project-2.md",
-				"/home/cory/www/wallie-web/_includes/about1.md",
-				"/home/cory/www/wallie-web/_includes/modalsLoop.html",
-				"/home/cory/www/wallie-web/_posts/2019-04-07-project-name.md",
-				"/home/cory/www/wallie-web/_layouts/default.html",
-				"/home/cory/www/wallie-web/_includes/mainNav.html",
-				"/home/cory/www/wallie-web/insta_info.txt",
-				"/home/cory/www/wallie-web/_data/bodyScripts.yml",
-				"/home/cory/www/wallie-web/assets/css/main.scss",
-				"/home/cory/www/wallie-web/_data/global.yml",
-				"/home/cory/www/wallie-web/_includes/contact.html",
-				"/home/cory/www/wallie-web/_includes/about.html",
-				"/home/cory/www/wallie-web/_sass/_variables.scss",
-				"/home/cory/www/wallie-web/_includes/about2.md",
-				"/home/cory/www/wallie-web/about.md",
-				"/home/cory/www/wallie-web/_includes/header.html",
-				"/home/cory/www/wallie-web/_data/social.yml",
-				"/home/cory/www/wallie-web/assets/img/wallie_thumbnail.jpeg",
-				"/home/cory/www/wallie-web/_includes/footer.html",
-				"/home/cory/www/wallie-web/index.html",
-				"/home/cory/www/wallie-web/_includes/head.html",
-				"/home/cory/www/wallie-web/_includes/scrollButton.html",
-				"/home/cory/www/wallie-web/_data/headStyles.yml",
-				"/home/cory/www/wallie-web/_data/internalStyles.yml",
-				"/home/cory/www/wallie-web/_data/externalStyles.yml",
-				"/home/cory/www/wallie-web/_sass/freelancer.scss",
-				"/home/cory/www/wallie-web/index.md",
-				"/home/cory/prj/subl/wallie-web.sublime-project",
-				"/home/cory/www/wallie/gulpfile.js"
+				"/home/cory/www/smith-calc/src/views/app/dialog/_bottom-sheet-dialog.pug"
 			],
 			"find":
 			{
-				"height": 24.0
+				"height": 27.0
 			},
 			"find_in_files":
 			{
@@ -372,6 +372,26 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"shadow-exclude",
+					"echo",
+					"$DOTSDIR/README.md",
+					"$HOME/.dotfiles",
+					"./",
+					"$HOME/.dotfiles/doc/",
+					"$super+$alt+r",
+					"pwrmnu",
+					"term",
+					"icon",
+					"urxvt",
+					"\\'",
+					"`",
+					"'",
+					"\"",
+					"monitor",
+					"$super+Shift+c",
+					"/*\t",
+					"cols",
+					"battery"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -379,6 +399,16 @@
 				"regex": false,
 				"replace_history":
 				[
+					"printf",
+					"$RDMEFILE",
+					"$DOTSDIR",
+					"$DOC_PATH/",
+					"$term",
+					"'",
+					"\\`",
+					"\\'",
+					"\\\"",
+					"/*"
 				],
 				"reverse": false,
 				"show_context": true,
@@ -388,7 +418,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 24.0
+				"height": 27.0
 			},
 			"input":
 			{
@@ -406,7 +436,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 94.0
+				"height": 50.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -447,14 +477,14 @@
 			"show_minimap": false,
 			"show_open_files": false,
 			"show_tabs": true,
-			"side_bar_visible": false,
+			"side_bar_visible": true,
 			"side_bar_width": 207.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			}
 		},
-		"new_window_width": 1342.0
+		"new_window_width": 941.0
 	},
 	"windows":
 	[
@@ -552,36 +582,28 @@
 			"buffers":
 			[
 				{
-					"file": "/home/cory/.dotfiles/README.md",
+					"file": "/home/cory/.dotfiles/sxhkd/.config/sxhkd/sxhkdrc",
 					"settings":
 					{
-						"buffer_size": 403,
+						"buffer_size": 2789,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/home/cory/.local/bin/dotz-readme",
+					"file": "/home/cory/.dotfiles/i3/.config/i3/i3-quickterm.json",
 					"settings":
 					{
-						"buffer_size": 1891,
+						"buffer_size": 237,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
 				},
 				{
-					"file": "/home/cory/.dotfiles/README2.md",
+					"file": "/home/cory/.dotfiles/i3/.config/i3/config",
 					"settings":
 					{
-						"buffer_size": 408,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/cory/.local/bin/infostuff",
-					"settings":
-					{
-						"buffer_size": 1155,
+						"buffer_size": 4461,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -703,34 +725,85 @@
 			"expanded_folders":
 			[
 				"/home/cory/.dotfiles",
-				"/home/cory/.dotfiles/fish"
+				"/home/cory/.dotfiles/docs",
+				"/home/cory/.dotfiles/i3",
+				"/home/cory/.dotfiles/i3/.config",
+				"/home/cory/.dotfiles/i3/.config/i3",
+				"/home/cory/.dotfiles/sxhkd",
+				"/home/cory/.dotfiles/sxhkd/.config",
+				"/home/cory/.dotfiles/sxhkd/.config/sxhkd",
+				"/home/cory/.dotfiles/xdg",
+				"/home/cory/.dotfiles/xdg/.config"
 			],
 			"file_history":
 			[
-				"/home/cory/.dotfiles/X/.xinitrc",
-				"/home/cory/.dotfiles/scripts/.local/bin/dotz",
-				"/home/cory/.dotfiles/scripts/.local/bin/list-pacs",
-				"/home/cory/.dotfiles/fish/.config/fish/config.fish",
-				"/home/cory/.dotfiles/compton/.config/compton/compton.conf",
-				"/home/cory/.dotfiles/doc/apps.md",
-				"/home/cory/.dotfiles/i3/.config/i3/config",
+				"/home/cory/.yarnrc",
+				"/home/cory/.wget-hsts",
+				"/home/cory/.config/whoozle.github.io/aft-linux-qt.conf",
+				"/home/cory/.config/htop/htoprc",
+				"/home/cory/.config/mimeapps.list",
+				"/home/cory/.config/autostart/insync.desktop",
+				"/home/cory/.config/QtProject.conf",
+				"/home/cory/.dotfiles/xdg/.config/user-dirs.dirs",
+				"/home/cory/.config/user-dirs.dirs",
+				"/home/cory/.dotfiles/xdg/.config/mimeapps.list",
+				"/home/cory/.config/kcharselectrc",
+				"/home/cory/.config/tlpui/tlpui.cfg",
+				"/home/cory/.config/menus/applications-merged/xdg-desktop-menu-dummy.menu",
+				"/home/cory/.dotfiles/docs/Packages.md",
+				"/home/cory/goo/dwn/reload-browser",
 				"/home/cory/.dotfiles/README.md",
+				"/home/cory/.dotfiles/scripts/.local/bin/dotz-readme",
+				"/home/cory/.dotfiles/scripts/.local/bin/dotz",
+				"/home/cory/.dotfiles/docs/apps.md",
+				"/home/cory/.dotfiles/scripts/.local/bin/list-pacs",
+				"/home/cory/.dotfiles/xfce/.config/xfce4/xfconf/xfce-perchannel-xml/thunar.xml",
+				"/home/cory/.dotfiles/xfce/.config/xfce4/helpers.rc",
+				"/home/cory/.dotfiles/neofetch/.config/neofetch/config.conf",
+				"/home/cory/.dotfiles/X/.Xmodmap",
+				"/home/cory/.dotfiles/X/.xscreensaver",
+				"/home/cory/.dotfiles/betterlockscreen/.config/betterlockscreenrc",
+				"/home/cory/.dotfiles/bash/.bashrc.d/ps1",
+				"/home/cory/.dotfiles/bash/.bash_functions",
+				"/home/cory/.dotfiles/bash/.bash_logout",
+				"/home/cory/.dotfiles/bash/.bash_profile",
+				"/home/cory/.dotfiles/bash/.bashrc",
+				"/home/cory/.dotfiles/i3/.config/i3/config",
+				"/home/cory/.dotfiles/polybar/.config/polybar/config",
+				"/home/cory/.dotfiles/compton/.config/compton/compton.conf",
+				"/home/cory/.dotfiles/menutray/.config/menutray/config.pl",
+				"/home/cory/.dotfiles/X/.xinitrc",
+				"/home/cory/.dotfiles/shell/.path",
+				"/home/cory/.dotfiles/scripts/.local/bin/infostuff",
+				"/home/cory/.dotfiles/sxhkd/.config/sxhkd/okay.txt",
+				"/home/cory/.dotfiles/fish/.config/fish/functions/scrot.fish",
+				"/home/cory/.dotfiles/fish/.config/fish/functions/whattime.fish",
+				"/home/cory/.dotfiles/fish/.config/fish/functions/keyfresh.fish",
+				"/home/cory/.local/bin/testing",
+				"/home/cory/.dotfiles/fish/.config/fish/functions/xfresh.fish",
+				"/home/cory/.dotfiles/scripts/.local/bin/keyfresh",
+				"/home/cory/.dotfiles/sxhkd/.config/sxhkd/sxhkdrc",
+				"/home/cory/.local/bin/dotz-readme",
+				"/home/cory/apps.md",
+				"/home/cory/.path",
+				"/home/cory/.local/bin/infostuff",
+				"/home/cory/.dotfiles/fish/.config/fish/config.fish",
+				"/home/cory/.path.bak",
+				"/home/cory/.dotfiles/README2.md",
+				"/home/cory/.dotfiles/doc/apps.md",
 				"/home/cory/.local/bin/list-pacs",
 				"/home/cory/.dotfiles/doc/readme-01.txt",
 				"/home/cory/.local/bin/oooooooooook",
 				"/home/cory/.local/bin/sometest",
 				"/home/cory/.dotfiles/README_bak.md",
-				"/home/cory/.local/bin/dotz-readme",
 				"/home/cory/tmp/apps.txt",
 				"/home/cory/.dotfiles/feh/.fehbg",
 				"/home/cory/.dotfiles/scripts/.local/bin/mkscript",
 				"/home/cory/.dotfiles/rofi/.config/rofi/scripts/rofi-mons",
-				"/home/cory/.dotfiles/menutray/.config/menutray/config.pl",
 				"/home/cory/.dotfiles/menutray/.config/menutray/menu.pl",
 				"/home/cory/.subversion/README.txt",
 				"/home/cory/.dotfiles/flashfocus/.config/flashfocus/flashfocus.yml",
 				"/home/cory/.dotfiles/menutray/.config/menutray/schema.pl",
-				"/home/cory/.dotfiles/polybar/.config/polybar/config",
 				"/home/cory/.dotfiles/jgmenu/.config/jgmenu/append.csv",
 				"/home/cory/.dotfiles/jgmenu/.config/jgmenu/prepend.csv",
 				"/home/cory/.dotfiles/X/.Xresources.d/rxvt-unicode",
@@ -738,7 +811,6 @@
 				"/home/cory/.dotfiles/tint2/.config/tint2/tint2rc",
 				"/home/cory/.dotfiles/X/.Xresources.d/colors/solarized",
 				"/home/cory/prj/create-a-language/how_to_outline.txt",
-				"/home/cory/.dotfiles/sxhkd/.config/sxhkd/sxhkdrc",
 				"/home/cory/pla/HTML Boilerplate (.html).html",
 				"/home/cory/index.html",
 				"/home/cory/pla/Pug Boilerplate (.pug).pug",
@@ -754,12 +826,9 @@
 				"/home/cory/.dotfiles/rofi/.config/rofi/scripts/rofi-powermenu",
 				"/home/cory/.local/bin/keyfresh",
 				"/home/cory/.dotfiles/X/.Xresources.d/xst",
-				"/home/cory/.dotfiles/betterlockscreen/.config/betterlockscreenrc",
-				"/home/cory/.config/htop/htoprc",
 				"/home/cory/.gtk-bookmarks",
 				"/home/cory/.gtkrc-2.0",
 				"/home/cory/.local/share/fonts/fonts.dir",
-				"/home/cory/.dotfiles/X/.xscreensaver",
 				"/home/cory/.xscreensaver",
 				"/home/cory/prj/book/novel-001/ch01sc01be01.txt",
 				"/home/cory/tmp/pkglist.txt",
@@ -786,55 +855,16 @@
 				"/home/cory/.config/neofetch/config.conf",
 				"/home/cory/.dotfiles/polybar/.config/polybar/scripts/pacman-aur-updates.sh",
 				"/home/cory/.local/bin/i3exit",
-				"/home/cory/.dotfiles/bash/.bash_profile",
 				"/home/cory/.dotfiles/polybar/.config/polybar/launch.sh",
 				"/home/cory/.dotfiles/X/.Xresources.d/colors/gruvbox",
 				"/home/cory/.dotfiles/fish/.config/fish/functions/fish_prompt.fish",
 				"/home/cory/.dotfiles/fish/.config/fish/functions/fish_right_prompt.fish",
 				"/home/cory/.dotfiles/fish/.config/fish/functions/__sf_section_char.fish",
-				"/home/cory/.dotfiles/bash/.bashrc",
 				"/home/cory/.dotfiles/arandr/.screenlayout/1-external-vga.sh",
 				"/home/cory/.dotfiles/arandr/.screenlayout/2-extend-vga.sh",
 				"/home/cory/.dotfiles/arandr/.screenlayout/1-internal-lvds.sh",
 				"/home/cory/.local/bin/mute-mic",
-				"/home/cory/.local/bin/lolban",
-				"/home/cory/.local/bin/dotz",
-				"/home/cory/.dotfiles/bash/.bash_functions",
-				"/home/cory/.dotfiles/fish/.config/fish/functions/dot.fish",
-				"/home/cory/.local/bin/dotzupdate",
-				"/home/cory/.dotfiles/fish/.config/fish/functions/mkdir.fish",
-				"/home/cory/.dotfiles/bash/.bash_aliases",
-				"/home/cory/.dotfiles/fish/.config/fish/functions/scrot.fish",
-				"/home/cory/.dotfiles/fish/.config/fish/fish_variables",
-				"/home/cory/.config/fish/fish_variables",
-				"/home/cory/.dotfiles/fish/.config/fish/functions/c.fish",
-				"/home/cory/.dotfiles/bash/.bashrc.d/ps1",
-				"/home/cory/prj/subl/smith-calc.sublime-project",
-				"/home/cory/www/smith-calc/src/views/app/_navDrawer.pug",
-				"/home/cory/www/smith-calc/src/views/app/_00-drawerToolbar.pug",
-				"/home/cory/www/smith-calc/src/views/app/_01-drawerOverflowMenu.pug",
-				"/home/cory/www/smith-calc.wiki/Terms-of-Service.md",
-				"/home/cory/www/smith-calc.wiki/_Sidebar.md",
-				"/home/cory/www/smith-calc.wiki/Home.md",
-				"/home/cory/www/smith-calc/src/views/app/_toolbar.pug",
-				"/home/cory/www/smith-calc/src/views/app/dialog/_settingsDialog.pug",
-				"/home/cory/www/smith-calc/build/service-worker-prod.js",
-				"/home/cory/www/smith-calc/src/data/NavDrawerItems.js",
-				"/home/cory/www/smith-calc/src/data/NavDrawerItems.json",
-				"/home/cory/www/smith-calc/src/views/app/dialog/_bottom-sheet-dialog.pug",
-				"/home/cory/www/smith-calc/src/data/MainNavItems.js",
-				"/home/cory/www/smith-calc/build/utils.js",
-				"/home/cory/www/smith-calc/static/manifest.json",
-				"/home/cory/www/smith-calc/docs/manifest.json",
-				"/home/cory/www/smith-calc/build/build.js",
-				"/home/cory/www/smith-calc/config/index.js",
-				"/home/cory/www/smith-calc/.vsignore",
-				"/home/cory/www/smith-calc/package.json",
-				"/home/cory/www/wallie-web/_includes/portfolioLoop.html",
-				"/home/cory/.local/bin/wallawalla",
-				"/home/cory/www/wallie-web/_posts/2019-04-07-project-1.md",
-				"/home/cory/www/wallie-web/extra/make-thumbz.sh",
-				"/home/cory/www/wallie-web/_posts/2019-04-02-project-6.md"
+				"/home/cory/.local/bin/lolban"
 			],
 			"find":
 			{
@@ -852,6 +882,14 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"apps.md",
+					"tmp.md",
+					"pac.tmp.txt",
+					"yay.tmp.txt",
+					"pac.txt",
+					"yay.txt",
+					"apps.md",
+					"shadow-exclude",
 					"echo",
 					"$DOTSDIR/README.md",
 					"$HOME/.dotfiles",
@@ -878,6 +916,13 @@
 				"regex": false,
 				"replace_history":
 				[
+					"$APPS_FILE",
+					"$MD_TMP",
+					"$PAC_TMP",
+					"$YAY_TMP",
+					"$PAC_TXT",
+					"$YAY_TXT",
+					"$FINAL_FILE",
 					"printf",
 					"$RDMEFILE",
 					"$DOTSDIR",
@@ -898,34 +943,34 @@
 			"groups":
 			[
 				{
-					"selected": 3,
+					"selected": 2,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/home/cory/.dotfiles/README.md",
+							"file": "/home/cory/.dotfiles/sxhkd/.config/sxhkd/sxhkdrc",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 403,
+								"buffer_size": 2789,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										403,
-										403
+										1442,
+										1442
 									]
 								],
 								"settings":
 								{
 									"apply_syntax_touched": true,
-									"markdonw_live_preview_last_run": 1559131056.87,
-									"syntax": "Packages/Markdown Extended/Syntaxes/Markdown Extended.sublime-syntax"
+									"markdonw_live_preview_last_run": 1559162579.97,
+									"syntax": "Packages/SimpleSyntax/ssHash.sublime-syntax"
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 612.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 1,
@@ -933,56 +978,26 @@
 						},
 						{
 							"buffer": 1,
-							"file": "/home/cory/.local/bin/dotz-readme",
+							"file": "/home/cory/.dotfiles/i3/.config/i3/i3-quickterm.json",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 1891,
+								"buffer_size": 237,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										1719,
-										1719
+										182,
+										182
 									]
 								],
 								"settings":
 								{
 									"apply_syntax_touched": true,
-									"markdonw_live_preview_last_run": 1559133290.38,
-									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 464.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 3,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/home/cory/.dotfiles/README2.md",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 408,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										408,
-										408
-									]
-								],
-								"settings":
-								{
-									"apply_syntax_touched": true,
-									"markdonw_live_preview_last_run": 1559133991.73,
-									"syntax": "Packages/Markdown Extended/Syntaxes/Markdown Extended.sublime-syntax"
+									"markdonw_live_preview_last_run": 1559162884.31,
+									"syntax": "Packages/JavaScript/JSON.sublime-syntax"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -992,30 +1007,30 @@
 							"type": "text"
 						},
 						{
-							"buffer": 3,
-							"file": "/home/cory/.local/bin/infostuff",
+							"buffer": 2,
+							"file": "/home/cory/.dotfiles/i3/.config/i3/config",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 1155,
+								"buffer_size": 4461,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										738,
-										738
+										2538,
+										2538
 									]
 								],
 								"settings":
 								{
 									"apply_syntax_touched": true,
-									"markdonw_live_preview_last_run": 1559131991.83,
-									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
+									"markdonw_live_preview_last_run": 1559163199.48,
+									"syntax": "Packages/SimpleSyntax/ssHash.sublime-syntax"
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 510.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -1068,7 +1083,7 @@
 			"project": "dotfiles.sublime-project",
 			"replace":
 			{
-				"height": 94.0
+				"height": 50.0
 			},
 			"save_all_on_build": true,
 			"select_file":

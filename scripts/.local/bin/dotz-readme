@@ -30,6 +30,7 @@
 # << cory.gantenbein@protonmail.com >> || << https://coryg.me >>
 
 RDMEFILE=$DOTSDIR/README.md
+APPS_FILE="Packages.md"
 rm $RDMEFILE
 
 RDME1="# Arch .dotfiles
@@ -45,11 +46,11 @@ WMNAME=${LINE#* }
 # shell
 PREFIX="/usr/bin/"
 SHELL_RAW=$(echo "$SHELL" | grep -oP "^$PREFIX\K.*")
-SHELL_VERSION=$(grep -F $SHELL_RAW $DOTSDIR/docs/apps.md)
+SHELL_VERSION=$(grep -F $SHELL_RAW $DOTSDIR/docs/$APPS_FILE)
 SHELL_STRING=${SHELL_VERSION:2}
 
 # terminal
-TERM_VERSION=$(grep -F $TERM $DOTSDIR/docs/apps.md)
+TERM_VERSION=$(grep -F $TERM $DOTSDIR/docs/$APPS_FILE)
 TERM_STRING=${TERM_VERSION:2}
 
 RDME2="#### Notes
@@ -58,7 +59,7 @@ RDME2="#### Notes
 - install figlet fonts from [xero on github](https://github.com/xero/figlet-fonts)
 
 #### Packages
-Complete list of both AUR packages as well as Repo Packages is located [here](https://github.com/cory-g/dots/tree/master/docs/apps.md)."
+Complete list of both AUR packages as well as Repo Packages is located [here](https://github.com/cory-g/dots/tree/master/docs/$APPS_FILE)."
 
 echo "$RDME1" > $RDMEFILE
 echo "- Window manager: $WMNAME" >> $RDMEFILE
