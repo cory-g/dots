@@ -1,0 +1,63 @@
+#!/bin/sh
+#
+# dotz-readme - 0.0.1 - May 29, 2019 @  7:34 am
+# created: May 29, 2019 @  7:34 am by Cory G
+# license: gpl-2.0
+#
+#       ██            ██                                              ██
+#      ░██           ░██                                             ░██
+#      ░██  ██████  ██████ ██████       ██████  █████   ██████       ░██
+#   ██████ ██░░░░██░░░██░ ░░░░██  █████░░██░░█ ██░░░██ ░░░░░░██   ██████
+#  ██░░░██░██   ░██  ░██     ██  ░░░░░  ░██ ░ ░███████  ███████  ██░░░██
+# ░██  ░██░██   ░██  ░██    ██          ░██   ░██░░░░  ██░░░░██ ░██  ░██
+# ░░██████░░██████   ░░██  ██████      ░███   ░░██████░░████████░░██████
+#  ░░░░░░  ░░░░░░     ░░  ░░░░░░       ░░░     ░░░░░░  ░░░░░░░░  ░░░░░░
+#
+#
+#  ██████████   █████
+# ░░██░░██░░██ ██░░░██
+#  ░██ ░██ ░██░███████
+#  ░██ ░██ ░██░██░░░░
+#  ███ ░██ ░██░░██████
+# ░░░  ░░  ░░  ░░░░░░
+#
+# *******************************
+# A script I've stupidly left with the default description and vaguely named dotz-readme
+# ------------------------------------------
+#
+# contact
+# -------
+# << cory.gantenbein@protonmail.com >> || << https://coryg.me >>
+RDMEFILE=$DOTSDIR/README2.md
+rm $RDMEFILE
+
+RDME1="# Arch .dotfiles
+
+![Screenshot](scrot.png)
+
+### Basics"
+
+# - i3-gaps
+# - polybar
+# - URxvt
+# - yay AUR helper
+
+LINE="$(wmctrl -m | head -n 1)"
+WMNAME=${LINE#* }
+PREFIX="/usr/bin/"
+USRSHELL=$(echo "$SHELL" | grep -oP "^$PREFIX\K.*")
+
+RDME2="#### Notes
+
+- \`~/.local/bin\` needs to be added to \`\$PATH\`
+- install figlet fonts from [xero on github](https://github.com/xero/figlet-fonts)
+
+#### Packages
+Complete list of both AUR packages as well as Repo Packages is located [here](https://github.com/cory-g/dots/tree/master/docs/apps.md)."
+
+echo "$RDME1" > $RDMEFILE
+echo "- Window manager: $WMNAME" >> $RDMEFILE
+echo "- Terminal: $TERM" >> $RDMEFILE
+echo "- Shell: $USRSHELL" >> $RDMEFILE
+echo "" >> $RDMEFILE
+echo "$RDME2" >> $RDMEFILE

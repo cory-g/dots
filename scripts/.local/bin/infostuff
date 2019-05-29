@@ -1,0 +1,39 @@
+#!/bin/sh
+#
+# infostuff - 0.0.1 - May 29, 2019 @  7:13 am
+# created: May 29, 2019 @  7:13 am by Cory G
+# license: gpl-2.0
+#
+#  ██            ████                    ██             ████   ████
+# ░░            ░██░                    ░██            ░██░   ░██░
+#  ██ ███████  ██████  ██████   ██████ ██████ ██   ██ ██████ ██████
+# ░██░░██░░░██░░░██░  ██░░░░██ ██░░░░ ░░░██░ ░██  ░██░░░██░ ░░░██░
+# ░██ ░██  ░██  ░██  ░██   ░██░░█████   ░██  ░██  ░██  ░██    ░██
+# ░██ ░██  ░██  ░██  ░██   ░██ ░░░░░██  ░██  ░██  ░██  ░██    ░██
+# ░██ ███  ░██  ░██  ░░██████  ██████   ░░██ ░░██████  ░██    ░██
+# ░░ ░░░   ░░   ░░    ░░░░░░  ░░░░░░     ░░   ░░░░░░   ░░     ░░
+#
+# *******************************
+# A script I've stupidly left with the default description and vaguely named infostuff
+# ------------------------------------------
+#
+# contact
+# -------
+# << cory.gantenbein@protonmail.com >> || << https://coryg.me >>
+
+
+# LINE="$(wmctrl -m | head -n 1)"
+# WMNAME=${LINE#* }
+# PREFIX="/usr/bin/"
+# USRSHELL=$(echo "$SHELL" | grep -oP "^$PREFIX\K.*")
+
+# echo "Window manager: $WMNAME"
+# echo "Terminal: $TERM"
+# echo "Shell: $USRSHELL"
+
+# NF="$(neofetch)"
+# echo $NF
+
+while read p; do
+  set -gx PATH $PATH $p
+done < $HOME/.path.bak

@@ -34,6 +34,11 @@ $TOILET -f Chunky "apps" | lolcat
 echo ""
 list-pacs $DOTSDIR/docs/
 
+# Update README.md
+$TOILET -f Chunky "README" | lolcat
+echo ""
+dotz-readme
+
 # status
 $TOILET -f Chunky "status" | lolcat
 echo ""

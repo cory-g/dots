@@ -4,6 +4,7 @@ userresources=$HOME/.Xresources
 usermodmap=$HOME/.Xmodmap
 sysresources=/etc/X11/xinit/.Xresources
 sysmodmap=/etc/X11/xinit/.Xmodmap
+userpath=$HOME/.path
 
 #
 # merge in defaults and keymaps
@@ -31,6 +32,10 @@ fi
 
 # modify path
 export PATH="$PATH:$(du "$HOME/.local/bin/" | cut -f2 | tr '\n' ':' | sed 's/:*$//')"
+
+if [ -f "$userpath" ]; then
+    source "$userpath"
+fi
 
 # start some nice programs
 
