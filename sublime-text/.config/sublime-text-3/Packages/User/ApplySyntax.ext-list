@@ -1,3 +1,4 @@
+// syntax:JSON
 {
 	"Bash":
 	[
@@ -7,22 +8,26 @@
 	[
 		"html.erb"
 	],
-	"INI":
-	[
-		".gitattributes",
-		".gitconfig",
-		".gitignore",
-		".npmrc",
-		"ini.dist"
-	],
 	"JSON":
 	[
+		"-",
 		".bowerrc",
 		".csslintrc",
 		".eslintrc",
 		".jscsrc",
 		".jshintrc",
-		"geojson"
+    "sublime-settings",
+		"b",
+		"e",
+		"g",
+		"geojson",
+		"i",
+		"l",
+		"m",
+		"n",
+		"s",
+		"t",
+		"u"
 	],
 	"PHP":
 	[

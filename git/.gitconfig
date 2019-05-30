@@ -3,3 +3,7 @@
 	email = cory.gantenbein@protonmail.com
 [credential]
 	helper = cache --timeout 15552000
+[alias]
+  a = add --all
+  s = status
+  cm = commit -m

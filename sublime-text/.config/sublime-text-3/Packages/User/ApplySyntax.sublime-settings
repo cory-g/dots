@@ -1,3 +1,4 @@
+// syntax:JSON
 {
     // If an exception occurs when processing a function, should it be reraised
     // so the user gets feedback? This is really only useful to those writing
@@ -151,16 +152,6 @@
       "extensions": [".gemrc", "yml", "yml.dist", "YAML-tmLanguage"]
     },
     {
-      // This rule requires the INI plugin to be installed (via Package Control
-      // or https://github.com/clintberry/sublime-text-2-ini)
-      "syntax": "INI/INI",
-      "extensions": [".gitattributes", ".gitconfig", ".gitignore", "ini.dist", ".npmrc"],
-      "rules": [
-        {"file_path": ".*/git/(attributes|config|ignore)$"},
-        {"file_path": ".*\\\\git\\\\(attributes|config|ignore)$"}
-      ]
-    },
-    {
       "syntax": "ShellScript/Shell-Unix-Generic",
       "extensions": ["sh", "zsh"],
       "rules": [
@@ -182,7 +173,7 @@
     },
     {
       "syntax": "JavaScript/JSON",
-      "extensions": [".jshintrc", ".jscsrc", ".csslintrc", ".eslintrc", ".bowerrc", "geojson"]
+      "extensions": ["sublime-settings", ".jshintrc", ".jscsrc", ".csslintrc", ".eslintrc", ".bowerrc", "geojson"]
     },
     {
       // .m files could be Objective-C or Matlab files
@@ -219,31 +210,46 @@
   [
     {
       "syntax": "SimpleSyntax/ssSemi",
-      "rules": [{"contains": "syntax:ssSemi"} ]
+      "rules": [
+        {"contains": "syntax:ssSemi"}
+      ]
     },
     {
       "syntax": "SimpleSyntax/ssExcla",
-      "rules": [{"contains": "syntax:ssExcla"} ]
+      "rules": [
+        {"contains": "syntax:ssExcla"}
+      ]
     },
     {
       "syntax": "SimpleSyntax/ssHash",
-      "rules": [{"contains": "syntax:ssHash"} ]
+      "rules": [
+        {"contains": "syntax:ssHash"}
+      ]
     },
     {
       "syntax": "SimpleSyntax/ssDslash",
-      "rules": [{"contains": "syntax:ssDslash"} ]
+      "rules": [
+        {"contains": "syntax:ssDslash"}
+      ]
     },
     {
       "syntax": "SimpleSyntax/ssDquote",
-      "rules": [{"contains": "syntax:ssDquote"} ]
+      "rules": [
+        {"contains": "syntax:ssDquote"}
+      ]
     },
     {
       "syntax": "INI/INI",
-      "rules": [{"contains": "syntax:INI"} ]
+      "rules": [
+        {"contains": "syntax:INI"}
+      ]
     },
     {
       "syntax": "JavaScript/JSON",
-      "rules": [{"contains": "syntax:JSON"} ]
+      "extensions": "sublime-settings",
+      "rules": [
+        {"first_line": "// syntax:JSON"},
+      ]
     },
     {
       "syntax": "ShellScript/Bash",

@@ -1,3 +1,5 @@
+# syntax:ssHash
+#
 #                  ██      ██          ██
 #                 ░██     ░██         ░██
 #   ██████ ██   ██░██     ░██  ██     ░██
@@ -7,7 +9,6 @@
 #  ██████  ██ ░░██░██  ░██░██░░██░░██████
 # ░░░░░░  ░░   ░░ ░░   ░░ ░░  ░░  ░░░░░░
 
-# syntax:ssHash
 
 # >>        __   __ __ __ __   __
 # >> .--.--|  |_|__|  |__|  |_|__.-----.-----.
@@ -25,20 +26,11 @@ super + l
 super + space
   rofi -show run
 
-# super + alt + h
-#   dmenu_hotkeys --menu rofi --app i3
+super + shift + w
+  $HOME/.config/rofi/scripts/web-search.sh
 
-# super + shift + s
-#   $HOME/.config/rofi/scripts/web-search.sh
-
-# super + period
-#   rofimoji
-
-# super + shift + l
-#   layout_manager
-
-# alt + Tab
-#   rofi -show window -show-icons
+super + period
+  rofimoji
 
 # >>                    __ __            __   __
 # >> .---.-.-----.-----|  |__.----.---.-|  |_|__.-----.-----.-----.
@@ -53,9 +45,6 @@ super + Return
 
 super + alt + Return
   urxvt -name "floatterm"
-
-# super + s
-#   i3-quickterm shell
 
 # >> Utilities
 
