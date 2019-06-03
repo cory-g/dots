@@ -4,6 +4,12 @@
 
 > This repo contains a little more than my dotfiles. Within are many of my settings, scripts, templates, structures, and opinions that will likely be useful to very few except myself. There is probably quite a bit amiss about this setup but it works for me.
 
+#### Notes
+
+- I'm not responsible for you messing stuff up by using my dotfiles. Not that anything will get messed up but you never know.
+- `~/.local/bin` needs to be added to `$PATH`. I do this in my `~/.path` file which is sourced by `~/.xinitrc`.
+- install figlet fonts from [xero on github](https://github.com/xero/figlet-fonts) to `/usr/share/figlet`.
+
 ### Basics
 
 - OS: Arch Linux 
@@ -13,12 +19,6 @@
 - Icons: Numix [GTK2/3] 
 - Terminal: urxvt 
 - Terminal Font: Hurmit Nerd Font Mono 
-
-#### Notes
-
-- I'm not responsible for you messing stuff up by using my dotfiles. Not that anything will get messed up but you never know.
-- `~/.local/bin` needs to be added to `$PATH`. I do this in my `~/.path` file which is sourced by `~/.xinitrc`.
-- install figlet fonts from [xero on github](https://github.com/xero/figlet-fonts) to `/usr/share/figlet`.
 
 #### Packages
 For a complete list of packages installed from the official repositories as well as the AUR, please click [here](https://github.com/cory-g/dots/tree/master/docs/Packages.md).

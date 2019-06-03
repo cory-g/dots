@@ -21,6 +21,17 @@
 # -------
 # << cory.gantenbein@protonmail.com >> || << https://coryg.me >>
 
+function big_text () {
+  $TOILET -f Chunky "$1" | lolcat
+  echo ""
+}
+
+# Update README.md
+# $TOILET -f Chunky "README" | lolcat
+# echo ""
+# sleep 1
+# dotz-readme
+
 GIT=$(which git)
 TOILET=$(which toilet)
 
@@ -30,36 +41,40 @@ AUTO_COMMIT_MSG="Automated commit on ${THE_DATE}"
 COMMIT_MSG=${1:-$AUTO_COMMIT_MSG}
 
 # Update package list in docs
-$TOILET -f Chunky "apps" | lolcat
-echo ""
+big_text "apps"
 list-pacs $DOTSDIR/docs/
 
 # Update README.md
-$TOILET -f Chunky "README" | lolcat
-echo ""
-sleep 1
-dotz-readme
+# $TOILET -f Chunky "README" | lolcat
+# echo ""
+# big_text "README"
+# sleep 1
+# dotz-readme
 
 # status
-$TOILET -f Chunky "status" | lolcat
-echo ""
+# $TOILET -f Chunky "status" | lolcat
+# echo ""
+big_text "status"
 $GIT --git-dir=$DOTSDIR/.git --work-tree=$DOTSDIR status
 
 # add all
 $GIT --git-dir=$DOTSDIR/.git --work-tree=$DOTSDIR add .
+echo ""
 
 # status again
-echo ""
-$TOILET -f Chunky "status" | lolcat
+# $TOILET -f Chunky "status" | lolcat
+big_text "status"
 $GIT --git-dir=$DOTSDIR/.git --work-tree=$DOTSDIR status
 
 # commit
-echo ""
-$TOILET -f Chunky "commit" | lolcat
+# echo ""
+# $TOILET -f Chunky "commit" | lolcat
+big_text "commit"
 echo "Committing with message '${COMMIT_MSG}'"
 $GIT --git-dir=$DOTSDIR/.git --work-tree=$DOTSDIR commit -m "${COMMIT_MSG}"
 
 # push
-echo ""
-$TOILET -f Chunky "push" | lolcat
+# echo ""
+# $TOILET -f Chunky "push" | lolcat
+big_text "push"
 $GIT --git-dir=$DOTSDIR/.git --work-tree=$DOTSDIR push

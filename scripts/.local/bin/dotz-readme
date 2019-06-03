@@ -69,11 +69,15 @@ function echo_it () {
 
 echo_it "$RDME_TITLE"
 echo_it "$RDME_INTRO"
-echo_it "### Basics"
-echo_it "$NEOFETCH"
-rm $TMP_FILE
+
 echo_it "#### Notes"
 echo_it "$RDME_NOTES"
+
+echo_it "### Basics"
+echo_it "$NEOFETCH"
+
+rm $TMP_FILE
+
 echo_it "$PKGZ_LIST"
 echo_it "#### Partition Scheme"
 echo_it "$LSBLK"
