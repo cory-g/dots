@@ -123,7 +123,6 @@
 - nano
 - neofetch
 - netctl
-- network-manager-applet
 - networkmanager
 - noto-fonts
 - noto-fonts-emoji
@@ -173,7 +172,6 @@
 - vi
 - vim
 - vlc
-- volumeicon
 - w3m
 - which
 - wmctrl
