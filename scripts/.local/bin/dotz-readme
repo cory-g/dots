@@ -40,7 +40,7 @@ OS_NAME=${OS_STRING#"OS: "}
 
 rm $RDMEFILE
 
-RDME1="# $OS_NAME.dotfiles
+RDME_TITLE="# $OS_NAME.dotfiles
 
 ![Screenshot](scrot.png)"
 
@@ -57,25 +57,25 @@ RDME_PACKZ="$(cat $RDME_DIR/readme_packz.md)"
 PKGZ_LIST="#### Packages
 $RDME_PACKZ [here](https://github.com/cory-g/dots/tree/master/docs/$APPS_FILE)."
 
-echo "$RDME1" > $RDMEFILE
-echo "" >> $RDMEFILE
-echo "$RDME_INTRO" >> $RDMEFILE
-echo "" >> $RDMEFILE
-echo "### Basics" >> $RDMEFILE
-echo "" >> $RDMEFILE
-echo "$NEOFETCH" >> $RDMEFILE
+function echo_it () {
+  if [ -f "$RDMEFILE" ]; then
+    echo "$1" >> $RDMEFILE
+    echo "" >> $RDMEFILE
+  else
+    echo "$1" > $RDMEFILE
+    echo "" >> $RDMEFILE
+  fi
+}
+
+echo_it "$RDME_TITLE"
+echo_it "$RDME_INTRO"
+echo_it "### Basics"
+echo_it "$NEOFETCH"
 rm $TMP_FILE
-echo "" >> $RDMEFILE
-echo "#### Notes" >> $RDMEFILE
-echo "" >> $RDMEFILE
-echo "$RDME_NOTES" >> $RDMEFILE
-echo "" >> $RDMEFILE
-echo "$PKGZ_LIST" >> $RDMEFILE
-echo "" >> $RDMEFILE
-echo "#### Partition Scheme" >> $RDMEFILE
-echo "" >> $RDMEFILE
-echo "$LSBLK" >> $RDMEFILE
+echo_it "#### Notes"
+echo_it "$RDME_NOTES"
+echo_it "$PKGZ_LIST"
+echo_it "#### Partition Scheme"
+echo_it "$LSBLK"
 
 echo "Done."
-
-
