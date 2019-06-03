@@ -38,6 +38,8 @@ SCRIPT_DESCR=$(dialog --inputbox "Next, enter a description for the new script. 
 
 SCRIPT_FOLDER="$HOME/.local/bin"
 SCRIPT_FILE="$SCRIPT_FOLDER/$SCRIPT_NAME"
+LOLBAN_FONT="Chunky.flf"
+# LOLBAN_FONT="3d.flf"
 
 
 
@@ -86,7 +88,7 @@ MORE_ABOUT_SCRIPT="#
 
   # lolban script title
   touch /home/cory/tmp/lolban.txt
-  toilet -f 3d.flf "$SCRIPT_NAME" >> /home/cory/tmp/lolban.txt
+  toilet -f $LOLBAN_FONT "$SCRIPT_NAME" >> /home/cory/tmp/lolban.txt
   sed -i -e 's/^/# /' /home/cory/tmp/lolban.txt
   cat /home/cory/tmp/lolban.txt >> $SCRIPT_FILE
   rm /home/cory/tmp/lolban.txt

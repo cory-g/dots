@@ -5,10 +5,8 @@
 ## AUR
 
 - blender-2.8-bin
-- cli-visualizer
 - corrupter-git
 - google-chrome
-- gravit-designer-bin
 - gtk-theme-solarc-git
 - i3lock-color
 - insync
@@ -22,7 +20,6 @@
 - otf-hermit
 - pamac-aur-tray-appindicator-git
 - polybar-git
-- reaper-bin
 - rofimoji-git
 - rxvt-unicode-pixbuf
 - siji-git
