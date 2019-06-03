@@ -1,4 +1,4 @@
-# Arch .dotfiles
+# Arch Linux .dotfiles
 
 ![Screenshot](scrot.png)
 
@@ -11,7 +11,8 @@
 - WM: i3 
 - Theme: SolArc-Dark [GTK2/3] 
 - Icons: Numix [GTK2/3] 
-- Terminal: dotz 
+- Terminal: urxvt 
+- Terminal Font: Hurmit Nerd Font Mono 
 
 #### Notes
 
@@ -19,4 +20,15 @@
 - install figlet fonts from [xero on github](https://github.com/xero/figlet-fonts)
 
 #### Packages
-A complete list of packages installed by me onto my system is located [here](https://github.com/cory-g/dots/tree/master/docs/Packages.md).
+For a complete list of packages installed from the official repositories as well as the AUR, please click [here](https://github.com/cory-g/dots/tree/master/docs/Packages.md).
+
+#### Partition Scheme
+
+| NAME | SIZE | MOUNTPOINT | FSTYPE |
+|---|---|---|---|
+| sda | 465.8G |   |   |
+| sda1 | 512M | /boot | ext4 |
+| sda2 | 12G | [SWAP] | swap |
+| sda3 | 453.3G | / | btrfs |
+| sdb | 477G |   |   |
+| sdb1 | 477G | /home | btrfs |

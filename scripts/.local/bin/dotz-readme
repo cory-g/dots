@@ -35,9 +35,12 @@ TMP_FILE="./tmp.txt"
 RDMEFILE=$DOTSDIR/README.md
 APPS_FILE="Packages.md"
 RDME_DIR=$DOTSDIR/dotz.d
+OS_STRING=$(neofetch --stdout | grep "OS")
+OS_NAME=${OS_STRING#"OS: "}
+
 rm $RDMEFILE
 
-RDME1="# Arch .dotfiles
+RDME1="# $OS_NAME.dotfiles
 
 ![Screenshot](scrot.png)"
 
@@ -45,12 +48,14 @@ neofetch --stdout --disable title underline model kernel uptime packages resolut
 sed -i '/^$/d' $TMP_FILE
 sed -i -e 's/^/- /' $TMP_FILE
 NEOFETCH="$(cat $TMP_FILE)"
+LSBLK="$(mdlsblk)"
 
 RDME_INTRO="$(cat $RDME_DIR/readme_intro.md)"
 RDME_NOTES="$(cat $RDME_DIR/readme_notes.md)"
+RDME_PACKZ="$(cat $RDME_DIR/readme_packz.md)"
 
 PKGZ_LIST="#### Packages
-A complete list of packages installed by me onto my system is located [here](https://github.com/cory-g/dots/tree/master/docs/$APPS_FILE)."
+$RDME_PACKZ [here](https://github.com/cory-g/dots/tree/master/docs/$APPS_FILE)."
 
 echo "$RDME1" > $RDMEFILE
 echo "" >> $RDMEFILE
@@ -59,12 +64,18 @@ echo "" >> $RDMEFILE
 echo "### Basics" >> $RDMEFILE
 echo "" >> $RDMEFILE
 echo "$NEOFETCH" >> $RDMEFILE
+rm $TMP_FILE
 echo "" >> $RDMEFILE
 echo "#### Notes" >> $RDMEFILE
 echo "" >> $RDMEFILE
 echo "$RDME_NOTES" >> $RDMEFILE
 echo "" >> $RDMEFILE
 echo "$PKGZ_LIST" >> $RDMEFILE
-rm $TMP_FILE
+echo "" >> $RDMEFILE
+echo "#### Partition Scheme" >> $RDMEFILE
+echo "" >> $RDMEFILE
+echo "$LSBLK" >> $RDMEFILE
 
 echo "Done."
+
+

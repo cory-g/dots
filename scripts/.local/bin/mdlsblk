@@ -1,0 +1,72 @@
+#!/bin/sh
+#
+# mdlsblk - 0.0.1 - June  3, 2019 @ 11:12 am
+# created: June  3, 2019 @ 11:12 am by Cory G
+# license: gpl-2.0
+#
+#                   ██  ██         ██       ██ ██
+#                  ░██ ░██        ░██      ░██░██
+#  ██████████      ░██ ░██  ██████░██      ░██░██  ██
+# ░░██░░██░░██  ██████ ░██ ██░░░░ ░██████  ░██░██ ██
+#  ░██ ░██ ░██ ██░░░██ ░██░░█████ ░██░░░██ ░██░████
+#  ░██ ░██ ░██░██  ░██ ░██ ░░░░░██░██  ░██ ░██░██░██
+#  ███ ░██ ░██░░██████ ███ ██████ ░██████  ███░██░░██
+# ░░░  ░░  ░░  ░░░░░░ ░░░ ░░░░░░  ░░░░░   ░░░ ░░  ░░
+#
+# *******************************
+# Make a markdown table of block devices
+# ------------------------------------------
+#
+# contact
+# -------
+# << cory.gantenbein@protonmail.com >> || << https://coryg.me >>
+
+COUNTER=0
+TMP_FILE="./lsblk.tmp"
+LSBLK_COLS="NAME,SIZE,MOUNTPOINT,FSTYPE"
+
+lsblk -o $LSBLK_COLS -I 8 -r >> $TMP_FILE
+ROWS=$(wc -l $TMP_FILE | awk '{ print $1 }')
+IFS=',' read -r -a COLS_ARRAY <<< "$LSBLK_COLS"
+COLS=${#COLS_ARRAY}
+
+while read line; do
+    IFS=' ' read -r -a array <<< "$line"
+
+    while [[ ${#array[@]} -lt $COLS ]]; do
+      array+=(" ")
+    done
+
+    if [[ $COUNTER == 0 ]]; then
+      for index in "${!array[@]}"; do
+        if [[ $index == 0 ]]; then
+          echo -n "| ${array[index]} |"
+        else
+          echo -n " ${array[index]} |"
+        fi
+        # echo -n "${array[index]} "
+      done
+      echo ""
+      for index in "${!array[@]}"; do
+        if [[ $index == $(( COLS - 1 )) ]]; then
+          echo -n "|---|"
+        else
+          echo -n "|---"
+        fi
+      done
+      echo ""
+    else
+      for index in "${!array[@]}"; do
+        if [[ $index == 0 ]]; then
+          echo -n "| ${array[index]} |"
+        else
+          echo -n " ${array[index]} |"
+        fi
+        # echo -n "${array[index]} "
+      done
+      echo ""
+    fi
+    COUNTER=$((COUNTER +1))
+done < $TMP_FILE
+
+rm $TMP_FILE
