@@ -37,6 +37,7 @@ list-pacs $DOTSDIR/docs/
 # Update README.md
 $TOILET -f Chunky "README" | lolcat
 echo ""
+sleep 1
 dotz-readme
 
 # status

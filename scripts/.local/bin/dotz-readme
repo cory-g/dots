@@ -29,33 +29,42 @@
 # -------
 # << cory.gantenbein@protonmail.com >> || << https://coryg.me >>
 
+echo "Generating README.md"
+
+TMP_FILE="./tmp.txt"
 RDMEFILE=$DOTSDIR/README.md
 APPS_FILE="Packages.md"
+RDME_DIR=$DOTSDIR/dotz.d
 rm $RDMEFILE
 
 RDME1="# Arch .dotfiles
 
-![Screenshot](scrot.png)
+![Screenshot](scrot.png)"
 
-> This repo contains a little more than my dotfiles. Within are many of my settings, scripts, templates, structures, and opinions that will likely be useful to very few except myself. There is probably quite a bit amiss about this setup but it works for me.
+neofetch --stdout --disable title underline model kernel uptime packages resolution cpu gpu memory >> $TMP_FILE
+sed -i '/^$/d' $TMP_FILE
+sed -i -e 's/^/- /' $TMP_FILE
+NEOFETCH="$(cat $TMP_FILE)"
 
-### Basics"
+RDME_INTRO="$(cat $RDME_DIR/readme_intro.md)"
+RDME_NOTES="$(cat $RDME_DIR/readme_notes.md)"
 
-neofetch --stdout --disable title underline model kernel uptime packages resolution cpu gpu memory >> ./tmp.txt
-sed -i '/^$/d' ./tmp.txt
-sed -i -e 's/^/- /' ./tmp.txt
-NEOFETCH="$(cat ./tmp.txt)"
-
-RDME2="#### Notes
-
-- \`~/.local/bin\` needs to be added to \`\$PATH\`
-- install figlet fonts from [xero on github](https://github.com/xero/figlet-fonts)
-
-#### Packages
+PKGZ_LIST="#### Packages
 A complete list of packages installed by me onto my system is located [here](https://github.com/cory-g/dots/tree/master/docs/$APPS_FILE)."
 
 echo "$RDME1" > $RDMEFILE
+echo "" >> $RDMEFILE
+echo "$RDME_INTRO" >> $RDMEFILE
+echo "" >> $RDMEFILE
+echo "### Basics" >> $RDMEFILE
+echo "" >> $RDMEFILE
 echo "$NEOFETCH" >> $RDMEFILE
 echo "" >> $RDMEFILE
-echo "$RDME2" >> $RDMEFILE
-rm ./tmp.txt
+echo "#### Notes" >> $RDMEFILE
+echo "" >> $RDMEFILE
+echo "$RDME_NOTES" >> $RDMEFILE
+echo "" >> $RDMEFILE
+echo "$PKGZ_LIST" >> $RDMEFILE
+rm $TMP_FILE
+
+echo "Done."
