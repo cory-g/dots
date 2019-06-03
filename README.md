@@ -11,7 +11,8 @@
 - WM: i3 
 - Theme: SolArc-Dark [GTK2/3] 
 - Icons: Numix [GTK2/3] 
-- Terminal: dotz 
+- Terminal: urxvt 
+- Terminal Font: Hurmit Nerd Font Mono 
 
 #### Notes
 
