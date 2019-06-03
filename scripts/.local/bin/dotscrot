@@ -21,6 +21,6 @@
 # -------
 # << cory.gantenbein@protonmail.com >> || << https://coryg.me >>
 
-scrot 'scrot.png' -e 'mv $f ~/.dotfiles/'
+scrot $DOTSDIR/scrot.png
 sleep 1
-notify-send 'Dotfiles screenshot saved to ~/.dotfiles/scrot.png'
+notify-send "Dotfiles screenshot saved to $DOTSDIR/scrot.png"
