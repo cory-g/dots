@@ -29,33 +29,11 @@
 # -------
 # << cory.gantenbein@protonmail.com >> || << https://coryg.me >>
 
-echo "Generating README.md"
+# Functions
 
-TMP_FILE="./tmp.txt"
-RDMEFILE=$DOTSDIR/README.md
-APPS_FILE="Packages.md"
-RDME_DIR=$DOTSDIR/dotz.d
-OS_STRING=$(neofetch --stdout | grep "OS")
-OS_NAME=${OS_STRING#"OS: "}
-
-rm $RDMEFILE
-
-RDME_TITLE="# $OS_NAME.dotfiles
-
-![Screenshot](scrot.png)"
-
-neofetch --stdout --disable title underline model kernel uptime packages resolution cpu gpu memory >> $TMP_FILE
-sed -i '/^$/d' $TMP_FILE
-sed -i -e 's/^/- /' $TMP_FILE
-NEOFETCH="$(cat $TMP_FILE)"
-LSBLK="$(mdlsblk)"
-
-RDME_INTRO="$(cat $RDME_DIR/readme_intro.md)"
-RDME_NOTES="$(cat $RDME_DIR/readme_notes.md)"
-RDME_PACKZ="$(cat $RDME_DIR/readme_packz.md)"
-
-PKGZ_LIST="#### Packages
-$RDME_PACKZ [here](https://github.com/cory-g/dots/tree/master/docs/$APPS_FILE)."
+function cat_it () {
+  cat $RDME_DIR/$1
+}
 
 function echo_it () {
   if [ -f "$RDMEFILE" ]; then
@@ -67,19 +45,40 @@ function echo_it () {
   fi
 }
 
+# Begin
+
+echo "Generating README.md"
+
+TMP_FILE="./tmp.txt"
+RDMEFILE=$DOTSDIR/README.md
+APPS_FILE="Packages.md"
+RDME_DIR=$DOTSDIR/dotz.d
+DOCS_URL="https://github.com/cory-g/dots/tree/master/docs"
+OS_STRING=$(neofetch --stdout | grep "OS")
+OS_NAME=${OS_STRING#"OS: "}
+
+rm $RDMEFILE
+
+neofetch --stdout --disable title underline model kernel uptime packages resolution cpu gpu memory >> $TMP_FILE
+sed -i '/^$/d' $TMP_FILE
+sed -i -e 's/^/- /' $TMP_FILE
+
+RDME_TITLE="# $OS_NAME.dotfiles
+
+![Screenshot](scrot.png)"
+NEOFETCH="$(cat $TMP_FILE)"
+LSBLK="$(mdlsblk)"
+PKGZ_LIST="### Packages
+"$(cat_it readme_packz.md)" [here]($DOCS_URL/$APPS_FILE)."
+
 echo_it "$RDME_TITLE"
-echo_it "$RDME_INTRO"
-
-echo_it "#### Notes"
-echo_it "$RDME_NOTES"
-
-echo_it "### Basics"
+echo_it "$(cat_it readme_intro.md)"
+echo_it "$(cat_it readme_notes.md)"
+echo "### Basics" >> $RDMEFILE
 echo_it "$NEOFETCH"
+echo "### Partition Scheme" >> $RDMEFILE
+echo_it "$LSBLK"
+echo_it "$PKGZ_LIST"
 
 rm $TMP_FILE
-
-echo_it "$PKGZ_LIST"
-echo_it "#### Partition Scheme"
-echo_it "$LSBLK"
-
 echo "Done."
