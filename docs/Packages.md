@@ -13,7 +13,6 @@
 - i3lock-color
 - insync
 - light-git
-- menutray
 - mirage
 - mons
 - nerd-fonts-complete-mono-glyphs
@@ -129,6 +128,7 @@
 - noto-fonts
 - noto-fonts-emoji
 - openssh
+- otf-overpass
 - pacman
 - pacman-contrib
 - patch
@@ -165,6 +165,7 @@
 - tlp
 - tp_smapi
 - ttf-fira-code
+- ttf-font-awesome
 - unrar
 - unzip
 - usbutils

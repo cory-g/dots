@@ -49,9 +49,6 @@ fi
 xset +fp $HOME/.local/share/fonts
 xset fp rehash
 
-# set screen DPI
-## xrandr --dpi 125.37
-
 # start daemons and other stuff
 xscreensaver &
 sxhkd &
@@ -59,12 +56,6 @@ dunst &
 compton &
 insync start &
 compton -b -C --respect-prop-shadow &
-
-# start system tray icons
-pamac-tray-appindicator &
-volumeicon &
-nm-applet &
-menutray &
 
 # start session
 exec i3

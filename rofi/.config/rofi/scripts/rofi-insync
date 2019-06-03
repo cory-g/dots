@@ -1,0 +1,22 @@
+#!/bin/bash
+
+STATUS=$(insync get_status)
+
+if [ "$STATUS" == "PAUSED" ]; then
+    STATUS_TEXT="Resume"
+else
+    STATUS_TEXT="Pause"
+fi
+
+title="insync - Google Drive"
+widthpercent=20
+
+typeset -A menu
+menu=(
+    ["1: Open App"]="insync show"
+    ["2: $STATUS_TEXT Sync"]="ins-toggle-sync"
+    ["3: Open Local Folder"]="$FILES $HOME/goo"
+    ["4: Quit"]="insync quit"
+)
+
+
