@@ -1,0 +1,4 @@
+; syntax:INI
+inherit = module/xbacklight
+type = internal/backlight
+card = intel_backlight

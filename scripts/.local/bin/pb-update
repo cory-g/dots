@@ -1,0 +1,22 @@
+#!/bin/sh
+#
+# pb-update - 0.0.1 - June  4, 2019 @  3:47 pm
+# created: June  4, 2019 @  3:47 pm by Cory G
+# license: gpl-2.0
+#
+#        __                          __       __
+# .-----|  |--.______.--.--.-----.--|  .---.-|  |_.-----.
+# |  _  |  _  |______|  |  |  _  |  _  |  _  |   _|  -__|
+# |   __|_____|      |_____|   __|_____|___._|____|_____|
+# |__|                     |__|
+#
+# *******************************
+# A script I've stupidly left with the default description and vaguely named pb-update
+# ------------------------------------------
+#
+# contact
+# -------
+# << cory.gantenbein@protonmail.com >> || << https://coryg.me >>
+
+urxvt -name "floatterm" --hold -e sudo pacman -Syu &
+

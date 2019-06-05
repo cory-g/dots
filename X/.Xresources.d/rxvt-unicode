@@ -12,8 +12,11 @@ URxvt*saveLines: 5000
 URxvt*termName: rxvt-unicode
 URxvt.matcher.button: 1
 URxvt.depth: 32
+! URxvt.cursorUnderline: true
 
-! solarized
+! solarized dark
 URxvt.background: [90]#002b36
+! solarized light
+! URxvt.background: [90]#fdf6e3
 ! gruvbox
 ! URxvt.background: [90]#282828

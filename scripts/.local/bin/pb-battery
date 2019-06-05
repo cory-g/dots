@@ -1,0 +1,21 @@
+#!/bin/sh
+#
+# pb-battery.sh - 0.0.1 - June  4, 2019 @  3:34 pm
+# created: June  4, 2019 @  3:34 pm by Cory G
+# license: gpl-2.0
+#
+#        __           __          __   __                             __
+# .-----|  |--.______|  |--.---.-|  |_|  |_.-----.----.--.--.  .-----|  |--.
+# |  _  |  _  |______|  _  |  _  |   _|   _|  -__|   _|  |  |__|__ --|     |
+# |   __|_____|      |_____|___._|____|____|_____|__| |___  |__|_____|__|__|
+# |__|                                                |_____|
+#
+# *******************************
+# A script I've stupidly left with the default description and vaguely named pb-battery.sh
+# ------------------------------------------
+#
+# contact
+# -------
+# << cory.gantenbein@protonmail.com >> || << https://coryg.me >>
+
+urxvt -name "floatterm" --hold -e upower -i /org/freedesktop/UPower/devices/battery_BAT0 &

@@ -1,0 +1,3 @@
+; syntax:INI
+type = internal/xwindow
+label =  %title:0:30:...%

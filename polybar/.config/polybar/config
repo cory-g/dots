@@ -2,21 +2,21 @@
 
 ; >> colors
 [colors]
-background = ${xrdb:color0:#073642}
-background-alt = ${xrdb:color8:#002b36}
-foreground = ${xrdb:color7:#eee8d5}
-foreground-alt = ${xrdb:color15:#fdf6e3}
-
-primary = ${xrdb:color3:#b58900}
-secondary = ${xrdb:color5:#d33682}
-alert = ${xrdb:color1:#dc322f}
+base02 =   ${xrdb:color0:#073642}
+red =      ${xrdb:color1:#dc322f}
+green =    ${xrdb:color2:#859900}
+yellow =   ${xrdb:color3:#b58900}
+blue =     ${xrdb:color4:#268bd2}
+magenta =  ${xrdb:color5:#d33682}
+cyan =     ${xrdb:color6:#2aa198}
+base2 =    ${xrdb:color7:#eee8d5}
+base03 =   ${xrdb:color8:#002b36}
+orange =   ${xrdb:color9:#cb4b16}
+violet =   ${xrdb:color13:#6c71c4}
+base3 =    ${xrdb:color15:#fdf6e3}
 
 black = #000
 white = #fff
-violet = ${xrdb:color13:#6c71c4}
-blue = ${xrdb:color4:#268bd2}
-green = ${xrdb:color2:#859900}
-yellow = ${xrdb:color3:#b58900}
 
 ; >> topbar
 [bar/topbar]
@@ -26,11 +26,11 @@ height = 24
 radius = 6
 fixed-center = true
 
-background = ${colors.background}
-foreground = ${colors.foreground}
+background = ${colors.base02}
+foreground = ${colors.base2}
 
 line-size = 4
-line-color = ${colors.alert}
+line-color = ${colors.red}
 
 border-size = 6
 border-color = #00000000
@@ -45,11 +45,12 @@ font-0 = "undefined medium:size=8;1.5"
 font-1 = "undefined medium:size=8;1.5"
 font-2 = Siji:pixelsize=16;1
 font-3 = Font Awesome 5 Brands Regular:size=8;2
-font-4 = Font Awesome 5 Pro Regular:size=8;2
+; font-4 = Font Awesome 5 Pro Regular:size=8;2
+font-4 = Font Awesome 5 Pro Solid:size=8;2
 
 modules-left = i3
 modules-center = xwindow
-modules-right = xbacklight battery date updates-arch insync alsa wlan eth mons pwrmnu
+modules-right = xbacklight battery popup-calendar updates-arch insync alsa wlan eth mons pwrmnu
 
 ; tray-position = right
 tray-padding = 0
@@ -62,219 +63,71 @@ cursor-scroll = ns-resize
 
 ; >> xwindow
 [module/xwindow]
-type = internal/xwindow
-label =  %title:0:30:...%
+include-file = ~/.config/polybar/modules/xwindow
 
 ; >> i3
 [module/i3]
-type = internal/i3
-format = <label-state> <label-mode>
-index-sort = true
-wrapping-scroll = false
-
-label-mode-padding = 1
-label-mode-foreground = ${colors.black}
-label-mode-background = ${colors.primary}
-
-; focused = Active workspace on focused monitor
-label-focused = %index%
-label-focused-background = ${colors.background-alt}
-label-focused-underline= ${colors.yellow}
-label-focused-foreground= ${colors.yellow}
-label-focused-padding = 2
-
-; unfocused = Inactive workspace on any monitor
-label-unfocused = %index%
-label-unfocused-padding = 2
-
-; visible = Active workspace on unfocused monitor
-label-visible = %index%
-label-visible-background = ${self.label-focused-background}
-label-visible-underline = ${self.label-focused-underline}
-label-visible-padding = ${self.label-focused-padding}
-
-; urgent = Workspace with urgency hint set
-label-urgent = %index%!
-label-urgent-background = ${colors.alert}
-label-urgent-padding = 2
+include-file = ~/.config/polybar/modules/i3
 
 ; >> MPD
 [module/mpd]
-type = internal/mpd
-format-online = <label-song>  <icon-prev> <icon-stop> <toggle> <icon-next>
-
-icon-prev = 
-icon-stop = 
-icon-play = 
-icon-pause = 
-icon-next = 
-
-label-song-maxlen = 25
-label-song-ellipsis = true
+include-file = ~/.config/polybar/modules/mpd
 
 ; >> Xbacklight
 [module/xbacklight]
-type = internal/xbacklight
-
-format = <label> <bar>
-label = BL
-
-bar-width = 10
-bar-indicator = |
-bar-indicator-foreground = ${colors.white}
-bar-indicator-font = 2
-bar-fill = ─
-bar-fill-font = 2
-bar-fill-foreground = ${colors.violet}
-bar-empty = ─
-bar-empty-font = 2
-bar-empty-foreground = ${colors.foreground-alt}
+include-file = ~/.config/polybar/modules/xbacklight
 
 ; >> acpi-backlight
 [module/backlight-acpi]
-inherit = module/xbacklight
-type = internal/backlight
-card = intel_backlight
+include-file = ~/.config/polybar/modules/backlight-acpi
 
 ; >> Date
 [module/date]
-type = internal/date
-interval = 5
-
-time = " %I:%M"
-time-alt = " %Y-%m-%d"
-
-format-prefix-foreground = ${colors.foreground-alt}
-format-underline = ${colors.blue}
-
-label = %time%
+include-file = ~/.config/polybar/modules/date
 
 ; >> Battery
 [module/battery]
-type = internal/battery
-battery = BAT0
-adapter = AC
-full-at = 98
-poll-interval = 5
-
-format-charging = <animation-charging> <label-charging>
-format-charging-underline = ${colors.green}
-
-format-discharging = <ramp-capacity> <label-discharging>
-format-discharging-underline = ${colors.yellow}
-
-format-full-prefix = " "
-format-full-prefix-foreground = ${colors.foreground-alt}
-format-full-underline = ${self.format-charging-underline}
-
-ramp-capacity-0 = " "
-ramp-capacity-1 = " "
-ramp-capacity-2 = " "
-ramp-capacity-foreground = ${colors.foreground-alt}
-
-animation-charging-0 = " "
-
-animation-charging-foreground = ${colors.foreground-alt}
-animation-charging-framerate = 750
+include-file = ~/.config/polybar/modules/battery
 
 ; >> Volume
 [module/alsa]
-type = internal/alsa
-master-soundcard = default
-speaker-soundcard = default
-headphone-soundcard = default
-master-mixer = Master
-speaker-mixer = Speaker
-mapped = true
-interval = 5
-format-volume = <ramp-volume>
-label-muted = ""
-format-volume-underline = ${colors.green}
-format-muted-underline = ${colors.alert}
-format-muted-padding = 1
-
-ramp-volume-0 = "  "
-ramp-volume-1 = "  "
-ramp-volume-2 = "  "
-ramp-volume-3 = "  "
+include-file = ~/.config/polybar/modules/alsa
 
 ; >> Wireless Network
 [module/wlan]
-type = internal/network
-interface = wlp3s0
-interval = 3.0
-click-left = pb-nmtui
-
-format-connected = <ramp-signal>
-format-connected-foreground = ${colors.green}
-label-connected = %essid%
-
-format-disconnected =
-
-ramp-signal-0 = %{A1:pb-nmtui:}%{A}
-ramp-signal-1 = %{A1:pb-nmtui:}%{A}
-ramp-signal-2 = %{A1:pb-nmtui:}%{A}
-ramp-signal-3 = %{A1:pb-nmtui:}%{A}
+include-file = ~/.config/polybar/modules/wlan
 
 ; >> Wired Network
 [module/eth]
-type = internal/network
-interface = enp0s25
-interval = 3.0
-click-left = pb-nmtui
-
-
-format-connected-prefix = " "
-format-connected-prefix-foreground = ${colors.foreground-alt}
-label-connected = %local_ip%
-
-format-disconnected =
+include-file = ~/.config/polybar/modules/eth
 
 ; >> Monitors
 [module/mons]
-type = custom/text
-content-foreground = ${colors.primary}
-content = ""
-click-left = rofigen ~/.config/rofi/scripts/rofi-mons
+include-file = ~/.config/polybar/modules/mons
 
 ; >> Power menu
 [module/pwrmnu]
-type = custom/text
-content-foreground = ${colors.alert}
-content = ""
-click-left = rofigen ~/.config/rofi/scripts/rofi-powermenu
+include-file = ~/.config/polybar/modules/pwrmnu
 
 ; >> Updates
 [module/updates-arch]
-type = custom/script
-format-prefix = 
-; content-foreground = ${colors.primary}
-exec = ~/.config/polybar/scripts/updates-arch.sh
-interval = 600
-click-left = pamac-manager &
-format-prefix-foreground = ${colors.foreground-alt}
-format-underline = ${colors.violet}
+include-file = ~/.config/polybar/modules/updates-arch
 
 ; >> Google Drive sync
 [module/insync]
-type = custom/script
-exec = ~/.config/polybar/scripts/insync.sh
-interval = 1
-click-right = rofigen ~/.config/rofi/scripts/rofi-insync
-click-left = insync toggle
-format-prefix-foreground = ${colors.foreground-alt}
-format-underline = ${colors.yellow}
-format-prefix = ""
-format-prefix-padding-right = 1
+include-file = ~/.config/polybar/modules/insync
+
+; >> System menu
+[module/sysmnu]
+include-file = ~/.config/polybar/modules/sysmnu
+
+; >> Date/Time
+[module/popup-calendar]
+include-file = ~/.config/polybar/modules/popup-calendar
 
 ; >> Settings
 [settings]
 screenchange-reload = true
-;compositing-background = xor
-;compositing-background = screen
-;compositing-foreground = source
-;compositing-border = over
-;pseudo-transparency = false
 
 ; >> Global
 [global/wm]

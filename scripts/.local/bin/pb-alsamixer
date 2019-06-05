@@ -1,0 +1,21 @@
+#!/bin/sh
+#
+# pb-alsamixer - 0.0.1 - June  4, 2019 @  4:01 pm
+# created: June  4, 2019 @  4:01 pm by Cory G
+# license: gpl-2.0
+#
+#        __                 __                      __
+# .-----|  |--.______.---.-|  .-----.---.-.--------|__.--.--.-----.----.
+# |  _  |  _  |______|  _  |  |__ --|  _  |        |  |_   _|  -__|   _|
+# |   __|_____|      |___._|__|_____|___._|__|__|__|__|__.__|_____|__|
+# |__|
+#
+# *******************************
+# A script I've stupidly left with the default description and vaguely named pb-alsamixer
+# ------------------------------------------
+#
+# contact
+# -------
+# << cory.gantenbein@protonmail.com >> || << https://coryg.me >>
+
+urxvt -name "floatterm" -e alsamixer
