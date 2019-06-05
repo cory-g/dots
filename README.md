@@ -15,8 +15,8 @@
 - WM: i3 
 - Theme: SolArc-Dark [GTK2/3] 
 - Icons: Numix [GTK2/3] 
-- Terminal: urxvt 
-- Terminal Font: Hurmit Nerd Font Mono 
+- Terminal: kitty 
+- Terminal Font: Hurmit Nerd Font Mono:style=medium 10.0 
 
 ### Partition Scheme
 | NAME | SIZE | MOUNTPOINT | FSTYPE |
