@@ -131,6 +131,10 @@ bindsym $super+Shift+6 move container to workspace $ws6
 bindsym $super+Shift+7 move container to workspace $ws7
 bindsym $super+Shift+8 move container to workspace $ws8
 
+# >> Movement
+bindsym $super+$alt+Left move workspace to output left
+bindsym $super+$alt+Right move workspace to output right
+
 # >>  __ ______                   __
 # >> |__|__    |  .--------.-----|  |_.---.-.
 # >> |  |__    |  |        |  -__|   _|  _  |

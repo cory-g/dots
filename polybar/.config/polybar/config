@@ -1,135 +1,69 @@
 ; syntax:INI
+;                    ██          ██
+;  ██████           ░██  ██   ██░██
+; ░██░░░██  ██████  ░██ ░░██ ██ ░██       ██████   ██████
+; ░██  ░██ ██░░░░██ ░██  ░░███  ░██████  ░░░░░░██ ░░██░░█
+; ░██████ ░██   ░██ ░██   ░██   ░██░░░██  ███████  ░██ ░
+; ░██░░░  ░██   ░██ ░██   ██    ░██  ░██ ██░░░░██  ░██
+; ░██     ░░██████  ███  ██     ░██████ ░░████████░███
+; ░░       ░░░░░░  ░░░  ░░      ░░░░░    ░░░░░░░░ ░░░
 
-; >> colors
 [colors]
-base02 =   ${xrdb:color0:#073642}
-red =      ${xrdb:color1:#dc322f}
-green =    ${xrdb:color2:#859900}
-yellow =   ${xrdb:color3:#b58900}
-blue =     ${xrdb:color4:#268bd2}
-magenta =  ${xrdb:color5:#d33682}
-cyan =     ${xrdb:color6:#2aa198}
-base2 =    ${xrdb:color7:#eee8d5}
-base03 =   ${xrdb:color8:#002b36}
-orange =   ${xrdb:color9:#cb4b16}
-violet =   ${xrdb:color13:#6c71c4}
-base3 =    ${xrdb:color15:#fdf6e3}
+include-file = ~/.config/polybar/colors/colors.ini
 
-black = #000
-white = #fff
-
-; >> topbar
 [bar/topbar]
-monitor = ${env:MONITOR:}
-width = 100%
-height = 24
-radius = 6
-fixed-center = true
+include-file = ~/.config/polybar/bar/topbar.ini
 
-background = ${colors.base02}
-foreground = ${colors.base2}
-
-line-size = 4
-line-color = ${colors.red}
-
-border-size = 6
-border-color = #00000000
-
-padding-left = 0
-padding-right = 1
-
-module-margin-left = 0
-module-margin-right = 2
-
-font-0 = "undefined medium:size=8;1.5"
-font-1 = "undefined medium:size=8;1.5"
-font-2 = Siji:pixelsize=16;1
-font-3 = Font Awesome 5 Brands Regular:size=8;2
-; font-4 = Font Awesome 5 Pro Regular:size=8;2
-font-4 = Font Awesome 5 Pro Solid:size=8;2
-
-modules-left = i3
-modules-center = xwindow
-modules-right = xbacklight battery popup-calendar updates-arch insync alsa wlan eth mons pwrmnu
-
-; tray-position = right
-tray-padding = 0
-
-scroll-up = i3wm-wsnext
-scroll-down = i3wm-wsprev
-
-cursor-click = pointer
-cursor-scroll = ns-resize
-
-; >> xwindow
 [module/xwindow]
-include-file = ~/.config/polybar/modules/xwindow
+include-file = ~/.config/polybar/modules/xwindow.ini
 
-; >> i3
 [module/i3]
-include-file = ~/.config/polybar/modules/i3
+include-file = ~/.config/polybar/modules/i3.ini
 
-; >> MPD
 [module/mpd]
-include-file = ~/.config/polybar/modules/mpd
+include-file = ~/.config/polybar/modules/mpd.ini
 
-; >> Xbacklight
 [module/xbacklight]
-include-file = ~/.config/polybar/modules/xbacklight
+include-file = ~/.config/polybar/modules/xbacklight.ini
 
-; >> acpi-backlight
 [module/backlight-acpi]
-include-file = ~/.config/polybar/modules/backlight-acpi
+include-file = ~/.config/polybar/modules/backlight-acpi.ini
 
-; >> Date
 [module/date]
-include-file = ~/.config/polybar/modules/date
+include-file = ~/.config/polybar/modules/date.ini
 
-; >> Battery
 [module/battery]
-include-file = ~/.config/polybar/modules/battery
+include-file = ~/.config/polybar/modules/battery.ini
 
-; >> Volume
 [module/alsa]
-include-file = ~/.config/polybar/modules/alsa
+include-file = ~/.config/polybar/modules/alsa.ini
 
-; >> Wireless Network
 [module/wlan]
-include-file = ~/.config/polybar/modules/wlan
+include-file = ~/.config/polybar/modules/wlan.ini
 
-; >> Wired Network
 [module/eth]
-include-file = ~/.config/polybar/modules/eth
+include-file = ~/.config/polybar/modules/eth.ini
 
-; >> Monitors
 [module/mons]
-include-file = ~/.config/polybar/modules/mons
+include-file = ~/.config/polybar/modules/mons.ini
 
-; >> Power menu
 [module/pwrmnu]
-include-file = ~/.config/polybar/modules/pwrmnu
+include-file = ~/.config/polybar/modules/pwrmnu.ini
 
-; >> Updates
 [module/updates-arch]
-include-file = ~/.config/polybar/modules/updates-arch
+include-file = ~/.config/polybar/modules/updates-arch.ini
 
-; >> Google Drive sync
 [module/insync]
-include-file = ~/.config/polybar/modules/insync
+include-file = ~/.config/polybar/modules/insync.ini
 
-; >> System menu
 [module/sysmnu]
-include-file = ~/.config/polybar/modules/sysmnu
+include-file = ~/.config/polybar/modules/sysmnu.ini
 
-; >> Date/Time
 [module/popup-calendar]
-include-file = ~/.config/polybar/modules/popup-calendar
+include-file = ~/.config/polybar/modules/popup-calendar.ini
 
-; >> Settings
 [settings]
-screenchange-reload = true
+include-file = ~/.config/polybar/settings/settings.ini
 
-; >> Global
 [global/wm]
-margin-top = 5
-margin-bottom = 5
+include-file = ~/.config/polybar/global/wm.ini
