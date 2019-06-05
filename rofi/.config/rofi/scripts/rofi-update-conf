@@ -1,0 +1,11 @@
+#!/bin/bash
+
+title="Update Conf"
+widthpercent=20
+
+typeset -A menu
+menu=(
+    ["Dunst"]="update-conf.py -n dunst"
+    ["i3"]="update-conf.py -n i3wm"
+    ["Polybar"]="update-conf.py -n polybar"
+)

@@ -19,3 +19,4 @@
 # << cory.gantenbein@protonmail.com >> || << https://coryg.me >>
 
 urxvt -name "floatterm" -e alsamixer
+# kitty --name "floatterm" -e alsamixer

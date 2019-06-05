@@ -32,6 +32,9 @@ super + shift + w
 super + period
   rofimoji
 
+super + c
+  rofigen $HOME/.config/rofi/scripts/rofi-update-conf
+
 # >>                    __ __            __   __
 # >> .---.-.-----.-----|  |__.----.---.-|  |_|__.-----.-----.-----.
 # >> |  _  |  _  |  _  |  |  |  __|  _  |   _|  |  _  |     |__ --|

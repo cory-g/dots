@@ -1,0 +1,26 @@
+#!/bin/sh
+#
+# i3-update-conf - 0.0.1 - June  5, 2019 @  8:16 am
+# created: June  5, 2019 @  8:16 am by Cory G
+# license: gpl-2.0
+#
+#  __ ______                       __       __
+# |__|__    |______.--.--.-----.--|  .---.-|  |_.-----.______.----.-----.-----.
+# |  |__    |______|  |  |  _  |  _  |  _  |   _|  -__|______|  __|  _  |     |
+# |__|______|      |_____|   __|_____|___._|____|_____|      |____|_____|__|__|
+#                        |__|
+#   ___
+# .'  _|
+# |   _|
+# |__|
+#
+#
+# *******************************
+# A script I've stupidly left with the default description and vaguely named i3-update-conf
+# ------------------------------------------
+#
+# contact
+# -------
+# << cory.gantenbein@protonmail.com >> || << https://coryg.me >>
+
+update-conf.py -n i3wm

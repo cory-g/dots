@@ -21,4 +21,5 @@
 # -------
 # << cory.gantenbein@protonmail.com >> || << https://coryg.me >>
 
-urxvt -name "pbnmtui" -e nmtui
+# urxvt -name "pbnmtui" -e nmtui
+kitty --name "pbnmtui" -e nmtui

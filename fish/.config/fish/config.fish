@@ -1,6 +1,7 @@
 # set variables for user applications
 set -g -x BROWSER "google-chrome-stable"
-set -g -x TERMINAL "urxvt"
+# set -g -x TERMINAL "urxvt"
+set -g -x TERMINAL "kitty"
 set -g -x FILES "thunar"
 set -g -x EDITOR "subl"
 
@@ -13,3 +14,5 @@ if status --is-login
     exec startx -- -keeptty
   end
 end
+
+kitty + complete setup fish | source

@@ -1,0 +1,26 @@
+#!/bin/sh
+#
+# keyfresh - 0.0.1 - June  5, 2019 @ 12:21 pm
+# created: June  5, 2019 @ 12:21 pm by Cory G
+# license: gpl-2.0
+#
+#  __                 ___                  __
+# |  |--.-----.--.--.'  _.----.-----.-----|  |--.
+# |    <|  -__|  |  |   _|   _|  -__|__ --|     |
+# |__|__|_____|___  |__| |__| |_____|_____|__|__|
+#             |_____|
+#
+# *******************************
+# Kill and revive sxhkd.
+# ------------------------------------------
+#
+# contact
+# -------
+# << cory.gantenbein@protonmail.com >> || << https://coryg.me >>
+
+echo "killall sxhkd"
+killall sxhkd
+echo "waiting..."
+sleep 2
+echo "starting sxhkd"
+sxhkd &
