@@ -37,6 +37,8 @@ fi
 for f in $FILES
 do
   echo "> $(date +%F -r $f)" >> $HISTORY_MD
+  echo "" >> $HISTORY_MD
   echo "![Screenshot from $(date +%F -r $f)](${f#"$DOTSDIR/docs/"})" >> $HISTORY_MD
+  echo "" >> $HISTORY_MD
   echo "" >> $HISTORY_MD
 done
