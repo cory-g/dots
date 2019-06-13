@@ -5,6 +5,14 @@ set -g -x TERMINAL "kitty"
 set -g -x FILES "thunar"
 set -g -x EDITOR "subl"
 
+# set variables for i3fyra
+set -g -x I3FYRA_MAIN_CONTAINER "C"
+set -g -x I3FYRA_WS "1"
+set -g -x I3FYRA_ORIENTATION "horizontal"
+
+# Go variables
+set -g -x GOPATH "$HOME/src/go"
+
 # set dotfiles directory variable
 set -g -x DOTSDIR "$HOME/.dotfiles"
 

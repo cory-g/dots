@@ -47,18 +47,25 @@ super + Return
   $TERMINAL
 
 super + alt + Return
-  urxvt -name "floatterm"
+  kitty --name "floatterm"
+  # urxvt -name "floatterm"
 
 # >> Utilities
 
 super + shift + c
   gnome-calculator
 
+# super + f
+#   $FILES
+
+# super + shift + f
+#   sudo $FILES
+
 super + f
-  $FILES
+  $TERMINAL -e ranger
 
 super + shift + f
-  sudo $FILES
+  $TERMINAL -e sudo ranger
 
 # >> User
 

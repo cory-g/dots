@@ -21,6 +21,10 @@
 set $super Mod4
 set $alt Mod1
 
+# >> Shortcuts
+set $FW for_window
+set $FLO floating enable
+
 # >> Workspaces
 set $ws1 "1"
 set $ws2 "2"
@@ -89,31 +93,25 @@ for_window [instance="pbpacman"] move position center
 # >>       |__|  |__|
 
 font pango:DejaVu Sans Mono 8
-# for_window [class="^.*"] border pixel 0
+# $FW [class="^.*"] border pixel 0
 default_border none
 gaps inner 10
 
-for_window [window_role="pop-up"] floating enable
-for_window [class="Gnome-calculator"] floating enable
-for_window [class="insync.py"] floating enable
-for_window [class="Peek"] floating enable
-for_window [instance="floatterm"] floating enable
-for_window [instance="pbnmtui"] floating enable
-for_window [instance="pbpacman"] floating enable
-for_window [instance="nm-connection-editor"] floating enable
-for_window [class="Yad" title="yad-calendar"] floating enable
+$FW  [window_role="pop-up"]              $FLO
+$FW  [class="Gnome-calculator"]          $FLO
+$FW  [class="insync.py"]                 $FLO
+$FW  [class="Peek"]                      $FLO
+$FW  [instance="floatterm"]              $FLO
+$FW  [instance="pbnmtui"]                $FLO
+$FW  [instance="pbpacman"]               $FLO
+$FW  [instance="nm-connection-editor"]   $FLO
+$FW  [class="Yad" title="yad-calendar"]  $FLO
 
-for_window [instance="pbnmtui"] resize set 480 480
-for_window [instance="pbnmtui"] move position center
+$FW  [instance="pbnmtui"]                resize set 480 480
+$FW  [instance="pbnmtui"]                move position center
 
-for_window [instance="pbpacman"] resize set 480 480
-for_window [instance="pbpacman"] move position center
-
-# clientclass             border  backgr. text    indicator
-client.focused            $violet $violet $baseB3 $blue
-client.unfocused          $baseA2 $baseA2 $baseB1 $baseA1
-client.urgent             $yellow $yellow $baseB3 $orange
-client.focused_inactive   $baseA2 $baseA2 $baseB1 $violet
+$FW  [instance="pbpacman"]               resize set 480 480
+$FW  [instance="pbpacman"]               move position center
 
 # >>  __          __                __
 # >> |  |--.-----|  |--.---.-.--.--|__.-----.----.
@@ -122,8 +120,15 @@ client.focused_inactive   $baseA2 $baseA2 $baseB1 $violet
 
 floating_modifier $super
 focus_follows_mouse no
-bindsym $super+Tab workspace back_and_forth
+# bindsym $super+Tab workspace back_and_forth
 
+bindsym $super+Control+a exec --no-startup-id exec i3fyra -m A
+bindsym $super+Control+b exec --no-startup-id exec i3fyra -m B
+bindsym $super+Control+c exec --no-startup-id exec i3fyra -m C
+bindsym $super+Control+d exec --no-startup-id exec i3fyra -m D
+
+bindsym $super+Tab       exec --no-startup-id exec i3flip n
+bindsym $super+Shift+Tab exec --no-startup-id exec i3flip p
 # >>        __   __ __ __ __   __
 # >> .--.--|  |_|__|  |__|  |_|__.-----.-----.
 # >> |  |  |   _|  |  |  |   _|  |  -__|__ --|
@@ -196,3 +201,5 @@ bindsym $super+$alt+c reload
 # bindsym $super+Shift+r restart
 bindsym $super+Shift+r  exec i3-update-conf; restart
 
+set $layout                   'AB=-370 BD=250 AC=130'
+exec --no-startup-id exec i3fyra -l $layout

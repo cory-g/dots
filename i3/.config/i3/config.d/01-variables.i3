@@ -7,6 +7,10 @@
 set $super Mod4
 set $alt Mod1
 
+# >> Shortcuts
+set $FW for_window
+set $FLO floating enable
+
 # >> Workspaces
 set $ws1 "1"
 set $ws2 "2"

@@ -1,0 +1,636 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"theA",
+				"theAppIsDark"
+			],
+			[
+				"default",
+				"defaultInputs"
+			],
+			[
+				"CrimpSp",
+				"CrimpSpecData"
+			],
+			[
+				"cbLen",
+				"cbLengthData"
+			],
+			[
+				"sha",
+				"shankMeas"
+			],
+			[
+				"the",
+				"theAppIsMetric"
+			],
+			[
+				"app",
+				"theAppIsMetric"
+			],
+			[
+				"do",
+				"doCalculation"
+			],
+			[
+				"curren",
+				"currentInput"
+			],
+			[
+				"sirp",
+				"SirpStepsNavButtons"
+			],
+			[
+				"Snow",
+				"SnowplowBladeWeight"
+			],
+			[
+				"lengthIn",
+				"lengthInches"
+			],
+			[
+				"si",
+				"sizeVal"
+			],
+			[
+				"length",
+				"lengthFeet"
+			],
+			[
+				"resu",
+				"resultDec"
+			],
+			[
+				"this",
+				"thisStep"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"THE",
+				"THE_IMAGE"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/cory/src/go/src/wallawalla/main.go",
+			"settings":
+			{
+				"buffer_size": 645,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/cory/src/go/src/wallawalla/cmd/root.go",
+			"settings":
+			{
+				"buffer_size": 2513,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "/*\nCopyright © 2019 NAME HERE <EMAIL ADDRESS>\n\nLicensed under the Apache License, Version 2.0 (the \"License\");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\n    http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.\n*/\npackage cmd\n\nimport (\n\t\"fmt\"\n\n\t\"github.com/spf13/cobra\"\n)\n\n// genCmd represents the gen command\nvar genCmd = &cobra.Command{\n\tUse:   \"gen\",\n\tShort: \"Generate new wallpaper from given image.\",\n\tRun: func(cmd *cobra.Command, args []string) {\n\t\tfmt.Println(\"gen called\")\n\t},\n}\n\nfunc init() {\n\trootCmd.AddCommand(genCmd)\n}\n",
+			"file": "/home/cory/src/go/src/wallawalla/cmd/gen.go",
+			"file_size": 1313,
+			"file_write_time": 132047268334586064,
+			"settings":
+			{
+				"buffer_size": 893,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/cory/src/go/src/wallawalla/cmd/set.go",
+			"settings":
+			{
+				"buffer_size": 1291,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"color s",
+				"UI: Select Color Scheme"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"sync",
+				"Sync Settings: Upload"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"repos",
+				"Package Control: Add Repository"
+			],
+			[
+				"packa",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"add ",
+				"Package Control: Add Repository"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"lo",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"lorem",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"proje",
+				"Project Manager: Add New Project"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 456.0,
+		"history":
+		[
+			"import urllib,urllib.request,os,zipfile; pf='Package Decontrol.sublime-package'; pp=sublime.packages_path(); fp=os.path.join(pp,pf); urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); open(fp,'wb').write(urllib.request.urlopen('http://bit.ly/s3-package-decontrol').read()); zipfile.ZipFile(fp).extractall(os.path.join(pp, 'Package Decontrol'))",
+			"import urllib2,os,zipfile; pf='Package Decontrol.sublime-package'; pp=sublime.packages_path(); fp=os.path.join(pp,pf); urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(fp,'wb').write(urllib2.urlopen('http://bit.ly/package-decontrol').read()); zipfile.ZipFile(fp).extractall(os.path.join(pp, 'Package Decontrol'))",
+			"import urllib,urllib.request,os,zipfile; pf='Package Decontrol.sublime-package'; pp=sublime.packages_path(); fp=os.path.join(pp,pf); urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); open(fp,'wb').write(urllib.request.urlopen('http://bit.ly/s3-package-decontrol').read()); zipfile.ZipFile(fp).extractall(os.path.join(pp, 'Package Decontrol'))"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/cory/src/go/src/wallawalla",
+		"/home/cory/src/go/src/wallawalla/cmd"
+	],
+	"file_history":
+	[
+		"/home/cory/.config/sublime-text-3/Packages/User/Projects/wallawalla.sublime-project",
+		"/home/cory/src/wallawalla/cmd/root.go",
+		"/home/cory/.dotfiles/shell/.path",
+		"/home/cory/.dotfiles/i3/.config/i3/config",
+		"/home/cory/.dotfiles/fish/.config/fish/config.fish",
+		"/home/cory/.dotfiles/i3/.config/i3/config.d/03-window_rules.i3",
+		"/home/cory/.dotfiles/wpgtk/.config/wpg/templates/polybar",
+		"/home/cory/.dotfiles/i3/.config/i3/config.d/11-i3fyra.i3",
+		"/home/cory/.config/wallawalla/wallawalla.conf",
+		"/home/cory/.dotfiles/scripts/.local/bin/pb-nmtui",
+		"/home/cory/.dotfiles/fish/.config/fish/fish_variables",
+		"/home/cory/.dotfiles/scripts/.local/bin/wallawalla",
+		"/home/cory/.dotfiles/X/.Xresources.d/colors/solarized",
+		"/home/cory/.dotfiles/polybar/.config/polybar/config",
+		"/home/cory/.dotfiles/wpgtk/.config/wpg/templates/rofi",
+		"/home/cory/.dotfiles/wpgtk/.config/wpg/templates/polybar.base",
+		"/home/cory/.dotfiles/wpgtk/.config/wpg/templates/i3.base",
+		"/home/cory/.dotfiles/wpgtk/.config/wpg/wpg.conf",
+		"/home/cory/.dotfiles/wpgtk/.config/wpg/templates/i3",
+		"/home/cory/.dotfiles/wpgtk/.config/wpg/templates/rofi.base",
+		"/home/cory/.dotfiles/polybar/.config/polybar/config.d/01-colors.ini",
+		"/home/cory/.dotfiles/polybar/.config/polybar/config.d/16-module.popup-calendar.ini",
+		"/home/cory/.dotfiles/polybar/.config/polybar/config.d/03-module.xwindow.ini",
+		"/home/cory/.dotfiles/polybar/.config/polybar/config.d/02-bar.topbar.ini",
+		"/home/cory/.dotfiles/polybar/.config/polybar/scripts/insync.sh",
+		"/home/cory/.dotfiles/polybar/.config/polybar/config.d/05-module.date.ini",
+		"/home/cory/.dotfiles/polybar/.config/polybar/config.d/04-module.i3.ini",
+		"/home/cory/.dotfiles/polybar/.config/polybar/config.d/13-module.updates-arch.ini",
+		"/home/cory/.dotfiles/scripts/.local/bin/pb-update",
+		"/home/cory/.dotfiles/polybar/.config/polybar/config.d/00-top.ini",
+		"/home/cory/.dotfiles/polybar/.config/polybar/scripts/updates-arch.sh",
+		"/home/cory/.dotfiles/polybar/.config/polybar/config.d/18-module.alsa.ini",
+		"/home/cory/.dotfiles/polybar/.config/polybar/config.d/14-module.insync.ini",
+		"/home/cory/.dotfiles/polybar/.config/polybar/config.d/17-module.battery.ini",
+		"/home/cory/.dotfiles/rofi/.config/rofi/scripts/rofi-powermenu",
+		"/home/cory/.dotfiles/rofi/.config/rofi/scripts/rofi-sysmenu",
+		"/home/cory/.dotfiles/polybar/.config/polybar/config.d/01-vars.ini",
+		"/home/cory/.dotfiles/rofi/.config/rofi/scripts/web-search.sh",
+		"/home/cory/.dotfiles/rofi/.config/rofi/scripts/rofi-update-conf",
+		"/home/cory/.dotfiles/scripts/.local/bin/polybar-ini-watch",
+		"/home/cory/.dotfiles/rofi/.config/rofi/scripts/rofi-mons",
+		"/home/cory/.dotfiles/rofi/.config/rofi/scripts/rofi-insync",
+		"/home/cory/.dotfiles/neofetch/.config/neofetch/config.conf",
+		"/home/cory/.dotfiles/X/.xscreensaver",
+		"/home/cory/.dotfiles/scripts/.local/bin/scrotz",
+		"/home/cory/.dotfiles/scripts/.local/bin/toggletouchpad.sh",
+		"/home/cory/.dotfiles/scripts/.local/bin/i3listen.py",
+		"/home/cory/.dotfiles/scripts/.local/bin/displaytitle",
+		"/home/cory/.dotfiles/scripts/.local/bin/mkscript",
+		"/home/cory/.dotfiles/X/.xinitrc",
+		"/home/cory/.dotfiles/scripts/.local/bin/pb-battery",
+		"/home/cory/.dotfiles/kitty/.config/kitty/kitty.conf",
+		"/home/cory/.dotfiles/i3/.config/i3/config.d/04-appearance.i3",
+		"/home/cory/.dotfiles/i3/.config/i3/config.d/01-variables.i3",
+		"/home/cory/.dotfiles/compton/.config/compton/compton.conf",
+		"/home/cory/.config/menus/applications-merged/xdg-desktop-menu-dummy.menu",
+		"/home/cory/.config/i3/config",
+		"/home/cory/.dotfiles/kitty/.config/kitty/kitty.conf.d/fff.keys.conf",
+		"/home/cory/.dotfiles/kitty/.config/kitty/kitty.conf.d/keys.conf",
+		"/home/cory/.dotfiles/kitty/.config/kitty/solarized.conf",
+		"/home/cory/.dotfiles/kitty/.config/kitty/kitty-vars.conf",
+		"/home/cory/.dotfiles/fish/.config/fish/functions/matrix.fish",
+		"/home/cory/.dotfiles/scripts/.local/bin/pb-alsamixer",
+		"/home/cory/.local/bin/keyfresh",
+		"/home/cory/.dotfiles/X/.Xresources.d/rxvt-unicode",
+		"/home/cory/.dotfiles/polybar/.config/polybar/scripts/pb-calendar.sh",
+		"/home/cory/.dotfiles/polybar/.config/polybar/scripts/launch.sh",
+		"/home/cory/.dotfiles/kitty/.config/kitty/new.conf",
+		"/home/cory/.dotfiles/fish/.config/fish/functions/keyfresh.fish",
+		"/home/cory/.dotfiles/rofi/.config/rofi/config.rasi",
+		"/home/cory/.dotfiles/rofi/.config/rofi/config",
+		"/home/cory/.dotfiles/i3/.config/i3/config.d/03.5-window_rules.i3",
+		"/home/cory/.dotfiles/i3/.config/i3/config.d/appearance.i3",
+		"/home/cory/.dotfiles/i3/.config/i3/config.d/utilities.i3",
+		"/home/cory/.dotfiles/i3/.config/i3/config.d/variables.i3",
+		"/home/cory/.dotfiles/i3/.config/i3/config.d/workspaces.i3",
+		"/home/cory/.dotfiles/i3/.config/i3/config.bak",
+		"/home/cory/.dotfiles/i3/.config/i3/config.d/startup.i3",
+		"/home/cory/.dotfiles/i3/.config/i3/config.d/movement.i3",
+		"/home/cory/.dotfiles/i3/.config/i3/config.d/i3-meta.i3",
+		"/home/cory/.dotfiles/i3/.config/i3/config.d/focus.i3",
+		"/home/cory/.dotfiles/i3/.config/i3/config.d/behavior.i3",
+		"/home/cory/.dotfiles/i3/.config/i3/config.d/00-top.i3",
+		"/home/cory/.dotfiles/polybar/.config/polybar/config.d/98-settings.ini",
+		"/home/cory/.dotfiles/polybar/.config/polybar/config.d/99-global.wm.ini",
+		"/home/cory/.dotfiles/polybar/.config/polybar/config.d/15-module.sysmnu.ini",
+		"/home/cory/.dotfiles/polybar/.config/polybar/config.d/12-module.pwrmnu.ini",
+		"/home/cory/.dotfiles/polybar/.config/polybar/config.d/11-module.xbacklight.ini",
+		"/home/cory/.dotfiles/polybar/.config/polybar/config.d/10-module.mpd.ini",
+		"/home/cory/.dotfiles/polybar/.config/polybar/config.d/09-module.mons.ini",
+		"/home/cory/.dotfiles/polybar/.config/polybar/config.d/08-module.eth.ini",
+		"/home/cory/.dotfiles/polybar/.config/polybar/config.d/07-module.wlan.ini",
+		"/home/cory/.dotfiles/polybar/.config/polybar/config.d/06-module.backlight-acpi.ini",
+		"/home/cory/.dotfiles/polybar/.config/polybar/config.bak",
+		"/home/cory/.dotfiles/update-conf.py/.update-conf.py.conf",
+		"/home/cory/.dotfiles/sxhkd/.config/sxhkd/sxhkdrc",
+		"/home/cory/.dotfiles/dunst/.config/dunst/dunstrc.bak",
+		"/home/cory/.dotfiles/dunst/.config/dunst/dunstrc",
+		"/home/cory/.dotfiles/dunst/.config/dunst/dunstrc.d/01-global.ini",
+		"/home/cory/.dotfiles/dunst/.config/dunst/dunstrc.d/06-urgency_critical.ini",
+		"/home/cory/.dotfiles/dunst/.config/dunst/dunstrc.d/05-urgency_normal.ini",
+		"/home/cory/.dotfiles/dunst/.config/dunst/dunstrc.d/04-urgency_low.ini",
+		"/home/cory/.dotfiles/dunst/.config/dunst/dunstrc.d/03-shortcuts.ini",
+		"/home/cory/.dotfiles/dunst/.config/dunst/dunstrc.d/global.ini",
+		"/home/cory/.dotfiles/dunst/.config/dunst/dunstrc.d/experimental.ini",
+		"/home/cory/.update-conf.py.conf",
+		"/home/cory/.dotfiles/scripts/.local/bin/i3-update-conf",
+		"/home/cory/.dotfiles/i3/.config/i3/config.d/behavior.bak",
+		"/home/cory/.dotfiles/i3/.config/i3/config.d/i3-meta.bak.bak",
+		"/home/cory/.dotfiles/i3/.config/i3/config.d/i3-meta",
+		"/home/cory/.dotfiles/i3/.config/i3/config.d/00-top",
+		"/home/cory/.local/bin/i3-update-conf",
+		"/home/cory/.dotfiles/i3/.config/i3/config.d/workspaces",
+		"/home/cory/.dotfiles/i3/.config/i3/config.d/movement",
+		"/home/cory/.dotfiles/i3/.config/i3/config.d/focus",
+		"/home/cory/.dotfiles/i3/.config/i3/config.d/variables",
+		"/home/cory/.dotfiles/i3/.config/i3/config.d/appearance",
+		"/home/cory/.dotfiles/i3/.config/i3/config.d/utilities",
+		"/home/cory/.dotfiles/i3/.config/i3/config.d/behavior",
+		"/home/cory/.dotfiles/i3/.config/i3/config.d/startup",
+		"/home/cory/.dotfiles/polybar/.config/polybar/modules/alsa.ini",
+		"/home/cory/.dotfiles/polybar/.config/polybar/modules/sysmnu.ini",
+		"/home/cory/.dotfiles/polybar/.config/polybar/modules/battery.ini",
+		"/home/cory/.local/bin/polybar-ini-watch",
+		"/home/cory/.dotfiles/polybar/.config/polybar/bar/topbar",
+		"/home/cory/.dotfiles/polybar/.config/polybar/settings/settings",
+		"/home/cory/.dotfiles/polybar/.config/polybar/global/wm",
+		"/home/cory/.local/bin/pb-alsamixer"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 138.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/cory/src/go/src/wallawalla/main.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 645,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								644,
+								644
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1560252839.42,
+							"syntax": "Packages/Go/Go.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/cory/src/go/src/wallawalla/cmd/root.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2513,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1537,
+								1537
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1560252844.01,
+							"syntax": "Packages/Go/Go.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 918.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/cory/src/go/src/wallawalla/cmd/gen.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 893,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								669,
+								669
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1560253125.14,
+							"syntax": "Packages/Go/Go.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/cory/src/go/src/wallawalla/cmd/set.go",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1291,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								573,
+								573
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"markdonw_live_preview_last_run": 1560253374.51,
+							"syntax": "Packages/Go/Go.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 51.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 86.25
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "wallawalla.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"index util",
+				"src/util/index.js"
+			],
+			[
+				"main",
+				"src/main.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 247.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

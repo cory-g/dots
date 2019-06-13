@@ -19,4 +19,4 @@
 # << cory.gantenbein@protonmail.com >> || << https://coryg.me >>
 
 # urxvt -name "floatterm" --hold -e upower -i /org/freedesktop/UPower/devices/battery_BAT0 &
-kitty --name "floatterm" --hold -e upower -i /org/freedesktop/UPower/devices/battery_BAT0 &
+kitty --name "floatterm" --title "upower" --hold -e upower -i /org/freedesktop/UPower/devices/battery_BAT0 &

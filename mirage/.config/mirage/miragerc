@@ -1,6 +1,6 @@
 [window]
-w = 621
-h = 1020
+w = 945
+h = 1024
 toolbar = True
 statusbar = True
 thumbpane = True

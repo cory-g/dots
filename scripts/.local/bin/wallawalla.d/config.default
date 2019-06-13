@@ -1,0 +1,16 @@
+# syntax:INI
+
+# Final wallpaper path
+THE_WALLPAPER=$HOME/.config/wall.png
+
+# Wallpapers directory
+WALLS_PATH=$HOME/Pictures/Wallpapers
+
+# Colors
+COLOR_1="$(xgetres *color0)"
+COLOR_2="$(xgetres *color13)"
+COLOR_3="$(xgetres *color4)"
+COLOR_4="$(xgetres *color3)"
+
+# Suffix added to each generated wallpaper
+WP_SUFFIX="-wall"

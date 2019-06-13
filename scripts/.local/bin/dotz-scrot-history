@@ -1,0 +1,55 @@
+#!/bin/sh
+#
+# dotz-scrot-history - 0.0.1 - June 13, 2019 @  8:05 am
+# created: June 13, 2019 @  8:05 am by Cory G
+# license: gpl-2.0
+#
+#     __       __                                      __          __    __
+# .--|  .-----|  |_.-----.______.-----.----.----.-----|  |_ ______|  |--|__|
+# |  _  |  _  |   _|-- __|______|__ --|  __|   _|  _  |   _|______|     |  |
+# |_____|_____|____|_____|      |_____|____|__| |_____|____|      |__|__|__|
+#
+#        __
+# .-----|  |_.-----.----.--.--.
+# |__ --|   _|  _  |   _|  |  |
+# |_____|____|_____|__| |___  |
+#                       |_____|
+#
+# *******************************
+# A script I've stupidly left with the default description and vaguely named dotz-scrot-history
+# ------------------------------------------
+#
+# contact
+# -------
+# << cory.gantenbein@protonmail.com >> || << https://coryg.me >>
+
+CURRENT_SCROT=$DOTSDIR/scrot.png
+DOCS_DIR=$DOTSDIR/docs
+SCROT_DIR=$DOCS_DIR/scrot-history
+THE_DATE=$(date +%F)
+HISTORY_MD=$DOCS_DIR/Scrot_History.md
+
+TMP_FILE=$DOCS_DIR/tmp
+
+if [ ! -f "$HISTORY_MD" ]; then
+  touch $HISTORY_MD
+fi
+
+cp $CURRENT_SCROT $SCROT_DIR/tmp.png
+convert $SCROT_DIR/tmp.png -resize 960x540 $SCROT_DIR/$THE_DATE.png
+rm $SCROT_DIR/tmp.png
+
+if ! grep -q "$THE_DATE" $HISTORY_MD; then
+  echo "adding entry to scrot history"
+  echo "> $THE_DATE" >> $TMP_FILE
+  echo "" >> $TMP_FILE
+  echo "![Screenshot](docs/scrot-history/$THE_DATE.png)" >> $TMP_FILE
+  echo "" >> $TMP_FILE
+  echo "" >> $TMP_FILE
+fi
+
+
+
+cat $HISTORY_MD >> $TMP_FILE
+cp $TMP_FILE $HISTORY_MD
+rm $TMP_FILE

@@ -1,0 +1,37 @@
+#!/bin/sh
+#
+# tezzzzt - 0.0.1 - June 12, 2019 @  7:45 am
+# created: June 12, 2019 @  7:45 am by Cory G
+# license: gpl-2.0
+#
+#  __                                 __
+# |  |_.-----.-----.-----.-----.-----|  |_
+# |   _|  -__|-- __|-- __|-- __|-- __|   _|
+# |____|_____|_____|_____|_____|_____|____|
+#
+#
+# *******************************
+# A script I've stupidly left with the default description and vaguely named tezzzzt
+# ------------------------------------------
+#
+# contact
+# -------
+# << cory.gantenbein@protonmail.com >> || << https://coryg.me >>
+
+printValue()
+{
+  section="$1"
+  param="$2"
+  found=false
+  while read line
+  do
+    [[ $found == false && "$line" != "[$section]" ]] &&  continue
+    [[ $found == true && "${line:0:1}" = '[' ]] && break
+    found=true
+    [[ "${line%=*}" == "$param" ]] && { echo "${line#*=}"; break; }
+  done
+}
+
+app2name=$(printValue section-1 var1 < ./test.ini)
+
+echo $app2name

@@ -3,9 +3,14 @@
 title="Update Conf"
 widthpercent=20
 
+UPDATE_CONF=$(which update-conf.py)
+
 typeset -A menu
 menu=(
-    ["Dunst"]="update-conf.py -n dunst"
-    ["i3"]="update-conf.py -n i3wm"
-    ["Polybar"]="update-conf.py -n polybar"
+  ["Dunst"]="$UPDATE_CONF -n dunst"
+  ["i3"]="$UPDATE_CONF -n i3wm"
+  ["Polybar"]="$UPDATE_CONF -n polybar"
+  ["Kitty"]="$UPDATE_CONF -n kitty"
+  ["Neofetch"]="$UPDATE_CONF -n neofetch"
+  ["Ranger - rc.conf"]="$UPDATE_CONF -n rangerrc"
 )

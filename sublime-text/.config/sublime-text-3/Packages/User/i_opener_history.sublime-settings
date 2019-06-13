@@ -1,7 +1,6 @@
 {
 	"file_history":
 	[
-		"/home/cory/www/cory_g.gitlab.io/src/assets/scss/utilities/_media-queries.scss",
 		"/home/cory/www/cory_g.gitlab.io/src/assets/scss/utilities/_visual-helper.scss",
 		"/home/cory/www/cory_g.gitlab.io/src/_includes/header.html",
 		"/home/cory/www/cory_g.gitlab.io/gulpfile.js",
@@ -30,6 +29,7 @@
 		"/home/rustyschakelford/.zshrc",
 		"/home/rustyschakelford/.bashrc",
 		"/home/rustyschakelford/bin/mkscript",
-		"/home/cory/src/rusty-sublime/README.md"
+		"/home/cory/src/rusty-sublime/README.md",
+		"/home/cory/.config/wallawalla/wallawalla.conf"
 	]
 }

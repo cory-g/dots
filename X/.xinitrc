@@ -6,6 +6,8 @@ sysresources=/etc/X11/xinit/.Xresources
 sysmodmap=/etc/X11/xinit/.Xmodmap
 userpath=$HOME/.path
 
+export GOPATH="$HOME/src/go"
+
 #
 # merge in defaults and keymaps
 #

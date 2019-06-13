@@ -4,10 +4,12 @@
 
 ## AUR
 
+- bashbud
 - blender-2.8-bin
 - corrupter-git
 - google-chrome
 - gtk-theme-solarc-git
+- i3ass
 - i3lock-color
 - insync
 - light-git
@@ -18,6 +20,7 @@
 - numix-icon-theme-git
 - nvm
 - otf-hermit
+- otf-san-francisco
 - pamac-aur-tray-appindicator-git
 - polybar-git
 - rofimoji-git
@@ -25,15 +28,18 @@
 - siji-git
 - thinkfan
 - tlpui-git
+- tmatrix-git
 - toilet
 - ttf-iosevka
 - ttf-ms-fonts
 - ttf-unifont
 - tty-clock
 - undefined-medium-fonts
+- wpgtk-git
 - xcursor-capitaine
 - xgetres
 - xst-git
+- yad
 - yay
 
 ## Pacman
@@ -45,11 +51,13 @@
 - archlinux-xdg-menu
 - autoconf
 - automake
+- autorandr
 - bash
 - bc
 - binutils
 - bison
 - blender
+- breeze-icons
 - btrfs-progs
 - bzip2
 - compton
@@ -72,6 +80,7 @@
 - findutils
 - fish
 - flex
+- frei0r-plugins
 - fuse2
 - gawk
 - gcc
@@ -101,6 +110,8 @@
 - iputils
 - jfsutils
 - kcharselect
+- kdenlive
+- kitty
 - klavaro
 - less
 - libtool
@@ -109,6 +120,7 @@
 - linux-firmware
 - logrotate
 - lolcat
+- lsd
 - lvm2
 - lxappearance
 - m4
@@ -129,6 +141,7 @@
 - pacman-contrib
 - patch
 - pciutils
+- pcurses
 - peek
 - perl
 - pkgconf
@@ -138,6 +151,7 @@
 - python-gobject
 - python-jinja
 - python-pip
+- ranger
 - reiserfsprogs
 - rofi
 - ruby
@@ -174,6 +188,7 @@
 - wmctrl
 - xclip
 - xfsprogs
+- xkeycaps
 - xorg-server
 - xorg-xbacklight
 - xorg-xdpyinfo

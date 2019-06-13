@@ -10,6 +10,7 @@
 ; ░██░░░  ░██   ░██ ░██   ██    ░██  ░██ ██░░░░██  ░██
 ; ░██     ░░██████  ███  ██     ░██████ ░░████████░███
 ; ░░       ░░░░░░  ░░░  ░░      ░░░░░    ░░░░░░░░ ░░░
+
 [colors]
 base02 =   ${xrdb:color0:#073642}
 red =      ${xrdb:color1:#dc322f}
@@ -19,27 +20,38 @@ blue =     ${xrdb:color4:#268bd2}
 magenta =  ${xrdb:color5:#d33682}
 cyan =     ${xrdb:color6:#2aa198}
 base2 =    ${xrdb:color7:#eee8d5}
-base03 =   ${xrdb:color8:#002b36}
 orange =   ${xrdb:color9:#cb4b16}
+base03 =   ${xrdb:color8:#002b36}
+base01 =   ${xrdb:color10:#586e75}
+base00 =   ${xrdb:color11:#657b83}
+base0 =    ${xrdb:color12:#839496}
 violet =   ${xrdb:color13:#6c71c4}
+base1 =    ${xrdb:color14:#93a1a1}
 base3 =    ${xrdb:color15:#fdf6e3}
 black =    #000
 white =    #fff
+trans =    #00000000
+
+[vars]
+border-size = 6
+radius = 6
+; hello
+
 [bar/topbar]
 monitor = ${env:MONITOR:}
 width = 100%
 height = 24
-radius = 6
+radius = ${vars.radius}
 fixed-center = true
 
 background = ${colors.base02}
-foreground = ${colors.base2}
+foreground = ${colors.base1}
 
 line-size = 4
 line-color = ${colors.red}
 
-border-size = 6
-border-color = #00000000
+border-size = ${vars.border-size}
+border-color = ${colors.trans}
 
 padding-left = 0
 padding-right = 1
@@ -49,13 +61,13 @@ module-margin-right = 2
 
 font-0 = "undefined medium:size=8;1.5"
 font-1 = "undefined medium:size=8;1.5"
-font-2 = Siji:pixelsize=16;1
-font-3 = Font Awesome 5 Brands Regular:size=8;2
-font-4 = Font Awesome 5 Pro Solid:size=8;2
+font-2 = "Siji:pixelsize=16;1"
+font-3 = "Font Awesome 5 Brands Regular:size=10;1.5"
+font-4 = "Font Awesome 5 Pro Solid:size=10;1.5"
 
 modules-left = i3
 modules-center = xwindow
-modules-right = xbacklight battery popup-calendar updates-arch insync alsa wlan eth mons pwrmnu
+modules-right = battery updates-arch insync alsa popup-calendar wlan eth mons pwrmnu
 
 tray-position = none
 tray-padding = 0
@@ -64,10 +76,14 @@ scroll-up = i3wm-wsnext
 scroll-down = i3wm-wsprev
 
 cursor-click = pointer
-cursor-scroll = ns-resize
+cursor-scroll = pointer
+
 [module/xwindow]
 type = internal/xwindow
-label =  %title:0:30:...%
+label = %title:0:30:...%
+format-prefix = " "
+format-prefix-foreground = ${colors.blue}
+
 [module/i3]
 type = internal/i3
 format = <label-state> <label-mode>
@@ -80,25 +96,27 @@ label-mode-background = ${colors.yellow}
 
 ; focused = Active workspace on focused monitor
 label-focused = %index%
-label-focused-background = ${colors.base03}
-label-focused-underline= ${colors.yellow}
-label-focused-foreground= ${colors.yellow}
+label-focused-background = ${colors.violet}
+; label-focused-underline= ${colors.yellow}
+label-focused-foreground= ${colors.base03}
 label-focused-padding = 2
 
 ; unfocused = Inactive workspace on any monitor
 label-unfocused = %index%
 label-unfocused-padding = 2
+label-unfocused-foreground= ${colors.base1}
 
 ; visible = Active workspace on unfocused monitor
 label-visible = %index%
 label-visible-background = ${self.label-focused-background}
-label-visible-underline = ${self.label-focused-underline}
+; label-visible-underline = ${self.label-focused-underline}
 label-visible-padding = ${self.label-focused-padding}
 
 ; urgent = Workspace with urgency hint set
 label-urgent = %index%!
 label-urgent-background = ${colors.red}
 label-urgent-padding = 2
+
 [module/date]
 type = internal/date
 interval = 5
@@ -112,10 +130,12 @@ format-underline = ${colors.blue}
 label = %time%
 
 click-right = pb-calendar --popup
+
 [module/backlight-acpi]
 inherit = module/xbacklight
 type = internal/backlight
 card = intel_backlight
+
 [module/wlan]
 type = internal/network
 interface = wlp3s0
@@ -131,6 +151,7 @@ ramp-signal-0 = %{A1:nm-connection-editor:}%{A}
 ramp-signal-1 = %{A1:nm-connection-editor:}%{A}
 ramp-signal-2 = %{A1:nm-connection-editor:}%{A}
 ramp-signal-3 = %{A1:nm-connection-editor:}%{A}
+
 [module/eth]
 type = internal/network
 interface = enp0s25
@@ -140,11 +161,13 @@ format-connected-prefix = " "
 format-connected-prefix-foreground = ${colors.base3}
 label-connected = ""
 format-connected = %{A1:nm-connection-editor:}%{A}
+
 [module/mons]
 type = custom/text
 content-foreground = ${colors.yellow}
 content = ""
 click-left = rofigen ~/.config/rofi/scripts/rofi-mons
+
 [module/mpd]
 type = internal/mpd
 format-online = <label-song>  <icon-prev> <icon-stop> <toggle> <icon-next>
@@ -157,6 +180,7 @@ icon-next = 
 
 label-song-maxlen = 25
 label-song-ellipsis = true
+
 [module/xbacklight]
 type = internal/xbacklight
 
@@ -173,43 +197,49 @@ bar-fill-foreground = ${colors.violet}
 bar-empty = ─
 bar-empty-font = 2
 bar-empty-foreground = ${colors.base3}
+
 [module/pwrmnu]
 type = custom/text
 content-foreground = ${colors.red}
 content = ""
 click-left = rofigen ~/.config/rofi/scripts/rofi-powermenu
+
 [module/updates-arch]
 type = custom/script
 format-prefix = " "
+format-prefix-foreground = ${colors.violet}
 exec = ~/.config/polybar/scripts/updates-arch.sh
 interval = 600
 click-left = pb-update
-format-prefix-foreground = ${colors.base3}
-format-underline = ${colors.violet}
+click-right = pb-update
 format-padding = 1
+
 [module/insync]
 type = custom/script
 exec = ~/.config/polybar/scripts/insync.sh
 interval = 1
 click-right = rofigen ~/.config/rofi/scripts/rofi-insync
 click-left = insync toggle
-format-prefix-foreground = ${colors.base3}
-format-underline = ${colors.orange}
-format-prefix = ""
-format-prefix-padding-right = 1
+; format-prefix-foreground = ${colors.base3}
+; format-underline = ${colors.orange}
+; format-prefix = ""
+; format-prefix-foreground = ${colors.orange}
+; format-prefix-padding-right = 1
+label-foreground = ${colors.orange}
 [module/sysmnu]
 type = custom/text
 content-foreground = ${colors.red}
 content = ""
 click-left = rofigen ~/.config/rofi/scripts/rofi-sysmenu
+
 [module/popup-calendar]
 type = custom/script
 exec = ~/.config/polybar/scripts/pb-calendar.sh
 interval = 5
 click-left = ~/.config/polybar/scripts/pb-calendar.sh --popup
-format-prefix-foreground = ${colors.base3}
-format-underline = ${colors.blue}
+format-prefix-foreground = ${colors.blue}
 format-prefix = " "
+
 [module/battery]
 type = internal/battery
 battery = BAT0
@@ -218,28 +248,28 @@ full-at = 98
 poll-interval = 5
 
 format-charging = %{A1:pb-battery:}<animation-charging> <label-charging>%{A}
-format-charging-underline = ${colors.green}
+format-charging-foreground = ${colors.green}
 
 format-discharging = %{A1:pb-battery:}<ramp-capacity> <label-discharging>%{A}
-format-discharging-underline = ${colors.yellow}
+format-discharging-foreground = ${colors.yellow}
 
 format-full = %{A1:pb-battery:}%{A}
 format-full-prefix = " "
-format-full-prefix-foreground = ${colors.base3}
-format-full-underline = ${self.format-charging-underline}
+format-full-foreground = ${colors.green}
 
 ramp-capacity-0 = " "
 ramp-capacity-1 = " "
 ramp-capacity-2 = " "
 ramp-capacity-3 = " "
 ramp-capacity-4 = " "
-ramp-capacity-foreground = ${colors.base3}
+ramp-capacity-foreground = ${colors.green}
 
 animation-charging-0 = " "
 animation-charging-1 = " "
 
-animation-charging-foreground = ${colors.base3}
+animation-charging-foreground = ${colors.green}
 animation-charging-framerate = 2000
+
 [module/alsa]
 type = internal/alsa
 master-soundcard = default
@@ -251,16 +281,21 @@ mapped = true
 interval = 5
 format-volume = <ramp-volume>
 label-muted = ""
-format-volume-underline = ${colors.green}
-format-muted-underline = ${colors.red}
+; format-volume-underline = ${colors.green}
+format-volume-foreground = ${colors.green}
+; format-muted-underline = ${colors.red}
+format-muted-foreground = ${colors.red}
 format-muted-padding = 1
 
 ramp-volume-0 = "  "
 ramp-volume-1 = "  "
 ramp-volume-2 = "  "
 ramp-volume-3 = "  "
+
 [settings]
 screenchange-reload = true
+
 [global/wm]
 margin-top = 5
 margin-bottom = 5
+

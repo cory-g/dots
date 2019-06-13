@@ -14,13 +14,13 @@ case $STATUS in
     echo -n ""
     ;;
   SHARE)
-    echo -n ""
+    echo -n ""
     ;;
   SYNCED)
-    echo -n ""
+    echo -n ""
     ;;
   SYNCING)
-    echo -n ""
+    echo -n ""
     ;;
   UNLINKED)
     echo -n ""

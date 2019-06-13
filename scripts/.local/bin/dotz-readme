@@ -18,6 +18,16 @@
 # -------
 # << cory.gantenbein@protonmail.com >> || << https://coryg.me >>
 
+# Variables
+TMP_FILE="./tmp.txt"
+RDMEFILE=$DOTSDIR/README.md
+APPS_FILE="Packages.md"
+RDME_DIR=$DOTSDIR/dotz.d
+DOCS_URL="https://github.com/cory-g/dots/tree/master/docs"
+OS_STRING=$(neofetch --stdout | grep "OS")
+OS_NAME=${OS_STRING#"OS: "}
+DSH=$(which dotz-scrot-history)
+
 # Functions
 
 function cat_it () {
@@ -36,16 +46,11 @@ function echo_it () {
 
 # Begin
 
+echo "Generating Screenshot history"
+$DSH
+sleep 1
+
 echo "Generating README.md"
-
-TMP_FILE="./tmp.txt"
-RDMEFILE=$DOTSDIR/README.md
-APPS_FILE="Packages.md"
-RDME_DIR=$DOTSDIR/dotz.d
-DOCS_URL="https://github.com/cory-g/dots/tree/master/docs"
-OS_STRING=$(neofetch --stdout | grep "OS")
-OS_NAME=${OS_STRING#"OS: "}
-
 rm $RDMEFILE
 
 neofetch --stdout --disable title underline model kernel uptime packages resolution cpu gpu memory >> $TMP_FILE
@@ -68,6 +73,8 @@ echo_it "$NEOFETCH"
 echo "### Partition Scheme" >> $RDMEFILE
 echo_it "$LSBLK"
 echo_it "$PKGZ_LIST"
+echo "### Evolution" >> $RDMEFILE
+echo_it "$(cat $DOTSDIR/docs/Scrot_History.md)"
 
 rm $TMP_FILE
 echo "Done."

@@ -19,5 +19,4 @@
 # << cory.gantenbein@protonmail.com >> || << https://coryg.me >>
 
 # urxvt -name "floatterm" --hold -e sudo pacman -Syu &
-kitty --name "floatterm" --hold -e sudo pacman -Syu &
-
+kitty --name "floatterm" --hold -e yay -Syu &

@@ -3,12 +3,14 @@
 title="Monitor configuration"
 widthpercent=25
 
+SCRIPT_PATH="$HOME/.screenlayout"
+
 typeset -A menu
 menu=(
-    ["1: internal only"]="~/.screenlayout/1-internal-lvds.sh"
-    ["2: external VGA"]="~/.screenlayout/2-external-vga.sh"
-    # ["3: external DP"]="~/sh_kawaiifaces 3"
-    # ["4: dual external"]="~/sh_kawaiifaces 4"
-    ["5: extend internal to VGA"]="~/.screenlayout/5-extend-vga.sh"
-    # ["6: extend internal to DP"]="~/sh_kawaiifaces 5"
+  ["1: internal only"]="$SCRIPT_PATH/1-internal-lvds.sh"
+  ["2: external VGA"]="$SCRIPT_PATH/2-external-vga.sh"
+  # ["3: external DP"]="~/sh_kawaiifaces 3"
+  # ["4: dual external"]="~/sh_kawaiifaces 4"
+  ["5: extend internal to VGA"]="$SCRIPT_PATH/5-extend-vga.sh"
+  # ["6: extend internal to DP"]="~/sh_kawaiifaces 5"
 )

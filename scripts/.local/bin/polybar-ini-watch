@@ -24,4 +24,7 @@
 # << cory.gantenbein@protonmail.com >> || << https://coryg.me >>
 
 
-ls .dotfiles/polybar/.config/polybar/*/*.ini | entr .dotfiles/polybar/.config/polybar/scripts/launch.sh
+# ls .dotfiles/polybar/.config/polybar/*/*.ini | entr .dotfiles/polybar/.config/polybar/scripts/launch.sh
+UPDATE_CONF=$(which update-conf.py)
+
+ls .dotfiles/polybar/.config/polybar/config.d/*.ini | entr $UPDATE_CONF -n polybar; $HOME/.dotfiles/polybar/.config/polybar/scripts/launch.sh

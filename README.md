@@ -13,8 +13,8 @@
 - OS: Arch Linux 
 - Shell: fish 
 - WM: i3 
-- Theme: SolArc-Dark [GTK2/3] 
-- Icons: Numix [GTK2/3] 
+- Theme: SolArc-Dark 
+- Icons: Numix 
 - Terminal: kitty 
 - Terminal Font: Hurmit Nerd Font Mono:style=medium 10.0 
 
@@ -30,4 +30,9 @@
 
 ### Packages
 For a complete list of packages installed from the official repositories as well as the AUR, please click [here](https://github.com/cory-g/dots/tree/master/docs/Packages.md).
+
+### Evolution
+> 2019-06-13
+
+![Screenshot](docs/scrot-history/2019-06-13.png)
 
