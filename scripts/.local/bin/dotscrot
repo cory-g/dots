@@ -24,7 +24,7 @@
 CURRENT_SCROT=$DOTSDIR/scrot.png
 WIDTH=$(identify -format "%w" $CURRENT_SCROT)
 HEIGHT=$(identify -format "%h" $CURRENT_SCROT)
-DIMEN_DIV=3
+DIMEN_DIV=1
 
 convert $CURRENT_SCROT -resize $((WIDTH / $DIMEN_DIV))x$((HEIGHT / $DIMEN_DIV)) $DOTSDIR/docs/scrot-history/$(date +%F -r $CURRENT_SCROT).png
 
