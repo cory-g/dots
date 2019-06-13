@@ -31,8 +31,3 @@
 ### Packages
 For a complete list of packages installed from the official repositories as well as the AUR, please click [here](https://github.com/cory-g/dots/tree/master/docs/Packages.md).
 
-### Evolution
-> 2019-06-13
-
-![Screenshot](docs/scrot-history/2019-06-13.png)
-

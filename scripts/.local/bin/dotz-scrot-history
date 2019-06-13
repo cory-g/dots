@@ -31,12 +31,16 @@ HISTORY_MD=$DOCS_DIR/Scrot_History.md
 
 TMP_FILE=$DOCS_DIR/tmp
 
+WIDTH=$(identify -format "%w" $CURRENT_SCROT)
+HEIGHT=$(identify -format "%h" $CURRENT_SCROT)
+DIMEN_DIV=3
+
 if [ ! -f "$HISTORY_MD" ]; then
   touch $HISTORY_MD
 fi
 
 cp $CURRENT_SCROT $SCROT_DIR/tmp.png
-convert $SCROT_DIR/tmp.png -resize 960x540 $SCROT_DIR/$THE_DATE.png
+convert $SCROT_DIR/tmp.png -resize $((WIDTH / $DIMEN_DIV))x$((HEIGHT / $DIMEN_DIV)) $SCROT_DIR/$THE_DATE.png
 rm $SCROT_DIR/tmp.png
 
 if ! grep -q "$THE_DATE" $HISTORY_MD; then
