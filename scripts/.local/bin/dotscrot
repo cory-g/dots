@@ -28,8 +28,6 @@ DIMEN_DIV=3
 
 convert $CURRENT_SCROT -resize $((WIDTH / $DIMEN_DIV))x$((HEIGHT / $DIMEN_DIV)) $DOTSDIR/docs/scrot-history/$(date +%F -r $CURRENT_SCROT).png
 
-
-# cp $CURRENT_SCROT $DOTSDIR/docs/scrot-history/$(date +%F -r $CURRENT_SCROT).png
 rm $CURRENT_SCROT
 
 scrot $CURRENT_SCROT

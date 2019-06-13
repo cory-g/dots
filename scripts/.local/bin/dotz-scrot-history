@@ -23,37 +23,20 @@
 # -------
 # << cory.gantenbein@protonmail.com >> || << https://coryg.me >>
 
-CURRENT_SCROT=$DOTSDIR/scrot.png
 DOCS_DIR=$DOTSDIR/docs
 SCROT_DIR=$DOCS_DIR/scrot-history
-THE_DATE=$(date +%F)
 HISTORY_MD=$DOCS_DIR/Scrot_History.md
+FILES=$SCROT_DIR/*.png
 
-TMP_FILE=$DOCS_DIR/tmp
-
-WIDTH=$(identify -format "%w" $CURRENT_SCROT)
-HEIGHT=$(identify -format "%h" $CURRENT_SCROT)
-DIMEN_DIV=3
+rm $HISTORY_MD
 
 if [ ! -f "$HISTORY_MD" ]; then
   touch $HISTORY_MD
 fi
 
-cp $CURRENT_SCROT $SCROT_DIR/tmp.png
-convert $SCROT_DIR/tmp.png -resize $((WIDTH / $DIMEN_DIV))x$((HEIGHT / $DIMEN_DIV)) $SCROT_DIR/$THE_DATE.png
-rm $SCROT_DIR/tmp.png
-
-if ! grep -q "$THE_DATE" $HISTORY_MD; then
-  echo "adding entry to scrot history"
-  echo "> $THE_DATE" >> $TMP_FILE
-  echo "" >> $TMP_FILE
-  echo "![Screenshot](docs/scrot-history/$THE_DATE.png)" >> $TMP_FILE
-  echo "" >> $TMP_FILE
-  echo "" >> $TMP_FILE
-fi
-
-
-
-cat $HISTORY_MD >> $TMP_FILE
-cp $TMP_FILE $HISTORY_MD
-rm $TMP_FILE
+for f in $FILES
+do
+  echo "> $(date +%F -r $f)" >> $HISTORY_MD
+  echo "![Screenshot from $(date +%F -r $f)](${f#"$DOTSDIR/docs/"})" >> $HISTORY_MD
+  echo "" >> $HISTORY_MD
+done
