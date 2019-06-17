@@ -4,13 +4,15 @@ title="Update Conf"
 widthpercent=20
 
 UPDATE_CONF=$(which update-conf.py)
+KITTY_CONF=$(which kittyconf)
 
 typeset -A menu
 menu=(
   ["Dunst"]="$UPDATE_CONF -n dunst"
   ["i3"]="$UPDATE_CONF -n i3wm"
   ["Polybar"]="$UPDATE_CONF -n polybar"
-  ["Kitty"]="$UPDATE_CONF -n kitty"
+  ["Kitty"]="$KITTY_CONF"
   ["Neofetch"]="$UPDATE_CONF -n neofetch"
   ["Ranger - rc.conf"]="$UPDATE_CONF -n rangerrc"
+  ["ncmpcpp"]="$UPDATE_CONF -n ncmpcpp"
 )

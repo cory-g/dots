@@ -1,0 +1,32 @@
+#!/bin/sh
+#
+# stabvid - 0.0.1 - June 17, 2019 @ 12:31 pm
+# created: June 17, 2019 @ 12:31 pm by Cory G
+# license: gpl-2.0
+#
+#        __         __          __    __
+# .-----|  |_.---.-|  |--.--.--|__.--|  |
+# |__ --|   _|  _  |  _  |  |  |  |  _  |
+# |_____|____|___._|_____|\___/|__|_____|
+#
+#
+# *******************************
+# A script I've stupidly left with the default description and vaguely named stabvid
+# ------------------------------------------
+#
+# contact
+# -------
+# << cory.gantenbein@protonmail.com >> || << https://coryg.me >>
+
+
+FILES=$1
+for f in $FILES
+do
+  # Make transforms file
+
+  ffmpeg -i $f -vf vidstabdetect=shakiness=10:accuracy=15:result="transforms.$f.trf" -f null -
+
+  sleep 1
+
+  ffmpeg -i $f -vf vidstabtransform=smoothing=30:input="transforms.$f.trf" "stab.$f"
+done

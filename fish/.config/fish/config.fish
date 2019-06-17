@@ -2,7 +2,8 @@
 set -g -x BROWSER "google-chrome-stable"
 # set -g -x TERMINAL "urxvt"
 set -g -x TERMINAL "kitty"
-set -g -x FILES "thunar"
+set -g -x FILES "ranger"
+set -g -x FILES_ALT "thunar"
 set -g -x EDITOR "subl"
 
 # set variables for i3fyra

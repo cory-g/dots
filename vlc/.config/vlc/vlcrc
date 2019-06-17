@@ -1,5 +1,5 @@
 ﻿###
-###  vlc 3.0.6
+###  vlc 3.0.7.1
 ###
 
 ###
@@ -234,33 +234,6 @@
 
 # Open GL/GLES hardware converter (string)
 #glconv=
-
-# Rendering intent for color conversion (integer)
-#rendering-intent=1
-
-# Display primaries (integer)
-#target-prim=0
-
-# Display gamma / transfer function (integer)
-#target-trc=0
-
-# Tone-mapping algorithm (integer)
-#tone-mapping=3
-
-# Tone-mapping parameter (float)
-#tone-mapping-param=0.000000
-
-# Tone-mapping desaturation coefficient (float)
-#tone-mapping-desat=0.500000
-
-# Highlight clipped pixels (boolean)
-#tone-mapping-warn=0
-
-# Dithering algorithm (integer)
-#dither-algo=-1
-
-# Dither depth override (0 = framebuffer depth) (integer)
-#dither-depth=0
 
 [flaschen] # Flaschen-Taschen video output
 
@@ -1373,7 +1346,7 @@
 #sout-avi-subject=
 
 # Encoder (string)
-#sout-avi-encoder=VLC Media Player - 3.0.6 Vetinari
+#sout-avi-encoder=VLC Media Player - 3.0.7.1 Vetinari
 
 # Keywords (string)
 #sout-avi-keywords=
@@ -1854,6 +1827,9 @@ qt-privacy-ask=0
 
 # Advanced options (string)
 #sout-avformat-options=
+
+# Reset timestamps (boolean)
+#sout-avformat-reset-ts=0
 
 [adaptive] # Unified adaptive streaming for DASH/HLS
 
@@ -2386,6 +2362,20 @@ qt-privacy-ask=0
 # CBR encoding (boolean)
 #sout-vorbis-cbr=0
 
+[twolame] # Libtwolame audio encoder
+
+# Encoding quality (float)
+#sout-twolame-quality=0.000000
+
+# Stereo mode (integer)
+#sout-twolame-mode=0
+
+# VBR mode (boolean)
+#sout-twolame-vbr=0
+
+# Psycho-acoustic model (integer)
+#sout-twolame-psy=3
+
 [ttml] # TTML subtitles decoder
 
 # Subtitle justification (integer)
@@ -2681,7 +2671,7 @@ qt-privacy-ask=0
 #alsa-audio-channels=6
 
 # Software gain (float)
-alsa-gain=1.030301
+alsa-gain=0.103823
 
 [afile] # File audio output
 
@@ -2961,6 +2951,38 @@ alsa-gain=1.030301
 # Group packets (integer)
 #sout-udp-group=1
 
+[access_output_shout] # IceCAST output
+
+# Stream name (string)
+#sout-shout-name=VLC media player - Live stream
+
+# Stream description (string)
+#sout-shout-description=Live stream from VLC media player
+
+# Stream MP3 (boolean)
+#sout-shout-mp3=0
+
+# Genre description (string)
+#sout-shout-genre=Alternative
+
+# URL description (string)
+#sout-shout-url=http://www.videolan.org/vlc
+
+# Bitrate (string)
+#sout-shout-bitrate=
+
+# Samplerate (string)
+#sout-shout-samplerate=
+
+# Number of channels (string)
+#sout-shout-channels=
+
+# Ogg Vorbis Quality (string)
+#sout-shout-quality=
+
+# Stream public (boolean)
+#sout-shout-public=0
+
 [http] # HTTP stream output
 
 # Username (string)
@@ -3093,6 +3115,11 @@ alsa-gain=1.030301
 
 # RTP payload format assumed for dynamic payloads (string)
 #rtp-dynamic-pt=
+
+[nfs] # NFS input
+
+# Set NFS uid/guid automatically (boolean)
+#nfs-auto-guid=1
 
 [live555] # RTP/RTSP/SDP demuxer (using Live555)
 

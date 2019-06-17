@@ -1,6 +1,6 @@
 # Arch Linux .dotfiles
 
-![Screenshot](scrot.png)
+![Screenshot](2019-06-13.png)
 
 (For a history of screenshots, click [here](https://github.com/cory-g/dots/tree/master/docs/Scrot_History.md))
 

@@ -1,0 +1,53 @@
+#!/bin/sh
+#
+# mktextwp - 0.0.1 - June 14, 2019 @  9:23 am
+# created: June 14, 2019 @  9:23 am by Cory G
+# license: gpl-2.0
+#
+#           __    __               __
+# .--------|  |--|  |_.-----.--.--|  |_.--.--.--.-----.
+# |        |    <|   _|  -__|_   _|   _|  |  |  |  _  |
+# |__|__|__|__|__|____|_____|__.__|____|________|   __|
+#                                               |__|
+#
+# *******************************
+# A script I've stupidly left with the default description and vaguely named mktextwp
+# ------------------------------------------
+#
+# contact
+# -------
+# << cory.gantenbein@protonmail.com >> || << https://coryg.me >>
+
+
+# convert -background transparent -fill (xgetres color3) -font Iosevka -pointsize 72 label:r label_02.png
+
+COLOR_NUMS=("1" "2" "3" "4" "5" "6" "7" "9" "13")
+
+word=$1
+touch ./tmp.txt
+for i in $(seq 1 ${#word})
+do
+
+	SEL_NUM=${COLOR_NUMS[$RANDOM % ${#COLOR_NUMS[@]}]}
+	# echo "Letter $i: ${word:i-1:1}"
+	# COLOR_NUM=$(( $i  % 16 ))
+	# echo $SEL_NUM
+
+	convert -background transparent -fill $(xgetres color$SEL_NUM) -font Iosevka -pointsize 72 label:"${word:i-1:1}" label_$i.png
+
+	echo label_$i.png >> ./tmp.txt
+
+done
+
+PWD=$(pwd)
+echo $PWD
+NUM_FILES=$(ls -1 $PWD/*.png | wc -l)
+# echo $NUM_FILES
+
+sleep 2
+echo "making montage of $NUM_FILES"
+sleep 1
+montage -background transparent -label ' ' @tmp.txt -tile x1 -geometry '1x1+0+0<' ./$word.png
+
+rm ./tmp.txt
+rm label_*.png

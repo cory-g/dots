@@ -28,6 +28,12 @@ OS_STRING=$(neofetch --stdout | grep "OS")
 OS_NAME=${OS_STRING#"OS: "}
 DSH=$(which dotz-scrot-history)
 
+# Get first *.png image in $DOTSDIR (Should only be current screenshot)
+ALL_PICS="$DOTSDIR/*.png"
+PICS_ARRAY=( $ALL_PICS )
+FIRST_PIC=${PICS_ARRAY[0]}  # printf is safer!
+THE_SCROT=$(basename $FIRST_PIC)
+
 # Functions
 
 function cat_it () {
@@ -59,7 +65,7 @@ sed -i -e 's/^/- /' $TMP_FILE
 
 RDME_TITLE="# $OS_NAME.dotfiles
 
-![Screenshot](scrot.png)"
+![Screenshot]($THE_SCROT)"
 NEOFETCH="$(cat $TMP_FILE)"
 LSBLK="$(mdlsblk)"
 PKGZ_LIST="### Packages
@@ -78,3 +84,4 @@ echo_it "$PKGZ_LIST"
 
 rm $TMP_FILE
 echo "Done."
+

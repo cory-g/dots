@@ -21,15 +21,20 @@
 # -------
 # << cory.gantenbein@protonmail.com >> || << https://coryg.me >>
 
+PIX=$(ls $DOTSDIR/*.png)
+
 CURRENT_SCROT=$DOTSDIR/scrot.png
 WIDTH=$(identify -format "%w" $CURRENT_SCROT)
 HEIGHT=$(identify -format "%h" $CURRENT_SCROT)
 DIMEN_DIV=1
 
-convert $CURRENT_SCROT -resize $((WIDTH / $DIMEN_DIV))x$((HEIGHT / $DIMEN_DIV)) $DOTSDIR/docs/scrot-history/$(date +%F -r $CURRENT_SCROT).png
+NEW_SCROT=$DOTSDIR/$(date +%F).png
 
-rm $CURRENT_SCROT
+convert $PIX -resize $((WIDTH / $DIMEN_DIV))x$((HEIGHT / $DIMEN_DIV)) $DOTSDIR/docs/scrot-history/$(date +%F -r $CURRENT_SCROT).png
 
-scrot $CURRENT_SCROT
+rm $PIX
+
+scrot $NEW_SCROT
 sleep 1
-notify-send "Dotfiles screenshot saved to $CURRENT_SCROT"
+notify-send "Dotfiles screenshot saved to $NEW_SCROT"
+

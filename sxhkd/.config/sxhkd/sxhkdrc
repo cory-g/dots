@@ -47,7 +47,7 @@ super + Return
   $TERMINAL
 
 super + alt + Return
-  kitty --name "floatterm"
+  $TERMINAL --name "floatterm"
   # urxvt -name "floatterm"
 
 # >> Utilities
@@ -62,10 +62,10 @@ super + shift + c
 #   sudo $FILES
 
 super + f
-  $TERMINAL -e ranger
+  $TERMINAL -e $FILES
 
 super + shift + f
-  $TERMINAL -e sudo ranger
+  $FILES_ALT
 
 # >> User
 
@@ -83,6 +83,9 @@ super + i
 
 # super + d
 #   blender
+
+super + m
+  $TERMINAL --name "floatterm" -e ncmpcpp
 
 
 # >>                                          __          __

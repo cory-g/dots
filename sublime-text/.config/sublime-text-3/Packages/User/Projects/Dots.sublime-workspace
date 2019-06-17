@@ -11,23 +11,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/home/cory/.config/i3/config",
-			"settings":
-			{
-				"buffer_size": 11726,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/cory/.config/Code - OSS/User/settings.json",
-			"settings":
-			{
-				"buffer_size": 355,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -89,15 +72,13 @@
 	},
 	"expanded_folders":
 	[
-		"/home/cory/.config",
-		"/home/cory/.config/i3"
 	],
 	"file_history":
 	[
-		"/home/cory/.config/Code - OSS/User/syncLocalSettings.json",
-		"/home/cory/.config/Code - OSS/User/settings.json",
-		"/home/cory/.bashrc",
 		"/home/cory/.config/i3/config",
+		"/home/cory/.config/Code - OSS/User/settings.json",
+		"/home/cory/.config/Code - OSS/User/syncLocalSettings.json",
+		"/home/cory/.bashrc",
 		"/home/cory/.screenlayout/single_vga_smith.sh",
 		"/home/cory/.screenlayout/dual_external.sh",
 		"/home/cory/.xinitrc",
@@ -203,7 +184,7 @@
 	],
 	"find":
 	{
-		"height": 30.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -319,74 +300,14 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/home/cory/.config/i3/config",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 11726,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2776,
-								2776
-							]
-						],
-						"settings":
-						{
-							"apply_syntax_touched": true,
-							"markdonw_live_preview_last_run": 1539958505.34,
-							"syntax": "Packages/SimpleSyntax/ssHash.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 3216.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/home/cory/.config/Code - OSS/User/settings.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 355,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								355,
-								355
-							]
-						],
-						"settings":
-						{
-							"apply_syntax_touched": true,
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 30.0
+		"height": 27.0
 	},
 	"input":
 	{
@@ -423,7 +344,7 @@
 	"project": "Dots.sublime-project",
 	"replace":
 	{
-		"height": 56.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":

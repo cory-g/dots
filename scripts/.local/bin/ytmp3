@@ -1,0 +1,21 @@
+#!/bin/sh
+#
+# ytmp3 - 0.0.1 - June 13, 2019 @  2:31 pm
+# created: June 13, 2019 @  2:31 pm by Cory G
+# license: gpl-2.0
+#
+#        __                  ______
+# .--.--|  |_.--------.-----|__    |
+# |  |  |   _|        |  _  |__    |
+# |___  |____|__|__|__|   __|______|
+# |_____|             |__|
+#
+# *******************************
+# A script I've stupidly left with the default description and vaguely named ytmp3
+# ------------------------------------------
+#
+# contact
+# -------
+# << cory.gantenbein@protonmail.com >> || << https://coryg.me >>
+
+youtube-dl --extract-audio --audio-format mp3 $1
