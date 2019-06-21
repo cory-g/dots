@@ -1,5 +1,5 @@
 [Added Associations]
-image/jpeg=sxiv-rifle.desktop;sxiv.desktop;mirage.desktop;gimp.desktop;feh.desktop;
+image/jpeg=mirage.desktop;sxiv-rifle.desktop;sxiv.desktop;gimp.desktop;feh.desktop;
 image/png=mirage.desktop;feh.desktop;
 text/plain=sublime_text.desktop;
 application/x-yaml=vim.desktop;
@@ -24,9 +24,10 @@ video/x-matroska=vlc.desktop;
 font/ttf=org.gnome.font-viewer.desktop;
 image/svg+xml=mirage.desktop;inkscape.desktop;
 application/x-ms-dos-executable=wine.desktop;
-application/pdf=wine-extension-pdf.desktop;
+application/pdf=org.pwmt.zathura.desktop;wine-extension-pdf.desktop;
 application/vnd.insync.link.drive.sheet=google-chrome.desktop;
 inode/directory=mirage.desktop;
+image/vnd.microsoft.icon=gimp.desktop;
 
 [Default Applications]
 image/jpeg=mirage.desktop
