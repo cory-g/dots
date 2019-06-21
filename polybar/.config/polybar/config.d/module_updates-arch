@@ -1,0 +1,10 @@
+; syntax:INI
+type = custom/script
+format-prefix = " "
+format-prefix-foreground = ${colors.violet}
+exec = ~/.config/polybar/scripts/updates-arch.sh
+interval = 600
+click-left = pb-update
+click-right = pb-update
+format-padding = 1
+

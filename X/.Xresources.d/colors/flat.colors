@@ -1,0 +1,47 @@
+! syntax:ssExcla
+
+! >> Common
+#define S_red           #c0392b
+#define S_green         #27ae60
+#define S_yellow        #f39c12
+#define S_blue          #2980b9
+#define S_magenta       #8e44ad
+#define S_cyan          #16a085
+#define S_orange        #e74c3c
+#define S_violet        #9b59b6
+
+
+! >> Dark
+#define S_base03        #34495e
+#define S_base02        #2c3e50
+#define S_base01        #2ecc71
+#define S_base00        #f1c40f
+#define S_base0         #3498db
+#define S_base1         #2AA198
+#define S_base2         #bdc3c7
+#define S_base3         #ecf0f1
+
+
+*background:              #1F2D3A
+*foreground:              #1abc9c
+
+*cursorColor:             S_magenta
+*pointerColorBackground:  S_base01
+*pointerColorForeground:  S_base1
+
+*color0:                  S_base02
+*color1:                  S_red
+*color2:                  S_green
+*color3:                  S_yellow
+*color4:                  S_blue
+*color5:                  S_magenta
+*color6:                  S_cyan
+*color7:                  S_base2
+*color9:                  S_orange
+*color8:                  S_base03
+*color10:                 S_base01
+*color11:                 S_base00
+*color12:                 S_base0
+*color13:                 S_violet
+*color14:                 S_base1
+*color15:                 S_base3

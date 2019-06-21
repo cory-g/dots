@@ -18,7 +18,7 @@
 - Theme: SolArc-Dark 
 - Icons: Numix 
 - Terminal: kitty 
-- Terminal Font: Hurmit Nerd Font Mono:style=medium 10.0 
+- Terminal Font: scientifica:style=Regular ', args=[False, None, 0.0]) 
 
 ### Partition Scheme
 | NAME | SIZE | MOUNTPOINT | FSTYPE |

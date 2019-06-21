@@ -1,0 +1,6 @@
+; syntax:INI
+border-size = 6
+radius = 6
+height = 24
+default-interval = 5
+

@@ -358,8 +358,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="148.653"
-       y="555.848"
+       x="0"
+       y="0"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -575,7 +575,7 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       page="2"
+       page="0"
        x="0"
        y="0"
        w="320"
@@ -1041,12 +1041,12 @@
      id="extensions" />
   <group
      id="desktop"
-     style="line-height:1.25;fill:#ffffff;fill-opacity:1;-inkscape-font-specification:'Gotham Black, ';font-family:'Gotham Black';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;opacity:0.486;stroke:none;stroke-width:75;stroke-miterlimit:4;stroke-dasharray:none;font-size:53.33333333px;text-anchor:middle;text-align:center">
+     style="line-height:1.25;fill:#ffffff;fill-opacity:1;-inkscape-font-specification:scientificaCAPS;font-family:scientificaCAPS;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;opacity:0.486;stroke:none;stroke-width:75;stroke-miterlimit:4;stroke-dasharray:none;font-size:21.33333333px;text-anchor:middle;text-align:center">
     <group
-       width="1896"
-       height="1028"
+       width="1900"
+       height="1024"
        x="10"
-       y="38"
+       y="46"
        fullscreen="0"
        id="geometry"
        maximized="0" />

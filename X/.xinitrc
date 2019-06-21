@@ -58,7 +58,9 @@ dunst &
 compton &
 insync start &
 compton -b -C --respect-prop-shadow &
+mpd
 
 # start session
 exec i3
+# exec herbstluftwm --locked
 # exec dwm

@@ -1,0 +1,10 @@
+; syntax:INI
+type = internal/network
+interface = enp0s25
+interval = ${vars.default-interval
+
+format-connected-prefix = " "
+format-connected-prefix-foreground = ${colors.base3}
+label-connected = ""
+format-connected = %{A1:nm-connection-editor:}%{A}
+

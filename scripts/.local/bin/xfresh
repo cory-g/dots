@@ -1,0 +1,55 @@
+#!/bin/sh
+#
+# kittyconf - 0.0.1 - June 14, 2019 @  8:03 am
+# created: June 14, 2019 @  8:03 am by Cory G
+# license: gpl-2.0
+#
+#  __    __ __   __                           ___
+# |  |--|__|  |_|  |_.--.--.----.-----.-----.'  _|
+# |    <|  |   _|   _|  |  |  __|  _  |     |   _|
+# |__|__|__|____|____|___  |____|_____|__|__|__|
+#                    |_____|
+#
+# *******************************
+# A script I've stupidly left with the default description and vaguely named kittyconf
+# ------------------------------------------
+#
+# contact
+# -------
+# << cory.gantenbein@protonmail.com >> || << https://coryg.me >>
+
+UPDATE_CONF=$(which update-conf.py)
+COLOR_FILE="$DOTSDIR/kitty/.config/kitty/conf.d/colors.conf"
+
+xrdb -merge $HOME/.Xresources
+
+rm $COLOR_FILE
+touch $COLOR_FILE
+
+echo "# syntax:ssHash" >> $COLOR_FILE
+echo "# >> Colors" >> $COLOR_FILE
+echo "# Main Colors" >> $COLOR_FILE
+echo "background                    $(xgetres *color8)" >> $COLOR_FILE
+echo "foreground                    $(xgetres *color12)" >> $COLOR_FILE
+echo "" >> $COLOR_FILE
+echo "# Selection Colors" >> $COLOR_FILE
+echo "selected_background           $(xgetres *color12)" >> $COLOR_FILE
+echo "selected_foreground           $(xgetres *color0)" >> $COLOR_FILE
+echo "" >> $COLOR_FILE
+echo "# Color Scheme" >> $COLOR_FILE
+echo "color0                        $(xgetres *color0)" >> $COLOR_FILE
+echo "color1                        $(xgetres *color1)" >> $COLOR_FILE
+echo "color2                        $(xgetres *color2)" >> $COLOR_FILE
+echo "color3                        $(xgetres *color3)" >> $COLOR_FILE
+echo "color4                        $(xgetres *color4)" >> $COLOR_FILE
+echo "color5                        $(xgetres *color5)" >> $COLOR_FILE
+echo "color6                        $(xgetres *color6)" >> $COLOR_FILE
+echo "color7                        $(xgetres *color7)" >> $COLOR_FILE
+echo "color9                        $(xgetres *color9)" >> $COLOR_FILE
+echo "color8                        $(xgetres *color8)" >> $COLOR_FILE
+echo "color10                       $(xgetres *color10)" >> $COLOR_FILE
+echo "color11                       $(xgetres *color11)" >> $COLOR_FILE
+echo "color12                       $(xgetres *color12)" >> $COLOR_FILE
+echo "color13                       $(xgetres *color13)" >> $COLOR_FILE
+echo "color14                       $(xgetres *color14)" >> $COLOR_FILE
+echo "color15                       $(xgetres *color15)" >> $COLOR_FILE

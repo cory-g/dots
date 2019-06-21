@@ -1,0 +1,14 @@
+; syntax:INI
+type = internal/date
+interval = ${vars.default-interval}
+
+time = " %I:%M"
+time-alt = " %Y-%m-%d"
+
+format-prefix-foreground = ${colors.base3}
+format-underline = ${colors.blue}
+
+label = %time%
+
+click-right = pb-calendar --popup
+

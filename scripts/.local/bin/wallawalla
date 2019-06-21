@@ -4,14 +4,10 @@
 # created: August 14, 2018 @ 10:14 am by Cory G
 # license: gpl-2.0
 #
-#                       ██  ██                                 ██  ██
-#                      ░██ ░██                                ░██ ░██
-# ███     ██  ██████   ░██ ░██  ██████   ███     ██  ██████   ░██ ░██  ██████
-#░░██  █ ░██ ░░░░░░██  ░██ ░██ ░░░░░░██ ░░██  █ ░██ ░░░░░░██  ░██ ░██ ░░░░░░██
-# ░██ ███░██  ███████  ░██ ░██  ███████  ░██ ███░██  ███████  ░██ ░██  ███████
-# ░████░████ ██░░░░██  ░██ ░██ ██░░░░██  ░████░████ ██░░░░██  ░██ ░██ ██░░░░██
-# ███░ ░░░██░░████████ ███ ███░░████████ ███░ ░░░██░░████████ ███ ███░░████████
-# ░░░    ░░░  ░░░░░░░░ ░░░ ░░░  ░░░░░░░░ ░░░    ░░░  ░░░░░░░░ ░░░ ░░░  ░░░░░░░░
+#                 __ __                      __ __
+# .--.--.--.---.-|  |  .---.-.--.--.--.---.-|  |  .---.-.
+# |  |  |  |  _  |  |  |  _  |  |  |  |  _  |  |  |  _  |
+# |________|___._|__|__|___._|________|___._|__|__|___._|
 #
 # *******************************
 # A script I've stupidly left with the default description and vaguely named wallawalla
@@ -23,89 +19,44 @@
 
 # Variables
 
-CONFIG_FILE=$HOME/.config/wallawalla/config
-DEFAULT_CONFIG_FILE=$HOME/.local/bin/wallawalla.d/config.default
+# Final wallpaper path for setting the wallpaper
+THE_WALLPAPER=$HOME/.config/wall.png
+
+# Wallpapers directory to send new wallpapers to
+WALLS_PATH=$HOME/pix/walls/gen/$SCHEME
+
+mkdir -p $WALLS_PATH
+
+# Colors
+COLOR_1="$(xgetres *color0)"
+COLOR_2="$(xgetres *color13)"
+COLOR_3="$(xgetres *color4)"
+COLOR_4="$(xgetres *color3)"
+
+# Suffix added to each generated wallpaper
+WP_SUFFIX="-wall"
 
 # Path/File Parts
 FILE_PATH="${1%%.*}"
 FILE_NAME=$(basename -- "$1")
 JUST_FILE="${FILE_NAME%%.*}"
 FILE_EXT="${1##*.}"
-# WP_SUFFIX="-wall"
 
 # Wallpaper path
-WP_FILE_PATH="${WALLS_PATH}/${JUST_FILE}${WP_SUFFIX}.${FILE_EXT}"
+WP_FILE_PATH=${WALLS_PATH}"/$JUST_FILE-$SCHEME$WP_SUFFIX.$FILE_EXT"
 
 DIALOG=$(which dialog)
 FEH=$(which feh)
 POPART=$(which popart)
 
-# Functions
-
-# printValue()
-# {
-#   section="$1"
-#   param="$2"
-#   found=false
-#   while read line
-#   do
-#     [[ $found == false && "$line" != "[$section]" ]] &&  continue
-#     [[ $found == true && "${line:0:1}" = '[' ]] && break
-#     found=true
-#     [[ "${line%=*}" == "$param" ]] && { echo "${line#*=}"; break; }
-#   done
-# }
-
-# Initialize
-
-if test -f "$CONFIG_FILE"; then
-  . $CONFIG_FILE
-else
-  cp $DEFAULT_CONFIG_FILE $CONFIG_FILE
-  . $CONFIG_FILE
-fi
-
-
-
 # Begin
 $DIALOG --title "Gen" --infobox "GENERATING WALLPAPER" 10 60
 
 # Make the wallpepr
-$POPART -r 1 -c 1 -g 0 -i nearestneighbor -c1 "${COLOR_1} ${COLOR_2} ${COLOR_3} ${COLOR_4}" -g 0 $1 $WP_FILE_PATH
+$POPART -r 1 -c 1 -g 0 -i nearestneighbor -c1 "${COLOR_1} ${COLOR_2} ${COLOR_3} ${COLOR_4}" $1 $WP_FILE_PATH
 
 # Finish
 $DIALOG --title "Saved" --msgbox "Wallpaper saved to ${WP_FILE_PATH}" 10 60
-
-# Make it subtle?
-$DIALOG --title "Subtle?"  --yesno "Should this wallpaper be subtle?" 10 60 3>&1 1>&2 2>&3 3>&1
-
-if [[ $? == 1 ]]; then
-  $DIALOG --title "Not set" --msgbox "Wallpaper not subtle." 10 60
-else
-  # rm .config/wall.*
-  # cp ${WP_FILE_PATH} $HOME/.config/wall.$FILE_EXT
-  # $FEH --bg-fill $HOME/.config/wall.$FILE_EXT
-
-  echo "Please wait"
-
-  INPUT_IMAGE=${WP_FILE_PATH}
-  TMP_IMAGE=tmp.png
-  COLOR_RAW=$(xgetres color0)
-  HEX=${COLOR_RAW#?}
-  RGB=$(printf "%d,%d,%d\n" 0x${HEX:0:2} 0x${HEX:2:2} 0x${HEX:4:2})
-
-  filename=$(basename -- "$INPUT_IMAGE")
-  extension="${filename##*.}"
-  filename="${filename%.*}"
-
-  WIDTH=$(identify -format "%w" $INPUT_IMAGE)
-  HEIGHT=$(identify -format "%h" $INPUT_IMAGE)
-
-  convert -size $WIDTH'x'$HEIGHT xc:rgba\($RGB,0.7\) $TMP_IMAGE
-
-  magick composite -gravity center $TMP_IMAGE $INPUT_IMAGE ${WP_FILE_PATH}
-  rm $TMP_IMAGE
-fi
 
 # Dialog to set the wallpaper
 $DIALOG --title "Set?"  --yesno "Set newly created wallpaper as current wallpaper?" 10 60 3>&1 1>&2 2>&3 3>&1
@@ -119,3 +70,4 @@ else
 fi
 
 clear
+

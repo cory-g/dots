@@ -1,0 +1,6 @@
+; syntax:INI
+type = custom/text
+content-foreground = ${colors.yellow}
+content = ""
+click-left = rofigen ~/.config/rofi/scripts/rofi-mons
+

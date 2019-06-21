@@ -1,0 +1,3 @@
+; syntax:INI
+screenchange-reload = true
+

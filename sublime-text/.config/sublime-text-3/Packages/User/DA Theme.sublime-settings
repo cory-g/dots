@@ -5,7 +5,7 @@
     "settings":
     {
 "accent_color": "#6272a4",
-      "font_face": "Fira Code Medium",
+      "font_face": "curie",
       "font_size": 13,
 
       "status_bar_background_color": "$accent_color",

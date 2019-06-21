@@ -1,0 +1,38 @@
+#!/bin/sh
+#
+# polybar-launch - 0.0.1 - June 20, 2019 @ 12:25 pm
+# created: June 20, 2019 @ 12:25 pm by Cory G
+# license: gpl-2.0
+#
+#              __       __                      __                        __
+# .-----.-----|  .--.--|  |--.---.-.----.______|  .---.-.--.--.-----.----|  |--.
+# |  _  |  _  |  |  |  |  _  |  _  |   _|______|  |  _  |  |  |     |  __|     |
+# |   __|_____|__|___  |_____|___._|__|        |__|___._|_____|__|__|____|__|__|
+# |__|           |_____|
+#
+# *******************************
+# A script I've stupidly left with the default description and vaguely named polybar-launch
+# ------------------------------------------
+#
+# contact
+# -------
+# << cory.gantenbein@protonmail.com >> || << https://coryg.me >>
+
+# Terminate already running bar instances
+killall -q polybar
+
+# Wait until the processes have been shut down
+while pgrep -x polybar >/dev/null; do sleep 1; done
+
+# Launch
+
+if type "xrandr"; then
+  for m in $(xrandr --query | grep " connected" | cut -d" " -f1); do
+    MONITOR=$m polybar --reload topbar &
+  done
+else
+  polybar --reload topbar &
+fi
+
+echo "Bar launched..."
+

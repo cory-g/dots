@@ -1,3 +1,3 @@
 {
-  "file_extensions": [".css", ".less", ".scss", ".sass", ".styl", ".color"]
+  "file_extensions": [".css", ".less", ".scss", ".sass", ".styl", ".color", ".colors", ".json", ".sublime-settings"]
 }

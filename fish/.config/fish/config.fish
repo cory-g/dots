@@ -6,6 +6,8 @@ set -g -x FILES "ranger"
 set -g -x FILES_ALT "thunar"
 set -g -x EDITOR "subl"
 
+set -g -x SCHEME "solarized"
+
 # set variables for i3fyra
 set -g -x I3FYRA_MAIN_CONTAINER "C"
 set -g -x I3FYRA_WS "1"

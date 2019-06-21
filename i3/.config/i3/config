@@ -3,14 +3,11 @@
 
 # syntax:ssHash
 #
-#  ██  ████                              ████ ██
-# ░░  █░░░ █                            ░██░ ░░   █████
-#  ██░    ░█  █████   ██████  ███████  ██████ ██ ██░░░██
-# ░██   ███  ██░░░██ ██░░░░██░░██░░░██░░░██░ ░██░██  ░██
-# ░██  ░░░ █░██  ░░ ░██   ░██ ░██  ░██  ░██  ░██░░██████
-# ░██ █   ░█░██   ██░██   ░██ ░██  ░██  ░██  ░██ ░░░░░██
-# ░██░ ████ ░░█████ ░░██████  ███  ░██  ░██  ░██  █████
-# ░░  ░░░░   ░░░░░   ░░░░░░  ░░░   ░░   ░░   ░░  ░░░░░
+#  __ ______                   ___ __
+# |__|__    .----.-----.-----.'  _|__.-----.
+# |  |__    |  __|  _  |     |   _|  |  _  |
+# |__|______|____|_____|__|__|__| |__|___  |
+#                                    |_____|
 
 # >>                   __       __    __
 # >> .--.--.---.-.----|__.---.-|  |--|  .-----.-----.
@@ -62,7 +59,8 @@ set_from_resource $baseB3  i3wm.color15   #fdf6e3
 # >> |_____|____|___._|__| |____|_____|   __|
 # >>                                  |__|
 
-exec_always --no-startup-id $HOME/.config/polybar/scripts/launch.sh
+# exec_always --no-startup-id $HOME/.config/polybar/scripts/launch.sh
+exec_always --no-startup-id polybar-launch
 exec_always --no-startup-id $HOME/.local/bin/wallpapersetter
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 & eval $(gnome-keyring-daemon -s --components=pkcs11,secrets,ssh,gpg)
 

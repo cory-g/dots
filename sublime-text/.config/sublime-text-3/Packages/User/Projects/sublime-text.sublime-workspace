@@ -1,0 +1,583 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"theA",
+				"theAppIsDark"
+			],
+			[
+				"default",
+				"defaultInputs"
+			],
+			[
+				"CrimpSp",
+				"CrimpSpecData"
+			],
+			[
+				"cbLen",
+				"cbLengthData"
+			],
+			[
+				"sha",
+				"shankMeas"
+			],
+			[
+				"the",
+				"theAppIsMetric"
+			],
+			[
+				"app",
+				"theAppIsMetric"
+			],
+			[
+				"do",
+				"doCalculation"
+			],
+			[
+				"curren",
+				"currentInput"
+			],
+			[
+				"sirp",
+				"SirpStepsNavButtons"
+			],
+			[
+				"Snow",
+				"SnowplowBladeWeight"
+			],
+			[
+				"lengthIn",
+				"lengthInches"
+			],
+			[
+				"si",
+				"sizeVal"
+			],
+			[
+				"length",
+				"lengthFeet"
+			],
+			[
+				"resu",
+				"resultDec"
+			],
+			[
+				"this",
+				"thisStep"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"THE",
+				"THE_IMAGE"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"color scem",
+				"UI: Select Color Scheme"
+			],
+			[
+				"color s",
+				"UI: Select Color Scheme"
+			],
+			[
+				"skin",
+				"UI: Select Skin"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"select sk",
+				"UI: Select Skin"
+			],
+			[
+				"ayu",
+				"ayu: Activate theme"
+			],
+			[
+				"calc",
+				"Calculate"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"sync",
+				"Sync Settings: Upload"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"repos",
+				"Package Control: Add Repository"
+			],
+			[
+				"packa",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"add ",
+				"Package Control: Add Repository"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"lo",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"lorem",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"proje",
+				"Project Manager: Add New Project"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 456.0,
+		"history":
+		[
+			"import urllib,urllib.request,os,zipfile; pf='Package Decontrol.sublime-package'; pp=sublime.packages_path(); fp=os.path.join(pp,pf); urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); open(fp,'wb').write(urllib.request.urlopen('http://bit.ly/s3-package-decontrol').read()); zipfile.ZipFile(fp).extractall(os.path.join(pp, 'Package Decontrol'))",
+			"import urllib2,os,zipfile; pf='Package Decontrol.sublime-package'; pp=sublime.packages_path(); fp=os.path.join(pp,pf); urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(fp,'wb').write(urllib2.urlopen('http://bit.ly/package-decontrol').read()); zipfile.ZipFile(fp).extractall(os.path.join(pp, 'Package Decontrol'))",
+			"import urllib,urllib.request,os,zipfile; pf='Package Decontrol.sublime-package'; pp=sublime.packages_path(); fp=os.path.join(pp,pf); urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); open(fp,'wb').write(urllib.request.urlopen('http://bit.ly/s3-package-decontrol').read()); zipfile.ZipFile(fp).extractall(os.path.join(pp, 'Package Decontrol'))"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/cory/.config/sublime-text-3"
+	],
+	"file_history":
+	[
+		"/home/cory/.config/sublime-text-3/Packages/ayu/ayu-solarized.sublime-color-scheme",
+		"/home/cory/.config/sublime-text-3/Packages/ayu/ayu-solarized.sublime-theme",
+		"/home/cory/.config/sublime-text-3/Packages/User/ColorHighlighter.sublime-settings",
+		"/home/cory/.config/sublime-text-3/Packages/ayu/ayu.skins",
+		"/home/cory/.config/sublime-text-3/Packages/User/ayu-solarized.sublime-theme",
+		"/home/cory/.config/sublime-text-3/Packages/ayu/sol.colors.css",
+		"/home/cory/.dotfiles/kitty/.config/kitty/conf.d/flat.conf",
+		"/home/cory/.dotfiles/kitty/.config/kitty/conf.d/fonts.conf",
+		"/home/cory/.dotfiles/kitty/.config/kitty/conf.d/keys.conf",
+		"/home/cory/.dotfiles/kitty/.config/kitty/conf.d/solarized.conf",
+		"/home/cory/.dotfiles/kitty/.config/kitty/kitty.conf",
+		"/home/cory/.dotfiles/X/.Xresources",
+		"/home/cory/.config/wallawalla/config",
+		"/home/cory/.dotfiles/X/.Xresources.d/colors/solarized",
+		"/home/cory/.dotfiles/scripts/.local/bin/wallawalla.d/config.default",
+		"/home/cory/.dotfiles/X/.Xresources.d/colors/flat.colors",
+		"/home/cory/.dotfiles/fish/.config/fish/config.fish",
+		"/home/cory/.dotfiles/fish/.config/fish/fish_variables",
+		"/home/cory/.dotfiles/fish/.config/fish/fishfile",
+		"/home/cory/.config/sublime-text-3/Packages/User/GutterColor.sublime-settings",
+		"/home/cory/.config/sublime-text-3/Packages/Gutter Color/GutterColor.sublime-settings",
+		"/home/cory/.dotfiles/i3/.config/i3/config.d/02-startup.i3",
+		"/home/cory/.dotfiles/polybar/.config/polybar/config.d/09-module.mons.ini",
+		"/home/cory/.dotfiles/polybar/.config/polybar/config.d/02-bar.topbar.ini",
+		"/home/cory/.config/polybar/scripts/launch.sh",
+		"/home/cory/.dotfiles/polybar/.config/polybar/config.d/10-module.mpd.ini",
+		"/home/cory/.local/bin/polybar-launch",
+		"/home/cory/.dotfiles/polybar/.config/polybar/config.d/05-module.date.ini",
+		"/home/cory/.dotfiles/polybar/.config/polybar/config.d/08-module.eth.ini",
+		"/home/cory/.dotfiles/polybar/.config/polybar/config.d/07-module.wlan.ini",
+		"/home/cory/.dotfiles/polybar/.config/polybar/config.d/06-module.backlight-acpi.ini",
+		"/home/cory/.dotfiles/polybar/.config/polybar/config.d/01-vars.ini",
+		"/home/cory/.dotfiles/polybar/.config/polybar/config.d/01-colors.ini",
+		"/home/cory/.dotfiles/polybar/.config/polybar/config.d/04-module.i3.ini",
+		"/home/cory/.dotfiles/polybar/.config/polybar/config.d/03-module.xwindow.ini",
+		"/home/cory/.dotfiles/X/.xinitrc",
+		"/home/cory/.dotfiles/herbstluftwm/.config/herbstluftwm/autostart",
+		"/home/cory/.dotfiles/rofi/.config/rofi/scripts/rofi-powermenu",
+		"/home/cory/.dotfiles/scripts/.local/bin/wallawalla",
+		"/home/cory/.dotfiles/scripts/.local/bin/wallpapersetter",
+		"/home/cory/.dotfiles/arandr/.screenlayout/1-internal-lvds.sh",
+		"/home/cory/.dotfiles/kitty/.config/kitty/kitty.conf.d/fonts.conf",
+		"/home/cory/.dotfiles/kitty/.config/kitty/kitty.conf.d/appearance.conf",
+		"/home/cory/.dotfiles/X/.Xresources.d/rxvt-unicode",
+		"/home/cory/.dotfiles/.zedstate",
+		"/home/cory/.dotfiles/scripts/.local/bin/dotscrot",
+		"/home/cory/.local/bin/stabvid",
+		"/home/cory/.dotfiles/git/.gitconfig",
+		"/home/cory/.dotfiles/scripts/.local/bin/l_ranger",
+		"/home/cory/.dotfiles/i3/.config/i3/config.d/03-window_rules.i3",
+		"/home/cory/.dotfiles/i3/.config/i3/config.d/04-appearance.i3",
+		"/home/cory/.dotfiles/scripts/.local/bin/subduwallz",
+		"/home/cory/temp/wallie.kdenlive",
+		"/home/cory/.local/bin/mktextwp",
+		"/home/cory/.dotfiles/scripts/.local/bin/dotz-scrot-history",
+		"/home/cory/.dotfiles/X/.Xresources.d/colors/atelierlakeside.dark",
+		"/home/cory/.dotfiles/i3/.config/i3/config.d/05-behavior.i3",
+		"/home/cory/.dotfiles/i3/.config/i3/config.d/06-utilities.i3",
+		"/home/cory/.dotfiles/i3/.config/i3/config.d/01-variables.i3",
+		"/home/cory/.dotfiles/i3/.config/i3/config.d/11-i3fyra.i3",
+		"/home/cory/.local/bin/l_ranger",
+		"/home/cory/.dotfiles/sxhkd/.config/sxhkd/sxhkdrc",
+		"/home/cory/.dotfiles/kitty/.config/kitty/kitty.conf.d/variables.conf",
+		"/home/cory/.dotfiles/kitty/.config/kitty/kitty.conf.d/colors.conf",
+		"/home/cory/.local/bin/kittyconf",
+		"/home/cory/.dotfiles/rofi/.config/rofi/scripts/rofi-update-conf",
+		"/home/cory/.dotfiles/README.md",
+		"/home/cory/tmp.txt",
+		"/home/cory/.dotfiles/kitty/.config/kitty/kitty.conf.d/keys.conf",
+		"/home/cory/.dotfiles/scripts/.local/bin/dotz-readme",
+		"/home/cory/.dotfiles/scripts/.local/bin/mdlsblk",
+		"/home/cory/.dotfiles/scripts/.local/bin/tezzzzt",
+		"/home/cory/.dotfiles/docs/Scrot_History.md",
+		"/home/cory/.dotfiles/docs/scrot-history/2019-06-13.png",
+		"/home/cory/.dotfiles/dotz.d/readme_intro.md",
+		"/home/cory/.dotfiles/scripts/.local/bin/mickey",
+		"/home/cory/aud/youtube/dl/Time (Chillwave - Lofi - Electronic Mix)-zdYzL6wkr0A.txt",
+		"/home/cory/tmp/Label Track 1.txt",
+		"/home/cory/tmp/Label Track.txt",
+		"/home/cory/.local/bin/ytmp3",
+		"/home/cory/.dotfiles/mpd/.config/mpd/mpd.conf",
+		"/home/cory/.dotfiles/ncmpcpp/.config/ncmpcpp/config.d/01-directories.conf",
+		"/home/cory/.dotfiles/ncmpcpp/.config/ncmpcpp/config.d/02-playlist.conf",
+		"/home/cory/.dotfiles/ncmpcpp/.config/ncmpcpp/config",
+		"/home/cory/.dotfiles/ncmpcpp/.config/ncmpcpp/config.bu",
+		"/home/cory/.dotfiles/update-conf.py/.update-conf.py.conf",
+		"/home/cory/.config/ncmpcpp/config",
+		"/home/cory/.dotfiles/ncmpcpp/.config/ncmpcpp/config.BAK",
+		"/home/cory/.dotfiles/ncmpcpp/.config/ncmpcpp/config.d/00-top.conf",
+		"/home/cory/.dotfiles/ncmpcpp/.config/ncmpcpp/config.d/06-control.conf",
+		"/home/cory/.dotfiles/ncmpcpp/.config/ncmpcpp/config.d/05-colors.conf",
+		"/home/cory/.dotfiles/ncmpcpp/.config/ncmpcpp/config.d/04-layout.conf",
+		"/home/cory/.dotfiles/ncmpcpp/.config/ncmpcpp/config.d/03-bars.conf",
+		"/home/cory/.dotfiles/.gitignore",
+		"/home/cory/.dotfiles/mpd/.config/mpd/database",
+		"/home/cory/.dotfiles/scrot.png",
+		"/home/cory/.dotfiles/dotz.d/readme_notes.md",
+		"/home/cory/.local/bin/dotz-scrot-history",
+		"/home/cory/.dotfiles/docs/scrot-history/2019-06-14.png",
+		"/home/cory/.dotfiles/scrot_BKUP.png",
+		"/home/cory/.dotfiles/docs/scrot-history/2019-06-11.png",
+		"/home/cory/.local/bin/batchit",
+		"/home/cory/.config/wallawalla/config.yaml",
+		"/home/cory/goo/tmp/test/test.ini",
+		"/home/cory/.dotfiles/docs/scrot-history/2019-06-13.jpg",
+		"/home/cory/.local/bin/tezzzzt",
+		"/home/cory/.dotfiles/scripts/.local/bin/dotz",
+		"/home/cory/.dotfiles/neofetch/.config/neofetch/config.conf.d/14-text_colors.conf",
+		"/home/cory/.dotfiles/neofetch/.config/neofetch/config.conf.d/01-kernel.conf",
+		"/home/cory/.dotfiles/neofetch/.config/neofetch/config.conf.d/00-main.conf",
+		"/home/cory/.dotfiles/neofetch/.config/neofetch/config.conf.d/21-misc.conf",
+		"/home/cory/.dotfiles/neofetch/.config/neofetch/config.conf.d/18-backend.conf",
+		"/home/cory/.dotfiles/neofetch/.config/neofetch/config.conf.d/20-image_options.conf",
+		"/home/cory/.dotfiles/neofetch/.config/neofetch/config.conf.d/15-text_options.conf",
+		"/home/cory/.dotfiles/neofetch/.config/neofetch/config.conf",
+		"/home/cory/.dotfiles/neofetch/.config/neofetch/config.conf.d/17-progress_bars.conf",
+		"/home/cory/.dotfiles/neofetch/.config/neofetch/config.conf.d/10-gtk.conf",
+		"/home/cory/.dotfiles/neofetch/.config/neofetch/config.conf.d/09-resolution.conf",
+		"/home/cory/.dotfiles/neofetch/.config/neofetch/config.conf.d/07-cpu.conf",
+		"/home/cory/.dotfiles/neofetch/.config/neofetch/config.conf.d/06-shell.conf",
+		"/home/cory/.dotfiles/neofetch/.config/neofetch/config.conf.d/16-color_blocks.conf",
+		"/home/cory/.dotfiles/neofetch/.config/neofetch/config.conf.d/05-packages.conf",
+		"/home/cory/.dotfiles/neofetch/.config/neofetch/config.conf.d/04-memory.conf",
+		"/home/cory/.dotfiles/neofetch/.config/neofetch/config.conf.d/03-uptime.conf",
+		"/home/cory/.dotfiles/neofetch/.config/neofetch/config.conf.d/02-distro.conf",
+		"/home/cory/.dotfiles/docs/Packages.md",
+		"/home/cory/.dotfiles/polybar/.config/polybar/config.d/17-module.battery.ini",
+		"/home/cory/.dotfiles/neofetch/.config/neofetch/config.conf.bak"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 138.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ffa759",
+			"5ccfe6",
+			"f28779",
+			"d4bfff",
+			"fore",
+			"ffcc66",
+			"1f2430",
+			"cbccc6",
+			"icon",
+			"quick_panel_label",
+			"1f2430",
+			"f27983",
+			"77a8d9",
+			"a6cc70",
+			"ffcc66",
+			"cbccc6",
+			"707a8c",
+			"\"fg\": \"#073642\"",
+			"f27983",
+			"77a8d9",
+			"a6cc70",
+			"ffcc66",
+			"191e2a",
+			"002b36",
+			"1f2430",
+			"101521",
+			"141925",
+			"232834",
+			"596171",
+			"5f6878",
+			"707a8c",
+			"b6b7b2",
+			"cbccc6",
+			"#232834",
+			"#ffcc66",
+			"#707a8c80",
+			"\"#707a8c\"",
+			"#707a8c",
+			"#596171",
+			"#191e2a",
+			"#002b36",
+			"#cbccc6",
+			"#1f2430",
+			"1f2430",
+			"002b36",
+			"191e2a",
+			"cbccc6",
+			"1f2430",
+			"002b36",
+			"1d222e"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"cb4b16",
+			"268bd2",
+			"dc322f",
+			"6c71c4",
+			"b58900",
+			"002b36",
+			"839496",
+			"002b36",
+			"dc322f",
+			"268bd2",
+			"859900",
+			"b58900",
+			"eee8d5",
+			"839496",
+			"\"fg\": \"#839496\"",
+			"d33682",
+			"268bd2",
+			"859900",
+			"b58900",
+			"002b36",
+			"073642",
+			"002b36",
+			"073642",
+			"839496",
+			"93a1a1",
+			"",
+			"\"\"",
+			"",
+			"073642",
+			"002b36",
+			"93a1a1",
+			"002b36",
+			"073642",
+			"002b36"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 86.25
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "sublime-text.sublime-project",
+	"replace":
+	{
+		"height": 94.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"index util",
+				"src/util/index.js"
+			],
+			[
+				"main",
+				"src/main.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 270.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -2,12 +2,12 @@
 ! urxvt
 URxvt*buffered: true
 URxvt*cursorBlink: true
-URxvt*font:  xft:Hurmit Nerd Font Mono:style=bold:size=10,xft:Hermit:style=bold:size=10,xft:Unifont:pixelsize=16
+URxvt*font:  xft:scientifica:style=Regular:size=11,xft:Unifont:pixelsize=16
 URxvt*depth: 32
 URxvt.internalBorder: 30
 URxvt*scrollBar: false
 URxvt*loginShell: true
-Urxvt*secondaryScroll:  true    # Enable Shift-PageUp/Down in screen
+Urxvt*secondaryScroll:  true
 URxvt*saveLines: 5000
 URxvt*termName: rxvt-unicode
 URxvt.matcher.button: 1

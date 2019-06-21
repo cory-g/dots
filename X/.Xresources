@@ -2,5 +2,6 @@
 #include "./.Xresources.d/rxvt-unicode"
 #include "./.Xresources.d/xst"
 #include "./.Xresources.d/colors/solarized"
+! #include "./.Xresources.d/colors/flat.colors"
 ! #include "./.Xresources.d/colors/atelierlakeside.dark"
 ! #include "./.Xresources.d/colors/gruvbox"

@@ -1,0 +1,6 @@
+; syntax:INI
+type = internal/xwindow
+label = %title:0:30:...%
+format-prefix = " "
+format-prefix-foreground = ${colors.blue}
+
