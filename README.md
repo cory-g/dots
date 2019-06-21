@@ -1,6 +1,6 @@
 # Arch Linux .dotfiles
 
-![Screenshot](2019-06-13.png)
+![Screenshot](2019-06-21.png)
 
 (For a history of screenshots, click [here](https://github.com/cory-g/dots/tree/master/docs/Scrot_History.md))
 
@@ -17,8 +17,6 @@
 - WM: i3 
 - Theme: SolArc-Dark 
 - Icons: Numix 
-- Terminal: kitty 
-- Terminal Font: scientifica:style=Regular ', args=[False, None, 0.0]) 
 
 ### Partition Scheme
 | NAME | SIZE | MOUNTPOINT | FSTYPE |
