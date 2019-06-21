@@ -22,7 +22,7 @@
 TMP_FILE="./tmp.txt"
 RDMEFILE=$DOTSDIR/README.md
 APPS_FILE="Packages.md"
-RDME_DIR=$DOTSDIR/dotz.d
+RDME_DIR=$DOTSDIR/README.d
 DOCS_URL="https://github.com/cory-g/dots/tree/master/docs"
 OS_STRING=$(neofetch --stdout | grep "OS")
 OS_NAME=${OS_STRING#"OS: "}
