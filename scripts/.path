@@ -1,3 +1,6 @@
-# syntax:bash
-export PATH="/home/cory/.local/bin:$PATH"
-export PATH="$GOPATH/bin:$PATH"
+# syntax:ssHash
+$HOME/.local/bin
+$HOME/.local/bin/color-scripts
+$GOPATH/bin
+$HOME/.config/rofi/scripts
+$HOME/.config/polybar/scripts

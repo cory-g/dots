@@ -1,26 +1,26 @@
 [
   {
     "class": "sidebar_label",
-    "font.face": "curie"
+    "font.face": "Iosevka Medium"
   },
   {
     "class": "sidebar_heading",
-    "font.face": "curie"
+    "font.face": "Iosevka Medium"
   },
   {
     "class": "tab_label",
-    "font.face": "curie"
+    "font.face": "Iosevka Medium"
   },
   {
     "class": "label_control",
-    "font.face": "curie"
+    "font.face": "Iosevka Medium"
   },
   {
     "class": "quick_panel_label",
-    "font.face": "curie"
+    "font.face": "Iosevka Medium"
   },
   {
     "class": "quick_panel_path_label",
-    "font.face": "curie"
+    "font.face": "Iosevka Medium"
   }
 ]

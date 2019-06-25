@@ -55,17 +55,11 @@ super + alt + Return
 super + shift + c
   gnome-calculator
 
-# super + f
-#   $FILES
-
-# super + shift + f
-#   sudo $FILES
-
 super + f
-  $TERMINAL -e $FILES
+  $FILES
 
 super + shift + f
-  $FILES_ALT
+  sudo $FILES
 
 # >> User
 

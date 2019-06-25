@@ -27,6 +27,7 @@ DOCS_URL="https://github.com/cory-g/dots/tree/master/docs"
 OS_STRING=$(neofetch --stdout | grep "OS")
 OS_NAME=${OS_STRING#"OS: "}
 DSH=$(which dotz-scrot-history)
+LZT_PACS=$(which list-pacs)
 
 # Get first *.png image in $DOTSDIR (Should only be current screenshot)
 ALL_PICS="$DOTSDIR/*.png"
@@ -54,6 +55,10 @@ function echo_it () {
 
 echo "Generating Screenshot history"
 $DSH
+sleep 1
+
+echo "Generating Packages List"
+$LZT_PACS $DOTSDIR/docs
 sleep 1
 
 echo "Generating README.md"

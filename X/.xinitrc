@@ -33,10 +33,13 @@ if [ -f "$usermodmap" ]; then
 fi
 
 # modify path
-export PATH="$PATH:$(du "$HOME/.local/bin/" | cut -f2 | tr '\n' ':' | sed 's/:*$//')"
+# export PATH="$PATH:$(du "$HOME/.local/bin/" | cut -f2 | tr '\n' ':' | sed 's/:*$//')"
 
 if [ -f "$userpath" ]; then
-    source "$userpath"
+    while read -r line; do
+        [[ "$line" =~ ^#.*$ ]] && continue
+        export PATH="$(eval echo ${line}):$PATH"
+    done < "$userpath"
 fi
 
 # start some nice programs

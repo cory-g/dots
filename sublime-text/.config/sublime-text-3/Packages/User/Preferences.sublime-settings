@@ -18,12 +18,12 @@
 	"ensure_newline_at_eof_on_save": true,
 	"fade_fold_buttons": true,
 	"find_selected_text": true,
-	"font_face": "curie",
+	"font_face": "Iosevka Medium",
 	"font_options":
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 8,
+	"font_size": 9,
 	"hide_sidebar_change_count_trigger": 5,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,

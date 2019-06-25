@@ -18,5 +18,3 @@ menu=(
   ["3: Open Local Folder"]="$FILES $HOME/goo"
   ["4: Quit"]="insync quit"
 )
-
-

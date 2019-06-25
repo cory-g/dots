@@ -5,12 +5,16 @@
 ## AUR
 
 - bashbud
+- bdf-creep
+- bdf-curie
+- birdfont
 - blender-2.8-bin
 - corrupter-git
 - google-chrome
 - gtk-theme-solarc-git
 - i3ass
 - i3lock-color
+- id3ren
 - insync
 - light-git
 - mirage
@@ -21,11 +25,11 @@
 - nvm
 - otf-hermit
 - otf-san-francisco
-- pamac-aur-tray-appindicator-git
-- polybar-git
+- polybar
 - rofimoji-git
 - rxvt-unicode-pixbuf
 - siji-git
+- tageditor
 - thinkfan
 - tlpui-git
 - tmatrix-git
@@ -38,7 +42,6 @@
 - wpgtk-git
 - xcursor-capitaine
 - xgetres
-- xst-git
 - yad
 - yay
 
@@ -49,6 +52,7 @@
 - android-file-transfer
 - arandr
 - archlinux-xdg-menu
+- audacity
 - autoconf
 - automake
 - autorandr
@@ -72,6 +76,7 @@
 - dunst
 - e2fsprogs
 - entr
+- exfat-utils
 - fakeroot
 - feh
 - file
@@ -128,8 +133,10 @@
 - man-db
 - man-pages
 - mdadm
+- mpd
 - mpv
 - nano
+- ncmpcpp
 - neofetch
 - netctl
 - networkmanager
@@ -201,3 +208,7 @@
 - xscreensaver
 - yarn
 - youtube-dl
+- zathura
+- zathura-cb
+- zathura-pdf-mupdf
+- zathura-ps

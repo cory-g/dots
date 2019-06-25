@@ -13,6 +13,5 @@ menu=(
   ["Polybar"]="$UPDATE_CONF -n polybar"
   ["Kitty"]="$KITTY_CONF"
   ["Neofetch"]="$UPDATE_CONF -n neofetch"
-  ["Ranger - rc.conf"]="$UPDATE_CONF -n rangerrc"
   ["ncmpcpp"]="$UPDATE_CONF -n ncmpcpp"
 )
