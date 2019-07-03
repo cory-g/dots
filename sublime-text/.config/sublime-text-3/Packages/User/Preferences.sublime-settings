@@ -18,12 +18,12 @@
 	"ensure_newline_at_eof_on_save": true,
 	"fade_fold_buttons": true,
 	"find_selected_text": true,
-	"font_face": "Iosevka Medium",
+	"font_face": "Fixedsys Excelsior",
 	"font_options":
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 9,
+	"font_size": 11,
 	"hide_sidebar_change_count_trigger": 5,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
@@ -65,7 +65,7 @@
 	"smart_indent": true,
 	"spell_check": false,
 	"tab_completion": true,
-	"tab_size": 2,
+	"tab_size": 4,
 	"theme": "ayu-solarized.sublime-theme",
 	"theme_accent_mono": true,
 	"theme_button_rounded": true,
@@ -84,7 +84,7 @@
 	"theme_tab_arrows_hidden": true,
 	"theme_tab_close_always_visible": true,
 	"theme_unified": true,
-	"translate_tabs_to_spaces": false,
+	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"update_check": false,
 	"use_tab_stops": true,

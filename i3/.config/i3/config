@@ -60,7 +60,7 @@ set_from_resource $baseB3  i3wm.color15   #fdf6e3
 # >>                                  |__|
 
 # exec_always --no-startup-id $HOME/.config/polybar/scripts/launch.sh
-exec_always --no-startup-id polybar-launch
+exec_always --no-startup-id $HOME/.local/bin/polybar-launch
 exec_always --no-startup-id $HOME/.local/bin/wallpapersetter
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 & eval $(gnome-keyring-daemon -s --components=pkcs11,secrets,ssh,gpg)
 
@@ -68,32 +68,6 @@ exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 # >> .--.--.--|__.-----.--|  .-----.--.--.--.  .----.--.--|  .-----.-----.
 # >> |  |  |  |  |     |  _  |  _  |  |  |  |  |   _|  |  |  |  -__|__ --|
 # >> |________|__|__|__|_____|_____|________|  |__| |_____|__|_____|_____|
-
-for_window [window_role="pop-up"] floating enable
-for_window [class="Gnome-calculator"] floating enable
-for_window [class="insync.py"] floating enable
-for_window [class="Peek"] floating enable
-for_window [instance="floatterm"] floating enable
-for_window [instance="pbnmtui"] floating enable
-for_window [instance="pbpacman"] floating enable
-for_window [instance="nm-connection-editor"] floating enable
-for_window [class="Yad" title="yad-calendar"] floating enable
-
-for_window [instance="pbnmtui"] resize set 480 480
-for_window [instance="pbnmtui"] move position center
-
-for_window [instance="pbpacman"] resize set 480 480
-for_window [instance="pbpacman"] move position center
-
-# >> .---.-.-----.-----.-----.---.-.----.---.-.-----.----.-----.
-# >> |  _  |  _  |  _  |  -__|  _  |   _|  _  |     |  __|  -__|
-# >> |___._|   __|   __|_____|___._|__| |___._|__|__|____|_____|
-# >>       |__|  |__|
-
-font pango:DejaVu Sans Mono 8
-# $FW [class="^.*"] border pixel 0
-default_border none
-gaps inner 10
 
 $FW  [window_role="pop-up"]              $FLO
 $FW  [class="Gnome-calculator"]          $FLO
@@ -110,7 +84,24 @@ $FW  [instance="pbnmtui"]                move position center
 
 $FW  [instance="pbpacman"]               resize set 480 480
 $FW  [instance="pbpacman"]               move position center
+# >> .---.-.-----.-----.-----.---.-.----.---.-.-----.----.-----.
+# >> |  _  |  _  |  _  |  -__|  _  |   _|  _  |     |  __|  -__|
+# >> |___._|   __|   __|_____|___._|__| |___._|__|__|____|_____|
+# >>       |__|  |__|
 
+font pango:DejaVu Sans Mono 8
+$FW [class="^.*"] border pixel 2
+# default_border none
+gaps inner 10
+
+# class                 border  backgr. text    indicator child_border
+client.focused          $violet $baseA3 $baseB3 $violet   $violet
+client.focused_inactive $baseA3 $baseA3 $baseB3 $baseA3   $baseA3
+client.unfocused        $baseA3 $baseA3 $baseB3 $baseA3   $baseA3
+client.urgent           $red    $baseA3 $baseB3 $red      $red
+client.placeholder      $orange $baseA3 $baseB3 $orange   $orange
+
+client.background       $baseA3
 # >>  __          __                __
 # >> |  |--.-----|  |--.---.-.--.--|__.-----.----.
 # >> |  _  |  -__|     |  _  |  |  |  |  _  |   _|

@@ -35,6 +35,9 @@ super + period
 super + c
   rofigen $HOME/.config/rofi/scripts/rofi-update-conf
 
+super + x
+	rofi-clip
+
 # >>                    __ __            __   __
 # >> .---.-.-----.-----|  |__.----.---.-|  |_|__.-----.-----.-----.
 # >> |  _  |  _  |  _  |  |  |  __|  _  |   _|  |  _  |     |__ --|
@@ -47,8 +50,7 @@ super + Return
   $TERMINAL
 
 super + alt + Return
-  $TERMINAL --name "floatterm"
-  # urxvt -name "floatterm"
+  floatterm
 
 # >> Utilities
 

@@ -25,6 +25,7 @@
 - nvm
 - otf-hermit
 - otf-san-francisco
+- otfcc
 - polybar
 - rofimoji-git
 - rxvt-unicode-pixbuf
@@ -37,6 +38,7 @@
 - ttf-iosevka
 - ttf-ms-fonts
 - ttf-unifont
+- ttfautohint
 - tty-clock
 - undefined-medium-fonts
 - wpgtk-git
@@ -48,6 +50,7 @@
 ## Pacman
 
 - acpi_call
+- alacritty
 - alsa-utils
 - android-file-transfer
 - arandr
@@ -192,6 +195,7 @@
 - vlc
 - w3m
 - which
+- wireless_tools
 - wmctrl
 - xclip
 - xfsprogs

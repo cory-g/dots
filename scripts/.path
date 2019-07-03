@@ -1,4 +1,5 @@
 # syntax:ssHash
+$HOME/src/bin
 $HOME/.local/bin
 $HOME/.local/bin/color-scripts
 $GOPATH/bin

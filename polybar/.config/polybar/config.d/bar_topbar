@@ -20,12 +20,8 @@ padding-right = 1
 module-margin-left = 0
 module-margin-right = 2
 
-; font-0 = "curie:size=10;1.5"
-; font-1 = "curie:size=10;1.5"
-; font-0 = "creep:size=16;0"
-; font-1 = "creep:size=16;0"
-font-0 = "Iosevka Medium:style=Medium:size=8;1.5"
-font-1 = "Iosevka Medium:style=Medium:size=8;1.5"
+font-0 = "Iosevkory Medium:style=Medium:size=8;1.5"
+font-1 = "Iosevkory Medium:style=Medium:size=8;1.5"
 font-2 = "Siji:pixelsize=16;1"
 font-3 = "Font Awesome 5 Brands Regular:size=10;1.5"
 font-4 = "Font Awesome 5 Pro Solid:size=10;1.5"

@@ -2,7 +2,7 @@
 ! urxvt
 URxvt*buffered: true
 URxvt*cursorBlink: true
-URxvt*font:  xft:scientifica:style=Regular:size=11,xft:Unifont:pixelsize=16
+URxvt*font:  xft:Iosevkory:size=10,xft:Unifont:pixelsize=16
 URxvt*depth: 32
 URxvt.internalBorder: 30
 URxvt*scrollBar: false

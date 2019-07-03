@@ -1,8 +1,6 @@
 {
 	"file_history":
 	[
-		"/home/cory/www/cory_g.gitlab.io/src/_includes/header.html",
-		"/home/cory/www/cory_g.gitlab.io/gulpfile.js",
 		"/home/cory/.config/i3/config",
 		"/home/cory/.Xresources.d/colors/solarized-dark.color",
 		"/home/cory/www/smith/calc/src/views/layouts/_calc-main.pug",
@@ -30,6 +28,8 @@
 		"/home/rustyschakelford/bin/mkscript",
 		"/home/cory/src/rusty-sublime/README.md",
 		"/home/cory/.config/wallawalla/wallawalla.conf",
-		"/home/cory/.dotfiles/kitty/.config/kitty/conf.d/solarized.conf"
+		"/home/cory/.dotfiles/kitty/.config/kitty/conf.d/solarized.conf",
+		"/home/cory/.config/greenclip.cfg",
+		"/home/cory/.cache/greenclip.history"
 	]
 }

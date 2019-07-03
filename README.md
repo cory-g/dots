@@ -18,8 +18,7 @@
 - WM: i3 
 - Theme: SolArc-Dark 
 - Icons: Numix 
-- Terminal: kitty 
-- Terminal Font: Iosevka Medium:style=Medium ', args=[False, None, 0.0]) 
+- Terminal: alacritty 
 
 ### Partition Scheme
 | NAME | SIZE | MOUNTPOINT | FSTYPE |

@@ -61,6 +61,7 @@ dunst &
 compton &
 insync start &
 compton -b -C --respect-prop-shadow &
+greenclip daemon &
 mpd
 
 # start session

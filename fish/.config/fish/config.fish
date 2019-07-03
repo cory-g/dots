@@ -1,7 +1,8 @@
 # set variables for user applications
 set -g -x BROWSER "google-chrome-stable"
 # set -g -x TERMINAL "urxvt"
-set -g -x TERMINAL "kitty"
+# set -g -x TERMINAL "kitty"
+set -g -x TERMINAL "alacritty"
 set -g -x FILES "thunar"
 set -g -x FILES_ALT "thunar"
 set -g -x EDITOR "subl"
